@@ -1,0 +1,32 @@
+{
+  "updated": "2025-12-26T17:49:58.057974",
+  "total_movies": 21116,
+  "recent_movies": 1202,
+  "recent_cutoff_year": 2024,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Animation",
+    "Biography",
+    "Comedy",
+    "Crime",
+    "Documentary",
+    "Drama",
+    "Family",
+    "Fantasy",
+    "Film-Noir",
+    "Horror",
+    "Music",
+    "Musical",
+    "Mystery",
+    "Romance",
+    "Sci-Fi",
+    "Thriller",
+    "War",
+    "Western"
+  ],
+  "year_range": {
+    "min": 1916,
+    "max": 2025
+  }
+}

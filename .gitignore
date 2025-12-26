@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Optional: Don't track large data files in git
+# Uncomment these if your data is too large for GitHub
+# data/metacritic_data/*.csv
+# data/hierarchical_effects/*.csv
+# data/adjusted_scores/*.csv
+
+# Large data files - keep locally, don't track in git
+data/metacritic_data/
+data/hierarchical_effects/
+data/adjusted_scores/
