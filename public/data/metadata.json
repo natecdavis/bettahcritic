@@ -1,7 +1,7 @@
 {
-  "updated": "2025-12-26T17:49:58.057974",
+  "updated": "2025-12-26T18:51:45.698374",
   "total_movies": 21116,
-  "recent_movies": 1202,
+  "recent_movies": 1203,
   "recent_cutoff_year": 2024,
   "genres": [
     "Action",
@@ -28,5 +28,6 @@
   "year_range": {
     "min": 1916,
     "max": 2025
-  }
+  },
+  "last_update_status": "success"
 }
