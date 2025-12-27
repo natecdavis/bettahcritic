@@ -1,6 +1,6 @@
 {
-  "updated": "2025-12-26T18:51:45.529220",
-  "count": 1203,
+  "updated": "2025-12-26T19:46:39.615540",
+  "count": 1209,
   "movies": [
     {
       "movie_slug": "compensation",
@@ -212,6 +212,17 @@
       "total_adjustment": -4.07
     },
     {
+      "movie_slug": "marty-supreme",
+      "title": "Marty Supreme",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 89.0,
+      "adjusted_score": 85.7,
+      "n_reviews": 52,
+      "total_adjustment": -3.29
+    },
+    {
       "movie_slug": "green-border",
       "title": "Green Border",
       "release_date": "2024-06-21",
@@ -276,6 +287,17 @@
       "adjusted_score": 84.5,
       "n_reviews": 9,
       "total_adjustment": -5.53
+    },
+    {
+      "movie_slug": "no-other-choice",
+      "title": "No Other Choice",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 88.0,
+      "adjusted_score": 84.4,
+      "n_reviews": 32,
+      "total_adjustment": -3.61
     },
     {
       "movie_slug": "about-dry-grasses",
@@ -608,17 +630,6 @@
       "total_adjustment": -4.29
     },
     {
-      "movie_slug": "pictures-of-ghosts",
-      "title": "Pictures of Ghosts",
-      "release_date": "2024-01-26",
-      "year": 2024,
-      "genre": "Documentary",
-      "raw_score": 88.0,
-      "adjusted_score": 81.5,
-      "n_reviews": 8,
-      "total_adjustment": -6.5
-    },
-    {
       "movie_slug": "intercepted",
       "title": "Intercepted",
       "release_date": "2024-10-04",
@@ -628,6 +639,17 @@
       "adjusted_score": 81.5,
       "n_reviews": 5,
       "total_adjustment": -2.52
+    },
+    {
+      "movie_slug": "pictures-of-ghosts",
+      "title": "Pictures of Ghosts",
+      "release_date": "2024-01-26",
+      "year": 2024,
+      "genre": "Documentary",
+      "raw_score": 88.0,
+      "adjusted_score": 81.5,
+      "n_reviews": 8,
+      "total_adjustment": -6.5
     },
     {
       "movie_slug": "hamnet",
@@ -652,17 +674,6 @@
       "total_adjustment": -3.7
     },
     {
-      "movie_slug": "riefenstahl",
-      "title": "Riefenstahl",
-      "release_date": "2025-09-05",
-      "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 82.0,
-      "adjusted_score": 81.3,
-      "n_reviews": 17,
-      "total_adjustment": -0.67
-    },
-    {
       "movie_slug": "daughters",
       "title": "Daughters",
       "release_date": "2024-08-09",
@@ -672,6 +683,17 @@
       "adjusted_score": 81.3,
       "n_reviews": 22,
       "total_adjustment": -3.67
+    },
+    {
+      "movie_slug": "riefenstahl",
+      "title": "Riefenstahl",
+      "release_date": "2025-09-05",
+      "year": 2025,
+      "genre": "Documentary",
+      "raw_score": 82.0,
+      "adjusted_score": 81.3,
+      "n_reviews": 17,
+      "total_adjustment": -0.67
     },
     {
       "movie_slug": "youth-hard-times",
@@ -837,6 +859,17 @@
       "adjusted_score": 80.3,
       "n_reviews": 6,
       "total_adjustment": -3.66
+    },
+    {
+      "movie_slug": "sirat",
+      "title": "Sir\u00e2t",
+      "release_date": "2025-11-14",
+      "year": 2025,
+      "genre": "Action",
+      "raw_score": 80.0,
+      "adjusted_score": 80.3,
+      "n_reviews": 23,
+      "total_adjustment": 0.31
     },
     {
       "movie_slug": "from-ground-zero",
@@ -1167,17 +1200,6 @@
       "adjusted_score": 79.2,
       "n_reviews": 21,
       "total_adjustment": -2.77
-    },
-    {
-      "movie_slug": "sirat",
-      "title": "Sir\u00e2t",
-      "release_date": "2025-11-14",
-      "year": 2025,
-      "genre": "Action",
-      "raw_score": 80.0,
-      "adjusted_score": 79.2,
-      "n_reviews": 21,
-      "total_adjustment": -0.76
     },
     {
       "movie_slug": "nocturnes",
@@ -2034,8 +2056,8 @@
       "genre": "Drama",
       "raw_score": 77.0,
       "adjusted_score": 76.0,
-      "n_reviews": 28,
-      "total_adjustment": -1.01
+      "n_reviews": 31,
+      "total_adjustment": -1.05
     },
     {
       "movie_slug": "the-colors-within",
@@ -2245,6 +2267,17 @@
       "adjusted_score": 75.5,
       "n_reviews": 58,
       "total_adjustment": -2.46
+    },
+    {
+      "movie_slug": "the-testament-of-ann-lee",
+      "title": "The Testament of Ann Lee",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 78.0,
+      "adjusted_score": 75.4,
+      "n_reviews": 22,
+      "total_adjustment": -2.62
     },
     {
       "movie_slug": "santosh",
@@ -3006,17 +3039,6 @@
       "total_adjustment": -1.47
     },
     {
-      "movie_slug": "kiss-the-future",
-      "title": "Kiss the Future",
-      "release_date": "2024-02-23",
-      "year": 2024,
-      "genre": "Documentary",
-      "raw_score": 75.0,
-      "adjusted_score": 73.4,
-      "n_reviews": 9,
-      "total_adjustment": -1.61
-    },
-    {
       "movie_slug": "lovely-rita-2001",
       "title": "Lovely Rita (2001)",
       "release_date": "2024-03-29",
@@ -3026,6 +3048,17 @@
       "adjusted_score": 73.4,
       "n_reviews": 9,
       "total_adjustment": -2.61
+    },
+    {
+      "movie_slug": "yacht-rock-a-dockumentary",
+      "title": "Yacht Rock: A Dockumentary",
+      "release_date": "2024-11-29",
+      "year": 2024,
+      "genre": "Documentary",
+      "raw_score": 78.0,
+      "adjusted_score": 73.4,
+      "n_reviews": 5,
+      "total_adjustment": -4.65
     },
     {
       "movie_slug": "the-fire-inside",
@@ -3050,15 +3083,15 @@
       "total_adjustment": -3.64
     },
     {
-      "movie_slug": "yacht-rock-a-dockumentary",
-      "title": "Yacht Rock: A Dockumentary",
-      "release_date": "2024-11-29",
+      "movie_slug": "kiss-the-future",
+      "title": "Kiss the Future",
+      "release_date": "2024-02-23",
       "year": 2024,
       "genre": "Documentary",
-      "raw_score": 78.0,
+      "raw_score": 75.0,
       "adjusted_score": 73.4,
-      "n_reviews": 5,
-      "total_adjustment": -4.65
+      "n_reviews": 9,
+      "total_adjustment": -1.61
     },
     {
       "movie_slug": "motel-destino",
@@ -3083,28 +3116,6 @@
       "total_adjustment": -0.59
     },
     {
-      "movie_slug": "kidnapped-the-abduction-of-edgardo-mortara",
-      "title": "Kidnapped: The Abduction of Edgardo Mortara",
-      "release_date": "2024-05-24",
-      "year": 2024,
-      "genre": "Drama",
-      "raw_score": 75.0,
-      "adjusted_score": 73.3,
-      "n_reviews": 17,
-      "total_adjustment": -1.73
-    },
-    {
-      "movie_slug": "father-mother-sister-brother",
-      "title": "Father Mother Sister Brother",
-      "release_date": "2025-12-24",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 76.0,
-      "adjusted_score": 73.3,
-      "n_reviews": 21,
-      "total_adjustment": -2.7
-    },
-    {
       "movie_slug": "friendship",
       "title": "Friendship",
       "release_date": "2025-05-09",
@@ -3114,6 +3125,17 @@
       "adjusted_score": 73.3,
       "n_reviews": 43,
       "total_adjustment": 1.3
+    },
+    {
+      "movie_slug": "kidnapped-the-abduction-of-edgardo-mortara",
+      "title": "Kidnapped: The Abduction of Edgardo Mortara",
+      "release_date": "2024-05-24",
+      "year": 2024,
+      "genre": "Drama",
+      "raw_score": 75.0,
+      "adjusted_score": 73.3,
+      "n_reviews": 17,
+      "total_adjustment": -1.73
     },
     {
       "movie_slug": "porcelain-war",
@@ -3160,15 +3182,15 @@
       "total_adjustment": -1.81
     },
     {
-      "movie_slug": "frida-2024",
-      "title": "Frida",
-      "release_date": "2024-03-15",
-      "year": 2024,
-      "genre": "Documentary",
-      "raw_score": 75.0,
+      "movie_slug": "father-mother-sister-brother",
+      "title": "Father Mother Sister Brother",
+      "release_date": "2025-12-24",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 76.0,
       "adjusted_score": 73.2,
-      "n_reviews": 17,
-      "total_adjustment": -1.79
+      "n_reviews": 26,
+      "total_adjustment": -2.81
     },
     {
       "movie_slug": "scala!!!",
@@ -3180,6 +3202,17 @@
       "adjusted_score": 73.2,
       "n_reviews": 6,
       "total_adjustment": -0.79
+    },
+    {
+      "movie_slug": "frida-2024",
+      "title": "Frida",
+      "release_date": "2024-03-15",
+      "year": 2024,
+      "genre": "Documentary",
+      "raw_score": 75.0,
+      "adjusted_score": 73.2,
+      "n_reviews": 17,
+      "total_adjustment": -1.79
     },
     {
       "movie_slug": "the-white-house-effect",
@@ -3215,15 +3248,15 @@
       "total_adjustment": -4.88
     },
     {
-      "movie_slug": "dont-lets-go-to-the-dogs-tonight",
-      "title": "Don't Let's Go to the Dogs Tonight",
-      "release_date": "2025-07-11",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 74.0,
+      "movie_slug": "yannick",
+      "title": "Yannick",
+      "release_date": "2024-04-05",
+      "year": 2024,
+      "genre": "Comedy",
+      "raw_score": 73.0,
       "adjusted_score": 73.0,
-      "n_reviews": 32,
-      "total_adjustment": -1.0
+      "n_reviews": 6,
+      "total_adjustment": -0.01
     },
     {
       "movie_slug": "merrily-we-roll-along",
@@ -3235,17 +3268,6 @@
       "adjusted_score": 73.0,
       "n_reviews": 11,
       "total_adjustment": -5.0
-    },
-    {
-      "movie_slug": "yannick",
-      "title": "Yannick",
-      "release_date": "2024-04-05",
-      "year": 2024,
-      "genre": "Comedy",
-      "raw_score": 73.0,
-      "adjusted_score": 73.0,
-      "n_reviews": 6,
-      "total_adjustment": -0.01
     },
     {
       "movie_slug": "eternal-you",
@@ -3268,6 +3290,17 @@
       "adjusted_score": 73.0,
       "n_reviews": 13,
       "total_adjustment": -4.03
+    },
+    {
+      "movie_slug": "dont-lets-go-to-the-dogs-tonight",
+      "title": "Don't Let's Go to the Dogs Tonight",
+      "release_date": "2025-07-11",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 74.0,
+      "adjusted_score": 73.0,
+      "n_reviews": 32,
+      "total_adjustment": -1.0
     },
     {
       "movie_slug": "dont-lets-go-to-the-dogs-tonight",
@@ -3312,6 +3345,17 @@
       "adjusted_score": 73.0,
       "n_reviews": 10,
       "total_adjustment": 5.02
+    },
+    {
+      "movie_slug": "the-plague",
+      "title": "The Plague",
+      "release_date": "2025-12-24",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 69.0,
+      "adjusted_score": 72.9,
+      "n_reviews": 12,
+      "total_adjustment": 3.91
     },
     {
       "movie_slug": "sketch",
@@ -3633,17 +3677,6 @@
       "total_adjustment": -2.81
     },
     {
-      "movie_slug": "confessions-of-a-good-samaritan",
-      "title": "Confessions of a Good Samaritan",
-      "release_date": "2024-06-28",
-      "year": 2024,
-      "genre": "Documentary",
-      "raw_score": 76.0,
-      "adjusted_score": 72.2,
-      "n_reviews": 5,
-      "total_adjustment": -3.76
-    },
-    {
       "movie_slug": "music-by-john-williams",
       "title": "Music by John Williams",
       "release_date": "2024-11-01",
@@ -3653,6 +3686,17 @@
       "adjusted_score": 72.2,
       "n_reviews": 12,
       "total_adjustment": -1.8
+    },
+    {
+      "movie_slug": "confessions-of-a-good-samaritan",
+      "title": "Confessions of a Good Samaritan",
+      "release_date": "2024-06-28",
+      "year": 2024,
+      "genre": "Documentary",
+      "raw_score": 76.0,
+      "adjusted_score": 72.2,
+      "n_reviews": 5,
+      "total_adjustment": -3.76
     },
     {
       "movie_slug": "love+war",
@@ -3864,15 +3908,15 @@
       "total_adjustment": -9.16
     },
     {
-      "movie_slug": "griffin-in-summer",
-      "title": "Griffin in Summer",
-      "release_date": "2025-08-29",
+      "movie_slug": "orwell-2-2-5",
+      "title": "Orwell: 2 + 2 = 5",
+      "release_date": "2025-10-10",
       "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 73.0,
+      "genre": "Documentary",
+      "raw_score": 74.0,
       "adjusted_score": 71.7,
-      "n_reviews": 7,
-      "total_adjustment": -1.32
+      "n_reviews": 14,
+      "total_adjustment": -2.31
     },
     {
       "movie_slug": "lost-soulz",
@@ -3886,15 +3930,15 @@
       "total_adjustment": -2.32
     },
     {
-      "movie_slug": "orwell-2-2-5",
-      "title": "Orwell: 2 + 2 = 5",
-      "release_date": "2025-10-10",
+      "movie_slug": "griffin-in-summer",
+      "title": "Griffin in Summer",
+      "release_date": "2025-08-29",
       "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 74.0,
+      "genre": "Comedy",
+      "raw_score": 73.0,
       "adjusted_score": 71.7,
-      "n_reviews": 14,
-      "total_adjustment": -2.31
+      "n_reviews": 7,
+      "total_adjustment": -1.32
     },
     {
       "movie_slug": "young-hearts-2025",
@@ -4601,17 +4645,6 @@
       "total_adjustment": -0.55
     },
     {
-      "movie_slug": "the-plague",
-      "title": "The Plague",
-      "release_date": "2025-12-24",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 69.0,
-      "adjusted_score": 70.3,
-      "n_reviews": 8,
-      "total_adjustment": 1.3
-    },
-    {
       "movie_slug": "as-we-speak-rap-music-on-trial",
       "title": "As We Speak: Rap Music on Trial ",
       "release_date": "2024-02-27",
@@ -4700,17 +4733,6 @@
       "total_adjustment": 0.09
     },
     {
-      "movie_slug": "materialists",
-      "title": "Materialists",
-      "release_date": "2025-06-13",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 70.0,
-      "adjusted_score": 70.1,
-      "n_reviews": 50,
-      "total_adjustment": 0.1
-    },
-    {
       "movie_slug": "humanist-vampire-seeking-consenting-suicidal-person",
       "title": "Humanist Vampire Seeking Consenting Suicidal Person",
       "release_date": "2024-06-21",
@@ -4719,6 +4741,17 @@
       "raw_score": 70.0,
       "adjusted_score": 70.1,
       "n_reviews": 8,
+      "total_adjustment": 0.1
+    },
+    {
+      "movie_slug": "materialists",
+      "title": "Materialists",
+      "release_date": "2025-06-13",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 70.0,
+      "adjusted_score": 70.1,
+      "n_reviews": 50,
       "total_adjustment": 0.1
     },
     {
@@ -4733,17 +4766,6 @@
       "total_adjustment": 1.09
     },
     {
-      "movie_slug": "belen",
-      "title": "Bel\u00e9n",
-      "release_date": "2025-11-07",
-      "year": 2025,
-      "genre": "Crime",
-      "raw_score": 70.0,
-      "adjusted_score": 70.1,
-      "n_reviews": 7,
-      "total_adjustment": 0.15
-    },
-    {
       "movie_slug": "juror-2",
       "title": "Juror #2",
       "release_date": "2024-11-01",
@@ -4753,6 +4775,17 @@
       "adjusted_score": 70.1,
       "n_reviews": 37,
       "total_adjustment": -1.85
+    },
+    {
+      "movie_slug": "belen",
+      "title": "Bel\u00e9n",
+      "release_date": "2025-11-07",
+      "year": 2025,
+      "genre": "Crime",
+      "raw_score": 70.0,
+      "adjusted_score": 70.1,
+      "n_reviews": 7,
+      "total_adjustment": 0.15
     },
     {
       "movie_slug": "hedda",
@@ -4775,17 +4808,6 @@
       "adjusted_score": 70.0,
       "n_reviews": 6,
       "total_adjustment": -1.01
-    },
-    {
-      "movie_slug": "exhuma",
-      "title": "Exhuma",
-      "release_date": "2024-03-15",
-      "year": 2024,
-      "genre": "Horror",
-      "raw_score": 80.0,
-      "adjusted_score": 69.8,
-      "n_reviews": 5,
-      "total_adjustment": -10.22
     },
     {
       "movie_slug": "silver-haze",
@@ -4819,6 +4841,17 @@
       "adjusted_score": 69.8,
       "n_reviews": 54,
       "total_adjustment": -2.23
+    },
+    {
+      "movie_slug": "exhuma",
+      "title": "Exhuma",
+      "release_date": "2024-03-15",
+      "year": 2024,
+      "genre": "Horror",
+      "raw_score": 80.0,
+      "adjusted_score": 69.8,
+      "n_reviews": 5,
+      "total_adjustment": -10.22
     },
     {
       "movie_slug": "sunlight",
@@ -5503,17 +5536,6 @@
       "total_adjustment": -5.37
     },
     {
-      "movie_slug": "all-of-you",
-      "title": "All of You",
-      "release_date": "2025-09-26",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 66.0,
-      "adjusted_score": 67.6,
-      "n_reviews": 14,
-      "total_adjustment": 1.61
-    },
-    {
       "movie_slug": "laroy-texas",
       "title": "LaRoy, Texas",
       "release_date": "2024-04-12",
@@ -5523,6 +5545,17 @@
       "adjusted_score": 67.6,
       "n_reviews": 8,
       "total_adjustment": -1.39
+    },
+    {
+      "movie_slug": "all-of-you",
+      "title": "All of You",
+      "release_date": "2025-09-26",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 66.0,
+      "adjusted_score": 67.6,
+      "n_reviews": 14,
+      "total_adjustment": 1.61
     },
     {
       "movie_slug": "rumours",
@@ -6636,6 +6669,17 @@
       "total_adjustment": 0.19
     },
     {
+      "movie_slug": "what-you-wish-for",
+      "title": "What You Wish For",
+      "release_date": "2024-05-31",
+      "year": 2024,
+      "genre": "Horror",
+      "raw_score": 66.0,
+      "adjusted_score": 65.2,
+      "n_reviews": 7,
+      "total_adjustment": -0.78
+    },
+    {
       "movie_slug": "caligula-the-ultimate-cut",
       "title": "Caligula: The Ultimate Cut",
       "release_date": "2024-08-16",
@@ -6656,17 +6700,6 @@
       "adjusted_score": 65.2,
       "n_reviews": 21,
       "total_adjustment": 1.22
-    },
-    {
-      "movie_slug": "what-you-wish-for",
-      "title": "What You Wish For",
-      "release_date": "2024-05-31",
-      "year": 2024,
-      "genre": "Horror",
-      "raw_score": 66.0,
-      "adjusted_score": 65.2,
-      "n_reviews": 7,
-      "total_adjustment": -0.78
     },
     {
       "movie_slug": "a-desert",
@@ -7714,6 +7747,17 @@
       "total_adjustment": -2.18
     },
     {
+      "movie_slug": "young-woman-and-the-sea",
+      "title": "Young Woman and the Sea",
+      "release_date": "2024-05-31",
+      "year": 2024,
+      "genre": "Biography",
+      "raw_score": 62.0,
+      "adjusted_score": 62.8,
+      "n_reviews": 26,
+      "total_adjustment": 0.85
+    },
+    {
       "movie_slug": "dracula-2025",
       "title": "Dracula",
       "release_date": "2025-10-29",
@@ -7734,17 +7778,6 @@
       "adjusted_score": 62.8,
       "n_reviews": 10,
       "total_adjustment": -3.19
-    },
-    {
-      "movie_slug": "young-woman-and-the-sea",
-      "title": "Young Woman and the Sea",
-      "release_date": "2024-05-31",
-      "year": 2024,
-      "genre": "Biography",
-      "raw_score": 62.0,
-      "adjusted_score": 62.8,
-      "n_reviews": 26,
-      "total_adjustment": 0.85
     },
     {
       "movie_slug": "the-black-sea",
@@ -7835,17 +7868,6 @@
       "total_adjustment": 1.28
     },
     {
-      "movie_slug": "americana",
-      "title": "Americana",
-      "release_date": "2025-08-15",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 61.0,
-      "adjusted_score": 62.3,
-      "n_reviews": 32,
-      "total_adjustment": 1.28
-    },
-    {
       "movie_slug": "lee",
       "title": "Lee",
       "release_date": "2024-09-27",
@@ -7855,6 +7877,17 @@
       "adjusted_score": 62.3,
       "n_reviews": 30,
       "total_adjustment": 0.28
+    },
+    {
+      "movie_slug": "americana",
+      "title": "Americana",
+      "release_date": "2025-08-15",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 61.0,
+      "adjusted_score": 62.3,
+      "n_reviews": 32,
+      "total_adjustment": 1.28
     },
     {
       "movie_slug": "dont-tell-mom-the-babysitters-dead-2024",
@@ -7888,6 +7921,17 @@
       "adjusted_score": 62.3,
       "n_reviews": 10,
       "total_adjustment": -0.71
+    },
+    {
+      "movie_slug": "song-sung-blue",
+      "title": "Song Sung Blue",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 62.0,
+      "adjusted_score": 62.3,
+      "n_reviews": 26,
+      "total_adjustment": 0.33
     },
     {
       "movie_slug": "mother-couch",
@@ -8066,6 +8110,17 @@
       "total_adjustment": -1.23
     },
     {
+      "movie_slug": "avatar-fire-and-ash",
+      "title": "Avatar: Fire and Ash",
+      "release_date": "2025-12-19",
+      "year": 2025,
+      "genre": "Action",
+      "raw_score": 61.0,
+      "adjusted_score": 61.8,
+      "n_reviews": 61,
+      "total_adjustment": 0.77
+    },
+    {
       "movie_slug": "becoming-led-zeppelin",
       "title": "Becoming Led Zeppelin",
       "release_date": "2025-02-07",
@@ -8176,17 +8231,6 @@
       "total_adjustment": -0.61
     },
     {
-      "movie_slug": "the-beautiful-game",
-      "title": "The Beautiful Game",
-      "release_date": "2024-03-29",
-      "year": 2024,
-      "genre": "Drama",
-      "raw_score": 60.0,
-      "adjusted_score": 61.4,
-      "n_reviews": 10,
-      "total_adjustment": 1.35
-    },
-    {
       "movie_slug": "heart-eyes",
       "title": "Heart Eyes",
       "release_date": "2025-02-07",
@@ -8196,6 +8240,17 @@
       "adjusted_score": 61.4,
       "n_reviews": 28,
       "total_adjustment": 0.35
+    },
+    {
+      "movie_slug": "the-beautiful-game",
+      "title": "The Beautiful Game",
+      "release_date": "2024-03-29",
+      "year": 2024,
+      "genre": "Drama",
+      "raw_score": 60.0,
+      "adjusted_score": 61.4,
+      "n_reviews": 10,
+      "total_adjustment": 1.35
     },
     {
       "movie_slug": "being-maria",
@@ -8240,17 +8295,6 @@
       "adjusted_score": 61.3,
       "n_reviews": 4,
       "total_adjustment": -6.75
-    },
-    {
-      "movie_slug": "avatar-fire-and-ash",
-      "title": "Avatar: Fire and Ash",
-      "release_date": "2025-12-19",
-      "year": 2025,
-      "genre": "Action",
-      "raw_score": 61.0,
-      "adjusted_score": 61.3,
-      "n_reviews": 57,
-      "total_adjustment": 0.33
     },
     {
       "movie_slug": "good-fortune-2025",
@@ -8385,17 +8429,6 @@
       "total_adjustment": -0.21
     },
     {
-      "movie_slug": "the-thursday-murder-club",
-      "title": "The Thursday Murder Club",
-      "release_date": "2025-08-28",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 60.0,
-      "adjusted_score": 60.8,
-      "n_reviews": 25,
-      "total_adjustment": 0.76
-    },
-    {
       "movie_slug": "things-will-be-different",
       "title": "Things Will Be Different",
       "release_date": "2024-10-04",
@@ -8405,6 +8438,17 @@
       "adjusted_score": 60.8,
       "n_reviews": 5,
       "total_adjustment": -1.24
+    },
+    {
+      "movie_slug": "the-thursday-murder-club",
+      "title": "The Thursday Murder Club",
+      "release_date": "2025-08-28",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 60.0,
+      "adjusted_score": 60.8,
+      "n_reviews": 25,
+      "total_adjustment": 0.76
     },
     {
       "movie_slug": "its-whats-inside",
@@ -9287,6 +9331,17 @@
       "total_adjustment": 0.62
     },
     {
+      "movie_slug": "the-choral",
+      "title": "The Choral",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 59.0,
+      "adjusted_score": 57.5,
+      "n_reviews": 16,
+      "total_adjustment": -1.52
+    },
+    {
       "movie_slug": "havoc",
       "title": "Havoc",
       "release_date": "2025-04-25",
@@ -9320,17 +9375,6 @@
       "total_adjustment": -0.46
     },
     {
-      "movie_slug": "drive-away-dolls",
-      "title": "Drive-Away Dolls",
-      "release_date": "2024-02-23",
-      "year": 2024,
-      "genre": "Action",
-      "raw_score": 56.0,
-      "adjusted_score": 57.4,
-      "n_reviews": 50,
-      "total_adjustment": 1.43
-    },
-    {
       "movie_slug": "night-always-comes",
       "title": "Night Always Comes",
       "release_date": "2025-08-15",
@@ -9340,17 +9384,6 @@
       "adjusted_score": 57.4,
       "n_reviews": 15,
       "total_adjustment": -2.56
-    },
-    {
-      "movie_slug": "sebastian",
-      "title": "Sebastian",
-      "release_date": "2024-08-02",
-      "year": 2024,
-      "genre": "Drama",
-      "raw_score": 57.0,
-      "adjusted_score": 57.4,
-      "n_reviews": 8,
-      "total_adjustment": 0.43
     },
     {
       "movie_slug": "club-zero",
@@ -9364,15 +9397,26 @@
       "total_adjustment": 2.43
     },
     {
-      "movie_slug": "immaculate",
-      "title": "Immaculate",
-      "release_date": "2024-03-22",
+      "movie_slug": "sebastian",
+      "title": "Sebastian",
+      "release_date": "2024-08-02",
       "year": 2024,
-      "genre": "Horror",
+      "genre": "Drama",
       "raw_score": 57.0,
-      "adjusted_score": 57.3,
-      "n_reviews": 39,
-      "total_adjustment": 0.25
+      "adjusted_score": 57.4,
+      "n_reviews": 8,
+      "total_adjustment": 0.43
+    },
+    {
+      "movie_slug": "drive-away-dolls",
+      "title": "Drive-Away Dolls",
+      "release_date": "2024-02-23",
+      "year": 2024,
+      "genre": "Action",
+      "raw_score": 56.0,
+      "adjusted_score": 57.4,
+      "n_reviews": 50,
+      "total_adjustment": 1.43
     },
     {
       "movie_slug": "the-ministry-of-ungentlemanly-warfare",
@@ -9397,15 +9441,15 @@
       "total_adjustment": 0.27
     },
     {
-      "movie_slug": "goodbye-june",
-      "title": "Goodbye June",
-      "release_date": "2025-12-12",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 56.0,
+      "movie_slug": "immaculate",
+      "title": "Immaculate",
+      "release_date": "2024-03-22",
+      "year": 2024,
+      "genre": "Horror",
+      "raw_score": 57.0,
       "adjusted_score": 57.3,
-      "n_reviews": 22,
-      "total_adjustment": 1.34
+      "n_reviews": 39,
+      "total_adjustment": 0.25
     },
     {
       "movie_slug": "azrael",
@@ -9419,17 +9463,6 @@
       "total_adjustment": 5.22
     },
     {
-      "movie_slug": "control-freak",
-      "title": "Control Freak",
-      "release_date": "2025-03-13",
-      "year": 2025,
-      "genre": "Horror",
-      "raw_score": 62.0,
-      "adjusted_score": 57.2,
-      "n_reviews": 4,
-      "total_adjustment": -4.76
-    },
-    {
       "movie_slug": "anemone-2025",
       "title": "Anemone",
       "release_date": "2025-10-03",
@@ -9439,6 +9472,17 @@
       "adjusted_score": 57.2,
       "n_reviews": 41,
       "total_adjustment": 4.24
+    },
+    {
+      "movie_slug": "control-freak",
+      "title": "Control Freak",
+      "release_date": "2025-03-13",
+      "year": 2025,
+      "genre": "Horror",
+      "raw_score": 62.0,
+      "adjusted_score": 57.2,
+      "n_reviews": 4,
+      "total_adjustment": -4.76
     },
     {
       "movie_slug": "ordinary-angels",
@@ -9571,6 +9615,17 @@
       "adjusted_score": 56.9,
       "n_reviews": 7,
       "total_adjustment": 0.9
+    },
+    {
+      "movie_slug": "goodbye-june",
+      "title": "Goodbye June",
+      "release_date": "2025-12-12",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 56.0,
+      "adjusted_score": 56.8,
+      "n_reviews": 24,
+      "total_adjustment": 0.78
     },
     {
       "movie_slug": "the-gorge",
@@ -11551,6 +11606,17 @@
       "adjusted_score": 48.9,
       "n_reviews": 20,
       "total_adjustment": 2.9
+    },
+    {
+      "movie_slug": "anaconda-2025",
+      "title": "Anaconda",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Action",
+      "raw_score": 44.0,
+      "adjusted_score": 48.8,
+      "n_reviews": 28,
+      "total_adjustment": 4.79
     },
     {
       "movie_slug": "aggro-dr1ft",
