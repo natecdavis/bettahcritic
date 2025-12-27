@@ -3,14 +3,14 @@ import { Search, TrendingUp, TrendingDown, Calendar, Film, ChevronDown, ChevronU
 
 // Metacritic color scheme: Green 61+, Yellow 40-60, Red 39-
 const getScoreColor = (score) => {
-  if (score >= 61) return 'bg-green-600';
-  if (score >= 40) return 'bg-yellow-500';
+  if (score >= 60.5) return 'bg-green-600';
+  if (score >= 39.5) return 'bg-yellow-500';
   return 'bg-red-600';
 };
 
 const getScoreTextColor = (score) => {
-  if (score >= 61) return 'text-green-600';
-  if (score >= 40) return 'text-yellow-600';
+  if (score >= 60.5) return 'text-green-600';
+  if (score >= 39.5) return 'text-yellow-600';
   return 'text-red-600';
 };
 
@@ -212,16 +212,18 @@ const useMovieData = () => {
   return { allMovies, metadata, loading, error };
 };
 
-// Filter movies released in last N days (for "in theaters" approximation)
-const filterRecentMovies = (movies, days = 60) => {
-  const cutoffDate = new Date();
-  cutoffDate.setDate(cutoffDate.getDate() - days);
-  const today = new Date();
+// Filter movies released in last N days OR releasing in next 2 weeks
+// (Reviews often come out before release due to press screenings)
+const filterRecentMovies = (movies, daysBack = 60, daysForward = 14) => {
+  const cutoffPast = new Date();
+  cutoffPast.setDate(cutoffPast.getDate() - daysBack);
+  const cutoffFuture = new Date();
+  cutoffFuture.setDate(cutoffFuture.getDate() + daysForward);
   
   return movies.filter(movie => {
     if (!movie.release_date) return false;
     const releaseDate = new Date(movie.release_date);
-    return releaseDate >= cutoffDate && releaseDate <= today;
+    return releaseDate >= cutoffPast && releaseDate <= cutoffFuture;
   });
 };
 
@@ -247,9 +249,9 @@ export default function App() {
     return ['all', ...Array.from(genreSet).sort()];
   }, [metadata, allMovies]);
   
-  // Get recent movies (last 60 days)
+  // Get recent movies (last 60 days + next 2 weeks)
   const recentMovies = useMemo(() => {
-    return filterRecentMovies(allMovies, 60);
+    return filterRecentMovies(allMovies, 60, 14);
   }, [allMovies]);
   
   // Filter and sort movies
@@ -415,7 +417,7 @@ export default function App() {
         {/* Results info */}
         <div className="mb-4 text-sm text-gray-500">
           {activeTab === 'recent' 
-            ? `${filteredMovies.length} movies from the last 60 days`
+            ? `${filteredMovies.length} movies (last 60 days + upcoming 2 weeks)`
             : `${filteredMovies.length.toLocaleString()} movies`
           }
         </div>
