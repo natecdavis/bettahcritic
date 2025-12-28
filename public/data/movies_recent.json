@@ -1,5 +1,5 @@
 {
-  "updated": "2025-12-27T08:00:38.483072",
+  "updated": "2025-12-28T14:25:29.154931",
   "count": 1209,
   "movies": [
     {
@@ -219,8 +219,8 @@
       "genre": "Drama",
       "raw_score": 89.0,
       "adjusted_score": 85.7,
-      "n_reviews": 52,
-      "total_adjustment": -3.29
+      "n_reviews": 58,
+      "total_adjustment": -3.26
     },
     {
       "movie_slug": "green-border",
@@ -6944,28 +6944,6 @@
       "total_adjustment": -0.38
     },
     {
-      "movie_slug": "the-smashing-machine",
-      "title": "The Smashing Machine",
-      "release_date": "2025-10-03",
-      "year": 2025,
-      "genre": "Action",
-      "raw_score": 65.0,
-      "adjusted_score": 64.5,
-      "n_reviews": 55,
-      "total_adjustment": -0.53
-    },
-    {
-      "movie_slug": "the-housemaid-2025",
-      "title": "The Housemaid",
-      "release_date": "2025-12-19",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 67.0,
-      "adjusted_score": 64.5,
-      "n_reviews": 32,
-      "total_adjustment": -2.52
-    },
-    {
       "movie_slug": "eat-the-night",
       "title": "Eat the Night",
       "release_date": "2025-01-10",
@@ -6975,6 +6953,17 @@
       "adjusted_score": 64.5,
       "n_reviews": 6,
       "total_adjustment": 2.47
+    },
+    {
+      "movie_slug": "the-smashing-machine",
+      "title": "The Smashing Machine",
+      "release_date": "2025-10-03",
+      "year": 2025,
+      "genre": "Action",
+      "raw_score": 65.0,
+      "adjusted_score": 64.5,
+      "n_reviews": 55,
+      "total_adjustment": -0.53
     },
     {
       "movie_slug": "a-prince",
@@ -7043,17 +7032,6 @@
       "total_adjustment": -0.64
     },
     {
-      "movie_slug": "wild-diamond",
-      "title": "Wild Diamond",
-      "release_date": "2025-07-11",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 65.0,
-      "adjusted_score": 64.4,
-      "n_reviews": 13,
-      "total_adjustment": -0.56
-    },
-    {
       "movie_slug": "strange-harvest",
       "title": "Strange Harvest",
       "release_date": "2025-08-08",
@@ -7076,6 +7054,17 @@
       "total_adjustment": 0.43
     },
     {
+      "movie_slug": "wild-diamond",
+      "title": "Wild Diamond",
+      "release_date": "2025-07-11",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 65.0,
+      "adjusted_score": 64.4,
+      "n_reviews": 13,
+      "total_adjustment": -0.56
+    },
+    {
       "movie_slug": "the-luckiest-man-in-america",
       "title": "The Luckiest Man in America",
       "release_date": "2025-04-04",
@@ -7085,17 +7074,6 @@
       "adjusted_score": 64.4,
       "n_reviews": 12,
       "total_adjustment": -3.59
-    },
-    {
-      "movie_slug": "the-spongebob-movie-search-for-squarepants",
-      "title": "The SpongeBob Movie: Search for Squarepants",
-      "release_date": "2025-12-19",
-      "year": 2025,
-      "genre": "Animation",
-      "raw_score": 66.0,
-      "adjusted_score": 64.3,
-      "n_reviews": 16,
-      "total_adjustment": -1.72
     },
     {
       "movie_slug": "europes-new-faces",
@@ -7120,17 +7098,6 @@
       "total_adjustment": 0.19
     },
     {
-      "movie_slug": "ick",
-      "title": "Ick",
-      "release_date": "2025-07-27",
-      "year": 2025,
-      "genre": "Action",
-      "raw_score": 67.0,
-      "adjusted_score": 64.2,
-      "n_reviews": 8,
-      "total_adjustment": -2.84
-    },
-    {
       "movie_slug": "ride-2024",
       "title": "Ride",
       "release_date": "2024-06-14",
@@ -7140,6 +7107,17 @@
       "adjusted_score": 64.2,
       "n_reviews": 4,
       "total_adjustment": 5.2
+    },
+    {
+      "movie_slug": "ick",
+      "title": "Ick",
+      "release_date": "2025-07-27",
+      "year": 2025,
+      "genre": "Action",
+      "raw_score": 67.0,
+      "adjusted_score": 64.2,
+      "n_reviews": 8,
+      "total_adjustment": -2.84
     },
     {
       "movie_slug": "your-monster",
@@ -7162,6 +7140,17 @@
       "adjusted_score": 64.2,
       "n_reviews": 8,
       "total_adjustment": -0.75
+    },
+    {
+      "movie_slug": "the-spongebob-movie-search-for-squarepants",
+      "title": "The SpongeBob Movie: Search for Squarepants",
+      "release_date": "2025-12-19",
+      "year": 2025,
+      "genre": "Animation",
+      "raw_score": 66.0,
+      "adjusted_score": 64.2,
+      "n_reviews": 17,
+      "total_adjustment": -1.79
     },
     {
       "movie_slug": "shoshana",
@@ -7494,6 +7483,17 @@
       "total_adjustment": 3.32
     },
     {
+      "movie_slug": "the-housemaid-2025",
+      "title": "The Housemaid",
+      "release_date": "2025-12-19",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 67.0,
+      "adjusted_score": 63.3,
+      "n_reviews": 35,
+      "total_adjustment": -3.69
+    },
+    {
       "movie_slug": "against-all-enemies",
       "title": "Against All Enemies",
       "release_date": "2024-03-29",
@@ -7503,6 +7503,17 @@
       "adjusted_score": 63.2,
       "n_reviews": 4,
       "total_adjustment": -7.82
+    },
+    {
+      "movie_slug": "song-sung-blue",
+      "title": "Song Sung Blue",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 62.0,
+      "adjusted_score": 63.2,
+      "n_reviews": 31,
+      "total_adjustment": 1.17
     },
     {
       "movie_slug": "high-low-john-galliano",
@@ -7527,6 +7538,28 @@
       "total_adjustment": -0.92
     },
     {
+      "movie_slug": "words-of-war",
+      "title": "Words of War",
+      "release_date": "2025-05-02",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 63.0,
+      "adjusted_score": 63.1,
+      "n_reviews": 14,
+      "total_adjustment": 0.14
+    },
+    {
+      "movie_slug": "words-of-war",
+      "title": "Words of War",
+      "release_date": "2025-05-02",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 63.0,
+      "adjusted_score": 63.1,
+      "n_reviews": 14,
+      "total_adjustment": 0.14
+    },
+    {
       "movie_slug": "june-zero",
       "title": "June Zero",
       "release_date": "2024-06-28",
@@ -7536,28 +7569,6 @@
       "adjusted_score": 63.1,
       "n_reviews": 10,
       "total_adjustment": -1.85
-    },
-    {
-      "movie_slug": "words-of-war",
-      "title": "Words of War",
-      "release_date": "2025-05-02",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 63.0,
-      "adjusted_score": 63.1,
-      "n_reviews": 14,
-      "total_adjustment": 0.14
-    },
-    {
-      "movie_slug": "words-of-war",
-      "title": "Words of War",
-      "release_date": "2025-05-02",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 63.0,
-      "adjusted_score": 63.1,
-      "n_reviews": 14,
-      "total_adjustment": 0.14
     },
     {
       "movie_slug": "theater-of-thought",
@@ -7868,17 +7879,6 @@
       "total_adjustment": 1.28
     },
     {
-      "movie_slug": "lee",
-      "title": "Lee",
-      "release_date": "2024-09-27",
-      "year": 2024,
-      "genre": "Biography",
-      "raw_score": 62.0,
-      "adjusted_score": 62.3,
-      "n_reviews": 30,
-      "total_adjustment": 0.28
-    },
-    {
       "movie_slug": "americana",
       "title": "Americana",
       "release_date": "2025-08-15",
@@ -7888,6 +7888,17 @@
       "adjusted_score": 62.3,
       "n_reviews": 32,
       "total_adjustment": 1.28
+    },
+    {
+      "movie_slug": "lee",
+      "title": "Lee",
+      "release_date": "2024-09-27",
+      "year": 2024,
+      "genre": "Biography",
+      "raw_score": 62.0,
+      "adjusted_score": 62.3,
+      "n_reviews": 30,
+      "total_adjustment": 0.28
     },
     {
       "movie_slug": "dont-tell-mom-the-babysitters-dead-2024",
@@ -7921,17 +7932,6 @@
       "adjusted_score": 62.3,
       "n_reviews": 10,
       "total_adjustment": -0.71
-    },
-    {
-      "movie_slug": "song-sung-blue",
-      "title": "Song Sung Blue",
-      "release_date": "2025-12-25",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 62.0,
-      "adjusted_score": 62.3,
-      "n_reviews": 26,
-      "total_adjustment": 0.33
     },
     {
       "movie_slug": "mother-couch",
@@ -11608,17 +11608,6 @@
       "total_adjustment": 2.9
     },
     {
-      "movie_slug": "anaconda-2025",
-      "title": "Anaconda",
-      "release_date": "2025-12-25",
-      "year": 2025,
-      "genre": "Action",
-      "raw_score": 44.0,
-      "adjusted_score": 48.8,
-      "n_reviews": 28,
-      "total_adjustment": 4.79
-    },
-    {
       "movie_slug": "aggro-dr1ft",
       "title": "AGGRO DR1FT",
       "release_date": "2024-05-10",
@@ -11694,6 +11683,17 @@
       "adjusted_score": 48.4,
       "n_reviews": 4,
       "total_adjustment": 2.44
+    },
+    {
+      "movie_slug": "anaconda-2025",
+      "title": "Anaconda",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Action",
+      "raw_score": 44.0,
+      "adjusted_score": 48.4,
+      "n_reviews": 30,
+      "total_adjustment": 4.42
     },
     {
       "movie_slug": "until-dawn",
