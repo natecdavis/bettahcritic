@@ -1,5 +1,5 @@
 {
-  "updated": "2025-12-28T22:16:44.827558",
+  "updated": "2025-12-29T09:58:53.397199",
   "count": 1159,
   "movies": [
     {
@@ -9276,17 +9276,6 @@
       "total_adjustment": 4.71
     },
     {
-      "movie_slug": "goodbye-june",
-      "title": "Goodbye June",
-      "release_date": "2025-12-12",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 56.0,
-      "adjusted_score": 56.6,
-      "n_reviews": 24,
-      "total_adjustment": 0.59
-    },
-    {
       "movie_slug": "another-end",
       "title": "Another End",
       "release_date": "2025-09-19",
@@ -9296,6 +9285,17 @@
       "adjusted_score": 56.6,
       "n_reviews": 7,
       "total_adjustment": 4.56
+    },
+    {
+      "movie_slug": "goodbye-june",
+      "title": "Goodbye June",
+      "release_date": "2025-12-12",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 56.0,
+      "adjusted_score": 56.6,
+      "n_reviews": 25,
+      "total_adjustment": 0.6
     },
     {
       "movie_slug": "violent-ends",
