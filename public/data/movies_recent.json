@@ -1,6 +1,6 @@
 {
-  "updated": "2026-01-01T11:17:24.769432",
-  "count": 565,
+  "updated": "2026-01-02T14:19:33.144506",
+  "count": 566,
   "movies": [
     {
       "movie_slug": "compensation",
@@ -97,9 +97,9 @@
       "year": 2025,
       "genre": "Drama",
       "raw_score": 88.0,
-      "adjusted_score": 85.4,
-      "n_reviews": 54,
-      "total_adjustment": -2.64
+      "adjusted_score": 85.8,
+      "n_reviews": 57,
+      "total_adjustment": -2.22
     },
     {
       "movie_slug": "the-alabama-solution",
@@ -119,9 +119,9 @@
       "year": 2025,
       "genre": "Drama",
       "raw_score": 86.0,
-      "adjusted_score": 84.1,
-      "n_reviews": 40,
-      "total_adjustment": -1.93
+      "adjusted_score": 84.0,
+      "n_reviews": 41,
+      "total_adjustment": -2.03
     },
     {
       "movie_slug": "no-other-choice",
@@ -130,9 +130,9 @@
       "year": 2025,
       "genre": "Comedy",
       "raw_score": 88.0,
-      "adjusted_score": 83.8,
-      "n_reviews": 34,
-      "total_adjustment": -4.2
+      "adjusted_score": 83.9,
+      "n_reviews": 35,
+      "total_adjustment": -4.09
     },
     {
       "movie_slug": "the-voice-of-hind-rajab",
@@ -311,6 +311,17 @@
       "total_adjustment": -3.63
     },
     {
+      "movie_slug": "the-tale-of-silyan",
+      "title": "The Tale of Silyan",
+      "release_date": "2025-11-28",
+      "year": 2025,
+      "genre": "Documentary",
+      "raw_score": 83.0,
+      "adjusted_score": 81.3,
+      "n_reviews": 11,
+      "total_adjustment": -1.69
+    },
+    {
       "movie_slug": "meeting-with-pol-pot",
       "title": "Meeting with Pol Pot",
       "release_date": "2025-06-13",
@@ -441,17 +452,6 @@
       "adjusted_score": 80.3,
       "n_reviews": 16,
       "total_adjustment": -1.67
-    },
-    {
-      "movie_slug": "the-tale-of-silyan",
-      "title": "The Tale of Silyan",
-      "release_date": "2025-11-28",
-      "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 83.0,
-      "adjusted_score": 80.2,
-      "n_reviews": 10,
-      "total_adjustment": -2.76
     },
     {
       "movie_slug": "wallace-gromit-vengeance-most-fowl",
@@ -982,17 +982,6 @@
       "total_adjustment": -1.38
     },
     {
-      "movie_slug": "the-testament-of-ann-lee",
-      "title": "The Testament of Ann Lee",
-      "release_date": "2025-12-25",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 78.0,
-      "adjusted_score": 75.6,
-      "n_reviews": 24,
-      "total_adjustment": -2.39
-    },
-    {
       "movie_slug": "frankenstein-2025",
       "title": "Frankenstein",
       "release_date": "2025-10-17",
@@ -1002,6 +991,17 @@
       "adjusted_score": 75.5,
       "n_reviews": 58,
       "total_adjustment": -2.46
+    },
+    {
+      "movie_slug": "the-testament-of-ann-lee",
+      "title": "The Testament of Ann Lee",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 78.0,
+      "adjusted_score": 75.4,
+      "n_reviews": 27,
+      "total_adjustment": -2.57
     },
     {
       "movie_slug": "if-i-had-legs-id-kick-you",
@@ -1367,17 +1367,6 @@
       "total_adjustment": -0.74
     },
     {
-      "movie_slug": "the-plague",
-      "title": "The Plague",
-      "release_date": "2025-12-24",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 74.0,
-      "adjusted_score": 73.3,
-      "n_reviews": 13,
-      "total_adjustment": -0.67
-    },
-    {
       "movie_slug": "the-white-house-effect",
       "title": "The White House Effect",
       "release_date": "2025-10-31",
@@ -1398,6 +1387,17 @@
       "adjusted_score": 73.2,
       "n_reviews": 4,
       "total_adjustment": -1.83
+    },
+    {
+      "movie_slug": "the-plague",
+      "title": "The Plague",
+      "release_date": "2025-12-24",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 74.0,
+      "adjusted_score": 73.2,
+      "n_reviews": 14,
+      "total_adjustment": -0.84
     },
     {
       "movie_slug": "together-2025",
@@ -2863,17 +2863,6 @@
       "total_adjustment": 1.36
     },
     {
-      "movie_slug": "mission-impossible-the-final-reckoning",
-      "title": "Mission: Impossible \u2013 The Final Reckoning",
-      "release_date": "2025-05-23",
-      "year": 2025,
-      "genre": "Action",
-      "raw_score": 67.0,
-      "adjusted_score": 66.4,
-      "n_reviews": 57,
-      "total_adjustment": -0.58
-    },
-    {
       "movie_slug": "rosemead",
       "title": "Rosemead",
       "release_date": "2025-12-05",
@@ -2883,6 +2872,17 @@
       "adjusted_score": 66.4,
       "n_reviews": 7,
       "total_adjustment": -4.58
+    },
+    {
+      "movie_slug": "mission-impossible-the-final-reckoning",
+      "title": "Mission: Impossible \u2013 The Final Reckoning",
+      "release_date": "2025-05-23",
+      "year": 2025,
+      "genre": "Action",
+      "raw_score": 67.0,
+      "adjusted_score": 66.4,
+      "n_reviews": 57,
+      "total_adjustment": -0.58
     },
     {
       "movie_slug": "it-feeds",
@@ -2918,17 +2918,6 @@
       "total_adjustment": -0.88
     },
     {
-      "movie_slug": "the-life-of-chuck",
-      "title": "The Life of Chuck",
-      "release_date": "2025-06-06",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 67.0,
-      "adjusted_score": 66.0,
-      "n_reviews": 42,
-      "total_adjustment": -1.01
-    },
-    {
       "movie_slug": "paddington-in-peru",
       "title": "Paddington In Peru",
       "release_date": "2025-02-14",
@@ -2949,6 +2938,17 @@
       "adjusted_score": 66.0,
       "n_reviews": 13,
       "total_adjustment": 0.95
+    },
+    {
+      "movie_slug": "the-life-of-chuck",
+      "title": "The Life of Chuck",
+      "release_date": "2025-06-06",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 67.0,
+      "adjusted_score": 66.0,
+      "n_reviews": 42,
+      "total_adjustment": -1.01
     },
     {
       "movie_slug": "drop",
@@ -3202,6 +3202,17 @@
       "adjusted_score": 64.8,
       "n_reviews": 8,
       "total_adjustment": -2.16
+    },
+    {
+      "movie_slug": "we-bury-the-dead",
+      "title": "We Bury the Dead",
+      "release_date": "2026-01-02",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 63.0,
+      "adjusted_score": 64.7,
+      "n_reviews": 7,
+      "total_adjustment": 1.7
     },
     {
       "movie_slug": "the-damned-2025",
@@ -3567,6 +3578,17 @@
       "total_adjustment": -1.07
     },
     {
+      "movie_slug": "koln-75",
+      "title": "K\u00f6ln 75",
+      "release_date": "2025-10-17",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 62.0,
+      "adjusted_score": 62.9,
+      "n_reviews": 6,
+      "total_adjustment": 0.91
+    },
+    {
       "movie_slug": "wto99",
       "title": "WTO/99",
       "release_date": "2025-12-04",
@@ -3587,17 +3609,6 @@
       "adjusted_score": 62.9,
       "n_reviews": 6,
       "total_adjustment": -2.08
-    },
-    {
-      "movie_slug": "koln-75",
-      "title": "K\u00f6ln 75",
-      "release_date": "2025-10-17",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 62.0,
-      "adjusted_score": 62.9,
-      "n_reviews": 6,
-      "total_adjustment": 0.91
     },
     {
       "movie_slug": "rounding",
@@ -3686,6 +3697,17 @@
       "adjusted_score": 62.2,
       "n_reviews": 16,
       "total_adjustment": 1.25
+    },
+    {
+      "movie_slug": "song-sung-blue",
+      "title": "Song Sung Blue",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 63.0,
+      "adjusted_score": 62.1,
+      "n_reviews": 36,
+      "total_adjustment": -0.94
     },
     {
       "movie_slug": "in-your-dreams",
@@ -3787,17 +3809,6 @@
       "total_adjustment": -0.17
     },
     {
-      "movie_slug": "song-sung-blue",
-      "title": "Song Sung Blue",
-      "release_date": "2025-12-25",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 63.0,
-      "adjusted_score": 61.6,
-      "n_reviews": 34,
-      "total_adjustment": -1.39
-    },
-    {
       "movie_slug": "brides",
       "title": "Brides",
       "release_date": "2025-09-26",
@@ -3820,17 +3831,6 @@
       "total_adjustment": 0.35
     },
     {
-      "movie_slug": "good-fortune-2025",
-      "title": "Good Fortune",
-      "release_date": "2025-10-17",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 61.0,
-      "adjusted_score": 61.3,
-      "n_reviews": 38,
-      "total_adjustment": 0.26
-    },
-    {
       "movie_slug": "eric-larue",
       "title": "Eric Larue",
       "release_date": "2025-04-04",
@@ -3851,6 +3851,17 @@
       "adjusted_score": 61.3,
       "n_reviews": 11,
       "total_adjustment": 2.27
+    },
+    {
+      "movie_slug": "good-fortune-2025",
+      "title": "Good Fortune",
+      "release_date": "2025-10-17",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 61.0,
+      "adjusted_score": 61.3,
+      "n_reviews": 38,
+      "total_adjustment": 0.26
     },
     {
       "movie_slug": "avatar-fire-and-ash",
@@ -4150,6 +4161,17 @@
       "total_adjustment": 0.35
     },
     {
+      "movie_slug": "david-2025",
+      "title": "David",
+      "release_date": "2025-12-19",
+      "year": 2025,
+      "genre": "Animation",
+      "raw_score": 54.0,
+      "adjusted_score": 59.1,
+      "n_reviews": 6,
+      "total_adjustment": 5.15
+    },
+    {
       "movie_slug": "ballerina",
       "title": "Ballerina",
       "release_date": "2025-06-06",
@@ -4304,17 +4326,6 @@
       "total_adjustment": 0.23
     },
     {
-      "movie_slug": "david-2025",
-      "title": "David",
-      "release_date": "2025-12-19",
-      "year": 2025,
-      "genre": "Animation",
-      "raw_score": 54.0,
-      "adjusted_score": 58.1,
-      "n_reviews": 5,
-      "total_adjustment": 4.08
-    },
-    {
       "movie_slug": "eden-2024",
       "title": "Eden",
       "release_date": "2025-08-22",
@@ -4447,17 +4458,6 @@
       "total_adjustment": -2.8
     },
     {
-      "movie_slug": "control-freak",
-      "title": "Control Freak",
-      "release_date": "2025-03-13",
-      "year": 2025,
-      "genre": "Horror",
-      "raw_score": 62.0,
-      "adjusted_score": 57.0,
-      "n_reviews": 4,
-      "total_adjustment": -5.01
-    },
-    {
       "movie_slug": "american-sweatshop",
       "title": "American Sweatshop",
       "release_date": "2025-08-29",
@@ -4467,6 +4467,17 @@
       "adjusted_score": 57.0,
       "n_reviews": 6,
       "total_adjustment": -1.01
+    },
+    {
+      "movie_slug": "control-freak",
+      "title": "Control Freak",
+      "release_date": "2025-03-13",
+      "year": 2025,
+      "genre": "Horror",
+      "raw_score": 62.0,
+      "adjusted_score": 57.0,
+      "n_reviews": 4,
+      "total_adjustment": -5.01
     },
     {
       "movie_slug": "straw",
@@ -4524,17 +4535,6 @@
       "total_adjustment": 3.66
     },
     {
-      "movie_slug": "goodbye-june",
-      "title": "Goodbye June",
-      "release_date": "2025-12-12",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 55.0,
-      "adjusted_score": 56.6,
-      "n_reviews": 25,
-      "total_adjustment": 1.65
-    },
-    {
       "movie_slug": "the-gorge",
       "title": "The Gorge",
       "release_date": "2025-02-14",
@@ -4557,6 +4557,17 @@
       "total_adjustment": 4.63
     },
     {
+      "movie_slug": "the-witcher-sirens-of-the-deep",
+      "title": "The Witcher: Sirens of the Deep",
+      "release_date": "2025-02-11",
+      "year": 2025,
+      "genre": "Animation",
+      "raw_score": 54.0,
+      "adjusted_score": 56.4,
+      "n_reviews": 8,
+      "total_adjustment": 2.39
+    },
+    {
       "movie_slug": "breakdown-1975",
       "title": "Breakdown: 1975",
       "release_date": "2025-12-19",
@@ -4568,15 +4579,15 @@
       "total_adjustment": 7.36
     },
     {
-      "movie_slug": "the-witcher-sirens-of-the-deep",
-      "title": "The Witcher: Sirens of the Deep",
-      "release_date": "2025-02-11",
+      "movie_slug": "goodbye-june",
+      "title": "Goodbye June",
+      "release_date": "2025-12-12",
       "year": 2025,
-      "genre": "Animation",
-      "raw_score": 54.0,
+      "genre": "Drama",
+      "raw_score": 55.0,
       "adjusted_score": 56.4,
-      "n_reviews": 8,
-      "total_adjustment": 2.39
+      "n_reviews": 26,
+      "total_adjustment": 1.43
     },
     {
       "movie_slug": "adulthood",
@@ -5481,17 +5492,6 @@
       "total_adjustment": -0.61
     },
     {
-      "movie_slug": "anaconda-2025",
-      "title": "Anaconda",
-      "release_date": "2025-12-25",
-      "year": 2025,
-      "genre": "Action",
-      "raw_score": 44.0,
-      "adjusted_score": 48.4,
-      "n_reviews": 30,
-      "total_adjustment": 4.41
-    },
-    {
       "movie_slug": "the-unholy-trinity",
       "title": "The Unholy Trinity",
       "release_date": "2025-06-13",
@@ -5556,6 +5556,17 @@
       "adjusted_score": 47.5,
       "n_reviews": 15,
       "total_adjustment": 1.45
+    },
+    {
+      "movie_slug": "anaconda-2025",
+      "title": "Anaconda",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Action",
+      "raw_score": 44.0,
+      "adjusted_score": 47.4,
+      "n_reviews": 31,
+      "total_adjustment": 3.43
     },
     {
       "movie_slug": "the-carpenters-son",
