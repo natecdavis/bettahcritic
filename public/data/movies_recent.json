@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-02T14:19:33.144506",
+  "updated": "2026-01-03T09:18:28.195396",
   "count": 566,
   "movies": [
     {
@@ -113,28 +113,6 @@
       "total_adjustment": -5.33
     },
     {
-      "movie_slug": "sentimental-value",
-      "title": "Sentimental Value",
-      "release_date": "2025-11-07",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 86.0,
-      "adjusted_score": 84.0,
-      "n_reviews": 41,
-      "total_adjustment": -2.03
-    },
-    {
-      "movie_slug": "no-other-choice",
-      "title": "No Other Choice",
-      "release_date": "2025-12-25",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 88.0,
-      "adjusted_score": 83.9,
-      "n_reviews": 35,
-      "total_adjustment": -4.09
-    },
-    {
       "movie_slug": "the-voice-of-hind-rajab",
       "title": "The Voice of Hind Rajab",
       "release_date": "2025-12-17",
@@ -179,6 +157,28 @@
       "total_adjustment": -9.51
     },
     {
+      "movie_slug": "sentimental-value",
+      "title": "Sentimental Value",
+      "release_date": "2025-11-07",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 86.0,
+      "adjusted_score": 83.3,
+      "n_reviews": 43,
+      "total_adjustment": -2.74
+    },
+    {
+      "movie_slug": "cover-up",
+      "title": "Cover-Up",
+      "release_date": "2025-12-05",
+      "year": 2025,
+      "genre": "Documentary",
+      "raw_score": 85.0,
+      "adjusted_score": 83.3,
+      "n_reviews": 19,
+      "total_adjustment": -1.67
+    },
+    {
       "movie_slug": "familiar-touch",
       "title": "Familiar Touch",
       "release_date": "2025-06-20",
@@ -212,6 +212,17 @@
       "total_adjustment": -3.85
     },
     {
+      "movie_slug": "no-other-choice",
+      "title": "No Other Choice",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 88.0,
+      "adjusted_score": 82.8,
+      "n_reviews": 37,
+      "total_adjustment": -5.2
+    },
+    {
       "movie_slug": "afternoons-of-solitude",
       "title": "Afternoons of Solitude",
       "release_date": "2025-06-27",
@@ -221,17 +232,6 @@
       "adjusted_score": 82.7,
       "n_reviews": 12,
       "total_adjustment": -2.26
-    },
-    {
-      "movie_slug": "cover-up",
-      "title": "Cover-Up",
-      "release_date": "2025-12-05",
-      "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 85.0,
-      "adjusted_score": 82.6,
-      "n_reviews": 18,
-      "total_adjustment": -2.44
     },
     {
       "movie_slug": "sinners",
@@ -388,15 +388,15 @@
       "total_adjustment": -4.03
     },
     {
-      "movie_slug": "put-your-soul-on-your-hand-and-walk",
-      "title": "Put Your Soul on Your Hand and Walk",
-      "release_date": "2025-11-05",
+      "movie_slug": "resurrection-2025",
+      "title": "Resurrection",
+      "release_date": "2025-12-12",
       "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 83.0,
+      "genre": "Drama",
+      "raw_score": 86.0,
       "adjusted_score": 80.7,
-      "n_reviews": 13,
-      "total_adjustment": -2.31
+      "n_reviews": 22,
+      "total_adjustment": -5.3
     },
     {
       "movie_slug": "universal-language",
@@ -410,15 +410,15 @@
       "total_adjustment": -3.33
     },
     {
-      "movie_slug": "homebound-2025",
-      "title": "Homebound",
-      "release_date": "2025-09-26",
+      "movie_slug": "put-your-soul-on-your-hand-and-walk",
+      "title": "Put Your Soul on Your Hand and Walk",
+      "release_date": "2025-11-05",
       "year": 2025,
-      "genre": "Drama",
-      "raw_score": 85.0,
-      "adjusted_score": 80.6,
-      "n_reviews": 6,
-      "total_adjustment": -4.38
+      "genre": "Documentary",
+      "raw_score": 83.0,
+      "adjusted_score": 80.7,
+      "n_reviews": 13,
+      "total_adjustment": -2.31
     },
     {
       "movie_slug": "predators-2025",
@@ -432,15 +432,26 @@
       "total_adjustment": -3.38
     },
     {
+      "movie_slug": "homebound-2025",
+      "title": "Homebound",
+      "release_date": "2025-09-26",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 85.0,
+      "adjusted_score": 80.6,
+      "n_reviews": 6,
+      "total_adjustment": -4.38
+    },
+    {
       "movie_slug": "peter-hujars-day",
       "title": "Peter Hujar's Day",
       "release_date": "2025-11-07",
       "year": 2025,
       "genre": "Biography",
       "raw_score": 82.0,
-      "adjusted_score": 80.6,
-      "n_reviews": 29,
-      "total_adjustment": -1.38
+      "adjusted_score": 80.5,
+      "n_reviews": 30,
+      "total_adjustment": -1.47
     },
     {
       "movie_slug": "from-ground-zero",
@@ -498,15 +509,15 @@
       "total_adjustment": -4.08
     },
     {
-      "movie_slug": "resurrection-2025",
-      "title": "Resurrection",
-      "release_date": "2025-12-12",
+      "movie_slug": "misericordia",
+      "title": "Misericordia",
+      "release_date": "2025-03-21",
       "year": 2025,
-      "genre": "Drama",
-      "raw_score": 86.0,
+      "genre": "Comedy",
+      "raw_score": 83.0,
       "adjusted_score": 79.8,
-      "n_reviews": 20,
-      "total_adjustment": -6.19
+      "n_reviews": 25,
+      "total_adjustment": -3.18
     },
     {
       "movie_slug": "weapons",
@@ -518,17 +529,6 @@
       "adjusted_score": 79.8,
       "n_reviews": 48,
       "total_adjustment": -1.17
-    },
-    {
-      "movie_slug": "misericordia",
-      "title": "Misericordia",
-      "release_date": "2025-03-21",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 83.0,
-      "adjusted_score": 79.8,
-      "n_reviews": 25,
-      "total_adjustment": -3.18
     },
     {
       "movie_slug": "by-the-stream",
@@ -817,6 +817,17 @@
       "total_adjustment": -0.8
     },
     {
+      "movie_slug": "the-plague",
+      "title": "The Plague",
+      "release_date": "2025-12-24",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 74.0,
+      "adjusted_score": 77.2,
+      "n_reviews": 20,
+      "total_adjustment": 3.16
+    },
+    {
       "movie_slug": "sanatorium-under-the-sign-of-the-hourglass",
       "title": "Sanatorium Under the Sign of the Hourglass",
       "release_date": "2025-08-29",
@@ -960,6 +971,17 @@
       "total_adjustment": -3.21
     },
     {
+      "movie_slug": "the-testament-of-ann-lee",
+      "title": "The Testament of Ann Lee",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 78.0,
+      "adjusted_score": 75.7,
+      "n_reviews": 30,
+      "total_adjustment": -2.29
+    },
+    {
       "movie_slug": "sly-lives!-aka-the-burden-of-black-genius",
       "title": "Sly Lives! (aka the Burden of Black Genius)",
       "release_date": "2025-02-13",
@@ -991,17 +1013,6 @@
       "adjusted_score": 75.5,
       "n_reviews": 58,
       "total_adjustment": -2.46
-    },
-    {
-      "movie_slug": "the-testament-of-ann-lee",
-      "title": "The Testament of Ann Lee",
-      "release_date": "2025-12-25",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 78.0,
-      "adjusted_score": 75.4,
-      "n_reviews": 27,
-      "total_adjustment": -2.57
     },
     {
       "movie_slug": "if-i-had-legs-id-kick-you",
@@ -1147,6 +1158,17 @@
       "total_adjustment": 0.45
     },
     {
+      "movie_slug": "father-mother-sister-brother",
+      "title": "Father Mother Sister Brother",
+      "release_date": "2025-12-24",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 76.0,
+      "adjusted_score": 74.4,
+      "n_reviews": 29,
+      "total_adjustment": -1.64
+    },
+    {
       "movie_slug": "in-the-shadow-of-beirut",
       "title": "In the Shadow of Beirut",
       "release_date": "2025-01-14",
@@ -1200,17 +1222,6 @@
       "adjusted_score": 74.3,
       "n_reviews": 7,
       "total_adjustment": -2.67
-    },
-    {
-      "movie_slug": "father-mother-sister-brother",
-      "title": "Father Mother Sister Brother",
-      "release_date": "2025-12-24",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 76.0,
-      "adjusted_score": 74.3,
-      "n_reviews": 25,
-      "total_adjustment": -1.68
     },
     {
       "movie_slug": "that-they-may-face-the-rising-sun",
@@ -1389,17 +1400,6 @@
       "total_adjustment": -1.83
     },
     {
-      "movie_slug": "the-plague",
-      "title": "The Plague",
-      "release_date": "2025-12-24",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 74.0,
-      "adjusted_score": 73.2,
-      "n_reviews": 14,
-      "total_adjustment": -0.84
-    },
-    {
       "movie_slug": "together-2025",
       "title": "Together",
       "release_date": "2025-07-30",
@@ -1543,17 +1543,6 @@
       "total_adjustment": -4.24
     },
     {
-      "movie_slug": "to-kill-a-wolf",
-      "title": "To Kill a Wolf",
-      "release_date": "2025-08-01",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 80.0,
-      "adjusted_score": 72.8,
-      "n_reviews": 5,
-      "total_adjustment": -7.19
-    },
-    {
       "movie_slug": "happyend",
       "title": "Happyend",
       "release_date": "2025-09-12",
@@ -1565,15 +1554,15 @@
       "total_adjustment": -2.21
     },
     {
-      "movie_slug": "is-this-thing-on",
-      "title": "Is This Thing On?",
-      "release_date": "2025-12-19",
+      "movie_slug": "to-kill-a-wolf",
+      "title": "To Kill a Wolf",
+      "release_date": "2025-08-01",
       "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 74.0,
-      "adjusted_score": 72.7,
-      "n_reviews": 34,
-      "total_adjustment": -1.33
+      "genre": "Drama",
+      "raw_score": 80.0,
+      "adjusted_score": 72.8,
+      "n_reviews": 5,
+      "total_adjustment": -7.19
     },
     {
       "movie_slug": "sally",
@@ -1673,6 +1662,17 @@
       "adjusted_score": 72.1,
       "n_reviews": 6,
       "total_adjustment": -5.86
+    },
+    {
+      "movie_slug": "is-this-thing-on",
+      "title": "Is This Thing On?",
+      "release_date": "2025-12-19",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 74.0,
+      "adjusted_score": 72.1,
+      "n_reviews": 36,
+      "total_adjustment": -1.86
     },
     {
       "movie_slug": "love+war",
@@ -3204,17 +3204,6 @@
       "total_adjustment": -2.16
     },
     {
-      "movie_slug": "we-bury-the-dead",
-      "title": "We Bury the Dead",
-      "release_date": "2026-01-02",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 63.0,
-      "adjusted_score": 64.7,
-      "n_reviews": 7,
-      "total_adjustment": 1.7
-    },
-    {
       "movie_slug": "the-damned-2025",
       "title": "The Damned",
       "release_date": "2025-01-03",
@@ -3268,6 +3257,17 @@
       "adjusted_score": 64.5,
       "n_reviews": 13,
       "total_adjustment": -0.52
+    },
+    {
+      "movie_slug": "the-housemaid-2025",
+      "title": "The Housemaid",
+      "release_date": "2025-12-19",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 65.0,
+      "adjusted_score": 64.5,
+      "n_reviews": 34,
+      "total_adjustment": -0.53
     },
     {
       "movie_slug": "ick",
@@ -3380,17 +3380,6 @@
       "total_adjustment": -0.89
     },
     {
-      "movie_slug": "the-housemaid-2025",
-      "title": "The Housemaid",
-      "release_date": "2025-12-19",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 65.0,
-      "adjusted_score": 63.9,
-      "n_reviews": 33,
-      "total_adjustment": -1.12
-    },
-    {
       "movie_slug": "europes-new-faces",
       "title": "Europe's New Faces",
       "release_date": "2025-12-12",
@@ -3479,17 +3468,6 @@
       "total_adjustment": 3.36
     },
     {
-      "movie_slug": "an-officer-and-a-spy",
-      "title": "An Officer and a Spy",
-      "release_date": "2025-08-08",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 60.0,
-      "adjusted_score": 63.4,
-      "n_reviews": 15,
-      "total_adjustment": 3.44
-    },
-    {
       "movie_slug": "words-of-war",
       "title": "Words of War",
       "release_date": "2025-05-02",
@@ -3499,6 +3477,17 @@
       "adjusted_score": 63.4,
       "n_reviews": 7,
       "total_adjustment": 0.45
+    },
+    {
+      "movie_slug": "an-officer-and-a-spy",
+      "title": "An Officer and a Spy",
+      "release_date": "2025-08-08",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 60.0,
+      "adjusted_score": 63.4,
+      "n_reviews": 15,
+      "total_adjustment": 3.44
     },
     {
       "movie_slug": "last-take-rust-and-the-story-of-halyna",
@@ -3578,17 +3567,6 @@
       "total_adjustment": -1.07
     },
     {
-      "movie_slug": "koln-75",
-      "title": "K\u00f6ln 75",
-      "release_date": "2025-10-17",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 62.0,
-      "adjusted_score": 62.9,
-      "n_reviews": 6,
-      "total_adjustment": 0.91
-    },
-    {
       "movie_slug": "wto99",
       "title": "WTO/99",
       "release_date": "2025-12-04",
@@ -3598,6 +3576,17 @@
       "adjusted_score": 62.9,
       "n_reviews": 4,
       "total_adjustment": -0.08
+    },
+    {
+      "movie_slug": "koln-75",
+      "title": "K\u00f6ln 75",
+      "release_date": "2025-10-17",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 62.0,
+      "adjusted_score": 62.9,
+      "n_reviews": 6,
+      "total_adjustment": 0.91
     },
     {
       "movie_slug": "the-dating-game",
@@ -3655,6 +3644,17 @@
       "total_adjustment": -1.26
     },
     {
+      "movie_slug": "song-sung-blue",
+      "title": "Song Sung Blue",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 63.0,
+      "adjusted_score": 62.6,
+      "n_reviews": 45,
+      "total_adjustment": -0.4
+    },
+    {
       "movie_slug": "bone-lake",
       "title": "Bone Lake",
       "release_date": "2025-10-03",
@@ -3697,17 +3697,6 @@
       "adjusted_score": 62.2,
       "n_reviews": 16,
       "total_adjustment": 1.25
-    },
-    {
-      "movie_slug": "song-sung-blue",
-      "title": "Song Sung Blue",
-      "release_date": "2025-12-25",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 63.0,
-      "adjusted_score": 62.1,
-      "n_reviews": 36,
-      "total_adjustment": -0.94
     },
     {
       "movie_slug": "in-your-dreams",
@@ -3831,6 +3820,17 @@
       "total_adjustment": 0.35
     },
     {
+      "movie_slug": "we-bury-the-dead",
+      "title": "We Bury the Dead",
+      "release_date": "2026-01-02",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 63.0,
+      "adjusted_score": 61.3,
+      "n_reviews": 15,
+      "total_adjustment": -1.69
+    },
+    {
       "movie_slug": "eric-larue",
       "title": "Eric Larue",
       "release_date": "2025-04-04",
@@ -3864,17 +3864,6 @@
       "total_adjustment": 0.26
     },
     {
-      "movie_slug": "avatar-fire-and-ash",
-      "title": "Avatar: Fire and Ash",
-      "release_date": "2025-12-19",
-      "year": 2025,
-      "genre": "Action",
-      "raw_score": 61.0,
-      "adjusted_score": 61.3,
-      "n_reviews": 58,
-      "total_adjustment": 0.34
-    },
-    {
       "movie_slug": "freakier-friday",
       "title": "Freakier Friday",
       "release_date": "2025-08-08",
@@ -3884,6 +3873,17 @@
       "adjusted_score": 61.3,
       "n_reviews": 42,
       "total_adjustment": 1.34
+    },
+    {
+      "movie_slug": "avatar-fire-and-ash",
+      "title": "Avatar: Fire and Ash",
+      "release_date": "2025-12-19",
+      "year": 2025,
+      "genre": "Action",
+      "raw_score": 61.0,
+      "adjusted_score": 61.3,
+      "n_reviews": 58,
+      "total_adjustment": 0.34
     },
     {
       "movie_slug": "titan-the-oceangate-disaster",
@@ -4387,9 +4387,9 @@
       "year": 2025,
       "genre": "Drama",
       "raw_score": 59.0,
-      "adjusted_score": 57.6,
-      "n_reviews": 16,
-      "total_adjustment": -1.36
+      "adjusted_score": 57.5,
+      "n_reviews": 18,
+      "total_adjustment": -1.54
     },
     {
       "movie_slug": "everythings-going-to-be-great",
