@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-04T09:42:26.678362",
+  "updated": "2026-01-05T19:37:13.684613",
   "count": 566,
   "movies": [
     {
@@ -4513,6 +4513,17 @@
       "total_adjustment": 4.81
     },
     {
+      "movie_slug": "goodbye-june",
+      "title": "Goodbye June",
+      "release_date": "2025-12-12",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 55.0,
+      "adjusted_score": 56.8,
+      "n_reviews": 27,
+      "total_adjustment": 1.84
+    },
+    {
       "movie_slug": "the-hand-that-rocks-the-cradle-2025",
       "title": "The Hand That Rocks the Cradle",
       "release_date": "2025-10-22",
@@ -4557,17 +4568,6 @@
       "total_adjustment": 4.63
     },
     {
-      "movie_slug": "the-witcher-sirens-of-the-deep",
-      "title": "The Witcher: Sirens of the Deep",
-      "release_date": "2025-02-11",
-      "year": 2025,
-      "genre": "Animation",
-      "raw_score": 54.0,
-      "adjusted_score": 56.4,
-      "n_reviews": 8,
-      "total_adjustment": 2.39
-    },
-    {
       "movie_slug": "breakdown-1975",
       "title": "Breakdown: 1975",
       "release_date": "2025-12-19",
@@ -4579,15 +4579,15 @@
       "total_adjustment": 7.36
     },
     {
-      "movie_slug": "goodbye-june",
-      "title": "Goodbye June",
-      "release_date": "2025-12-12",
+      "movie_slug": "the-witcher-sirens-of-the-deep",
+      "title": "The Witcher: Sirens of the Deep",
+      "release_date": "2025-02-11",
       "year": 2025,
-      "genre": "Drama",
-      "raw_score": 55.0,
+      "genre": "Animation",
+      "raw_score": 54.0,
       "adjusted_score": 56.4,
-      "n_reviews": 26,
-      "total_adjustment": 1.43
+      "n_reviews": 8,
+      "total_adjustment": 2.39
     },
     {
       "movie_slug": "adulthood",
