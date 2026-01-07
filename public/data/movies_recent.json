@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-05T19:37:13.684613",
+  "updated": "2026-01-06T22:25:28.813252",
   "count": 566,
   "movies": [
     {
@@ -47,17 +47,6 @@
       "total_adjustment": -6.79
     },
     {
-      "movie_slug": "the-secret-agent-2025",
-      "title": "The Secret Agent",
-      "release_date": "2025-11-26",
-      "year": 2025,
-      "genre": "Crime",
-      "raw_score": 92.0,
-      "adjusted_score": 88.0,
-      "n_reviews": 33,
-      "total_adjustment": -4.01
-    },
-    {
       "movie_slug": "my-undesirable-friends-part-i---last-air-in-moscow",
       "title": "My Undesirable Friends: Part I - Last Air in Moscow",
       "release_date": "2025-08-15",
@@ -67,6 +56,17 @@
       "adjusted_score": 87.9,
       "n_reviews": 12,
       "total_adjustment": -6.08
+    },
+    {
+      "movie_slug": "the-secret-agent-2025",
+      "title": "The Secret Agent",
+      "release_date": "2025-11-26",
+      "year": 2025,
+      "genre": "Crime",
+      "raw_score": 92.0,
+      "adjusted_score": 87.6,
+      "n_reviews": 34,
+      "total_adjustment": -4.38
     },
     {
       "movie_slug": "sorry-baby",
@@ -98,8 +98,8 @@
       "genre": "Drama",
       "raw_score": 88.0,
       "adjusted_score": 85.8,
-      "n_reviews": 57,
-      "total_adjustment": -2.22
+      "n_reviews": 58,
+      "total_adjustment": -2.18
     },
     {
       "movie_slug": "the-alabama-solution",
@@ -245,6 +245,17 @@
       "total_adjustment": -1.95
     },
     {
+      "movie_slug": "hamnet",
+      "title": "Hamnet",
+      "release_date": "2025-11-26",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 83.0,
+      "adjusted_score": 82.0,
+      "n_reviews": 51,
+      "total_adjustment": -0.99
+    },
+    {
       "movie_slug": "the-perfect-neighbor",
       "title": "The Perfect Neighbor",
       "release_date": "2025-10-10",
@@ -353,17 +364,6 @@
       "adjusted_score": 81.2,
       "n_reviews": 22,
       "total_adjustment": -2.76
-    },
-    {
-      "movie_slug": "hamnet",
-      "title": "Hamnet",
-      "release_date": "2025-11-26",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 83.0,
-      "adjusted_score": 81.2,
-      "n_reviews": 48,
-      "total_adjustment": -1.75
     },
     {
       "movie_slug": "grand-tour",
@@ -1048,17 +1048,6 @@
       "total_adjustment": -0.83
     },
     {
-      "movie_slug": "the-chronology-of-water",
-      "title": "The Chronology of Water",
-      "release_date": "2025-12-05",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 78.0,
-      "adjusted_score": 75.2,
-      "n_reviews": 20,
-      "total_adjustment": -2.83
-    },
-    {
       "movie_slug": "the-falling-sky",
       "title": "The Falling Sky",
       "release_date": "2025-03-07",
@@ -1070,6 +1059,17 @@
       "total_adjustment": -4.76
     },
     {
+      "movie_slug": "the-chronology-of-water",
+      "title": "The Chronology of Water",
+      "release_date": "2025-12-05",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 78.0,
+      "adjusted_score": 75.1,
+      "n_reviews": 21,
+      "total_adjustment": -2.86
+    },
+    {
       "movie_slug": "one-to-one-john-yoko",
       "title": "One to One: John & Yoko",
       "release_date": "2025-04-11",
@@ -1079,6 +1079,17 @@
       "adjusted_score": 74.9,
       "n_reviews": 24,
       "total_adjustment": -4.11
+    },
+    {
+      "movie_slug": "father-mother-sister-brother",
+      "title": "Father Mother Sister Brother",
+      "release_date": "2025-12-24",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 76.0,
+      "adjusted_score": 74.9,
+      "n_reviews": 30,
+      "total_adjustment": -1.13
     },
     {
       "movie_slug": "28-years-later",
@@ -1158,17 +1169,6 @@
       "total_adjustment": 0.45
     },
     {
-      "movie_slug": "father-mother-sister-brother",
-      "title": "Father Mother Sister Brother",
-      "release_date": "2025-12-24",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 76.0,
-      "adjusted_score": 74.4,
-      "n_reviews": 29,
-      "total_adjustment": -1.64
-    },
-    {
       "movie_slug": "in-the-shadow-of-beirut",
       "title": "In the Shadow of Beirut",
       "release_date": "2025-01-14",
@@ -1180,17 +1180,6 @@
       "total_adjustment": -5.72
     },
     {
-      "movie_slug": "cloud",
-      "title": "Cloud",
-      "release_date": "2025-07-18",
-      "year": 2025,
-      "genre": "Action",
-      "raw_score": 76.0,
-      "adjusted_score": 74.3,
-      "n_reviews": 25,
-      "total_adjustment": -1.73
-    },
-    {
       "movie_slug": "nouvelle-vague",
       "title": "Nouvelle Vague",
       "release_date": "2025-10-31",
@@ -1200,6 +1189,17 @@
       "adjusted_score": 74.3,
       "n_reviews": 37,
       "total_adjustment": -1.74
+    },
+    {
+      "movie_slug": "cloud",
+      "title": "Cloud",
+      "release_date": "2025-07-18",
+      "year": 2025,
+      "genre": "Action",
+      "raw_score": 76.0,
+      "adjusted_score": 74.3,
+      "n_reviews": 25,
+      "total_adjustment": -1.73
     },
     {
       "movie_slug": "mistress-dispeller",
@@ -3259,17 +3259,6 @@
       "total_adjustment": -0.52
     },
     {
-      "movie_slug": "the-housemaid-2025",
-      "title": "The Housemaid",
-      "release_date": "2025-12-19",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 65.0,
-      "adjusted_score": 64.5,
-      "n_reviews": 34,
-      "total_adjustment": -0.53
-    },
-    {
       "movie_slug": "ick",
       "title": "Ick",
       "release_date": "2025-07-27",
@@ -3378,6 +3367,17 @@
       "adjusted_score": 64.1,
       "n_reviews": 8,
       "total_adjustment": -0.89
+    },
+    {
+      "movie_slug": "the-housemaid-2025",
+      "title": "The Housemaid",
+      "release_date": "2025-12-19",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 65.0,
+      "adjusted_score": 64.0,
+      "n_reviews": 35,
+      "total_adjustment": -1.01
     },
     {
       "movie_slug": "europes-new-faces",
@@ -3798,6 +3798,17 @@
       "total_adjustment": -0.17
     },
     {
+      "movie_slug": "avatar-fire-and-ash",
+      "title": "Avatar: Fire and Ash",
+      "release_date": "2025-12-19",
+      "year": 2025,
+      "genre": "Action",
+      "raw_score": 61.0,
+      "adjusted_score": 61.6,
+      "n_reviews": 59,
+      "total_adjustment": 0.57
+    },
+    {
       "movie_slug": "brides",
       "title": "Brides",
       "release_date": "2025-09-26",
@@ -3873,17 +3884,6 @@
       "adjusted_score": 61.3,
       "n_reviews": 42,
       "total_adjustment": 1.34
-    },
-    {
-      "movie_slug": "avatar-fire-and-ash",
-      "title": "Avatar: Fire and Ash",
-      "release_date": "2025-12-19",
-      "year": 2025,
-      "genre": "Action",
-      "raw_score": 61.0,
-      "adjusted_score": 61.3,
-      "n_reviews": 58,
-      "total_adjustment": 0.34
     },
     {
       "movie_slug": "titan-the-oceangate-disaster",
@@ -4381,17 +4381,6 @@
       "total_adjustment": -0.28
     },
     {
-      "movie_slug": "the-choral",
-      "title": "The Choral",
-      "release_date": "2025-12-25",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 59.0,
-      "adjusted_score": 57.5,
-      "n_reviews": 18,
-      "total_adjustment": -1.54
-    },
-    {
       "movie_slug": "everythings-going-to-be-great",
       "title": "Everything's Going to Be Great",
       "release_date": "2025-06-20",
@@ -4412,6 +4401,17 @@
       "adjusted_score": 57.5,
       "n_reviews": 24,
       "total_adjustment": 0.54
+    },
+    {
+      "movie_slug": "the-choral",
+      "title": "The Choral",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 59.0,
+      "adjusted_score": 57.5,
+      "n_reviews": 19,
+      "total_adjustment": -1.46
     },
     {
       "movie_slug": "night-always-comes",
@@ -5558,17 +5558,6 @@
       "total_adjustment": 1.45
     },
     {
-      "movie_slug": "anaconda-2025",
-      "title": "Anaconda",
-      "release_date": "2025-12-25",
-      "year": 2025,
-      "genre": "Action",
-      "raw_score": 44.0,
-      "adjusted_score": 47.4,
-      "n_reviews": 31,
-      "total_adjustment": 3.43
-    },
-    {
       "movie_slug": "the-carpenters-son",
       "title": "The Carpenter's Son",
       "release_date": "2025-11-14",
@@ -5611,6 +5600,17 @@
       "adjusted_score": 46.9,
       "n_reviews": 33,
       "total_adjustment": 4.86
+    },
+    {
+      "movie_slug": "anaconda-2025",
+      "title": "Anaconda",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Action",
+      "raw_score": 44.0,
+      "adjusted_score": 46.8,
+      "n_reviews": 33,
+      "total_adjustment": 2.79
     },
     {
       "movie_slug": "the-old-guard-2",
