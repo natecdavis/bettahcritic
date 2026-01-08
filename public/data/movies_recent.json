@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-07T07:24:38.445887",
+  "updated": "2026-01-08T09:27:40.389380",
   "count": 566,
   "movies": [
     {
@@ -1169,6 +1169,17 @@
       "total_adjustment": 0.45
     },
     {
+      "movie_slug": "nouvelle-vague",
+      "title": "Nouvelle Vague",
+      "release_date": "2025-10-31",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 76.0,
+      "adjusted_score": 74.4,
+      "n_reviews": 38,
+      "total_adjustment": -1.6
+    },
+    {
       "movie_slug": "in-the-shadow-of-beirut",
       "title": "In the Shadow of Beirut",
       "release_date": "2025-01-14",
@@ -1178,17 +1189,6 @@
       "adjusted_score": 74.3,
       "n_reviews": 5,
       "total_adjustment": -5.72
-    },
-    {
-      "movie_slug": "nouvelle-vague",
-      "title": "Nouvelle Vague",
-      "release_date": "2025-10-31",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 76.0,
-      "adjusted_score": 74.3,
-      "n_reviews": 37,
-      "total_adjustment": -1.74
     },
     {
       "movie_slug": "cloud",
@@ -2786,6 +2786,17 @@
       "total_adjustment": -1.4
     },
     {
+      "movie_slug": "rosemead",
+      "title": "Rosemead",
+      "release_date": "2025-12-05",
+      "year": 2025,
+      "genre": "Crime",
+      "raw_score": 71.0,
+      "adjusted_score": 66.6,
+      "n_reviews": 8,
+      "total_adjustment": -4.36
+    },
+    {
       "movie_slug": "diciannove",
       "title": "Diciannove",
       "release_date": "2025-07-25",
@@ -2861,17 +2872,6 @@
       "adjusted_score": 66.4,
       "n_reviews": 33,
       "total_adjustment": 1.36
-    },
-    {
-      "movie_slug": "rosemead",
-      "title": "Rosemead",
-      "release_date": "2025-12-05",
-      "year": 2025,
-      "genre": "Crime",
-      "raw_score": 71.0,
-      "adjusted_score": 66.4,
-      "n_reviews": 7,
-      "total_adjustment": -4.58
     },
     {
       "movie_slug": "mission-impossible-the-final-reckoning",
@@ -3798,6 +3798,17 @@
       "total_adjustment": -0.17
     },
     {
+      "movie_slug": "we-bury-the-dead",
+      "title": "We Bury the Dead",
+      "release_date": "2026-01-02",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 63.0,
+      "adjusted_score": 61.8,
+      "n_reviews": 16,
+      "total_adjustment": -1.19
+    },
+    {
       "movie_slug": "avatar-fire-and-ash",
       "title": "Avatar: Fire and Ash",
       "release_date": "2025-12-19",
@@ -3829,17 +3840,6 @@
       "adjusted_score": 61.4,
       "n_reviews": 28,
       "total_adjustment": 0.35
-    },
-    {
-      "movie_slug": "we-bury-the-dead",
-      "title": "We Bury the Dead",
-      "release_date": "2026-01-02",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 63.0,
-      "adjusted_score": 61.3,
-      "n_reviews": 15,
-      "total_adjustment": -1.69
     },
     {
       "movie_slug": "eric-larue",
