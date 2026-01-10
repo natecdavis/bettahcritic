@@ -1,6 +1,6 @@
 {
-  "updated": "2026-01-08T09:27:40.389380",
-  "count": 566,
+  "updated": "2026-01-09T19:08:01.915427",
+  "count": 576,
   "movies": [
     {
       "movie_slug": "compensation",
@@ -113,17 +113,6 @@
       "total_adjustment": -5.33
     },
     {
-      "movie_slug": "the-voice-of-hind-rajab",
-      "title": "The Voice of Hind Rajab",
-      "release_date": "2025-12-17",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 84.0,
-      "adjusted_score": 83.8,
-      "n_reviews": 20,
-      "total_adjustment": -0.18
-    },
-    {
       "movie_slug": "april",
       "title": "April",
       "release_date": "2025-04-25",
@@ -133,6 +122,17 @@
       "adjusted_score": 83.7,
       "n_reviews": 18,
       "total_adjustment": -2.32
+    },
+    {
+      "movie_slug": "sentimental-value",
+      "title": "Sentimental Value",
+      "release_date": "2025-11-07",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 86.0,
+      "adjusted_score": 83.7,
+      "n_reviews": 44,
+      "total_adjustment": -2.31
     },
     {
       "movie_slug": "train-dreams",
@@ -157,15 +157,15 @@
       "total_adjustment": -9.51
     },
     {
-      "movie_slug": "sentimental-value",
-      "title": "Sentimental Value",
-      "release_date": "2025-11-07",
+      "movie_slug": "the-voice-of-hind-rajab",
+      "title": "The Voice of Hind Rajab",
+      "release_date": "2025-12-17",
       "year": 2025,
       "genre": "Drama",
-      "raw_score": 86.0,
-      "adjusted_score": 83.3,
-      "n_reviews": 43,
-      "total_adjustment": -2.74
+      "raw_score": 84.0,
+      "adjusted_score": 83.4,
+      "n_reviews": 21,
+      "total_adjustment": -0.64
     },
     {
       "movie_slug": "cover-up",
@@ -218,9 +218,9 @@
       "year": 2025,
       "genre": "Comedy",
       "raw_score": 88.0,
-      "adjusted_score": 82.8,
-      "n_reviews": 37,
-      "total_adjustment": -5.2
+      "adjusted_score": 83.1,
+      "n_reviews": 39,
+      "total_adjustment": -4.88
     },
     {
       "movie_slug": "afternoons-of-solitude",
@@ -234,6 +234,17 @@
       "total_adjustment": -2.26
     },
     {
+      "movie_slug": "hamnet",
+      "title": "Hamnet",
+      "release_date": "2025-11-26",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 83.0,
+      "adjusted_score": 82.3,
+      "n_reviews": 53,
+      "total_adjustment": -0.74
+    },
+    {
       "movie_slug": "sinners",
       "title": "Sinners",
       "release_date": "2025-04-18",
@@ -243,17 +254,6 @@
       "adjusted_score": 82.1,
       "n_reviews": 55,
       "total_adjustment": -1.95
-    },
-    {
-      "movie_slug": "hamnet",
-      "title": "Hamnet",
-      "release_date": "2025-11-26",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 83.0,
-      "adjusted_score": 82.0,
-      "n_reviews": 51,
-      "total_adjustment": -0.99
     },
     {
       "movie_slug": "the-perfect-neighbor",
@@ -485,6 +485,17 @@
       "adjusted_score": 80.0,
       "n_reviews": 16,
       "total_adjustment": -2.96
+    },
+    {
+      "movie_slug": "magellan",
+      "title": "Magellan",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Adventure",
+      "raw_score": 84.0,
+      "adjusted_score": 79.9,
+      "n_reviews": 8,
+      "total_adjustment": -4.14
     },
     {
       "movie_slug": "apocalypse-in-the-tropics",
@@ -883,6 +894,17 @@
       "total_adjustment": -3.2
     },
     {
+      "movie_slug": "holding-liat",
+      "title": "Holding Liat",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 80.0,
+      "adjusted_score": 76.8,
+      "n_reviews": 7,
+      "total_adjustment": -3.15
+    },
+    {
       "movie_slug": "devo",
       "title": "Devo",
       "release_date": "2025-08-19",
@@ -927,6 +949,17 @@
       "total_adjustment": 0.38
     },
     {
+      "movie_slug": "the-testament-of-ann-lee",
+      "title": "The Testament of Ann Lee",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 78.0,
+      "adjusted_score": 76.4,
+      "n_reviews": 31,
+      "total_adjustment": -1.59
+    },
+    {
       "movie_slug": "oceans-are-the-real-continents",
       "title": "Oceans Are the Real Continents",
       "release_date": "2025-01-10",
@@ -949,6 +982,17 @@
       "total_adjustment": -1.85
     },
     {
+      "movie_slug": "the-chronology-of-water",
+      "title": "The Chronology of Water",
+      "release_date": "2025-12-05",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 78.0,
+      "adjusted_score": 76.1,
+      "n_reviews": 24,
+      "total_adjustment": -1.87
+    },
+    {
       "movie_slug": "urchin",
       "title": "Urchin",
       "release_date": "2025-10-10",
@@ -969,17 +1013,6 @@
       "adjusted_score": 75.8,
       "n_reviews": 4,
       "total_adjustment": -3.21
-    },
-    {
-      "movie_slug": "the-testament-of-ann-lee",
-      "title": "The Testament of Ann Lee",
-      "release_date": "2025-12-25",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 78.0,
-      "adjusted_score": 75.7,
-      "n_reviews": 30,
-      "total_adjustment": -2.29
     },
     {
       "movie_slug": "sly-lives!-aka-the-burden-of-black-genius",
@@ -1059,15 +1092,15 @@
       "total_adjustment": -4.76
     },
     {
-      "movie_slug": "the-chronology-of-water",
-      "title": "The Chronology of Water",
-      "release_date": "2025-12-05",
-      "year": 2025,
-      "genre": "Biography",
+      "movie_slug": "all-thats-left-of-you",
+      "title": "All That's Left of You",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Drama",
       "raw_score": 78.0,
-      "adjusted_score": 75.1,
-      "n_reviews": 21,
-      "total_adjustment": -2.86
+      "adjusted_score": 75.0,
+      "n_reviews": 10,
+      "total_adjustment": -2.95
     },
     {
       "movie_slug": "one-to-one-john-yoko",
@@ -1134,6 +1167,17 @@
       "adjusted_score": 74.7,
       "n_reviews": 11,
       "total_adjustment": -0.27
+    },
+    {
+      "movie_slug": "obex",
+      "title": "OBEX",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 76.0,
+      "adjusted_score": 74.7,
+      "n_reviews": 11,
+      "total_adjustment": -1.25
     },
     {
       "movie_slug": "stiller-meara-nothing-is-lost",
@@ -1233,6 +1277,17 @@
       "adjusted_score": 74.1,
       "n_reviews": 6,
       "total_adjustment": -6.93
+    },
+    {
+      "movie_slug": "young-mothers",
+      "title": "Young Mothers",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 79.0,
+      "adjusted_score": 74.1,
+      "n_reviews": 18,
+      "total_adjustment": -4.89
     },
     {
       "movie_slug": "my-mom-jayne",
@@ -1543,17 +1598,6 @@
       "total_adjustment": -4.24
     },
     {
-      "movie_slug": "happyend",
-      "title": "Happyend",
-      "release_date": "2025-09-12",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 75.0,
-      "adjusted_score": 72.8,
-      "n_reviews": 10,
-      "total_adjustment": -2.21
-    },
-    {
       "movie_slug": "to-kill-a-wolf",
       "title": "To Kill a Wolf",
       "release_date": "2025-08-01",
@@ -1563,6 +1607,17 @@
       "adjusted_score": 72.8,
       "n_reviews": 5,
       "total_adjustment": -7.19
+    },
+    {
+      "movie_slug": "happyend",
+      "title": "Happyend",
+      "release_date": "2025-09-12",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 75.0,
+      "adjusted_score": 72.8,
+      "n_reviews": 10,
+      "total_adjustment": -2.21
     },
     {
       "movie_slug": "sally",
@@ -1664,17 +1719,6 @@
       "total_adjustment": -5.86
     },
     {
-      "movie_slug": "is-this-thing-on",
-      "title": "Is This Thing On?",
-      "release_date": "2025-12-19",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 74.0,
-      "adjusted_score": 72.1,
-      "n_reviews": 36,
-      "total_adjustment": -1.86
-    },
-    {
       "movie_slug": "love+war",
       "title": "Love+War",
       "release_date": "2025-10-24",
@@ -1772,6 +1816,17 @@
       "adjusted_score": 71.7,
       "n_reviews": 6,
       "total_adjustment": -4.26
+    },
+    {
+      "movie_slug": "is-this-thing-on",
+      "title": "Is This Thing On?",
+      "release_date": "2025-12-19",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 74.0,
+      "adjusted_score": 71.7,
+      "n_reviews": 37,
+      "total_adjustment": -2.26
     },
     {
       "movie_slug": "la-grazia",
@@ -2399,6 +2454,17 @@
       "adjusted_score": 68.5,
       "n_reviews": 5,
       "total_adjustment": -1.49
+    },
+    {
+      "movie_slug": "dead-mans-wire",
+      "title": "Dead Man's Wire",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Biography",
+      "raw_score": 71.0,
+      "adjusted_score": 68.4,
+      "n_reviews": 25,
+      "total_adjustment": -2.62
     },
     {
       "movie_slug": "invention",
@@ -3897,6 +3963,17 @@
       "total_adjustment": 3.16
     },
     {
+      "movie_slug": "primate",
+      "title": "Primate",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 61.0,
+      "adjusted_score": 61.2,
+      "n_reviews": 17,
+      "total_adjustment": 0.2
+    },
+    {
       "movie_slug": "grafted",
       "title": "Grafted",
       "release_date": "2025-01-24",
@@ -4403,17 +4480,6 @@
       "total_adjustment": 0.54
     },
     {
-      "movie_slug": "the-choral",
-      "title": "The Choral",
-      "release_date": "2025-12-25",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 59.0,
-      "adjusted_score": 57.5,
-      "n_reviews": 19,
-      "total_adjustment": -1.46
-    },
-    {
       "movie_slug": "night-always-comes",
       "title": "Night Always Comes",
       "release_date": "2025-08-15",
@@ -4489,6 +4555,17 @@
       "adjusted_score": 57.0,
       "n_reviews": 7,
       "total_adjustment": 1.0
+    },
+    {
+      "movie_slug": "the-choral",
+      "title": "The Choral",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 59.0,
+      "adjusted_score": 57.0,
+      "n_reviews": 21,
+      "total_adjustment": -1.99
     },
     {
       "movie_slug": "stitch-head",
@@ -4852,6 +4929,17 @@
       "adjusted_score": 55.0,
       "n_reviews": 27,
       "total_adjustment": 3.05
+    },
+    {
+      "movie_slug": "people-we-meet-on-vacation",
+      "title": "People We Meet on Vacation",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Romance",
+      "raw_score": 50.0,
+      "adjusted_score": 54.9,
+      "n_reviews": 11,
+      "total_adjustment": 4.88
     },
     {
       "movie_slug": "m3gan-20",
@@ -5327,6 +5415,17 @@
       "total_adjustment": 5.01
     },
     {
+      "movie_slug": "greenland-2-migration",
+      "title": "Greenland 2: Migration",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 49.0,
+      "adjusted_score": 50.8,
+      "n_reviews": 18,
+      "total_adjustment": 1.77
+    },
+    {
       "movie_slug": "riff-raff",
       "title": "Riff Raff",
       "release_date": "2025-02-28",
@@ -5699,6 +5798,17 @@
       "adjusted_score": 45.7,
       "n_reviews": 36,
       "total_adjustment": 3.73
+    },
+    {
+      "movie_slug": "my-neighbor-adolf",
+      "title": "My Neighbor Adolf",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 35.0,
+      "adjusted_score": 45.6,
+      "n_reviews": 4,
+      "total_adjustment": 10.59
     },
     {
       "movie_slug": "millers-in-marriage",
