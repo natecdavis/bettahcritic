@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-11T18:34:59.057292",
+  "updated": "2026-01-12T18:31:48.975905",
   "count": 576,
   "movies": [
     {
@@ -905,6 +905,17 @@
       "total_adjustment": -3.15
     },
     {
+      "movie_slug": "the-testament-of-ann-lee",
+      "title": "The Testament of Ann Lee",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 78.0,
+      "adjusted_score": 76.8,
+      "n_reviews": 32,
+      "total_adjustment": -1.18
+    },
+    {
       "movie_slug": "devo",
       "title": "Devo",
       "release_date": "2025-08-19",
@@ -947,17 +958,6 @@
       "adjusted_score": 76.4,
       "n_reviews": 21,
       "total_adjustment": 0.38
-    },
-    {
-      "movie_slug": "the-testament-of-ann-lee",
-      "title": "The Testament of Ann Lee",
-      "release_date": "2025-12-25",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 78.0,
-      "adjusted_score": 76.4,
-      "n_reviews": 31,
-      "total_adjustment": -1.59
     },
     {
       "movie_slug": "oceans-are-the-real-continents",
@@ -1158,6 +1158,17 @@
       "total_adjustment": 1.84
     },
     {
+      "movie_slug": "young-mothers",
+      "title": "Young Mothers",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 79.0,
+      "adjusted_score": 74.7,
+      "n_reviews": 19,
+      "total_adjustment": -4.31
+    },
+    {
       "movie_slug": "ghost-trail",
       "title": "Ghost Trail",
       "release_date": "2025-05-30",
@@ -1277,17 +1288,6 @@
       "adjusted_score": 74.1,
       "n_reviews": 6,
       "total_adjustment": -6.93
-    },
-    {
-      "movie_slug": "young-mothers",
-      "title": "Young Mothers",
-      "release_date": "2026-01-09",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 79.0,
-      "adjusted_score": 74.1,
-      "n_reviews": 18,
-      "total_adjustment": -4.89
     },
     {
       "movie_slug": "my-mom-jayne",
@@ -4931,17 +4931,6 @@
       "total_adjustment": 3.05
     },
     {
-      "movie_slug": "people-we-meet-on-vacation",
-      "title": "People We Meet on Vacation",
-      "release_date": "2026-01-09",
-      "year": 2026,
-      "genre": "Romance",
-      "raw_score": 50.0,
-      "adjusted_score": 54.9,
-      "n_reviews": 11,
-      "total_adjustment": 4.88
-    },
-    {
       "movie_slug": "m3gan-20",
       "title": "M3GAN 2.0",
       "release_date": "2025-06-27",
@@ -5061,6 +5050,17 @@
       "adjusted_score": 53.9,
       "n_reviews": 7,
       "total_adjustment": 2.9
+    },
+    {
+      "movie_slug": "people-we-meet-on-vacation",
+      "title": "People We Meet on Vacation",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Romance",
+      "raw_score": 50.0,
+      "adjusted_score": 53.9,
+      "n_reviews": 12,
+      "total_adjustment": 3.93
     },
     {
       "movie_slug": "the-cut-2024",
