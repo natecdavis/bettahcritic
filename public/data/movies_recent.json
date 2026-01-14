@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-12T18:31:48.975905",
+  "updated": "2026-01-14T14:33:59.429372",
   "count": 576,
   "movies": [
     {
@@ -179,6 +179,17 @@
       "total_adjustment": -1.67
     },
     {
+      "movie_slug": "no-other-choice",
+      "title": "No Other Choice",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 88.0,
+      "adjusted_score": 83.2,
+      "n_reviews": 40,
+      "total_adjustment": -4.83
+    },
+    {
       "movie_slug": "familiar-touch",
       "title": "Familiar Touch",
       "release_date": "2025-06-20",
@@ -212,17 +223,6 @@
       "total_adjustment": -3.85
     },
     {
-      "movie_slug": "no-other-choice",
-      "title": "No Other Choice",
-      "release_date": "2025-12-25",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 88.0,
-      "adjusted_score": 83.1,
-      "n_reviews": 39,
-      "total_adjustment": -4.88
-    },
-    {
       "movie_slug": "afternoons-of-solitude",
       "title": "Afternoons of Solitude",
       "release_date": "2025-06-27",
@@ -243,6 +243,17 @@
       "adjusted_score": 82.3,
       "n_reviews": 53,
       "total_adjustment": -0.74
+    },
+    {
+      "movie_slug": "magellan",
+      "title": "Magellan",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Adventure",
+      "raw_score": 84.0,
+      "adjusted_score": 82.2,
+      "n_reviews": 10,
+      "total_adjustment": -1.84
     },
     {
       "movie_slug": "sinners",
@@ -322,17 +333,6 @@
       "total_adjustment": -3.63
     },
     {
-      "movie_slug": "the-tale-of-silyan",
-      "title": "The Tale of Silyan",
-      "release_date": "2025-11-28",
-      "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 83.0,
-      "adjusted_score": 81.3,
-      "n_reviews": 11,
-      "total_adjustment": -1.69
-    },
-    {
       "movie_slug": "meeting-with-pol-pot",
       "title": "Meeting with Pol Pot",
       "release_date": "2025-06-13",
@@ -341,6 +341,17 @@
       "raw_score": 83.0,
       "adjusted_score": 81.3,
       "n_reviews": 8,
+      "total_adjustment": -1.69
+    },
+    {
+      "movie_slug": "the-tale-of-silyan",
+      "title": "The Tale of Silyan",
+      "release_date": "2025-11-28",
+      "year": 2025,
+      "genre": "Documentary",
+      "raw_score": 83.0,
+      "adjusted_score": 81.3,
+      "n_reviews": 11,
       "total_adjustment": -1.69
     },
     {
@@ -449,9 +460,9 @@
       "year": 2025,
       "genre": "Biography",
       "raw_score": 82.0,
-      "adjusted_score": 80.5,
-      "n_reviews": 30,
-      "total_adjustment": -1.47
+      "adjusted_score": 80.4,
+      "n_reviews": 31,
+      "total_adjustment": -1.58
     },
     {
       "movie_slug": "from-ground-zero",
@@ -485,17 +496,6 @@
       "adjusted_score": 80.0,
       "n_reviews": 16,
       "total_adjustment": -2.96
-    },
-    {
-      "movie_slug": "magellan",
-      "title": "Magellan",
-      "release_date": "2026-01-09",
-      "year": 2026,
-      "genre": "Adventure",
-      "raw_score": 84.0,
-      "adjusted_score": 79.9,
-      "n_reviews": 8,
-      "total_adjustment": -4.14
     },
     {
       "movie_slug": "apocalypse-in-the-tropics",
@@ -812,9 +812,9 @@
       "year": 2025,
       "genre": "Documentary",
       "raw_score": 81.0,
-      "adjusted_score": 77.4,
-      "n_reviews": 11,
-      "total_adjustment": -3.6
+      "adjusted_score": 77.3,
+      "n_reviews": 12,
+      "total_adjustment": -3.71
     },
     {
       "movie_slug": "the-ballad-of-wallis-island",
@@ -894,17 +894,6 @@
       "total_adjustment": -3.2
     },
     {
-      "movie_slug": "holding-liat",
-      "title": "Holding Liat",
-      "release_date": "2026-01-09",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 80.0,
-      "adjusted_score": 76.8,
-      "n_reviews": 7,
-      "total_adjustment": -3.15
-    },
-    {
       "movie_slug": "the-testament-of-ann-lee",
       "title": "The Testament of Ann Lee",
       "release_date": "2025-12-25",
@@ -912,8 +901,8 @@
       "genre": "Biography",
       "raw_score": 78.0,
       "adjusted_score": 76.8,
-      "n_reviews": 32,
-      "total_adjustment": -1.18
+      "n_reviews": 33,
+      "total_adjustment": -1.19
     },
     {
       "movie_slug": "devo",
@@ -971,6 +960,17 @@
       "total_adjustment": -1.92
     },
     {
+      "movie_slug": "the-chronology-of-water",
+      "title": "The Chronology of Water",
+      "release_date": "2025-12-05",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 78.0,
+      "adjusted_score": 76.1,
+      "n_reviews": 25,
+      "total_adjustment": -1.91
+    },
+    {
       "movie_slug": "lurker",
       "title": "Lurker",
       "release_date": "2025-08-22",
@@ -980,17 +980,6 @@
       "adjusted_score": 76.1,
       "n_reviews": 23,
       "total_adjustment": -1.85
-    },
-    {
-      "movie_slug": "the-chronology-of-water",
-      "title": "The Chronology of Water",
-      "release_date": "2025-12-05",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 78.0,
-      "adjusted_score": 76.1,
-      "n_reviews": 24,
-      "total_adjustment": -1.87
     },
     {
       "movie_slug": "urchin",
@@ -1013,6 +1002,17 @@
       "adjusted_score": 75.8,
       "n_reviews": 4,
       "total_adjustment": -3.21
+    },
+    {
+      "movie_slug": "holding-liat",
+      "title": "Holding Liat",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 80.0,
+      "adjusted_score": 75.7,
+      "n_reviews": 8,
+      "total_adjustment": -4.29
     },
     {
       "movie_slug": "sly-lives!-aka-the-burden-of-black-genius",
@@ -1046,6 +1046,17 @@
       "adjusted_score": 75.5,
       "n_reviews": 58,
       "total_adjustment": -2.46
+    },
+    {
+      "movie_slug": "young-mothers",
+      "title": "Young Mothers",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 79.0,
+      "adjusted_score": 75.4,
+      "n_reviews": 20,
+      "total_adjustment": -3.62
     },
     {
       "movie_slug": "if-i-had-legs-id-kick-you",
@@ -1156,17 +1167,6 @@
       "adjusted_score": 74.8,
       "n_reviews": 5,
       "total_adjustment": 1.84
-    },
-    {
-      "movie_slug": "young-mothers",
-      "title": "Young Mothers",
-      "release_date": "2026-01-09",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 79.0,
-      "adjusted_score": 74.7,
-      "n_reviews": 19,
-      "total_adjustment": -4.31
     },
     {
       "movie_slug": "ghost-trail",
@@ -2456,17 +2456,6 @@
       "total_adjustment": -1.49
     },
     {
-      "movie_slug": "dead-mans-wire",
-      "title": "Dead Man's Wire",
-      "release_date": "2026-01-09",
-      "year": 2026,
-      "genre": "Biography",
-      "raw_score": 71.0,
-      "adjusted_score": 68.4,
-      "n_reviews": 25,
-      "total_adjustment": -2.62
-    },
-    {
       "movie_slug": "invention",
       "title": "Invention",
       "release_date": "2025-04-18",
@@ -2533,15 +2522,15 @@
       "total_adjustment": -2.12
     },
     {
-      "movie_slug": "rental-family",
-      "title": "Rental Family",
-      "release_date": "2025-11-21",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 67.0,
+      "movie_slug": "dead-mans-wire",
+      "title": "Dead Man's Wire",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Biography",
+      "raw_score": 71.0,
       "adjusted_score": 67.9,
-      "n_reviews": 31,
-      "total_adjustment": 0.88
+      "n_reviews": 26,
+      "total_adjustment": -3.12
     },
     {
       "movie_slug": "the-surfer",
@@ -2630,6 +2619,17 @@
       "adjusted_score": 67.6,
       "n_reviews": 4,
       "total_adjustment": -2.39
+    },
+    {
+      "movie_slug": "rental-family",
+      "title": "Rental Family",
+      "release_date": "2025-11-21",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 67.0,
+      "adjusted_score": 67.5,
+      "n_reviews": 32,
+      "total_adjustment": 0.53
     },
     {
       "movie_slug": "dead-of-winter-2025",
@@ -3875,6 +3875,17 @@
       "total_adjustment": -1.19
     },
     {
+      "movie_slug": "primate",
+      "title": "Primate",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 61.0,
+      "adjusted_score": 61.6,
+      "n_reviews": 19,
+      "total_adjustment": 0.58
+    },
+    {
       "movie_slug": "avatar-fire-and-ash",
       "title": "Avatar: Fire and Ash",
       "release_date": "2025-12-19",
@@ -3961,17 +3972,6 @@
       "adjusted_score": 61.2,
       "n_reviews": 6,
       "total_adjustment": 3.16
-    },
-    {
-      "movie_slug": "primate",
-      "title": "Primate",
-      "release_date": "2026-01-09",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 61.0,
-      "adjusted_score": 61.2,
-      "n_reviews": 17,
-      "total_adjustment": 0.2
     },
     {
       "movie_slug": "grafted",
@@ -4414,6 +4414,17 @@
       "total_adjustment": 0.04
     },
     {
+      "movie_slug": "the-choral",
+      "title": "The Choral",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 59.0,
+      "adjusted_score": 57.9,
+      "n_reviews": 22,
+      "total_adjustment": -1.12
+    },
+    {
       "movie_slug": "fight-or-flight",
       "title": "Fight or Flight",
       "release_date": "2025-05-09",
@@ -4555,17 +4566,6 @@
       "adjusted_score": 57.0,
       "n_reviews": 7,
       "total_adjustment": 1.0
-    },
-    {
-      "movie_slug": "the-choral",
-      "title": "The Choral",
-      "release_date": "2025-12-25",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 59.0,
-      "adjusted_score": 57.0,
-      "n_reviews": 21,
-      "total_adjustment": -1.99
     },
     {
       "movie_slug": "stitch-head",
@@ -4997,6 +4997,17 @@
       "total_adjustment": -2.44
     },
     {
+      "movie_slug": "people-we-meet-on-vacation",
+      "title": "People We Meet on Vacation",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Romance",
+      "raw_score": 50.0,
+      "adjusted_score": 54.5,
+      "n_reviews": 13,
+      "total_adjustment": 4.46
+    },
+    {
       "movie_slug": "g20",
       "title": "G20",
       "release_date": "2025-04-10",
@@ -5050,17 +5061,6 @@
       "adjusted_score": 53.9,
       "n_reviews": 7,
       "total_adjustment": 2.9
-    },
-    {
-      "movie_slug": "people-we-meet-on-vacation",
-      "title": "People We Meet on Vacation",
-      "release_date": "2026-01-09",
-      "year": 2026,
-      "genre": "Romance",
-      "raw_score": 50.0,
-      "adjusted_score": 53.9,
-      "n_reviews": 12,
-      "total_adjustment": 3.93
     },
     {
       "movie_slug": "the-cut-2024",
