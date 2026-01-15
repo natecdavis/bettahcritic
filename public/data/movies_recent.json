@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-14T14:33:59.429372",
+  "updated": "2026-01-15T08:17:14.831555",
   "count": 576,
   "movies": [
     {
@@ -399,6 +399,17 @@
       "total_adjustment": -4.03
     },
     {
+      "movie_slug": "peter-hujars-day",
+      "title": "Peter Hujar's Day",
+      "release_date": "2025-11-07",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 82.0,
+      "adjusted_score": 80.8,
+      "n_reviews": 32,
+      "total_adjustment": -1.22
+    },
+    {
       "movie_slug": "resurrection-2025",
       "title": "Resurrection",
       "release_date": "2025-12-12",
@@ -432,17 +443,6 @@
       "total_adjustment": -2.31
     },
     {
-      "movie_slug": "predators-2025",
-      "title": "Predators",
-      "release_date": "2025-09-19",
-      "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 84.0,
-      "adjusted_score": 80.6,
-      "n_reviews": 18,
-      "total_adjustment": -3.38
-    },
-    {
       "movie_slug": "homebound-2025",
       "title": "Homebound",
       "release_date": "2025-09-26",
@@ -454,15 +454,15 @@
       "total_adjustment": -4.38
     },
     {
-      "movie_slug": "peter-hujars-day",
-      "title": "Peter Hujar's Day",
-      "release_date": "2025-11-07",
+      "movie_slug": "predators-2025",
+      "title": "Predators",
+      "release_date": "2025-09-19",
       "year": 2025,
-      "genre": "Biography",
-      "raw_score": 82.0,
-      "adjusted_score": 80.4,
-      "n_reviews": 31,
-      "total_adjustment": -1.58
+      "genre": "Documentary",
+      "raw_score": 84.0,
+      "adjusted_score": 80.6,
+      "n_reviews": 18,
+      "total_adjustment": -3.38
     },
     {
       "movie_slug": "from-ground-zero",
@@ -2621,17 +2621,6 @@
       "total_adjustment": -2.39
     },
     {
-      "movie_slug": "rental-family",
-      "title": "Rental Family",
-      "release_date": "2025-11-21",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 67.0,
-      "adjusted_score": 67.5,
-      "n_reviews": 32,
-      "total_adjustment": 0.53
-    },
-    {
       "movie_slug": "dead-of-winter-2025",
       "title": "Dead of Winter",
       "release_date": "2025-09-26",
@@ -2971,6 +2960,17 @@
       "adjusted_score": 66.2,
       "n_reviews": 9,
       "total_adjustment": -0.77
+    },
+    {
+      "movie_slug": "rental-family",
+      "title": "Rental Family",
+      "release_date": "2025-11-21",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 67.0,
+      "adjusted_score": 66.2,
+      "n_reviews": 33,
+      "total_adjustment": -0.79
     },
     {
       "movie_slug": "demon-slayer--kimetsu-no-yaiba--the-movie-infinity-castle",
