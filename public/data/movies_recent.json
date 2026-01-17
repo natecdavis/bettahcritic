@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-16T18:09:39.122372",
+  "updated": "2026-01-17T08:28:00.198801",
   "count": 585,
   "movies": [
     {
@@ -806,17 +806,6 @@
       "total_adjustment": -3.1
     },
     {
-      "movie_slug": "28-years-later-the-bone-temple",
-      "title": "28 Years Later: The Bone Temple",
-      "release_date": "2026-01-16",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 81.0,
-      "adjusted_score": 77.8,
-      "n_reviews": 53,
-      "total_adjustment": -3.23
-    },
-    {
       "movie_slug": "blue-sun-palace",
       "title": "Blue Sun Palace",
       "release_date": "2025-04-25",
@@ -848,6 +837,17 @@
       "adjusted_score": 77.5,
       "n_reviews": 37,
       "total_adjustment": -2.48
+    },
+    {
+      "movie_slug": "28-years-later-the-bone-temple",
+      "title": "28 Years Later: The Bone Temple",
+      "release_date": "2026-01-16",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 81.0,
+      "adjusted_score": 77.4,
+      "n_reviews": 54,
+      "total_adjustment": -3.58
     },
     {
       "movie_slug": "come-see-me-in-the-good-light",
@@ -3633,17 +3633,6 @@
       "total_adjustment": 0.45
     },
     {
-      "movie_slug": "the-rip",
-      "title": "The Rip",
-      "release_date": "2026-01-16",
-      "year": 2026,
-      "genre": "Action",
-      "raw_score": 64.0,
-      "adjusted_score": 63.4,
-      "n_reviews": 26,
-      "total_adjustment": -0.6
-    },
-    {
       "movie_slug": "last-take-rust-and-the-story-of-halyna",
       "title": "Last Take: Rust and the Story of Halyna",
       "release_date": "2025-03-11",
@@ -3653,6 +3642,17 @@
       "adjusted_score": 63.3,
       "n_reviews": 5,
       "total_adjustment": -6.68
+    },
+    {
+      "movie_slug": "the-rip",
+      "title": "The Rip",
+      "release_date": "2026-01-16",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 64.0,
+      "adjusted_score": 63.2,
+      "n_reviews": 27,
+      "total_adjustment": -0.77
     },
     {
       "movie_slug": "how-to-train-your-dragon-2025",
