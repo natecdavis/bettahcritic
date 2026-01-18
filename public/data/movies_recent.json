@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-17T08:28:00.198801",
+  "updated": "2026-01-18T13:01:42.580629",
   "count": 585,
   "movies": [
     {
@@ -109,8 +109,8 @@
       "genre": "Drama",
       "raw_score": 89.0,
       "adjusted_score": 85.3,
-      "n_reviews": 20,
-      "total_adjustment": -3.73
+      "n_reviews": 21,
+      "total_adjustment": -3.71
     },
     {
       "movie_slug": "the-alabama-solution",
@@ -839,17 +839,6 @@
       "total_adjustment": -2.48
     },
     {
-      "movie_slug": "28-years-later-the-bone-temple",
-      "title": "28 Years Later: The Bone Temple",
-      "release_date": "2026-01-16",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 81.0,
-      "adjusted_score": 77.4,
-      "n_reviews": 54,
-      "total_adjustment": -3.58
-    },
-    {
       "movie_slug": "come-see-me-in-the-good-light",
       "title": "Come See Me in the Good Light",
       "release_date": "2025-11-14",
@@ -859,6 +848,17 @@
       "adjusted_score": 77.3,
       "n_reviews": 12,
       "total_adjustment": -3.71
+    },
+    {
+      "movie_slug": "28-years-later-the-bone-temple",
+      "title": "28 Years Later: The Bone Temple",
+      "release_date": "2026-01-16",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 81.0,
+      "adjusted_score": 77.3,
+      "n_reviews": 55,
+      "total_adjustment": -3.66
     },
     {
       "movie_slug": "the-ballad-of-wallis-island",
@@ -2544,17 +2544,6 @@
       "total_adjustment": 2.99
     },
     {
-      "movie_slug": "a-private-life",
-      "title": "A Private Life",
-      "release_date": "2026-01-16",
-      "year": 2026,
-      "genre": "Crime",
-      "raw_score": 67.0,
-      "adjusted_score": 68.0,
-      "n_reviews": 18,
-      "total_adjustment": 0.97
-    },
-    {
       "movie_slug": "last-swim",
       "title": "Last Swim",
       "release_date": "2025-07-25",
@@ -2599,17 +2588,6 @@
       "total_adjustment": 0.8
     },
     {
-      "movie_slug": "harvest-2024",
-      "title": "Harvest",
-      "release_date": "2025-08-01",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 68.0,
-      "adjusted_score": 67.8,
-      "n_reviews": 17,
-      "total_adjustment": -0.21
-    },
-    {
       "movie_slug": "the-day-the-earth-blew-up-a-looney-tunes-movie",
       "title": "The Day the Earth Blew Up: A Looney Tunes Movie",
       "release_date": "2025-03-14",
@@ -2641,6 +2619,17 @@
       "adjusted_score": 67.8,
       "n_reviews": 6,
       "total_adjustment": -8.24
+    },
+    {
+      "movie_slug": "harvest-2024",
+      "title": "Harvest",
+      "release_date": "2025-08-01",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 68.0,
+      "adjusted_score": 67.8,
+      "n_reviews": 17,
+      "total_adjustment": -0.21
     },
     {
       "movie_slug": "all-of-you",
@@ -2808,6 +2797,17 @@
       "total_adjustment": 0.0
     },
     {
+      "movie_slug": "a-private-life",
+      "title": "A Private Life",
+      "release_date": "2026-01-16",
+      "year": 2026,
+      "genre": "Crime",
+      "raw_score": 67.0,
+      "adjusted_score": 67.0,
+      "n_reviews": 20,
+      "total_adjustment": 0.02
+    },
+    {
       "movie_slug": "barbara-walters-tell-me-everything",
       "title": "Barbara Walters: Tell Me Everything",
       "release_date": "2025-06-23",
@@ -2949,17 +2949,6 @@
       "adjusted_score": 66.5,
       "n_reviews": 31,
       "total_adjustment": -1.51
-    },
-    {
-      "movie_slug": "all-you-need-is-kill-2025",
-      "title": "All You Need Is Kill",
-      "release_date": "2026-01-16",
-      "year": 2026,
-      "genre": "Animation",
-      "raw_score": 66.0,
-      "adjusted_score": 66.5,
-      "n_reviews": 8,
-      "total_adjustment": 0.54
     },
     {
       "movie_slug": "the-rule-of-jenny-pen",
@@ -3147,6 +3136,17 @@
       "adjusted_score": 65.7,
       "n_reviews": 11,
       "total_adjustment": -3.26
+    },
+    {
+      "movie_slug": "all-you-need-is-kill-2025",
+      "title": "All You Need Is Kill",
+      "release_date": "2026-01-16",
+      "year": 2026,
+      "genre": "Animation",
+      "raw_score": 66.0,
+      "adjusted_score": 65.7,
+      "n_reviews": 10,
+      "total_adjustment": -0.29
     },
     {
       "movie_slug": "magazine-dreams",
@@ -3644,17 +3644,6 @@
       "total_adjustment": -6.68
     },
     {
-      "movie_slug": "the-rip",
-      "title": "The Rip",
-      "release_date": "2026-01-16",
-      "year": 2026,
-      "genre": "Action",
-      "raw_score": 64.0,
-      "adjusted_score": 63.2,
-      "n_reviews": 27,
-      "total_adjustment": -0.77
-    },
-    {
       "movie_slug": "how-to-train-your-dragon-2025",
       "title": "How to Train Your Dragon",
       "release_date": "2025-06-13",
@@ -3664,6 +3653,17 @@
       "adjusted_score": 63.1,
       "n_reviews": 43,
       "total_adjustment": 2.1
+    },
+    {
+      "movie_slug": "the-rip",
+      "title": "The Rip",
+      "release_date": "2026-01-16",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 64.0,
+      "adjusted_score": 63.1,
+      "n_reviews": 28,
+      "total_adjustment": -0.86
     },
     {
       "movie_slug": "the-monkey",
