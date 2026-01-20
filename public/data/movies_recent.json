@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-19T12:03:03.988600",
+  "updated": "2026-01-20T17:14:37.420717",
   "count": 585,
   "movies": [
     {
@@ -130,9 +130,20 @@
       "year": 2026,
       "genre": "Documentary",
       "raw_score": 91.0,
-      "adjusted_score": 84.2,
-      "n_reviews": 11,
-      "total_adjustment": -6.82
+      "adjusted_score": 83.9,
+      "n_reviews": 13,
+      "total_adjustment": -7.1
+    },
+    {
+      "movie_slug": "sentimental-value",
+      "title": "Sentimental Value",
+      "release_date": "2025-11-07",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 86.0,
+      "adjusted_score": 83.8,
+      "n_reviews": 45,
+      "total_adjustment": -2.21
     },
     {
       "movie_slug": "train-dreams",
@@ -155,17 +166,6 @@
       "adjusted_score": 83.7,
       "n_reviews": 18,
       "total_adjustment": -2.32
-    },
-    {
-      "movie_slug": "sentimental-value",
-      "title": "Sentimental Value",
-      "release_date": "2025-11-07",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 86.0,
-      "adjusted_score": 83.7,
-      "n_reviews": 44,
-      "total_adjustment": -2.31
     },
     {
       "movie_slug": "magellan",
@@ -641,17 +641,6 @@
       "total_adjustment": -3.84
     },
     {
-      "movie_slug": "a-useful-ghost",
-      "title": "A Useful Ghost",
-      "release_date": "2026-01-16",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 85.0,
-      "adjusted_score": 79.2,
-      "n_reviews": 9,
-      "total_adjustment": -5.8
-    },
-    {
       "movie_slug": "the-librarians",
       "title": "The Librarians",
       "release_date": "2025-10-03",
@@ -782,6 +771,17 @@
       "adjusted_score": 78.2,
       "n_reviews": 10,
       "total_adjustment": -3.79
+    },
+    {
+      "movie_slug": "a-useful-ghost",
+      "title": "A Useful Ghost",
+      "release_date": "2026-01-16",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 85.0,
+      "adjusted_score": 78.0,
+      "n_reviews": 10,
+      "total_adjustment": -7.01
     },
     {
       "movie_slug": "twinless",
@@ -3611,17 +3611,6 @@
       "total_adjustment": 3.36
     },
     {
-      "movie_slug": "an-officer-and-a-spy",
-      "title": "An Officer and a Spy",
-      "release_date": "2025-08-08",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 60.0,
-      "adjusted_score": 63.4,
-      "n_reviews": 15,
-      "total_adjustment": 3.44
-    },
-    {
       "movie_slug": "words-of-war",
       "title": "Words of War",
       "release_date": "2025-05-02",
@@ -3631,6 +3620,17 @@
       "adjusted_score": 63.4,
       "n_reviews": 7,
       "total_adjustment": 0.45
+    },
+    {
+      "movie_slug": "an-officer-and-a-spy",
+      "title": "An Officer and a Spy",
+      "release_date": "2025-08-08",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 60.0,
+      "adjusted_score": 63.4,
+      "n_reviews": 15,
+      "total_adjustment": 3.44
     },
     {
       "movie_slug": "last-take-rust-and-the-story-of-halyna",
@@ -3653,17 +3653,6 @@
       "adjusted_score": 63.1,
       "n_reviews": 43,
       "total_adjustment": 2.1
-    },
-    {
-      "movie_slug": "the-rip",
-      "title": "The Rip",
-      "release_date": "2026-01-16",
-      "year": 2026,
-      "genre": "Action",
-      "raw_score": 64.0,
-      "adjusted_score": 63.1,
-      "n_reviews": 28,
-      "total_adjustment": -0.86
     },
     {
       "movie_slug": "the-monkey",
@@ -3710,15 +3699,15 @@
       "total_adjustment": 2.86
     },
     {
-      "movie_slug": "summer-of-69",
-      "title": "Summer of 69",
-      "release_date": "2025-05-09",
-      "year": 2025,
-      "genre": "Comedy",
+      "movie_slug": "the-rip",
+      "title": "The Rip",
+      "release_date": "2026-01-16",
+      "year": 2026,
+      "genre": "Action",
       "raw_score": 64.0,
       "adjusted_score": 62.9,
-      "n_reviews": 10,
-      "total_adjustment": -1.07
+      "n_reviews": 29,
+      "total_adjustment": -1.14
     },
     {
       "movie_slug": "koln-75",
@@ -3752,6 +3741,17 @@
       "adjusted_score": 62.9,
       "n_reviews": 6,
       "total_adjustment": -2.08
+    },
+    {
+      "movie_slug": "summer-of-69",
+      "title": "Summer of 69",
+      "release_date": "2025-05-09",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 64.0,
+      "adjusted_score": 62.9,
+      "n_reviews": 10,
+      "total_adjustment": -1.07
     },
     {
       "movie_slug": "rounding",
