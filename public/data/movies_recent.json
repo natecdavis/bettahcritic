@@ -1,6 +1,6 @@
 {
-  "updated": "2026-01-20T17:14:37.420717",
-  "count": 585,
+  "updated": "2026-01-21T18:28:32.271935",
+  "count": 586,
   "movies": [
     {
       "movie_slug": "compensation",
@@ -109,8 +109,19 @@
       "genre": "Drama",
       "raw_score": 89.0,
       "adjusted_score": 85.3,
-      "n_reviews": 21,
-      "total_adjustment": -3.71
+      "n_reviews": 22,
+      "total_adjustment": -3.68
+    },
+    {
+      "movie_slug": "seeds-2025",
+      "title": "Seeds",
+      "release_date": "2026-01-16",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 91.0,
+      "adjusted_score": 85.0,
+      "n_reviews": 14,
+      "total_adjustment": -5.97
     },
     {
       "movie_slug": "the-alabama-solution",
@@ -124,15 +135,15 @@
       "total_adjustment": -5.33
     },
     {
-      "movie_slug": "seeds-2025",
-      "title": "Seeds",
-      "release_date": "2026-01-16",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 91.0,
-      "adjusted_score": 83.9,
-      "n_reviews": 13,
-      "total_adjustment": -7.1
+      "movie_slug": "no-other-choice",
+      "title": "No Other Choice",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 88.0,
+      "adjusted_score": 83.8,
+      "n_reviews": 42,
+      "total_adjustment": -4.25
     },
     {
       "movie_slug": "sentimental-value",
@@ -168,17 +179,6 @@
       "total_adjustment": -2.32
     },
     {
-      "movie_slug": "magellan",
-      "title": "Magellan",
-      "release_date": "2026-01-09",
-      "year": 2026,
-      "genre": "Adventure",
-      "raw_score": 84.0,
-      "adjusted_score": 83.5,
-      "n_reviews": 11,
-      "total_adjustment": -0.51
-    },
-    {
       "movie_slug": "ocean-with-david-attenborough",
       "title": "Ocean with David Attenborough",
       "release_date": "2025-06-07",
@@ -190,15 +190,15 @@
       "total_adjustment": -9.51
     },
     {
-      "movie_slug": "no-other-choice",
-      "title": "No Other Choice",
-      "release_date": "2025-12-25",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 88.0,
-      "adjusted_score": 83.4,
-      "n_reviews": 41,
-      "total_adjustment": -4.57
+      "movie_slug": "magellan",
+      "title": "Magellan",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Adventure",
+      "raw_score": 84.0,
+      "adjusted_score": 83.5,
+      "n_reviews": 11,
+      "total_adjustment": -0.51
     },
     {
       "movie_slug": "cover-up",
@@ -857,8 +857,8 @@
       "genre": "Horror",
       "raw_score": 81.0,
       "adjusted_score": 77.3,
-      "n_reviews": 55,
-      "total_adjustment": -3.66
+      "n_reviews": 56,
+      "total_adjustment": -3.75
     },
     {
       "movie_slug": "the-ballad-of-wallis-island",
@@ -936,6 +936,17 @@
       "adjusted_score": 76.8,
       "n_reviews": 13,
       "total_adjustment": -3.2
+    },
+    {
+      "movie_slug": "mr-nobody-against-putin",
+      "title": "Mr. Nobody Against Putin",
+      "release_date": "2026-01-21",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 79.0,
+      "adjusted_score": 76.7,
+      "n_reviews": 8,
+      "total_adjustment": -2.32
     },
     {
       "movie_slug": "devo",
@@ -2764,6 +2775,17 @@
       "total_adjustment": -0.93
     },
     {
+      "movie_slug": "a-private-life",
+      "title": "A Private Life",
+      "release_date": "2026-01-16",
+      "year": 2026,
+      "genre": "Crime",
+      "raw_score": 67.0,
+      "adjusted_score": 67.1,
+      "n_reviews": 21,
+      "total_adjustment": 0.15
+    },
+    {
       "movie_slug": "jay-kelly",
       "title": "Jay Kelly",
       "release_date": "2025-11-14",
@@ -2795,17 +2817,6 @@
       "adjusted_score": 67.0,
       "n_reviews": 10,
       "total_adjustment": 0.0
-    },
-    {
-      "movie_slug": "a-private-life",
-      "title": "A Private Life",
-      "release_date": "2026-01-16",
-      "year": 2026,
-      "genre": "Crime",
-      "raw_score": 67.0,
-      "adjusted_score": 67.0,
-      "n_reviews": 20,
-      "total_adjustment": 0.02
     },
     {
       "movie_slug": "barbara-walters-tell-me-everything",
@@ -3699,26 +3710,15 @@
       "total_adjustment": 2.86
     },
     {
-      "movie_slug": "the-rip",
-      "title": "The Rip",
-      "release_date": "2026-01-16",
-      "year": 2026,
-      "genre": "Action",
+      "movie_slug": "summer-of-69",
+      "title": "Summer of 69",
+      "release_date": "2025-05-09",
+      "year": 2025,
+      "genre": "Comedy",
       "raw_score": 64.0,
       "adjusted_score": 62.9,
-      "n_reviews": 29,
-      "total_adjustment": -1.14
-    },
-    {
-      "movie_slug": "koln-75",
-      "title": "K\u00f6ln 75",
-      "release_date": "2025-10-17",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 62.0,
-      "adjusted_score": 62.9,
-      "n_reviews": 6,
-      "total_adjustment": 0.91
+      "n_reviews": 10,
+      "total_adjustment": -1.07
     },
     {
       "movie_slug": "wto99",
@@ -3732,6 +3732,17 @@
       "total_adjustment": -0.08
     },
     {
+      "movie_slug": "koln-75",
+      "title": "K\u00f6ln 75",
+      "release_date": "2025-10-17",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 62.0,
+      "adjusted_score": 62.9,
+      "n_reviews": 6,
+      "total_adjustment": 0.91
+    },
+    {
       "movie_slug": "the-dating-game",
       "title": "The Dating Game",
       "release_date": "2025-10-10",
@@ -3741,17 +3752,6 @@
       "adjusted_score": 62.9,
       "n_reviews": 6,
       "total_adjustment": -2.08
-    },
-    {
-      "movie_slug": "summer-of-69",
-      "title": "Summer of 69",
-      "release_date": "2025-05-09",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 64.0,
-      "adjusted_score": 62.9,
-      "n_reviews": 10,
-      "total_adjustment": -1.07
     },
     {
       "movie_slug": "rounding",
@@ -3818,6 +3818,17 @@
       "adjusted_score": 62.4,
       "n_reviews": 10,
       "total_adjustment": -0.61
+    },
+    {
+      "movie_slug": "the-rip",
+      "title": "The Rip",
+      "release_date": "2026-01-16",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 64.0,
+      "adjusted_score": 62.3,
+      "n_reviews": 31,
+      "total_adjustment": -1.68
     },
     {
       "movie_slug": "chaos-the-manson-murders",
@@ -5305,6 +5316,17 @@
       "total_adjustment": 2.84
     },
     {
+      "movie_slug": "night-patrol",
+      "title": "Night Patrol",
+      "release_date": "2026-01-16",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 47.0,
+      "adjusted_score": 52.7,
+      "n_reviews": 7,
+      "total_adjustment": 5.73
+    },
+    {
       "movie_slug": "my-mothers-wedding",
       "title": "My Mother's Wedding",
       "release_date": "2025-08-08",
@@ -5534,17 +5556,6 @@
       "adjusted_score": 50.7,
       "n_reviews": 17,
       "total_adjustment": -0.31
-    },
-    {
-      "movie_slug": "night-patrol",
-      "title": "Night Patrol",
-      "release_date": "2026-01-16",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 47.0,
-      "adjusted_score": 50.6,
-      "n_reviews": 6,
-      "total_adjustment": 3.63
     },
     {
       "movie_slug": "snow-white",
