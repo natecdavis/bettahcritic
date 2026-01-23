@@ -1,6 +1,6 @@
 {
-  "updated": "2026-01-21T18:28:32.271935",
-  "count": 586,
+  "updated": "2026-01-22T21:51:27.606820",
+  "count": 591,
   "movies": [
     {
       "movie_slug": "compensation",
@@ -135,17 +135,6 @@
       "total_adjustment": -5.33
     },
     {
-      "movie_slug": "no-other-choice",
-      "title": "No Other Choice",
-      "release_date": "2025-12-25",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 88.0,
-      "adjusted_score": 83.8,
-      "n_reviews": 42,
-      "total_adjustment": -4.25
-    },
-    {
       "movie_slug": "sentimental-value",
       "title": "Sentimental Value",
       "release_date": "2025-11-07",
@@ -210,6 +199,17 @@
       "adjusted_score": 83.3,
       "n_reviews": 19,
       "total_adjustment": -1.67
+    },
+    {
+      "movie_slug": "no-other-choice",
+      "title": "No Other Choice",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 88.0,
+      "adjusted_score": 83.2,
+      "n_reviews": 43,
+      "total_adjustment": -4.84
     },
     {
       "movie_slug": "familiar-touch",
@@ -938,15 +938,26 @@
       "total_adjustment": -3.2
     },
     {
+      "movie_slug": "the-testament-of-ann-lee",
+      "title": "The Testament of Ann Lee",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 78.0,
+      "adjusted_score": 76.7,
+      "n_reviews": 38,
+      "total_adjustment": -1.33
+    },
+    {
       "movie_slug": "mr-nobody-against-putin",
       "title": "Mr. Nobody Against Putin",
       "release_date": "2026-01-21",
       "year": 2026,
       "genre": "Documentary",
       "raw_score": 79.0,
-      "adjusted_score": 76.7,
-      "n_reviews": 8,
-      "total_adjustment": -2.32
+      "adjusted_score": 76.6,
+      "n_reviews": 10,
+      "total_adjustment": -2.43
     },
     {
       "movie_slug": "devo",
@@ -991,17 +1002,6 @@
       "adjusted_score": 76.4,
       "n_reviews": 21,
       "total_adjustment": 0.38
-    },
-    {
-      "movie_slug": "the-testament-of-ann-lee",
-      "title": "The Testament of Ann Lee",
-      "release_date": "2025-12-25",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 78.0,
-      "adjusted_score": 76.2,
-      "n_reviews": 36,
-      "total_adjustment": -1.83
     },
     {
       "movie_slug": "oceans-are-the-real-continents",
@@ -1268,6 +1268,17 @@
       "total_adjustment": -2.44
     },
     {
+      "movie_slug": "nouvelle-vague",
+      "title": "Nouvelle Vague",
+      "release_date": "2025-10-31",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 76.0,
+      "adjusted_score": 74.5,
+      "n_reviews": 39,
+      "total_adjustment": -1.53
+    },
+    {
       "movie_slug": "splitsville",
       "title": "Splitsville",
       "release_date": "2025-08-22",
@@ -1277,17 +1288,6 @@
       "adjusted_score": 74.5,
       "n_reviews": 27,
       "total_adjustment": 0.45
-    },
-    {
-      "movie_slug": "nouvelle-vague",
-      "title": "Nouvelle Vague",
-      "release_date": "2025-10-31",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 76.0,
-      "adjusted_score": 74.4,
-      "n_reviews": 38,
-      "total_adjustment": -1.6
     },
     {
       "movie_slug": "in-the-shadow-of-beirut",
@@ -1629,6 +1629,17 @@
       "adjusted_score": 72.9,
       "n_reviews": 13,
       "total_adjustment": -5.05
+    },
+    {
+      "movie_slug": "arco",
+      "title": "Arco",
+      "release_date": "2026-01-23",
+      "year": 2026,
+      "genre": "Animation",
+      "raw_score": 75.0,
+      "adjusted_score": 72.8,
+      "n_reviews": 15,
+      "total_adjustment": -2.23
     },
     {
       "movie_slug": "predator-killer-of-killers",
@@ -2236,6 +2247,17 @@
       "total_adjustment": -0.6
     },
     {
+      "movie_slug": "mother-of-flies",
+      "title": "Mother of Flies",
+      "release_date": "2026-01-23",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 71.0,
+      "adjusted_score": 70.4,
+      "n_reviews": 7,
+      "total_adjustment": -0.58
+    },
+    {
       "movie_slug": "bugonia",
       "title": "Bugonia",
       "release_date": "2025-10-24",
@@ -2698,6 +2720,17 @@
       "total_adjustment": 3.42
     },
     {
+      "movie_slug": "a-private-life",
+      "title": "A Private Life",
+      "release_date": "2026-01-16",
+      "year": 2026,
+      "genre": "Crime",
+      "raw_score": 67.0,
+      "adjusted_score": 67.4,
+      "n_reviews": 23,
+      "total_adjustment": 0.45
+    },
+    {
       "movie_slug": "queens-of-drama",
       "title": "Queens of Drama",
       "release_date": "2025-04-18",
@@ -2773,17 +2806,6 @@
       "adjusted_score": 67.1,
       "n_reviews": 6,
       "total_adjustment": -0.93
-    },
-    {
-      "movie_slug": "a-private-life",
-      "title": "A Private Life",
-      "release_date": "2026-01-16",
-      "year": 2026,
-      "genre": "Crime",
-      "raw_score": 67.0,
-      "adjusted_score": 67.1,
-      "n_reviews": 21,
-      "total_adjustment": 0.15
     },
     {
       "movie_slug": "jay-kelly",
@@ -3972,6 +3994,17 @@
       "adjusted_score": 61.8,
       "n_reviews": 16,
       "total_adjustment": -1.19
+    },
+    {
+      "movie_slug": "h-is-for-hawk",
+      "title": "H Is for Hawk",
+      "release_date": "2026-01-23",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 61.0,
+      "adjusted_score": 61.7,
+      "n_reviews": 14,
+      "total_adjustment": 0.7
     },
     {
       "movie_slug": "avatar-fire-and-ash",
@@ -6207,6 +6240,17 @@
       "total_adjustment": 2.38
     },
     {
+      "movie_slug": "mercy-2026",
+      "title": "Mercy",
+      "release_date": "2026-01-23",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 37.0,
+      "adjusted_score": 40.3,
+      "n_reviews": 24,
+      "total_adjustment": 3.34
+    },
+    {
       "movie_slug": "ice-road-vengeance",
       "title": "Ice Road: Vengeance",
       "release_date": "2025-06-27",
@@ -6370,6 +6414,17 @@
       "adjusted_score": 33.1,
       "n_reviews": 25,
       "total_adjustment": 4.12
+    },
+    {
+      "movie_slug": "return-to-silent-hill",
+      "title": "Return to Silent Hill",
+      "release_date": "2026-01-23",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 26.0,
+      "adjusted_score": 31.9,
+      "n_reviews": 9,
+      "total_adjustment": 5.94
     },
     {
       "movie_slug": "shadow-force",
