@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-22T21:51:27.606820",
+  "updated": "2026-01-23T17:26:48.674830",
   "count": 591,
   "movies": [
     {
@@ -124,6 +124,17 @@
       "total_adjustment": -5.97
     },
     {
+      "movie_slug": "magellan",
+      "title": "Magellan",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Adventure",
+      "raw_score": 84.0,
+      "adjusted_score": 84.7,
+      "n_reviews": 12,
+      "total_adjustment": 0.7
+    },
+    {
       "movie_slug": "the-alabama-solution",
       "title": "The Alabama Solution",
       "release_date": "2025-10-03",
@@ -177,17 +188,6 @@
       "adjusted_score": 83.5,
       "n_reviews": 4,
       "total_adjustment": -9.51
-    },
-    {
-      "movie_slug": "magellan",
-      "title": "Magellan",
-      "release_date": "2026-01-09",
-      "year": 2026,
-      "genre": "Adventure",
-      "raw_score": 84.0,
-      "adjusted_score": 83.5,
-      "n_reviews": 11,
-      "total_adjustment": -0.51
     },
     {
       "movie_slug": "cover-up",
@@ -839,6 +839,17 @@
       "total_adjustment": -2.48
     },
     {
+      "movie_slug": "mr-nobody-against-putin",
+      "title": "Mr. Nobody Against Putin",
+      "release_date": "2026-01-21",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 79.0,
+      "adjusted_score": 77.3,
+      "n_reviews": 11,
+      "total_adjustment": -1.71
+    },
+    {
       "movie_slug": "come-see-me-in-the-good-light",
       "title": "Come See Me in the Good Light",
       "release_date": "2025-11-14",
@@ -947,17 +958,6 @@
       "adjusted_score": 76.7,
       "n_reviews": 38,
       "total_adjustment": -1.33
-    },
-    {
-      "movie_slug": "mr-nobody-against-putin",
-      "title": "Mr. Nobody Against Putin",
-      "release_date": "2026-01-21",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 79.0,
-      "adjusted_score": 76.6,
-      "n_reviews": 10,
-      "total_adjustment": -2.43
     },
     {
       "movie_slug": "devo",
@@ -1101,6 +1101,17 @@
       "adjusted_score": 75.6,
       "n_reviews": 18,
       "total_adjustment": -1.38
+    },
+    {
+      "movie_slug": "reflection-in-a-dead-diamond",
+      "title": "Reflection in a Dead Diamond",
+      "release_date": "2025-12-05",
+      "year": 2025,
+      "genre": "Action",
+      "raw_score": 77.0,
+      "adjusted_score": 75.5,
+      "n_reviews": 8,
+      "total_adjustment": -1.5
     },
     {
       "movie_slug": "frankenstein-2025",
@@ -1321,17 +1332,6 @@
       "adjusted_score": 74.3,
       "n_reviews": 5,
       "total_adjustment": -6.66
-    },
-    {
-      "movie_slug": "reflection-in-a-dead-diamond",
-      "title": "Reflection in a Dead Diamond",
-      "release_date": "2025-12-05",
-      "year": 2025,
-      "genre": "Action",
-      "raw_score": 77.0,
-      "adjusted_score": 74.3,
-      "n_reviews": 7,
-      "total_adjustment": -2.67
     },
     {
       "movie_slug": "that-they-may-face-the-rising-sun",
@@ -3996,17 +3996,6 @@
       "total_adjustment": -1.19
     },
     {
-      "movie_slug": "h-is-for-hawk",
-      "title": "H Is for Hawk",
-      "release_date": "2026-01-23",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 61.0,
-      "adjusted_score": 61.7,
-      "n_reviews": 14,
-      "total_adjustment": 0.7
-    },
-    {
       "movie_slug": "avatar-fire-and-ash",
       "title": "Avatar: Fire and Ash",
       "release_date": "2025-12-19",
@@ -4071,6 +4060,17 @@
       "adjusted_score": 61.3,
       "n_reviews": 38,
       "total_adjustment": 0.26
+    },
+    {
+      "movie_slug": "h-is-for-hawk",
+      "title": "H Is for Hawk",
+      "release_date": "2026-01-23",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 61.0,
+      "adjusted_score": 61.3,
+      "n_reviews": 16,
+      "total_adjustment": 0.25
     },
     {
       "movie_slug": "freakier-friday",
@@ -6240,17 +6240,6 @@
       "total_adjustment": 2.38
     },
     {
-      "movie_slug": "mercy-2026",
-      "title": "Mercy",
-      "release_date": "2026-01-23",
-      "year": 2026,
-      "genre": "Action",
-      "raw_score": 37.0,
-      "adjusted_score": 40.3,
-      "n_reviews": 24,
-      "total_adjustment": 3.34
-    },
-    {
       "movie_slug": "ice-road-vengeance",
       "title": "Ice Road: Vengeance",
       "release_date": "2025-06-27",
@@ -6282,6 +6271,17 @@
       "adjusted_score": 40.0,
       "n_reviews": 6,
       "total_adjustment": 4.96
+    },
+    {
+      "movie_slug": "mercy-2026",
+      "title": "Mercy",
+      "release_date": "2026-01-23",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 37.0,
+      "adjusted_score": 39.9,
+      "n_reviews": 28,
+      "total_adjustment": 2.88
     },
     {
       "movie_slug": "the-family-plan-2",
@@ -6383,6 +6383,17 @@
       "total_adjustment": 4.72
     },
     {
+      "movie_slug": "return-to-silent-hill",
+      "title": "Return to Silent Hill",
+      "release_date": "2026-01-23",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 26.0,
+      "adjusted_score": 34.9,
+      "n_reviews": 10,
+      "total_adjustment": 8.91
+    },
+    {
       "movie_slug": "the-strangers-chapter-2",
       "title": "The Strangers: Chapter 2",
       "release_date": "2025-09-26",
@@ -6414,17 +6425,6 @@
       "adjusted_score": 33.1,
       "n_reviews": 25,
       "total_adjustment": 4.12
-    },
-    {
-      "movie_slug": "return-to-silent-hill",
-      "title": "Return to Silent Hill",
-      "release_date": "2026-01-23",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 26.0,
-      "adjusted_score": 31.9,
-      "n_reviews": 9,
-      "total_adjustment": 5.94
     },
     {
       "movie_slug": "shadow-force",
