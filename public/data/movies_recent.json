@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-23T17:26:48.674830",
+  "updated": "2026-01-24T14:08:44.485517",
   "count": 591,
   "movies": [
     {
@@ -64,9 +64,9 @@
       "year": 2025,
       "genre": "Crime",
       "raw_score": 92.0,
-      "adjusted_score": 87.6,
-      "n_reviews": 34,
-      "total_adjustment": -4.38
+      "adjusted_score": 87.3,
+      "n_reviews": 35,
+      "total_adjustment": -4.69
     },
     {
       "movie_slug": "sorry-baby",
@@ -91,6 +91,17 @@
       "total_adjustment": -5.82
     },
     {
+      "movie_slug": "sound-of-falling",
+      "title": "Sound of Falling",
+      "release_date": "2026-01-16",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 89.0,
+      "adjusted_score": 85.9,
+      "n_reviews": 23,
+      "total_adjustment": -3.07
+    },
+    {
       "movie_slug": "marty-supreme",
       "title": "Marty Supreme",
       "release_date": "2025-12-25",
@@ -100,17 +111,6 @@
       "adjusted_score": 85.8,
       "n_reviews": 58,
       "total_adjustment": -2.18
-    },
-    {
-      "movie_slug": "sound-of-falling",
-      "title": "Sound of Falling",
-      "release_date": "2026-01-16",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 89.0,
-      "adjusted_score": 85.3,
-      "n_reviews": 22,
-      "total_adjustment": -3.68
     },
     {
       "movie_slug": "seeds-2025",
@@ -201,17 +201,6 @@
       "total_adjustment": -1.67
     },
     {
-      "movie_slug": "no-other-choice",
-      "title": "No Other Choice",
-      "release_date": "2025-12-25",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 88.0,
-      "adjusted_score": 83.2,
-      "n_reviews": 43,
-      "total_adjustment": -4.84
-    },
-    {
       "movie_slug": "familiar-touch",
       "title": "Familiar Touch",
       "release_date": "2025-06-20",
@@ -254,6 +243,17 @@
       "adjusted_score": 82.7,
       "n_reviews": 12,
       "total_adjustment": -2.26
+    },
+    {
+      "movie_slug": "no-other-choice",
+      "title": "No Other Choice",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 88.0,
+      "adjusted_score": 82.4,
+      "n_reviews": 45,
+      "total_adjustment": -5.56
     },
     {
       "movie_slug": "sinners",
@@ -839,6 +839,17 @@
       "total_adjustment": -2.48
     },
     {
+      "movie_slug": "28-years-later-the-bone-temple",
+      "title": "28 Years Later: The Bone Temple",
+      "release_date": "2026-01-16",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 81.0,
+      "adjusted_score": 77.4,
+      "n_reviews": 57,
+      "total_adjustment": -3.58
+    },
+    {
       "movie_slug": "mr-nobody-against-putin",
       "title": "Mr. Nobody Against Putin",
       "release_date": "2026-01-21",
@@ -859,17 +870,6 @@
       "adjusted_score": 77.3,
       "n_reviews": 12,
       "total_adjustment": -3.71
-    },
-    {
-      "movie_slug": "28-years-later-the-bone-temple",
-      "title": "28 Years Later: The Bone Temple",
-      "release_date": "2026-01-16",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 81.0,
-      "adjusted_score": 77.3,
-      "n_reviews": 56,
-      "total_adjustment": -3.75
     },
     {
       "movie_slug": "the-ballad-of-wallis-island",
@@ -1631,17 +1631,6 @@
       "total_adjustment": -5.05
     },
     {
-      "movie_slug": "arco",
-      "title": "Arco",
-      "release_date": "2026-01-23",
-      "year": 2026,
-      "genre": "Animation",
-      "raw_score": 75.0,
-      "adjusted_score": 72.8,
-      "n_reviews": 15,
-      "total_adjustment": -2.23
-    },
-    {
       "movie_slug": "predator-killer-of-killers",
       "title": "Predator: Killer of Killers",
       "release_date": "2025-06-06",
@@ -1675,17 +1664,6 @@
       "total_adjustment": -4.24
     },
     {
-      "movie_slug": "to-kill-a-wolf",
-      "title": "To Kill a Wolf",
-      "release_date": "2025-08-01",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 80.0,
-      "adjusted_score": 72.8,
-      "n_reviews": 5,
-      "total_adjustment": -7.19
-    },
-    {
       "movie_slug": "happyend",
       "title": "Happyend",
       "release_date": "2025-09-12",
@@ -1695,6 +1673,17 @@
       "adjusted_score": 72.8,
       "n_reviews": 10,
       "total_adjustment": -2.21
+    },
+    {
+      "movie_slug": "to-kill-a-wolf",
+      "title": "To Kill a Wolf",
+      "release_date": "2025-08-01",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 80.0,
+      "adjusted_score": 72.8,
+      "n_reviews": 5,
+      "total_adjustment": -7.19
     },
     {
       "movie_slug": "sally",
@@ -2115,6 +2104,17 @@
       "total_adjustment": -2.96
     },
     {
+      "movie_slug": "diane-warren-relentless",
+      "title": "Diane Warren: Relentless",
+      "release_date": "2025-01-10",
+      "year": 2025,
+      "genre": "Documentary",
+      "raw_score": 71.0,
+      "adjusted_score": 70.9,
+      "n_reviews": 4,
+      "total_adjustment": -0.11
+    },
+    {
       "movie_slug": "fairyland",
       "title": "Fairyland",
       "release_date": "2025-10-03",
@@ -2126,15 +2126,15 @@
       "total_adjustment": -2.12
     },
     {
-      "movie_slug": "diane-warren-relentless",
-      "title": "Diane Warren: Relentless",
-      "release_date": "2025-01-10",
-      "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 71.0,
+      "movie_slug": "arco",
+      "title": "Arco",
+      "release_date": "2026-01-23",
+      "year": 2026,
+      "genre": "Animation",
+      "raw_score": 75.0,
       "adjusted_score": 70.9,
-      "n_reviews": 4,
-      "total_adjustment": -0.11
+      "n_reviews": 17,
+      "total_adjustment": -4.08
     },
     {
       "movie_slug": "i-wish-you-all-the-best",
@@ -2148,17 +2148,6 @@
       "total_adjustment": -2.23
     },
     {
-      "movie_slug": "zodiac-killer-project",
-      "title": "Zodiac Killer Project",
-      "release_date": "2025-11-21",
-      "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 73.0,
-      "adjusted_score": 70.8,
-      "n_reviews": 20,
-      "total_adjustment": -2.25
-    },
-    {
       "movie_slug": "influencers",
       "title": "Influencers",
       "release_date": "2025-12-12",
@@ -2168,6 +2157,17 @@
       "adjusted_score": 70.7,
       "n_reviews": 7,
       "total_adjustment": -4.32
+    },
+    {
+      "movie_slug": "zodiac-killer-project",
+      "title": "Zodiac Killer Project",
+      "release_date": "2025-11-21",
+      "year": 2025,
+      "genre": "Documentary",
+      "raw_score": 73.0,
+      "adjusted_score": 70.7,
+      "n_reviews": 21,
+      "total_adjustment": -2.31
     },
     {
       "movie_slug": "lost-in-the-jungle",
@@ -3479,6 +3479,17 @@
       "total_adjustment": 2.53
     },
     {
+      "movie_slug": "h-is-for-hawk",
+      "title": "H Is for Hawk",
+      "release_date": "2026-01-23",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 61.0,
+      "adjusted_score": 64.4,
+      "n_reviews": 23,
+      "total_adjustment": 3.39
+    },
+    {
       "movie_slug": "the-luckiest-man-in-america",
       "title": "The Luckiest Man in America",
       "release_date": "2025-04-04",
@@ -3644,17 +3655,6 @@
       "total_adjustment": 3.36
     },
     {
-      "movie_slug": "words-of-war",
-      "title": "Words of War",
-      "release_date": "2025-05-02",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 63.0,
-      "adjusted_score": 63.4,
-      "n_reviews": 7,
-      "total_adjustment": 0.45
-    },
-    {
       "movie_slug": "an-officer-and-a-spy",
       "title": "An Officer and a Spy",
       "release_date": "2025-08-08",
@@ -3664,6 +3664,17 @@
       "adjusted_score": 63.4,
       "n_reviews": 15,
       "total_adjustment": 3.44
+    },
+    {
+      "movie_slug": "words-of-war",
+      "title": "Words of War",
+      "release_date": "2025-05-02",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 63.0,
+      "adjusted_score": 63.4,
+      "n_reviews": 7,
+      "total_adjustment": 0.45
     },
     {
       "movie_slug": "last-take-rust-and-the-story-of-halyna",
@@ -3743,17 +3754,6 @@
       "total_adjustment": -1.07
     },
     {
-      "movie_slug": "wto99",
-      "title": "WTO/99",
-      "release_date": "2025-12-04",
-      "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 63.0,
-      "adjusted_score": 62.9,
-      "n_reviews": 4,
-      "total_adjustment": -0.08
-    },
-    {
       "movie_slug": "koln-75",
       "title": "K\u00f6ln 75",
       "release_date": "2025-10-17",
@@ -3763,6 +3763,17 @@
       "adjusted_score": 62.9,
       "n_reviews": 6,
       "total_adjustment": 0.91
+    },
+    {
+      "movie_slug": "wto99",
+      "title": "WTO/99",
+      "release_date": "2025-12-04",
+      "year": 2025,
+      "genre": "Documentary",
+      "raw_score": 63.0,
+      "adjusted_score": 62.9,
+      "n_reviews": 4,
+      "total_adjustment": -0.08
     },
     {
       "movie_slug": "the-dating-game",
@@ -4060,17 +4071,6 @@
       "adjusted_score": 61.3,
       "n_reviews": 38,
       "total_adjustment": 0.26
-    },
-    {
-      "movie_slug": "h-is-for-hawk",
-      "title": "H Is for Hawk",
-      "release_date": "2026-01-23",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 61.0,
-      "adjusted_score": 61.3,
-      "n_reviews": 16,
-      "total_adjustment": 0.25
     },
     {
       "movie_slug": "freakier-friday",
@@ -6273,17 +6273,6 @@
       "total_adjustment": 4.96
     },
     {
-      "movie_slug": "mercy-2026",
-      "title": "Mercy",
-      "release_date": "2026-01-23",
-      "year": 2026,
-      "genre": "Action",
-      "raw_score": 37.0,
-      "adjusted_score": 39.9,
-      "n_reviews": 28,
-      "total_adjustment": 2.88
-    },
-    {
       "movie_slug": "the-family-plan-2",
       "title": "The Family Plan 2",
       "release_date": "2025-11-21",
@@ -6326,6 +6315,17 @@
       "adjusted_score": 38.5,
       "n_reviews": 43,
       "total_adjustment": 4.48
+    },
+    {
+      "movie_slug": "mercy-2026",
+      "title": "Mercy",
+      "release_date": "2026-01-23",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 37.0,
+      "adjusted_score": 38.2,
+      "n_reviews": 34,
+      "total_adjustment": 1.17
     },
     {
       "movie_slug": "juliet-romeo",
@@ -6383,17 +6383,6 @@
       "total_adjustment": 4.72
     },
     {
-      "movie_slug": "return-to-silent-hill",
-      "title": "Return to Silent Hill",
-      "release_date": "2026-01-23",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 26.0,
-      "adjusted_score": 34.9,
-      "n_reviews": 10,
-      "total_adjustment": 8.91
-    },
-    {
       "movie_slug": "the-strangers-chapter-2",
       "title": "The Strangers: Chapter 2",
       "release_date": "2025-09-26",
@@ -6403,6 +6392,17 @@
       "adjusted_score": 34.2,
       "n_reviews": 12,
       "total_adjustment": 6.24
+    },
+    {
+      "movie_slug": "return-to-silent-hill",
+      "title": "Return to Silent Hill",
+      "release_date": "2026-01-23",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 26.0,
+      "adjusted_score": 33.9,
+      "n_reviews": 12,
+      "total_adjustment": 7.86
     },
     {
       "movie_slug": "the-electric-state",
