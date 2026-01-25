@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-24T14:08:44.485517",
+  "updated": "2026-01-25T07:32:35.131334",
   "count": 591,
   "movies": [
     {
@@ -6361,6 +6361,17 @@
       "total_adjustment": 3.83
     },
     {
+      "movie_slug": "return-to-silent-hill",
+      "title": "Return to Silent Hill",
+      "release_date": "2026-01-23",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 26.0,
+      "adjusted_score": 36.7,
+      "n_reviews": 13,
+      "total_adjustment": 10.67
+    },
+    {
       "movie_slug": "the-ritual-2025",
       "title": "The Ritual",
       "release_date": "2025-06-06",
@@ -6392,17 +6403,6 @@
       "adjusted_score": 34.2,
       "n_reviews": 12,
       "total_adjustment": 6.24
-    },
-    {
-      "movie_slug": "return-to-silent-hill",
-      "title": "Return to Silent Hill",
-      "release_date": "2026-01-23",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 26.0,
-      "adjusted_score": 33.9,
-      "n_reviews": 12,
-      "total_adjustment": 7.86
     },
     {
       "movie_slug": "the-electric-state",
