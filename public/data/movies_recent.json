@@ -1,6 +1,6 @@
 {
-  "updated": "2026-01-26T10:59:21.538169",
-  "count": 591,
+  "updated": "2026-01-28T08:22:18.178893",
+  "count": 592,
   "movies": [
     {
       "movie_slug": "compensation",
@@ -1279,17 +1279,6 @@
       "total_adjustment": -2.44
     },
     {
-      "movie_slug": "nouvelle-vague",
-      "title": "Nouvelle Vague",
-      "release_date": "2025-10-31",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 76.0,
-      "adjusted_score": 74.5,
-      "n_reviews": 39,
-      "total_adjustment": -1.53
-    },
-    {
       "movie_slug": "splitsville",
       "title": "Splitsville",
       "release_date": "2025-08-22",
@@ -1398,6 +1387,17 @@
       "adjusted_score": 73.9,
       "n_reviews": 12,
       "total_adjustment": -0.13
+    },
+    {
+      "movie_slug": "nouvelle-vague",
+      "title": "Nouvelle Vague",
+      "release_date": "2025-10-31",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 76.0,
+      "adjusted_score": 73.8,
+      "n_reviews": 40,
+      "total_adjustment": -2.21
     },
     {
       "movie_slug": "secret-mall-apartment",
@@ -1609,17 +1609,6 @@
       "total_adjustment": -1.15
     },
     {
-      "movie_slug": "the-encampments",
-      "title": "The Encampments",
-      "release_date": "2025-03-28",
-      "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 72.0,
-      "adjusted_score": 72.9,
-      "n_reviews": 5,
-      "total_adjustment": 0.94
-    },
-    {
       "movie_slug": "sketch",
       "title": "Sketch",
       "release_date": "2025-08-06",
@@ -1631,26 +1620,15 @@
       "total_adjustment": -5.05
     },
     {
-      "movie_slug": "predator-killer-of-killers",
-      "title": "Predator: Killer of Killers",
-      "release_date": "2025-06-06",
+      "movie_slug": "the-encampments",
+      "title": "The Encampments",
+      "release_date": "2025-03-28",
       "year": 2025,
-      "genre": "Animation",
-      "raw_score": 78.0,
-      "adjusted_score": 72.8,
-      "n_reviews": 18,
-      "total_adjustment": -5.24
-    },
-    {
-      "movie_slug": "merrily-we-roll-along",
-      "title": "Merrily We Roll Along",
-      "release_date": "2025-12-05",
-      "year": 2025,
-      "genre": "Musical",
-      "raw_score": 78.0,
-      "adjusted_score": 72.8,
-      "n_reviews": 11,
-      "total_adjustment": -5.24
+      "genre": "Documentary",
+      "raw_score": 72.0,
+      "adjusted_score": 72.9,
+      "n_reviews": 5,
+      "total_adjustment": 0.94
     },
     {
       "movie_slug": "kpop-demon-hunters",
@@ -1664,15 +1642,26 @@
       "total_adjustment": -4.24
     },
     {
-      "movie_slug": "happyend",
-      "title": "Happyend",
-      "release_date": "2025-09-12",
+      "movie_slug": "merrily-we-roll-along",
+      "title": "Merrily We Roll Along",
+      "release_date": "2025-12-05",
       "year": 2025,
-      "genre": "Drama",
-      "raw_score": 75.0,
+      "genre": "Musical",
+      "raw_score": 78.0,
       "adjusted_score": 72.8,
-      "n_reviews": 10,
-      "total_adjustment": -2.21
+      "n_reviews": 11,
+      "total_adjustment": -5.24
+    },
+    {
+      "movie_slug": "predator-killer-of-killers",
+      "title": "Predator: Killer of Killers",
+      "release_date": "2025-06-06",
+      "year": 2025,
+      "genre": "Animation",
+      "raw_score": 78.0,
+      "adjusted_score": 72.8,
+      "n_reviews": 18,
+      "total_adjustment": -5.24
     },
     {
       "movie_slug": "to-kill-a-wolf",
@@ -1684,6 +1673,17 @@
       "adjusted_score": 72.8,
       "n_reviews": 5,
       "total_adjustment": -7.19
+    },
+    {
+      "movie_slug": "happyend",
+      "title": "Happyend",
+      "release_date": "2025-09-12",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 75.0,
+      "adjusted_score": 72.8,
+      "n_reviews": 10,
+      "total_adjustment": -2.21
     },
     {
       "movie_slug": "sally",
@@ -1851,15 +1851,15 @@
       "total_adjustment": -1.07
     },
     {
-      "movie_slug": "young-hearts-2025",
-      "title": "Young Hearts",
-      "release_date": "2025-03-14",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 69.0,
+      "movie_slug": "arco",
+      "title": "Arco",
+      "release_date": "2026-01-23",
+      "year": 2026,
+      "genre": "Animation",
+      "raw_score": 75.0,
       "adjusted_score": 71.8,
-      "n_reviews": 4,
-      "total_adjustment": 2.76
+      "n_reviews": 18,
+      "total_adjustment": -3.25
     },
     {
       "movie_slug": "griffin-in-summer",
@@ -1873,6 +1873,17 @@
       "total_adjustment": -1.24
     },
     {
+      "movie_slug": "young-hearts-2025",
+      "title": "Young Hearts",
+      "release_date": "2025-03-14",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 69.0,
+      "adjusted_score": 71.8,
+      "n_reviews": 4,
+      "total_adjustment": 2.76
+    },
+    {
       "movie_slug": "the-mysterious-gaze-of-the-flamingo",
       "title": "The Mysterious Gaze of the Flamingo",
       "release_date": "2025-12-12",
@@ -1882,17 +1893,6 @@
       "adjusted_score": 71.7,
       "n_reviews": 6,
       "total_adjustment": -4.26
-    },
-    {
-      "movie_slug": "is-this-thing-on",
-      "title": "Is This Thing On?",
-      "release_date": "2025-12-19",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 74.0,
-      "adjusted_score": 71.7,
-      "n_reviews": 37,
-      "total_adjustment": -2.26
     },
     {
       "movie_slug": "la-grazia",
@@ -1937,6 +1937,17 @@
       "adjusted_score": 71.5,
       "n_reviews": 20,
       "total_adjustment": -3.54
+    },
+    {
+      "movie_slug": "is-this-thing-on",
+      "title": "Is This Thing On?",
+      "release_date": "2025-12-19",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 74.0,
+      "adjusted_score": 71.5,
+      "n_reviews": 39,
+      "total_adjustment": -2.47
     },
     {
       "movie_slug": "megadoc",
@@ -2104,17 +2115,6 @@
       "total_adjustment": -2.96
     },
     {
-      "movie_slug": "diane-warren-relentless",
-      "title": "Diane Warren: Relentless",
-      "release_date": "2025-01-10",
-      "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 71.0,
-      "adjusted_score": 70.9,
-      "n_reviews": 4,
-      "total_adjustment": -0.11
-    },
-    {
       "movie_slug": "fairyland",
       "title": "Fairyland",
       "release_date": "2025-10-03",
@@ -2126,15 +2126,15 @@
       "total_adjustment": -2.12
     },
     {
-      "movie_slug": "arco",
-      "title": "Arco",
-      "release_date": "2026-01-23",
-      "year": 2026,
-      "genre": "Animation",
-      "raw_score": 75.0,
+      "movie_slug": "diane-warren-relentless",
+      "title": "Diane Warren: Relentless",
+      "release_date": "2025-01-10",
+      "year": 2025,
+      "genre": "Documentary",
+      "raw_score": 71.0,
       "adjusted_score": 70.9,
-      "n_reviews": 17,
-      "total_adjustment": -4.08
+      "n_reviews": 4,
+      "total_adjustment": -0.11
     },
     {
       "movie_slug": "i-wish-you-all-the-best",
@@ -2245,17 +2245,6 @@
       "adjusted_score": 70.4,
       "n_reviews": 9,
       "total_adjustment": -0.6
-    },
-    {
-      "movie_slug": "mother-of-flies",
-      "title": "Mother of Flies",
-      "release_date": "2026-01-23",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 71.0,
-      "adjusted_score": 70.4,
-      "n_reviews": 7,
-      "total_adjustment": -0.58
     },
     {
       "movie_slug": "bugonia",
@@ -2522,6 +2511,17 @@
       "total_adjustment": -2.44
     },
     {
+      "movie_slug": "mother-of-flies",
+      "title": "Mother of Flies",
+      "release_date": "2026-01-23",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 71.0,
+      "adjusted_score": 68.6,
+      "n_reviews": 8,
+      "total_adjustment": -2.36
+    },
+    {
       "movie_slug": "companion",
       "title": "Companion",
       "release_date": "2025-01-31",
@@ -2687,6 +2687,17 @@
       "total_adjustment": -0.44
     },
     {
+      "movie_slug": "a-private-life",
+      "title": "A Private Life",
+      "release_date": "2026-01-16",
+      "year": 2026,
+      "genre": "Crime",
+      "raw_score": 67.0,
+      "adjusted_score": 67.6,
+      "n_reviews": 25,
+      "total_adjustment": 0.63
+    },
+    {
       "movie_slug": "man-finds-tape",
       "title": "Man Finds Tape",
       "release_date": "2025-12-05",
@@ -2718,17 +2729,6 @@
       "adjusted_score": 67.4,
       "n_reviews": 14,
       "total_adjustment": 3.42
-    },
-    {
-      "movie_slug": "a-private-life",
-      "title": "A Private Life",
-      "release_date": "2026-01-16",
-      "year": 2026,
-      "genre": "Crime",
-      "raw_score": 67.0,
-      "adjusted_score": 67.4,
-      "n_reviews": 23,
-      "total_adjustment": 0.45
     },
     {
       "movie_slug": "queens-of-drama",
@@ -4469,6 +4469,17 @@
       "total_adjustment": -0.23
     },
     {
+      "movie_slug": "the-wrecking-crew-2026",
+      "title": "The Wrecking Crew",
+      "release_date": "2026-01-28",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 58.0,
+      "adjusted_score": 58.7,
+      "n_reviews": 8,
+      "total_adjustment": 0.67
+    },
+    {
       "movie_slug": "bad-shabbos",
       "title": "Bad Shabbos",
       "release_date": "2025-05-23",
@@ -4667,17 +4678,6 @@
       "total_adjustment": -2.8
     },
     {
-      "movie_slug": "american-sweatshop",
-      "title": "American Sweatshop",
-      "release_date": "2025-08-29",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 58.0,
-      "adjusted_score": 57.0,
-      "n_reviews": 6,
-      "total_adjustment": -1.01
-    },
-    {
       "movie_slug": "control-freak",
       "title": "Control Freak",
       "release_date": "2025-03-13",
@@ -4687,6 +4687,17 @@
       "adjusted_score": 57.0,
       "n_reviews": 4,
       "total_adjustment": -5.01
+    },
+    {
+      "movie_slug": "american-sweatshop",
+      "title": "American Sweatshop",
+      "release_date": "2025-08-29",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 58.0,
+      "adjusted_score": 57.0,
+      "n_reviews": 6,
+      "total_adjustment": -1.01
     },
     {
       "movie_slug": "straw",
