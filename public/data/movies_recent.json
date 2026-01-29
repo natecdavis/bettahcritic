@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-28T08:22:18.178893",
+  "updated": "2026-01-28T21:59:43.095562",
   "count": 592,
   "movies": [
     {
@@ -234,6 +234,17 @@
       "total_adjustment": -3.85
     },
     {
+      "movie_slug": "no-other-choice",
+      "title": "No Other Choice",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 88.0,
+      "adjusted_score": 82.9,
+      "n_reviews": 46,
+      "total_adjustment": -5.12
+    },
+    {
       "movie_slug": "afternoons-of-solitude",
       "title": "Afternoons of Solitude",
       "release_date": "2025-06-27",
@@ -243,17 +254,6 @@
       "adjusted_score": 82.7,
       "n_reviews": 12,
       "total_adjustment": -2.26
-    },
-    {
-      "movie_slug": "no-other-choice",
-      "title": "No Other Choice",
-      "release_date": "2025-12-25",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 88.0,
-      "adjusted_score": 82.4,
-      "n_reviews": 45,
-      "total_adjustment": -5.56
     },
     {
       "movie_slug": "sinners",
@@ -1609,17 +1609,6 @@
       "total_adjustment": -1.15
     },
     {
-      "movie_slug": "sketch",
-      "title": "Sketch",
-      "release_date": "2025-08-06",
-      "year": 2025,
-      "genre": "Adventure",
-      "raw_score": 78.0,
-      "adjusted_score": 72.9,
-      "n_reviews": 13,
-      "total_adjustment": -5.05
-    },
-    {
       "movie_slug": "the-encampments",
       "title": "The Encampments",
       "release_date": "2025-03-28",
@@ -1631,15 +1620,26 @@
       "total_adjustment": 0.94
     },
     {
-      "movie_slug": "kpop-demon-hunters",
-      "title": "KPop Demon Hunters",
-      "release_date": "2025-06-20",
+      "movie_slug": "sketch",
+      "title": "Sketch",
+      "release_date": "2025-08-06",
+      "year": 2025,
+      "genre": "Adventure",
+      "raw_score": 78.0,
+      "adjusted_score": 72.9,
+      "n_reviews": 13,
+      "total_adjustment": -5.05
+    },
+    {
+      "movie_slug": "predator-killer-of-killers",
+      "title": "Predator: Killer of Killers",
+      "release_date": "2025-06-06",
       "year": 2025,
       "genre": "Animation",
-      "raw_score": 77.0,
+      "raw_score": 78.0,
       "adjusted_score": 72.8,
-      "n_reviews": 9,
-      "total_adjustment": -4.24
+      "n_reviews": 18,
+      "total_adjustment": -5.24
     },
     {
       "movie_slug": "merrily-we-roll-along",
@@ -1653,15 +1653,15 @@
       "total_adjustment": -5.24
     },
     {
-      "movie_slug": "predator-killer-of-killers",
-      "title": "Predator: Killer of Killers",
-      "release_date": "2025-06-06",
+      "movie_slug": "kpop-demon-hunters",
+      "title": "KPop Demon Hunters",
+      "release_date": "2025-06-20",
       "year": 2025,
       "genre": "Animation",
-      "raw_score": 78.0,
+      "raw_score": 77.0,
       "adjusted_score": 72.8,
-      "n_reviews": 18,
-      "total_adjustment": -5.24
+      "n_reviews": 9,
+      "total_adjustment": -4.24
     },
     {
       "movie_slug": "to-kill-a-wolf",
@@ -1717,6 +1717,17 @@
       "adjusted_score": 72.6,
       "n_reviews": 15,
       "total_adjustment": -2.4
+    },
+    {
+      "movie_slug": "arco",
+      "title": "Arco",
+      "release_date": "2026-01-23",
+      "year": 2026,
+      "genre": "Animation",
+      "raw_score": 75.0,
+      "adjusted_score": 72.5,
+      "n_reviews": 19,
+      "total_adjustment": -2.5
     },
     {
       "movie_slug": "every-little-thing",
@@ -1851,15 +1862,15 @@
       "total_adjustment": -1.07
     },
     {
-      "movie_slug": "arco",
-      "title": "Arco",
-      "release_date": "2026-01-23",
-      "year": 2026,
-      "genre": "Animation",
-      "raw_score": 75.0,
+      "movie_slug": "young-hearts-2025",
+      "title": "Young Hearts",
+      "release_date": "2025-03-14",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 69.0,
       "adjusted_score": 71.8,
-      "n_reviews": 18,
-      "total_adjustment": -3.25
+      "n_reviews": 4,
+      "total_adjustment": 2.76
     },
     {
       "movie_slug": "griffin-in-summer",
@@ -1871,17 +1882,6 @@
       "adjusted_score": 71.8,
       "n_reviews": 7,
       "total_adjustment": -1.24
-    },
-    {
-      "movie_slug": "young-hearts-2025",
-      "title": "Young Hearts",
-      "release_date": "2025-03-14",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 69.0,
-      "adjusted_score": 71.8,
-      "n_reviews": 4,
-      "total_adjustment": 2.76
     },
     {
       "movie_slug": "the-mysterious-gaze-of-the-flamingo",
@@ -1937,17 +1937,6 @@
       "adjusted_score": 71.5,
       "n_reviews": 20,
       "total_adjustment": -3.54
-    },
-    {
-      "movie_slug": "is-this-thing-on",
-      "title": "Is This Thing On?",
-      "release_date": "2025-12-19",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 74.0,
-      "adjusted_score": 71.5,
-      "n_reviews": 39,
-      "total_adjustment": -2.47
     },
     {
       "movie_slug": "megadoc",
@@ -2080,6 +2069,17 @@
       "adjusted_score": 71.2,
       "n_reviews": 4,
       "total_adjustment": 0.24
+    },
+    {
+      "movie_slug": "is-this-thing-on",
+      "title": "Is This Thing On?",
+      "release_date": "2025-12-19",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 74.0,
+      "adjusted_score": 71.2,
+      "n_reviews": 40,
+      "total_adjustment": -2.78
     },
     {
       "movie_slug": "100-meters",
@@ -3655,17 +3655,6 @@
       "total_adjustment": 3.36
     },
     {
-      "movie_slug": "an-officer-and-a-spy",
-      "title": "An Officer and a Spy",
-      "release_date": "2025-08-08",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 60.0,
-      "adjusted_score": 63.4,
-      "n_reviews": 15,
-      "total_adjustment": 3.44
-    },
-    {
       "movie_slug": "words-of-war",
       "title": "Words of War",
       "release_date": "2025-05-02",
@@ -3675,6 +3664,17 @@
       "adjusted_score": 63.4,
       "n_reviews": 7,
       "total_adjustment": 0.45
+    },
+    {
+      "movie_slug": "an-officer-and-a-spy",
+      "title": "An Officer and a Spy",
+      "release_date": "2025-08-08",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 60.0,
+      "adjusted_score": 63.4,
+      "n_reviews": 15,
+      "total_adjustment": 3.44
     },
     {
       "movie_slug": "last-take-rust-and-the-story-of-halyna",
@@ -3721,6 +3721,17 @@
       "total_adjustment": 0.97
     },
     {
+      "movie_slug": "the-wrecking-crew-2026",
+      "title": "The Wrecking Crew",
+      "release_date": "2026-01-28",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 58.0,
+      "adjusted_score": 63.0,
+      "n_reviews": 12,
+      "total_adjustment": 4.98
+    },
+    {
       "movie_slug": "the-prosecutor",
       "title": "The Prosecutor",
       "release_date": "2025-01-10",
@@ -3741,17 +3752,6 @@
       "adjusted_score": 62.9,
       "n_reviews": 7,
       "total_adjustment": 2.86
-    },
-    {
-      "movie_slug": "summer-of-69",
-      "title": "Summer of 69",
-      "release_date": "2025-05-09",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 64.0,
-      "adjusted_score": 62.9,
-      "n_reviews": 10,
-      "total_adjustment": -1.07
     },
     {
       "movie_slug": "koln-75",
@@ -3785,6 +3785,17 @@
       "adjusted_score": 62.9,
       "n_reviews": 6,
       "total_adjustment": -2.08
+    },
+    {
+      "movie_slug": "summer-of-69",
+      "title": "Summer of 69",
+      "release_date": "2025-05-09",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 64.0,
+      "adjusted_score": 62.9,
+      "n_reviews": 10,
+      "total_adjustment": -1.07
     },
     {
       "movie_slug": "rounding",
@@ -3842,6 +3853,17 @@
       "total_adjustment": -0.4
     },
     {
+      "movie_slug": "the-rip",
+      "title": "The Rip",
+      "release_date": "2026-01-16",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 64.0,
+      "adjusted_score": 62.5,
+      "n_reviews": 32,
+      "total_adjustment": -1.48
+    },
+    {
       "movie_slug": "bone-lake",
       "title": "Bone Lake",
       "release_date": "2025-10-03",
@@ -3853,15 +3875,15 @@
       "total_adjustment": -0.61
     },
     {
-      "movie_slug": "the-rip",
-      "title": "The Rip",
-      "release_date": "2026-01-16",
-      "year": 2026,
-      "genre": "Action",
-      "raw_score": 64.0,
-      "adjusted_score": 62.3,
-      "n_reviews": 31,
-      "total_adjustment": -1.68
+      "movie_slug": "the-teacher-2023",
+      "title": "The Teacher",
+      "release_date": "2025-04-11",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 62.0,
+      "adjusted_score": 62.2,
+      "n_reviews": 12,
+      "total_adjustment": 0.17
     },
     {
       "movie_slug": "chaos-the-manson-murders",
@@ -3873,17 +3895,6 @@
       "adjusted_score": 62.2,
       "n_reviews": 12,
       "total_adjustment": 0.19
-    },
-    {
-      "movie_slug": "the-teacher-2023",
-      "title": "The Teacher",
-      "release_date": "2025-04-11",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 62.0,
-      "adjusted_score": 62.2,
-      "n_reviews": 12,
-      "total_adjustment": 0.17
     },
     {
       "movie_slug": "americana",
@@ -4190,8 +4201,8 @@
       "genre": "Horror",
       "raw_score": 61.0,
       "adjusted_score": 60.6,
-      "n_reviews": 22,
-      "total_adjustment": -0.41
+      "n_reviews": 24,
+      "total_adjustment": -0.43
     },
     {
       "movie_slug": "springsteen-deliver-me-from-nowhere",
@@ -4469,17 +4480,6 @@
       "total_adjustment": -0.23
     },
     {
-      "movie_slug": "the-wrecking-crew-2026",
-      "title": "The Wrecking Crew",
-      "release_date": "2026-01-28",
-      "year": 2026,
-      "genre": "Action",
-      "raw_score": 58.0,
-      "adjusted_score": 58.7,
-      "n_reviews": 8,
-      "total_adjustment": 0.67
-    },
-    {
       "movie_slug": "bad-shabbos",
       "title": "Bad Shabbos",
       "release_date": "2025-05-23",
@@ -4678,17 +4678,6 @@
       "total_adjustment": -2.8
     },
     {
-      "movie_slug": "control-freak",
-      "title": "Control Freak",
-      "release_date": "2025-03-13",
-      "year": 2025,
-      "genre": "Horror",
-      "raw_score": 62.0,
-      "adjusted_score": 57.0,
-      "n_reviews": 4,
-      "total_adjustment": -5.01
-    },
-    {
       "movie_slug": "american-sweatshop",
       "title": "American Sweatshop",
       "release_date": "2025-08-29",
@@ -4698,6 +4687,17 @@
       "adjusted_score": 57.0,
       "n_reviews": 6,
       "total_adjustment": -1.01
+    },
+    {
+      "movie_slug": "control-freak",
+      "title": "Control Freak",
+      "release_date": "2025-03-13",
+      "year": 2025,
+      "genre": "Horror",
+      "raw_score": 62.0,
+      "adjusted_score": 57.0,
+      "n_reviews": 4,
+      "total_adjustment": -5.01
     },
     {
       "movie_slug": "straw",
