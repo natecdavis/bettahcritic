@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-31T12:08:27.506330",
+  "updated": "2026-02-01T18:09:59.771150",
   "count": 599,
   "movies": [
     {
@@ -333,6 +333,17 @@
       "total_adjustment": -0.45
     },
     {
+      "movie_slug": "a-poet",
+      "title": "A Poet",
+      "release_date": "2026-01-30",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 83.0,
+      "adjusted_score": 81.6,
+      "n_reviews": 12,
+      "total_adjustment": -1.42
+    },
+    {
       "movie_slug": "to-a-land-unknown",
       "title": "To a Land Unknown",
       "release_date": "2025-07-11",
@@ -496,17 +507,6 @@
       "adjusted_score": 80.3,
       "n_reviews": 16,
       "total_adjustment": -1.67
-    },
-    {
-      "movie_slug": "a-poet",
-      "title": "A Poet",
-      "release_date": "2026-01-30",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 83.0,
-      "adjusted_score": 80.2,
-      "n_reviews": 11,
-      "total_adjustment": -2.8
     },
     {
       "movie_slug": "wallace-gromit-vengeance-most-fowl",
@@ -1675,6 +1675,17 @@
       "total_adjustment": -5.05
     },
     {
+      "movie_slug": "send-help",
+      "title": "Send Help",
+      "release_date": "2026-01-30",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 76.0,
+      "adjusted_score": 72.8,
+      "n_reviews": 34,
+      "total_adjustment": -3.23
+    },
+    {
       "movie_slug": "predator-killer-of-killers",
       "title": "Predator: Killer of Killers",
       "release_date": "2025-06-06",
@@ -1695,17 +1706,6 @@
       "adjusted_score": 72.8,
       "n_reviews": 11,
       "total_adjustment": -5.24
-    },
-    {
-      "movie_slug": "send-help",
-      "title": "Send Help",
-      "release_date": "2026-01-30",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 76.0,
-      "adjusted_score": 72.8,
-      "n_reviews": 33,
-      "total_adjustment": -3.24
     },
     {
       "movie_slug": "kpop-demon-hunters",
@@ -4733,15 +4733,15 @@
       "total_adjustment": -2.8
     },
     {
-      "movie_slug": "american-sweatshop",
-      "title": "American Sweatshop",
-      "release_date": "2025-08-29",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 58.0,
-      "adjusted_score": 57.0,
-      "n_reviews": 6,
-      "total_adjustment": -1.01
+      "movie_slug": "the-moment-2026",
+      "title": "The Moment",
+      "release_date": "2026-01-30",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 52.0,
+      "adjusted_score": 57.1,
+      "n_reviews": 20,
+      "total_adjustment": 5.12
     },
     {
       "movie_slug": "control-freak",
@@ -4753,6 +4753,17 @@
       "adjusted_score": 57.0,
       "n_reviews": 4,
       "total_adjustment": -5.01
+    },
+    {
+      "movie_slug": "american-sweatshop",
+      "title": "American Sweatshop",
+      "release_date": "2025-08-29",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 58.0,
+      "adjusted_score": 57.0,
+      "n_reviews": 6,
+      "total_adjustment": -1.01
     },
     {
       "movie_slug": "straw",
@@ -4940,17 +4951,6 @@
       "adjusted_score": 56.2,
       "n_reviews": 13,
       "total_adjustment": -0.78
-    },
-    {
-      "movie_slug": "the-moment-2026",
-      "title": "The Moment",
-      "release_date": "2026-01-30",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 52.0,
-      "adjusted_score": 56.1,
-      "n_reviews": 19,
-      "total_adjustment": 4.13
     },
     {
       "movie_slug": "psycho-therapy-the-shallow-tale-of-a-writer-who-decided-to-write-about-a-serial-killer",
