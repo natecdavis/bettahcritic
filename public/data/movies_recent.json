@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-01T18:09:59.771150",
+  "updated": "2026-02-02T19:06:20.695570",
   "count": 599,
   "movies": [
     {
@@ -1675,28 +1675,6 @@
       "total_adjustment": -5.05
     },
     {
-      "movie_slug": "send-help",
-      "title": "Send Help",
-      "release_date": "2026-01-30",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 76.0,
-      "adjusted_score": 72.8,
-      "n_reviews": 34,
-      "total_adjustment": -3.23
-    },
-    {
-      "movie_slug": "predator-killer-of-killers",
-      "title": "Predator: Killer of Killers",
-      "release_date": "2025-06-06",
-      "year": 2025,
-      "genre": "Animation",
-      "raw_score": 78.0,
-      "adjusted_score": 72.8,
-      "n_reviews": 18,
-      "total_adjustment": -5.24
-    },
-    {
       "movie_slug": "merrily-we-roll-along",
       "title": "Merrily We Roll Along",
       "release_date": "2025-12-05",
@@ -1717,6 +1695,28 @@
       "adjusted_score": 72.8,
       "n_reviews": 9,
       "total_adjustment": -4.24
+    },
+    {
+      "movie_slug": "predator-killer-of-killers",
+      "title": "Predator: Killer of Killers",
+      "release_date": "2025-06-06",
+      "year": 2025,
+      "genre": "Animation",
+      "raw_score": 78.0,
+      "adjusted_score": 72.8,
+      "n_reviews": 18,
+      "total_adjustment": -5.24
+    },
+    {
+      "movie_slug": "send-help",
+      "title": "Send Help",
+      "release_date": "2026-01-30",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 76.0,
+      "adjusted_score": 72.8,
+      "n_reviews": 35,
+      "total_adjustment": -3.25
     },
     {
       "movie_slug": "to-kill-a-wolf",
@@ -4733,15 +4733,15 @@
       "total_adjustment": -2.8
     },
     {
-      "movie_slug": "the-moment-2026",
-      "title": "The Moment",
-      "release_date": "2026-01-30",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 52.0,
-      "adjusted_score": 57.1,
-      "n_reviews": 20,
-      "total_adjustment": 5.12
+      "movie_slug": "american-sweatshop",
+      "title": "American Sweatshop",
+      "release_date": "2025-08-29",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 58.0,
+      "adjusted_score": 57.0,
+      "n_reviews": 6,
+      "total_adjustment": -1.01
     },
     {
       "movie_slug": "control-freak",
@@ -4753,17 +4753,6 @@
       "adjusted_score": 57.0,
       "n_reviews": 4,
       "total_adjustment": -5.01
-    },
-    {
-      "movie_slug": "american-sweatshop",
-      "title": "American Sweatshop",
-      "release_date": "2025-08-29",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 58.0,
-      "adjusted_score": 57.0,
-      "n_reviews": 6,
-      "total_adjustment": -1.01
     },
     {
       "movie_slug": "straw",
@@ -4896,6 +4885,17 @@
       "adjusted_score": 56.3,
       "n_reviews": 5,
       "total_adjustment": 0.33
+    },
+    {
+      "movie_slug": "the-moment-2026",
+      "title": "The Moment",
+      "release_date": "2026-01-30",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 52.0,
+      "adjusted_score": 56.3,
+      "n_reviews": 22,
+      "total_adjustment": 4.34
     },
     {
       "movie_slug": "the-penguin-lessons",
