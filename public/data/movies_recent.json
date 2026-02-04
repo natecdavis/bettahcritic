@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-02T19:06:20.695570",
+  "updated": "2026-02-03T19:13:46.949357",
   "count": 599,
   "movies": [
     {
@@ -509,6 +509,17 @@
       "total_adjustment": -1.67
     },
     {
+      "movie_slug": "sirat",
+      "title": "Sir\u00e2t",
+      "release_date": "2025-11-14",
+      "year": 2025,
+      "genre": "Action",
+      "raw_score": 81.0,
+      "adjusted_score": 80.2,
+      "n_reviews": 23,
+      "total_adjustment": -0.78
+    },
+    {
       "movie_slug": "wallace-gromit-vengeance-most-fowl",
       "title": "Wallace & Gromit: Vengeance Most Fowl",
       "release_date": "2025-01-03",
@@ -584,17 +595,6 @@
       "adjusted_score": 79.8,
       "n_reviews": 8,
       "total_adjustment": 3.81
-    },
-    {
-      "movie_slug": "sirat",
-      "title": "Sir\u00e2t",
-      "release_date": "2025-11-14",
-      "year": 2025,
-      "genre": "Action",
-      "raw_score": 81.0,
-      "adjusted_score": 79.7,
-      "n_reviews": 22,
-      "total_adjustment": -1.34
     },
     {
       "movie_slug": "viet-and-nam",
@@ -3248,17 +3248,6 @@
       "total_adjustment": 0.59
     },
     {
-      "movie_slug": "100-nights-of-hero",
-      "title": "100 Nights of Hero",
-      "release_date": "2025-12-05",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 65.0,
-      "adjusted_score": 65.5,
-      "n_reviews": 19,
-      "total_adjustment": 0.53
-    },
-    {
       "movie_slug": "the-presidents-wife",
       "title": "The President\u2019s Wife",
       "release_date": "2025-04-18",
@@ -3311,6 +3300,17 @@
       "raw_score": 65.0,
       "adjusted_score": 65.2,
       "n_reviews": 25,
+      "total_adjustment": 0.16
+    },
+    {
+      "movie_slug": "100-nights-of-hero",
+      "title": "100 Nights of Hero",
+      "release_date": "2025-12-05",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 65.0,
+      "adjusted_score": 65.2,
+      "n_reviews": 20,
       "total_adjustment": 0.16
     },
     {
@@ -3710,17 +3710,6 @@
       "total_adjustment": 3.36
     },
     {
-      "movie_slug": "words-of-war",
-      "title": "Words of War",
-      "release_date": "2025-05-02",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 63.0,
-      "adjusted_score": 63.4,
-      "n_reviews": 7,
-      "total_adjustment": 0.45
-    },
-    {
       "movie_slug": "an-officer-and-a-spy",
       "title": "An Officer and a Spy",
       "release_date": "2025-08-08",
@@ -3730,6 +3719,17 @@
       "adjusted_score": 63.4,
       "n_reviews": 15,
       "total_adjustment": 3.44
+    },
+    {
+      "movie_slug": "words-of-war",
+      "title": "Words of War",
+      "release_date": "2025-05-02",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 63.0,
+      "adjusted_score": 63.4,
+      "n_reviews": 7,
+      "total_adjustment": 0.45
     },
     {
       "movie_slug": "last-take-rust-and-the-story-of-halyna",
@@ -3798,6 +3798,17 @@
       "total_adjustment": 2.86
     },
     {
+      "movie_slug": "summer-of-69",
+      "title": "Summer of 69",
+      "release_date": "2025-05-09",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 64.0,
+      "adjusted_score": 62.9,
+      "n_reviews": 10,
+      "total_adjustment": -1.07
+    },
+    {
       "movie_slug": "koln-75",
       "title": "K\u00f6ln 75",
       "release_date": "2025-10-17",
@@ -3829,17 +3840,6 @@
       "adjusted_score": 62.9,
       "n_reviews": 6,
       "total_adjustment": -2.08
-    },
-    {
-      "movie_slug": "summer-of-69",
-      "title": "Summer of 69",
-      "release_date": "2025-05-09",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 64.0,
-      "adjusted_score": 62.9,
-      "n_reviews": 10,
-      "total_adjustment": -1.07
     },
     {
       "movie_slug": "rounding",
@@ -3930,17 +3930,6 @@
       "total_adjustment": -0.61
     },
     {
-      "movie_slug": "the-teacher-2023",
-      "title": "The Teacher",
-      "release_date": "2025-04-11",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 62.0,
-      "adjusted_score": 62.2,
-      "n_reviews": 12,
-      "total_adjustment": 0.17
-    },
-    {
       "movie_slug": "chaos-the-manson-murders",
       "title": "CHAOS: The Manson Murders",
       "release_date": "2025-03-07",
@@ -3950,6 +3939,17 @@
       "adjusted_score": 62.2,
       "n_reviews": 12,
       "total_adjustment": 0.19
+    },
+    {
+      "movie_slug": "the-teacher-2023",
+      "title": "The Teacher",
+      "release_date": "2025-04-11",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 62.0,
+      "adjusted_score": 62.2,
+      "n_reviews": 12,
+      "total_adjustment": 0.17
     },
     {
       "movie_slug": "americana",
@@ -4249,17 +4249,6 @@
       "total_adjustment": -2.34
     },
     {
-      "movie_slug": "primate",
-      "title": "Primate",
-      "release_date": "2026-01-09",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 61.0,
-      "adjusted_score": 60.6,
-      "n_reviews": 24,
-      "total_adjustment": -0.43
-    },
-    {
       "movie_slug": "springsteen-deliver-me-from-nowhere",
       "title": "Springsteen: Deliver Me from Nowhere",
       "release_date": "2025-10-24",
@@ -4291,6 +4280,17 @@
       "adjusted_score": 60.5,
       "n_reviews": 15,
       "total_adjustment": 1.51
+    },
+    {
+      "movie_slug": "primate",
+      "title": "Primate",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 61.0,
+      "adjusted_score": 60.4,
+      "n_reviews": 25,
+      "total_adjustment": -0.62
     },
     {
       "movie_slug": "novocaine-2025",
@@ -4326,17 +4326,6 @@
       "total_adjustment": -0.71
     },
     {
-      "movie_slug": "before-we-forget",
-      "title": "Before We Forget",
-      "release_date": "2025-07-11",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 63.0,
-      "adjusted_score": 60.3,
-      "n_reviews": 4,
-      "total_adjustment": -2.69
-    },
-    {
       "movie_slug": "king-ivory",
       "title": "King Ivory",
       "release_date": "2025-11-14",
@@ -4346,6 +4335,17 @@
       "adjusted_score": 60.3,
       "n_reviews": 6,
       "total_adjustment": 0.31
+    },
+    {
+      "movie_slug": "before-we-forget",
+      "title": "Before We Forget",
+      "release_date": "2025-07-11",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 63.0,
+      "adjusted_score": 60.3,
+      "n_reviews": 4,
+      "total_adjustment": -2.69
     },
     {
       "movie_slug": "vice-is-broke",
@@ -5371,17 +5371,6 @@
       "total_adjustment": 0.07
     },
     {
-      "movie_slug": "shelter-2026",
-      "title": "Shelter",
-      "release_date": "2026-01-30",
-      "year": 2026,
-      "genre": "Action",
-      "raw_score": 51.0,
-      "adjusted_score": 53.1,
-      "n_reviews": 20,
-      "total_adjustment": 2.15
-    },
-    {
       "movie_slug": "neil-young-coastal",
       "title": "Neil Young: Coastal",
       "release_date": "2025-04-17",
@@ -5402,6 +5391,17 @@
       "adjusted_score": 53.0,
       "n_reviews": 6,
       "total_adjustment": -0.01
+    },
+    {
+      "movie_slug": "shelter-2026",
+      "title": "Shelter",
+      "release_date": "2026-01-30",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 51.0,
+      "adjusted_score": 52.9,
+      "n_reviews": 22,
+      "total_adjustment": 1.88
     },
     {
       "movie_slug": "the-man-in-my-basement",
