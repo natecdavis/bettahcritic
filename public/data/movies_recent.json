@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-04T08:40:22.191969",
+  "updated": "2026-02-05T09:30:34.896749",
   "count": 599,
   "movies": [
     {
@@ -1065,9 +1065,9 @@
       "year": 2025,
       "genre": "Biography",
       "raw_score": 78.0,
-      "adjusted_score": 75.9,
-      "n_reviews": 26,
-      "total_adjustment": -2.1
+      "adjusted_score": 75.8,
+      "n_reviews": 27,
+      "total_adjustment": -2.2
     },
     {
       "movie_slug": "baahubali-the-epic",
@@ -1543,6 +1543,17 @@
       "total_adjustment": -5.69
     },
     {
+      "movie_slug": "send-help",
+      "title": "Send Help",
+      "release_date": "2026-01-30",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 76.0,
+      "adjusted_score": 73.2,
+      "n_reviews": 37,
+      "total_adjustment": -2.8
+    },
+    {
       "movie_slug": "auction",
       "title": "Auction",
       "release_date": "2025-10-29",
@@ -1675,6 +1686,17 @@
       "total_adjustment": -5.05
     },
     {
+      "movie_slug": "predator-killer-of-killers",
+      "title": "Predator: Killer of Killers",
+      "release_date": "2025-06-06",
+      "year": 2025,
+      "genre": "Animation",
+      "raw_score": 78.0,
+      "adjusted_score": 72.8,
+      "n_reviews": 18,
+      "total_adjustment": -5.24
+    },
+    {
       "movie_slug": "merrily-we-roll-along",
       "title": "Merrily We Roll Along",
       "release_date": "2025-12-05",
@@ -1695,28 +1717,6 @@
       "adjusted_score": 72.8,
       "n_reviews": 9,
       "total_adjustment": -4.24
-    },
-    {
-      "movie_slug": "predator-killer-of-killers",
-      "title": "Predator: Killer of Killers",
-      "release_date": "2025-06-06",
-      "year": 2025,
-      "genre": "Animation",
-      "raw_score": 78.0,
-      "adjusted_score": 72.8,
-      "n_reviews": 18,
-      "total_adjustment": -5.24
-    },
-    {
-      "movie_slug": "send-help",
-      "title": "Send Help",
-      "release_date": "2026-01-30",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 76.0,
-      "adjusted_score": 72.8,
-      "n_reviews": 35,
-      "total_adjustment": -3.25
     },
     {
       "movie_slug": "to-kill-a-wolf",
@@ -1862,6 +1862,17 @@
       "total_adjustment": 1.13
     },
     {
+      "movie_slug": "the-mysterious-gaze-of-the-flamingo",
+      "title": "The Mysterious Gaze of the Flamingo",
+      "release_date": "2025-12-12",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 76.0,
+      "adjusted_score": 72.1,
+      "n_reviews": 7,
+      "total_adjustment": -3.88
+    },
+    {
       "movie_slug": "bob-trevino-likes-it",
       "title": "Bob Trevino Likes It",
       "release_date": "2025-03-21",
@@ -1937,17 +1948,6 @@
       "adjusted_score": 71.8,
       "n_reviews": 7,
       "total_adjustment": -1.24
-    },
-    {
-      "movie_slug": "the-mysterious-gaze-of-the-flamingo",
-      "title": "The Mysterious Gaze of the Flamingo",
-      "release_date": "2025-12-12",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 76.0,
-      "adjusted_score": 71.7,
-      "n_reviews": 6,
-      "total_adjustment": -4.26
     },
     {
       "movie_slug": "la-grazia",
@@ -3182,6 +3182,17 @@
       "total_adjustment": 0.93
     },
     {
+      "movie_slug": "100-nights-of-hero",
+      "title": "100 Nights of Hero",
+      "release_date": "2025-12-05",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 65.0,
+      "adjusted_score": 65.8,
+      "n_reviews": 21,
+      "total_adjustment": 0.79
+    },
+    {
       "movie_slug": "stranger-eyes",
       "title": "Stranger Eyes",
       "release_date": "2025-08-29",
@@ -3300,17 +3311,6 @@
       "raw_score": 65.0,
       "adjusted_score": 65.2,
       "n_reviews": 25,
-      "total_adjustment": 0.16
-    },
-    {
-      "movie_slug": "100-nights-of-hero",
-      "title": "100 Nights of Hero",
-      "release_date": "2025-12-05",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 65.0,
-      "adjusted_score": 65.2,
-      "n_reviews": 20,
       "total_adjustment": 0.16
     },
     {
@@ -3710,17 +3710,6 @@
       "total_adjustment": 3.36
     },
     {
-      "movie_slug": "an-officer-and-a-spy",
-      "title": "An Officer and a Spy",
-      "release_date": "2025-08-08",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 60.0,
-      "adjusted_score": 63.4,
-      "n_reviews": 15,
-      "total_adjustment": 3.44
-    },
-    {
       "movie_slug": "words-of-war",
       "title": "Words of War",
       "release_date": "2025-05-02",
@@ -3730,6 +3719,17 @@
       "adjusted_score": 63.4,
       "n_reviews": 7,
       "total_adjustment": 0.45
+    },
+    {
+      "movie_slug": "an-officer-and-a-spy",
+      "title": "An Officer and a Spy",
+      "release_date": "2025-08-08",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 60.0,
+      "adjusted_score": 63.4,
+      "n_reviews": 15,
+      "total_adjustment": 3.44
     },
     {
       "movie_slug": "last-take-rust-and-the-story-of-halyna",
@@ -3798,17 +3798,6 @@
       "total_adjustment": 2.86
     },
     {
-      "movie_slug": "summer-of-69",
-      "title": "Summer of 69",
-      "release_date": "2025-05-09",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 64.0,
-      "adjusted_score": 62.9,
-      "n_reviews": 10,
-      "total_adjustment": -1.07
-    },
-    {
       "movie_slug": "koln-75",
       "title": "K\u00f6ln 75",
       "release_date": "2025-10-17",
@@ -3840,6 +3829,17 @@
       "adjusted_score": 62.9,
       "n_reviews": 6,
       "total_adjustment": -2.08
+    },
+    {
+      "movie_slug": "summer-of-69",
+      "title": "Summer of 69",
+      "release_date": "2025-05-09",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 64.0,
+      "adjusted_score": 62.9,
+      "n_reviews": 10,
+      "total_adjustment": -1.07
     },
     {
       "movie_slug": "rounding",
@@ -3930,17 +3930,6 @@
       "total_adjustment": -0.61
     },
     {
-      "movie_slug": "chaos-the-manson-murders",
-      "title": "CHAOS: The Manson Murders",
-      "release_date": "2025-03-07",
-      "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 62.0,
-      "adjusted_score": 62.2,
-      "n_reviews": 12,
-      "total_adjustment": 0.19
-    },
-    {
       "movie_slug": "the-teacher-2023",
       "title": "The Teacher",
       "release_date": "2025-04-11",
@@ -3950,6 +3939,17 @@
       "adjusted_score": 62.2,
       "n_reviews": 12,
       "total_adjustment": 0.17
+    },
+    {
+      "movie_slug": "chaos-the-manson-murders",
+      "title": "CHAOS: The Manson Murders",
+      "release_date": "2025-03-07",
+      "year": 2025,
+      "genre": "Documentary",
+      "raw_score": 62.0,
+      "adjusted_score": 62.2,
+      "n_reviews": 12,
+      "total_adjustment": 0.19
     },
     {
       "movie_slug": "americana",
@@ -4700,6 +4700,17 @@
       "total_adjustment": -2.58
     },
     {
+      "movie_slug": "the-moment-2026",
+      "title": "The Moment",
+      "release_date": "2026-01-30",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 52.0,
+      "adjusted_score": 57.3,
+      "n_reviews": 23,
+      "total_adjustment": 5.29
+    },
+    {
       "movie_slug": "i-dont-understand-you",
       "title": "I Don't Understand You",
       "release_date": "2025-06-06",
@@ -4885,17 +4896,6 @@
       "adjusted_score": 56.3,
       "n_reviews": 5,
       "total_adjustment": 0.33
-    },
-    {
-      "movie_slug": "the-moment-2026",
-      "title": "The Moment",
-      "release_date": "2026-01-30",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 52.0,
-      "adjusted_score": 56.3,
-      "n_reviews": 22,
-      "total_adjustment": 4.34
     },
     {
       "movie_slug": "the-penguin-lessons",
