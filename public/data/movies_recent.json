@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-06T15:50:42.763540",
+  "updated": "2026-02-07T11:21:26.384626",
   "count": 608,
   "movies": [
     {
@@ -146,17 +146,6 @@
       "total_adjustment": 0.7
     },
     {
-      "movie_slug": "pillion",
-      "title": "Pillion",
-      "release_date": "2026-02-06",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 86.0,
-      "adjusted_score": 84.3,
-      "n_reviews": 27,
-      "total_adjustment": -1.7
-    },
-    {
       "movie_slug": "sentimental-value",
       "title": "Sentimental Value",
       "release_date": "2025-11-07",
@@ -168,17 +157,6 @@
       "total_adjustment": -2.21
     },
     {
-      "movie_slug": "train-dreams",
-      "title": "Train Dreams",
-      "release_date": "2025-11-07",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 88.0,
-      "adjusted_score": 83.7,
-      "n_reviews": 43,
-      "total_adjustment": -4.33
-    },
-    {
       "movie_slug": "april",
       "title": "April",
       "release_date": "2025-04-25",
@@ -188,6 +166,28 @@
       "adjusted_score": 83.7,
       "n_reviews": 18,
       "total_adjustment": -2.32
+    },
+    {
+      "movie_slug": "pillion",
+      "title": "Pillion",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 86.0,
+      "adjusted_score": 83.7,
+      "n_reviews": 32,
+      "total_adjustment": -2.3
+    },
+    {
+      "movie_slug": "train-dreams",
+      "title": "Train Dreams",
+      "release_date": "2025-11-07",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 88.0,
+      "adjusted_score": 83.7,
+      "n_reviews": 43,
+      "total_adjustment": -4.33
     },
     {
       "movie_slug": "ocean-with-david-attenborough",
@@ -265,6 +265,17 @@
       "adjusted_score": 82.7,
       "n_reviews": 12,
       "total_adjustment": -2.26
+    },
+    {
+      "movie_slug": "sirat",
+      "title": "Sir\u00e2t",
+      "release_date": "2025-11-14",
+      "year": 2025,
+      "genre": "Action",
+      "raw_score": 81.0,
+      "adjusted_score": 82.5,
+      "n_reviews": 26,
+      "total_adjustment": 1.46
     },
     {
       "movie_slug": "my-fathers-shadow",
@@ -432,6 +443,17 @@
       "total_adjustment": -2.76
     },
     {
+      "movie_slug": "the-presidents-cake",
+      "title": "The President's Cake",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 86.0,
+      "adjusted_score": 81.2,
+      "n_reviews": 8,
+      "total_adjustment": -4.78
+    },
+    {
       "movie_slug": "grand-tour",
       "title": "Grand Tour",
       "release_date": "2025-03-28",
@@ -441,17 +463,6 @@
       "adjusted_score": 81.1,
       "n_reviews": 17,
       "total_adjustment": -0.89
-    },
-    {
-      "movie_slug": "sirat",
-      "title": "Sir\u00e2t",
-      "release_date": "2025-11-14",
-      "year": 2025,
-      "genre": "Action",
-      "raw_score": 81.0,
-      "adjusted_score": 81.0,
-      "n_reviews": 24,
-      "total_adjustment": -0.04
     },
     {
       "movie_slug": "im-still-here-2024",
@@ -509,17 +520,6 @@
       "total_adjustment": -2.31
     },
     {
-      "movie_slug": "predators-2025",
-      "title": "Predators",
-      "release_date": "2025-09-19",
-      "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 84.0,
-      "adjusted_score": 80.6,
-      "n_reviews": 18,
-      "total_adjustment": -3.38
-    },
-    {
       "movie_slug": "homebound-2025",
       "title": "Homebound",
       "release_date": "2025-09-26",
@@ -531,15 +531,15 @@
       "total_adjustment": -4.38
     },
     {
-      "movie_slug": "the-presidents-cake",
-      "title": "The President's Cake",
-      "release_date": "2026-02-06",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 86.0,
-      "adjusted_score": 80.5,
-      "n_reviews": 7,
-      "total_adjustment": -5.49
+      "movie_slug": "predators-2025",
+      "title": "Predators",
+      "release_date": "2025-09-19",
+      "year": 2025,
+      "genre": "Documentary",
+      "raw_score": 84.0,
+      "adjusted_score": 80.6,
+      "n_reviews": 18,
+      "total_adjustment": -3.38
     },
     {
       "movie_slug": "from-ground-zero",
@@ -1583,8 +1583,8 @@
       "genre": "Horror",
       "raw_score": 76.0,
       "adjusted_score": 73.2,
-      "n_reviews": 37,
-      "total_adjustment": -2.8
+      "n_reviews": 38,
+      "total_adjustment": -2.79
     },
     {
       "movie_slug": "auction",
@@ -4205,17 +4205,6 @@
       "total_adjustment": 1.34
     },
     {
-      "movie_slug": "scarlet-2025",
-      "title": "Scarlet",
-      "release_date": "2026-02-06",
-      "year": 2026,
-      "genre": "Animation",
-      "raw_score": 62.0,
-      "adjusted_score": 61.3,
-      "n_reviews": 11,
-      "total_adjustment": -0.68
-    },
-    {
       "movie_slug": "titan-the-oceangate-disaster",
       "title": "Titan: The OceanGate Disaster",
       "release_date": "2025-06-11",
@@ -4368,6 +4357,17 @@
       "adjusted_score": 60.4,
       "n_reviews": 38,
       "total_adjustment": 2.45
+    },
+    {
+      "movie_slug": "scarlet-2025",
+      "title": "Scarlet",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "genre": "Animation",
+      "raw_score": 62.0,
+      "adjusted_score": 60.4,
+      "n_reviews": 14,
+      "total_adjustment": -1.56
     },
     {
       "movie_slug": "magic-farm",
@@ -4799,17 +4799,6 @@
       "total_adjustment": -2.8
     },
     {
-      "movie_slug": "american-sweatshop",
-      "title": "American Sweatshop",
-      "release_date": "2025-08-29",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 58.0,
-      "adjusted_score": 57.0,
-      "n_reviews": 6,
-      "total_adjustment": -1.01
-    },
-    {
       "movie_slug": "control-freak",
       "title": "Control Freak",
       "release_date": "2025-03-13",
@@ -4819,6 +4808,17 @@
       "adjusted_score": 57.0,
       "n_reviews": 4,
       "total_adjustment": -5.01
+    },
+    {
+      "movie_slug": "american-sweatshop",
+      "title": "American Sweatshop",
+      "release_date": "2025-08-29",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 58.0,
+      "adjusted_score": 57.0,
+      "n_reviews": 6,
+      "total_adjustment": -1.01
     },
     {
       "movie_slug": "straw",
@@ -5118,6 +5118,17 @@
       "total_adjustment": -5.47
     },
     {
+      "movie_slug": "fackham-hall",
+      "title": "Fackham Hall",
+      "release_date": "2025-12-05",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 54.0,
+      "adjusted_score": 55.4,
+      "n_reviews": 11,
+      "total_adjustment": 1.39
+    },
+    {
       "movie_slug": "eleanor-the-great",
       "title": "Eleanor the Great",
       "release_date": "2025-09-26",
@@ -5129,15 +5140,15 @@
       "total_adjustment": 3.39
     },
     {
-      "movie_slug": "fackham-hall",
-      "title": "Fackham Hall",
-      "release_date": "2025-12-05",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 54.0,
+      "movie_slug": "the-moment-2026",
+      "title": "The Moment",
+      "release_date": "2026-01-30",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 52.0,
       "adjusted_score": 55.4,
-      "n_reviews": 11,
-      "total_adjustment": 1.39
+      "n_reviews": 29,
+      "total_adjustment": 3.44
     },
     {
       "movie_slug": "the-conjuring-last-rites",
@@ -5184,17 +5195,6 @@
       "total_adjustment": 1.24
     },
     {
-      "movie_slug": "the-moment-2026",
-      "title": "The Moment",
-      "release_date": "2026-01-30",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 52.0,
-      "adjusted_score": 55.0,
-      "n_reviews": 28,
-      "total_adjustment": 2.97
-    },
-    {
       "movie_slug": "parthenope",
       "title": "Parthenope",
       "release_date": "2025-02-07",
@@ -5206,17 +5206,6 @@
       "total_adjustment": 3.05
     },
     {
-      "movie_slug": "shell",
-      "title": "Shell",
-      "release_date": "2025-10-03",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 55.0,
-      "adjusted_score": 54.9,
-      "n_reviews": 6,
-      "total_adjustment": -0.15
-    },
-    {
       "movie_slug": "m3gan-20",
       "title": "M3GAN 2.0",
       "release_date": "2025-06-27",
@@ -5226,6 +5215,17 @@
       "adjusted_score": 54.9,
       "n_reviews": 42,
       "total_adjustment": 0.87
+    },
+    {
+      "movie_slug": "shell",
+      "title": "Shell",
+      "release_date": "2025-10-03",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 55.0,
+      "adjusted_score": 54.9,
+      "n_reviews": 6,
+      "total_adjustment": -0.15
     },
     {
       "movie_slug": "vicious",
@@ -5844,17 +5844,6 @@
       "total_adjustment": 2.99
     },
     {
-      "movie_slug": "dracula-2026",
-      "title": "Dracula",
-      "release_date": "2026-02-06",
-      "year": 2026,
-      "genre": "Fantasy",
-      "raw_score": 45.0,
-      "adjusted_score": 48.8,
-      "n_reviews": 14,
-      "total_adjustment": 3.82
-    },
-    {
       "movie_slug": "ad-vitam",
       "title": "Ad Vitam",
       "release_date": "2025-01-10",
@@ -5886,6 +5875,17 @@
       "adjusted_score": 48.5,
       "n_reviews": 23,
       "total_adjustment": 1.49
+    },
+    {
+      "movie_slug": "dracula-2026",
+      "title": "Dracula",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "genre": "Fantasy",
+      "raw_score": 45.0,
+      "adjusted_score": 48.5,
+      "n_reviews": 16,
+      "total_adjustment": 3.47
     },
     {
       "movie_slug": "peter-pans-neverland-nightmare",
@@ -6614,6 +6614,17 @@
       "total_adjustment": 4.78
     },
     {
+      "movie_slug": "the-strangers-chapter-3",
+      "title": "The Strangers: Chapter 3",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 18.0,
+      "adjusted_score": 31.0,
+      "n_reviews": 8,
+      "total_adjustment": 13.03
+    },
+    {
       "movie_slug": "alarum",
       "title": "Alarum",
       "release_date": "2025-01-17",
@@ -6634,17 +6645,6 @@
       "adjusted_score": 29.9,
       "n_reviews": 6,
       "total_adjustment": 9.92
-    },
-    {
-      "movie_slug": "the-strangers-chapter-3",
-      "title": "The Strangers: Chapter 3",
-      "release_date": "2026-02-06",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 18.0,
-      "adjusted_score": 29.5,
-      "n_reviews": 7,
-      "total_adjustment": 11.46
     },
     {
       "movie_slug": "playdate",
