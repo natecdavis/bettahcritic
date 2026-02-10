@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-09T20:18:51.764011",
+  "updated": "2026-02-10T18:09:29.989709",
   "count": 600,
   "movies": [
     {
@@ -141,9 +141,9 @@
       "year": 2026,
       "genre": "Comedy",
       "raw_score": 86.0,
-      "adjusted_score": 83.8,
-      "n_reviews": 33,
-      "total_adjustment": -2.24
+      "adjusted_score": 83.9,
+      "n_reviews": 34,
+      "total_adjustment": -2.12
     },
     {
       "movie_slug": "sentimental-value",
@@ -850,17 +850,6 @@
       "total_adjustment": -2.48
     },
     {
-      "movie_slug": "mr-nobody-against-putin",
-      "title": "Mr. Nobody Against Putin",
-      "release_date": "2026-01-21",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 80.0,
-      "adjusted_score": 77.3,
-      "n_reviews": 11,
-      "total_adjustment": -2.71
-    },
-    {
       "movie_slug": "come-see-me-in-the-good-light",
       "title": "Come See Me in the Good Light",
       "release_date": "2025-11-14",
@@ -958,6 +947,17 @@
       "adjusted_score": 76.8,
       "n_reviews": 13,
       "total_adjustment": -3.2
+    },
+    {
+      "movie_slug": "mr-nobody-against-putin",
+      "title": "Mr. Nobody Against Putin",
+      "release_date": "2026-01-21",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 80.0,
+      "adjusted_score": 76.7,
+      "n_reviews": 12,
+      "total_adjustment": -3.3
     },
     {
       "movie_slug": "devo",
@@ -1807,17 +1807,6 @@
       "total_adjustment": -3.67
     },
     {
-      "movie_slug": "arco",
-      "title": "Arco",
-      "release_date": "2026-01-23",
-      "year": 2026,
-      "genre": "Animation",
-      "raw_score": 73.0,
-      "adjusted_score": 72.2,
-      "n_reviews": 21,
-      "total_adjustment": -0.83
-    },
-    {
       "movie_slug": "folktales",
       "title": "Folktales",
       "release_date": "2025-07-25",
@@ -1827,6 +1816,17 @@
       "adjusted_score": 72.2,
       "n_reviews": 18,
       "total_adjustment": -0.83
+    },
+    {
+      "movie_slug": "arco",
+      "title": "Arco",
+      "release_date": "2026-01-23",
+      "year": 2026,
+      "genre": "Animation",
+      "raw_score": 73.0,
+      "adjusted_score": 72.2,
+      "n_reviews": 22,
+      "total_adjustment": -0.79
     },
     {
       "movie_slug": "dead-mail",
@@ -2082,17 +2082,6 @@
       "total_adjustment": -2.67
     },
     {
-      "movie_slug": "is-this-thing-on",
-      "title": "Is This Thing On?",
-      "release_date": "2025-12-19",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 72.0,
-      "adjusted_score": 71.3,
-      "n_reviews": 43,
-      "total_adjustment": -0.69
-    },
-    {
       "movie_slug": "highest-2-lowest",
       "title": "Highest 2 Lowest",
       "release_date": "2025-08-15",
@@ -2124,6 +2113,17 @@
       "adjusted_score": 71.2,
       "n_reviews": 4,
       "total_adjustment": 0.24
+    },
+    {
+      "movie_slug": "is-this-thing-on",
+      "title": "Is This Thing On?",
+      "release_date": "2025-12-19",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 72.0,
+      "adjusted_score": 71.2,
+      "n_reviews": 45,
+      "total_adjustment": -0.8
     },
     {
       "movie_slug": "100-meters",
@@ -2599,6 +2599,17 @@
       "total_adjustment": 1.17
     },
     {
+      "movie_slug": "calle-malaga",
+      "title": "Calle M\u00e1laga",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 72.0,
+      "adjusted_score": 68.1,
+      "n_reviews": 10,
+      "total_adjustment": -3.9
+    },
+    {
       "movie_slug": "the-sparrow-in-the-chimney",
       "title": "The Sparrow in the Chimney",
       "release_date": "2025-08-01",
@@ -2742,17 +2753,6 @@
       "total_adjustment": 3.42
     },
     {
-      "movie_slug": "calle-malaga",
-      "title": "Calle M\u00e1laga",
-      "release_date": "2026-02-06",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 72.0,
-      "adjusted_score": 67.4,
-      "n_reviews": 9,
-      "total_adjustment": -4.59
-    },
-    {
       "movie_slug": "queens-of-drama",
       "title": "Queens of Drama",
       "release_date": "2025-04-18",
@@ -2874,17 +2874,6 @@
       "total_adjustment": 1.89
     },
     {
-      "movie_slug": "superman-2025",
-      "title": "Superman",
-      "release_date": "2025-07-11",
-      "year": 2025,
-      "genre": "Action",
-      "raw_score": 68.0,
-      "adjusted_score": 66.9,
-      "n_reviews": 58,
-      "total_adjustment": -1.09
-    },
-    {
       "movie_slug": "happy-holidays",
       "title": "Happy Holidays",
       "release_date": "2025-12-05",
@@ -2894,6 +2883,17 @@
       "adjusted_score": 66.9,
       "n_reviews": 6,
       "total_adjustment": -2.05
+    },
+    {
+      "movie_slug": "superman-2025",
+      "title": "Superman",
+      "release_date": "2025-07-11",
+      "year": 2025,
+      "genre": "Action",
+      "raw_score": 68.0,
+      "adjusted_score": 66.9,
+      "n_reviews": 58,
+      "total_adjustment": -1.09
     },
     {
       "movie_slug": "selena-y-los-dinos",
@@ -4106,6 +4106,17 @@
       "total_adjustment": 0.35
     },
     {
+      "movie_slug": "scarlet-2025",
+      "title": "Scarlet",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "genre": "Animation",
+      "raw_score": 60.0,
+      "adjusted_score": 61.3,
+      "n_reviews": 15,
+      "total_adjustment": 1.27
+    },
+    {
       "movie_slug": "eric-larue",
       "title": "Eric Larue",
       "release_date": "2025-04-04",
@@ -4302,17 +4313,6 @@
       "adjusted_score": 60.4,
       "n_reviews": 38,
       "total_adjustment": 2.45
-    },
-    {
-      "movie_slug": "scarlet-2025",
-      "title": "Scarlet",
-      "release_date": "2026-02-06",
-      "year": 2026,
-      "genre": "Animation",
-      "raw_score": 60.0,
-      "adjusted_score": 60.4,
-      "n_reviews": 14,
-      "total_adjustment": 0.44
     },
     {
       "movie_slug": "magic-farm",
@@ -4755,6 +4755,17 @@
       "total_adjustment": -1.01
     },
     {
+      "movie_slug": "whistle",
+      "title": "Whistle",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 57.0,
+      "adjusted_score": 57.0,
+      "n_reviews": 6,
+      "total_adjustment": -0.0
+    },
+    {
       "movie_slug": "straw",
       "title": "Straw",
       "release_date": "2025-06-06",
@@ -4920,17 +4931,6 @@
       "total_adjustment": 0.17
     },
     {
-      "movie_slug": "anniversary",
-      "title": "Anniversary",
-      "release_date": "2025-10-29",
-      "year": 2025,
-      "genre": "Thriller",
-      "raw_score": 57.0,
-      "adjusted_score": 56.2,
-      "n_reviews": 13,
-      "total_adjustment": -0.78
-    },
-    {
       "movie_slug": "hot-milk",
       "title": "Hot Milk",
       "release_date": "2025-06-27",
@@ -4940,6 +4940,17 @@
       "adjusted_score": 56.2,
       "n_reviews": 10,
       "total_adjustment": 2.24
+    },
+    {
+      "movie_slug": "anniversary",
+      "title": "Anniversary",
+      "release_date": "2025-10-29",
+      "year": 2025,
+      "genre": "Thriller",
+      "raw_score": 57.0,
+      "adjusted_score": 56.2,
+      "n_reviews": 13,
+      "total_adjustment": -0.78
     },
     {
       "movie_slug": "psycho-therapy-the-shallow-tale-of-a-writer-who-decided-to-write-about-a-serial-killer",
@@ -4975,17 +4986,6 @@
       "total_adjustment": 1.01
     },
     {
-      "movie_slug": "the-dead-thing",
-      "title": "The Dead Thing",
-      "release_date": "2025-02-14",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 53.0,
-      "adjusted_score": 55.9,
-      "n_reviews": 6,
-      "total_adjustment": 2.89
-    },
-    {
       "movie_slug": "another-simple-favor",
       "title": "Another Simple Favor",
       "release_date": "2025-05-01",
@@ -4997,15 +4997,15 @@
       "total_adjustment": 1.9
     },
     {
-      "movie_slug": "whistle",
-      "title": "Whistle",
-      "release_date": "2026-02-06",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 57.0,
+      "movie_slug": "the-dead-thing",
+      "title": "The Dead Thing",
+      "release_date": "2025-02-14",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 53.0,
       "adjusted_score": 55.9,
-      "n_reviews": 5,
-      "total_adjustment": -1.07
+      "n_reviews": 6,
+      "total_adjustment": 2.89
     },
     {
       "movie_slug": "watch-the-skies",
@@ -5734,6 +5734,17 @@
       "total_adjustment": 0.15
     },
     {
+      "movie_slug": "solo-mio",
+      "title": "Solo Mio",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 44.0,
+      "adjusted_score": 50.2,
+      "n_reviews": 8,
+      "total_adjustment": 6.23
+    },
+    {
       "movie_slug": "tron-ares",
       "title": "TRON: Ares",
       "release_date": "2025-10-10",
@@ -5800,6 +5811,17 @@
       "total_adjustment": 2.99
     },
     {
+      "movie_slug": "dracula-2026",
+      "title": "Dracula",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "genre": "Fantasy",
+      "raw_score": 45.0,
+      "adjusted_score": 49.0,
+      "n_reviews": 18,
+      "total_adjustment": 3.98
+    },
+    {
       "movie_slug": "ad-vitam",
       "title": "Ad Vitam",
       "release_date": "2025-01-10",
@@ -5831,17 +5853,6 @@
       "adjusted_score": 48.5,
       "n_reviews": 23,
       "total_adjustment": 1.49
-    },
-    {
-      "movie_slug": "dracula-2026",
-      "title": "Dracula",
-      "release_date": "2026-02-06",
-      "year": 2026,
-      "genre": "Fantasy",
-      "raw_score": 45.0,
-      "adjusted_score": 48.5,
-      "n_reviews": 16,
-      "total_adjustment": 3.47
     },
     {
       "movie_slug": "peter-pans-neverland-nightmare",
@@ -6073,17 +6084,6 @@
       "adjusted_score": 45.6,
       "n_reviews": 8,
       "total_adjustment": -3.37
-    },
-    {
-      "movie_slug": "solo-mio",
-      "title": "Solo Mio",
-      "release_date": "2026-02-06",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 44.0,
-      "adjusted_score": 45.6,
-      "n_reviews": 6,
-      "total_adjustment": 1.6
     },
     {
       "movie_slug": "four-letters-of-love",
@@ -6515,17 +6515,6 @@
       "total_adjustment": 4.78
     },
     {
-      "movie_slug": "the-strangers-chapter-3",
-      "title": "The Strangers: Chapter 3",
-      "release_date": "2026-02-06",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 24.0,
-      "adjusted_score": 31.0,
-      "n_reviews": 8,
-      "total_adjustment": 7.03
-    },
-    {
       "movie_slug": "alarum",
       "title": "Alarum",
       "release_date": "2025-01-17",
@@ -6579,6 +6568,17 @@
       "adjusted_score": 28.4,
       "n_reviews": 13,
       "total_adjustment": 5.43
+    },
+    {
+      "movie_slug": "the-strangers-chapter-3",
+      "title": "The Strangers: Chapter 3",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 24.0,
+      "adjusted_score": 26.7,
+      "n_reviews": 11,
+      "total_adjustment": 2.72
     },
     {
       "movie_slug": "war-of-the-worlds-2025",
