@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-08T13:53:10.998333",
+  "updated": "2026-02-09T20:18:51.764011",
   "count": 600,
   "movies": [
     {
@@ -135,6 +135,17 @@
       "total_adjustment": -5.3
     },
     {
+      "movie_slug": "pillion",
+      "title": "Pillion",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 86.0,
+      "adjusted_score": 83.8,
+      "n_reviews": 33,
+      "total_adjustment": -2.24
+    },
+    {
       "movie_slug": "sentimental-value",
       "title": "Sentimental Value",
       "release_date": "2025-11-07",
@@ -146,28 +157,6 @@
       "total_adjustment": -2.21
     },
     {
-      "movie_slug": "april",
-      "title": "April",
-      "release_date": "2025-04-25",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 86.0,
-      "adjusted_score": 83.7,
-      "n_reviews": 18,
-      "total_adjustment": -2.32
-    },
-    {
-      "movie_slug": "pillion",
-      "title": "Pillion",
-      "release_date": "2026-02-06",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 86.0,
-      "adjusted_score": 83.7,
-      "n_reviews": 32,
-      "total_adjustment": -2.3
-    },
-    {
       "movie_slug": "train-dreams",
       "title": "Train Dreams",
       "release_date": "2025-11-07",
@@ -177,6 +166,17 @@
       "adjusted_score": 83.7,
       "n_reviews": 43,
       "total_adjustment": -4.33
+    },
+    {
+      "movie_slug": "april",
+      "title": "April",
+      "release_date": "2025-04-25",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 86.0,
+      "adjusted_score": 83.7,
+      "n_reviews": 18,
+      "total_adjustment": -2.32
     },
     {
       "movie_slug": "ocean-with-david-attenborough",
@@ -1664,6 +1664,17 @@
       "total_adjustment": -5.05
     },
     {
+      "movie_slug": "the-mysterious-gaze-of-the-flamingo",
+      "title": "The Mysterious Gaze of the Flamingo",
+      "release_date": "2025-12-12",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 75.0,
+      "adjusted_score": 72.9,
+      "n_reviews": 8,
+      "total_adjustment": -2.08
+    },
+    {
       "movie_slug": "predator-killer-of-killers",
       "title": "Predator: Killer of Killers",
       "release_date": "2025-06-06",
@@ -1697,17 +1708,6 @@
       "total_adjustment": -4.24
     },
     {
-      "movie_slug": "to-kill-a-wolf",
-      "title": "To Kill a Wolf",
-      "release_date": "2025-08-01",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 80.0,
-      "adjusted_score": 72.8,
-      "n_reviews": 5,
-      "total_adjustment": -7.19
-    },
-    {
       "movie_slug": "happyend",
       "title": "Happyend",
       "release_date": "2025-09-12",
@@ -1717,6 +1717,17 @@
       "adjusted_score": 72.8,
       "n_reviews": 10,
       "total_adjustment": -2.21
+    },
+    {
+      "movie_slug": "to-kill-a-wolf",
+      "title": "To Kill a Wolf",
+      "release_date": "2025-08-01",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 80.0,
+      "adjusted_score": 72.8,
+      "n_reviews": 5,
+      "total_adjustment": -7.19
     },
     {
       "movie_slug": "sally",
@@ -1838,17 +1849,6 @@
       "adjusted_score": 72.1,
       "n_reviews": 8,
       "total_adjustment": 1.13
-    },
-    {
-      "movie_slug": "the-mysterious-gaze-of-the-flamingo",
-      "title": "The Mysterious Gaze of the Flamingo",
-      "release_date": "2025-12-12",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 75.0,
-      "adjusted_score": 72.1,
-      "n_reviews": 7,
-      "total_adjustment": -2.88
     },
     {
       "movie_slug": "bob-trevino-likes-it",
