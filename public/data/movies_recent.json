@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-10T18:09:29.989709",
+  "updated": "2026-02-11T11:07:49.509531",
   "count": 600,
   "movies": [
     {
@@ -135,17 +135,6 @@
       "total_adjustment": -5.3
     },
     {
-      "movie_slug": "pillion",
-      "title": "Pillion",
-      "release_date": "2026-02-06",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 86.0,
-      "adjusted_score": 83.9,
-      "n_reviews": 34,
-      "total_adjustment": -2.12
-    },
-    {
       "movie_slug": "sentimental-value",
       "title": "Sentimental Value",
       "release_date": "2025-11-07",
@@ -155,6 +144,17 @@
       "adjusted_score": 83.8,
       "n_reviews": 45,
       "total_adjustment": -2.21
+    },
+    {
+      "movie_slug": "pillion",
+      "title": "Pillion",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 86.0,
+      "adjusted_score": 83.8,
+      "n_reviews": 36,
+      "total_adjustment": -2.16
     },
     {
       "movie_slug": "train-dreams",
@@ -399,17 +399,6 @@
       "total_adjustment": -3.82
     },
     {
-      "movie_slug": "the-presidents-cake",
-      "title": "The President's Cake",
-      "release_date": "2026-02-06",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 88.0,
-      "adjusted_score": 81.2,
-      "n_reviews": 8,
-      "total_adjustment": -6.78
-    },
-    {
       "movie_slug": "eephus",
       "title": "Eephus",
       "release_date": "2025-03-07",
@@ -487,15 +476,15 @@
       "total_adjustment": -2.31
     },
     {
-      "movie_slug": "homebound-2025",
-      "title": "Homebound",
-      "release_date": "2025-09-26",
-      "year": 2025,
+      "movie_slug": "the-presidents-cake",
+      "title": "The President's Cake",
+      "release_date": "2026-02-06",
+      "year": 2026,
       "genre": "Drama",
-      "raw_score": 85.0,
-      "adjusted_score": 80.6,
-      "n_reviews": 6,
-      "total_adjustment": -4.38
+      "raw_score": 88.0,
+      "adjusted_score": 80.7,
+      "n_reviews": 10,
+      "total_adjustment": -7.31
     },
     {
       "movie_slug": "predators-2025",
@@ -507,6 +496,17 @@
       "adjusted_score": 80.6,
       "n_reviews": 18,
       "total_adjustment": -2.38
+    },
+    {
+      "movie_slug": "homebound-2025",
+      "title": "Homebound",
+      "release_date": "2025-09-26",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 85.0,
+      "adjusted_score": 80.6,
+      "n_reviews": 6,
+      "total_adjustment": -4.38
     },
     {
       "movie_slug": "from-ground-zero",
@@ -1037,17 +1037,6 @@
       "total_adjustment": -1.14
     },
     {
-      "movie_slug": "the-chronology-of-water",
-      "title": "The Chronology of Water",
-      "release_date": "2025-12-05",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 78.0,
-      "adjusted_score": 75.8,
-      "n_reviews": 27,
-      "total_adjustment": -2.2
-    },
-    {
       "movie_slug": "baahubali-the-epic",
       "title": "Baahubali: The Epic",
       "release_date": "2025-10-31",
@@ -1057,6 +1046,17 @@
       "adjusted_score": 75.8,
       "n_reviews": 4,
       "total_adjustment": -3.21
+    },
+    {
+      "movie_slug": "the-chronology-of-water",
+      "title": "The Chronology of Water",
+      "release_date": "2025-12-05",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 78.0,
+      "adjusted_score": 75.8,
+      "n_reviews": 28,
+      "total_adjustment": -2.15
     },
     {
       "movie_slug": "sly-lives!-aka-the-burden-of-black-genius",
