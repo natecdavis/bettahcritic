@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-11T11:07:49.509531",
+  "updated": "2026-02-12T11:26:34.096238",
   "count": 600,
   "movies": [
     {
@@ -476,15 +476,15 @@
       "total_adjustment": -2.31
     },
     {
-      "movie_slug": "the-presidents-cake",
-      "title": "The President's Cake",
-      "release_date": "2026-02-06",
-      "year": 2026,
+      "movie_slug": "homebound-2025",
+      "title": "Homebound",
+      "release_date": "2025-09-26",
+      "year": 2025,
       "genre": "Drama",
-      "raw_score": 88.0,
-      "adjusted_score": 80.7,
-      "n_reviews": 10,
-      "total_adjustment": -7.31
+      "raw_score": 85.0,
+      "adjusted_score": 80.6,
+      "n_reviews": 6,
+      "total_adjustment": -4.38
     },
     {
       "movie_slug": "predators-2025",
@@ -496,17 +496,6 @@
       "adjusted_score": 80.6,
       "n_reviews": 18,
       "total_adjustment": -2.38
-    },
-    {
-      "movie_slug": "homebound-2025",
-      "title": "Homebound",
-      "release_date": "2025-09-26",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 85.0,
-      "adjusted_score": 80.6,
-      "n_reviews": 6,
-      "total_adjustment": -4.38
     },
     {
       "movie_slug": "from-ground-zero",
@@ -595,6 +584,17 @@
       "adjusted_score": 79.8,
       "n_reviews": 48,
       "total_adjustment": -1.17
+    },
+    {
+      "movie_slug": "the-presidents-cake",
+      "title": "The President's Cake",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 88.0,
+      "adjusted_score": 79.6,
+      "n_reviews": 12,
+      "total_adjustment": -8.36
     },
     {
       "movie_slug": "viet-and-nam",
@@ -4755,17 +4755,6 @@
       "total_adjustment": -1.01
     },
     {
-      "movie_slug": "whistle",
-      "title": "Whistle",
-      "release_date": "2026-02-06",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 57.0,
-      "adjusted_score": 57.0,
-      "n_reviews": 6,
-      "total_adjustment": -0.0
-    },
-    {
       "movie_slug": "straw",
       "title": "Straw",
       "release_date": "2025-06-06",
@@ -4775,6 +4764,17 @@
       "adjusted_score": 57.0,
       "n_reviews": 7,
       "total_adjustment": 1.0
+    },
+    {
+      "movie_slug": "whistle",
+      "title": "Whistle",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 57.0,
+      "adjusted_score": 57.0,
+      "n_reviews": 7,
+      "total_adjustment": 0.02
     },
     {
       "movie_slug": "stitch-head",
