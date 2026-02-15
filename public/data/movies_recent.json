@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-14T13:15:50.857633",
+  "updated": "2026-02-15T11:52:42.839338",
   "count": 608,
   "movies": [
     {
@@ -1521,17 +1521,6 @@
       "total_adjustment": -0.74
     },
     {
-      "movie_slug": "send-help",
-      "title": "Send Help",
-      "release_date": "2026-01-30",
-      "year": 2026,
-      "genre": "Adventure",
-      "raw_score": 76.0,
-      "adjusted_score": 73.3,
-      "n_reviews": 39,
-      "total_adjustment": -2.66
-    },
-    {
       "movie_slug": "the-white-house-effect",
       "title": "The White House Effect",
       "release_date": "2025-10-31",
@@ -1772,6 +1761,17 @@
       "adjusted_score": 72.6,
       "n_reviews": 15,
       "total_adjustment": -2.4
+    },
+    {
+      "movie_slug": "send-help",
+      "title": "Send Help",
+      "release_date": "2026-01-30",
+      "year": 2026,
+      "genre": "Adventure",
+      "raw_score": 76.0,
+      "adjusted_score": 72.6,
+      "n_reviews": 40,
+      "total_adjustment": -3.4
     },
     {
       "movie_slug": "every-little-thing",
@@ -3039,6 +3039,17 @@
       "total_adjustment": 0.52
     },
     {
+      "movie_slug": "crime-101",
+      "title": "Crime 101",
+      "release_date": "2026-02-13",
+      "year": 2026,
+      "genre": "Crime",
+      "raw_score": 65.0,
+      "adjusted_score": 66.4,
+      "n_reviews": 36,
+      "total_adjustment": 1.39
+    },
+    {
       "movie_slug": "the-legend-of-ochi",
       "title": "The Legend of Ochi",
       "release_date": "2025-04-18",
@@ -3158,17 +3169,6 @@
       "adjusted_score": 66.0,
       "n_reviews": 13,
       "total_adjustment": 0.95
-    },
-    {
-      "movie_slug": "crime-101",
-      "title": "Crime 101",
-      "release_date": "2026-02-13",
-      "year": 2026,
-      "genre": "Crime",
-      "raw_score": 65.0,
-      "adjusted_score": 65.9,
-      "n_reviews": 35,
-      "total_adjustment": 0.92
     },
     {
       "movie_slug": "drop",
@@ -4348,6 +4348,17 @@
       "total_adjustment": 2.46
     },
     {
+      "movie_slug": "primate",
+      "title": "Primate",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 59.0,
+      "adjusted_score": 60.5,
+      "n_reviews": 26,
+      "total_adjustment": 1.49
+    },
+    {
       "movie_slug": "bono-stories-of-surrender",
       "title": "Bono: Stories of Surrender",
       "release_date": "2025-05-30",
@@ -4357,17 +4368,6 @@
       "adjusted_score": 60.5,
       "n_reviews": 15,
       "total_adjustment": 1.51
-    },
-    {
-      "movie_slug": "primate",
-      "title": "Primate",
-      "release_date": "2026-01-09",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 59.0,
-      "adjusted_score": 60.4,
-      "n_reviews": 25,
-      "total_adjustment": 1.38
     },
     {
       "movie_slug": "novocaine-2025",
@@ -4810,6 +4810,17 @@
       "total_adjustment": 1.1
     },
     {
+      "movie_slug": "american-sweatshop",
+      "title": "American Sweatshop",
+      "release_date": "2025-08-29",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 58.0,
+      "adjusted_score": 57.0,
+      "n_reviews": 6,
+      "total_adjustment": -1.01
+    },
+    {
       "movie_slug": "control-freak",
       "title": "Control Freak",
       "release_date": "2025-03-13",
@@ -4821,15 +4832,15 @@
       "total_adjustment": -5.01
     },
     {
-      "movie_slug": "american-sweatshop",
-      "title": "American Sweatshop",
-      "release_date": "2025-08-29",
-      "year": 2025,
+      "movie_slug": "wuthering-heights-2026",
+      "title": "Wuthering Heights",
+      "release_date": "2026-02-13",
+      "year": 2026,
       "genre": "Drama",
-      "raw_score": 58.0,
+      "raw_score": 57.0,
       "adjusted_score": 57.0,
-      "n_reviews": 6,
-      "total_adjustment": -1.01
+      "n_reviews": 55,
+      "total_adjustment": -0.03
     },
     {
       "movie_slug": "straw",
@@ -4942,17 +4953,6 @@
       "total_adjustment": 2.39
     },
     {
-      "movie_slug": "witchboard-2025",
-      "title": "Witchboard",
-      "release_date": "2025-08-15",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 50.0,
-      "adjusted_score": 56.3,
-      "n_reviews": 5,
-      "total_adjustment": 6.33
-    },
-    {
       "movie_slug": "adulthood",
       "title": "Adulthood",
       "release_date": "2025-09-19",
@@ -4962,6 +4962,17 @@
       "adjusted_score": 56.3,
       "n_reviews": 9,
       "total_adjustment": 2.32
+    },
+    {
+      "movie_slug": "witchboard-2025",
+      "title": "Witchboard",
+      "release_date": "2025-08-15",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 50.0,
+      "adjusted_score": 56.3,
+      "n_reviews": 5,
+      "total_adjustment": 6.33
     },
     {
       "movie_slug": "the-penguin-lessons",
@@ -4997,28 +5008,6 @@
       "total_adjustment": 0.17
     },
     {
-      "movie_slug": "hot-milk",
-      "title": "Hot Milk",
-      "release_date": "2025-06-27",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 54.0,
-      "adjusted_score": 56.2,
-      "n_reviews": 10,
-      "total_adjustment": 2.24
-    },
-    {
-      "movie_slug": "wuthering-heights-2026",
-      "title": "Wuthering Heights",
-      "release_date": "2026-02-13",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 57.0,
-      "adjusted_score": 56.2,
-      "n_reviews": 53,
-      "total_adjustment": -0.77
-    },
-    {
       "movie_slug": "anniversary",
       "title": "Anniversary",
       "release_date": "2025-10-29",
@@ -5028,6 +5017,17 @@
       "adjusted_score": 56.2,
       "n_reviews": 13,
       "total_adjustment": -0.78
+    },
+    {
+      "movie_slug": "hot-milk",
+      "title": "Hot Milk",
+      "release_date": "2025-06-27",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 54.0,
+      "adjusted_score": 56.2,
+      "n_reviews": 10,
+      "total_adjustment": 2.24
     },
     {
       "movie_slug": "psycho-therapy-the-shallow-tale-of-a-writer-who-decided-to-write-about-a-serial-killer",
@@ -6499,9 +6499,9 @@
       "year": 2026,
       "genre": "Action",
       "raw_score": 34.0,
-      "adjusted_score": 38.2,
-      "n_reviews": 34,
-      "total_adjustment": 4.17
+      "adjusted_score": 38.3,
+      "n_reviews": 35,
+      "total_adjustment": 4.31
     },
     {
       "movie_slug": "juliet-romeo",
