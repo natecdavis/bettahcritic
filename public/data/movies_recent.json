@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-17T00:20:51.865176",
+  "updated": "2026-02-17T11:56:19.667677",
   "count": 608,
   "movies": [
     {
@@ -791,8 +791,8 @@
       "genre": "Adventure",
       "raw_score": 76.0,
       "adjusted_score": 78.3,
-      "n_reviews": 17,
-      "total_adjustment": 2.32
+      "n_reviews": 18,
+      "total_adjustment": 2.29
     },
     {
       "movie_slug": "vulcanizadora",

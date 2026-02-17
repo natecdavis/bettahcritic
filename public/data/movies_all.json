@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-17T00:20:51.870919",
+  "updated": "2026-02-17T11:56:19.671780",
   "count": 20885,
   "movies": [
     {
@@ -18670,15 +18670,15 @@
       "total_adjustment": 0.28
     },
     {
-      "movie_slug": "andy-warhol-a-documentary-film",
-      "title": "Andy Warhol: A Documentary Film",
-      "release_date": "2006-09-01",
-      "year": 2006,
-      "genre": "Documentary",
-      "raw_score": 86.0,
+      "movie_slug": "nirvanna-the-band-the-show-the-movie",
+      "title": "Nirvanna the Band the Show the Movie",
+      "release_date": "2026-02-13",
+      "year": 2026,
+      "genre": "Adventure",
+      "raw_score": 76.0,
       "adjusted_score": 78.3,
-      "n_reviews": 9,
-      "total_adjustment": -7.71
+      "n_reviews": 18,
+      "total_adjustment": 2.29
     },
     {
       "movie_slug": "labyrinth-of-cinema",
@@ -18780,17 +18780,6 @@
       "total_adjustment": -8.74
     },
     {
-      "movie_slug": "revenge",
-      "title": "Revenge",
-      "release_date": "2018-05-11",
-      "year": 2018,
-      "genre": "Action",
-      "raw_score": 81.0,
-      "adjusted_score": 78.3,
-      "n_reviews": 23,
-      "total_adjustment": -2.7
-    },
-    {
       "movie_slug": "tina",
       "title": "Tina",
       "release_date": "2021-03-27",
@@ -18802,15 +18791,15 @@
       "total_adjustment": -2.71
     },
     {
-      "movie_slug": "the-nuns-story",
-      "title": "The Nun's Story",
-      "release_date": "1959-07-18",
-      "year": 1959,
-      "genre": "Drama",
-      "raw_score": 78.0,
+      "movie_slug": "andy-warhol-a-documentary-film",
+      "title": "Andy Warhol: A Documentary Film",
+      "release_date": "2006-09-01",
+      "year": 2006,
+      "genre": "Documentary",
+      "raw_score": 86.0,
       "adjusted_score": 78.3,
-      "n_reviews": 6,
-      "total_adjustment": 0.3
+      "n_reviews": 9,
+      "total_adjustment": -7.71
     },
     {
       "movie_slug": "four-daughters",
@@ -18822,6 +18811,17 @@
       "adjusted_score": 78.3,
       "n_reviews": 21,
       "total_adjustment": -1.7
+    },
+    {
+      "movie_slug": "revenge",
+      "title": "Revenge",
+      "release_date": "2018-05-11",
+      "year": 2018,
+      "genre": "Action",
+      "raw_score": 81.0,
+      "adjusted_score": 78.3,
+      "n_reviews": 23,
+      "total_adjustment": -2.7
     },
     {
       "movie_slug": "safe-conduct",
@@ -18901,17 +18901,6 @@
       "total_adjustment": -1.68
     },
     {
-      "movie_slug": "nirvanna-the-band-the-show-the-movie",
-      "title": "Nirvanna the Band the Show the Movie",
-      "release_date": "2026-02-13",
-      "year": 2026,
-      "genre": "Adventure",
-      "raw_score": 76.0,
-      "adjusted_score": 78.3,
-      "n_reviews": 17,
-      "total_adjustment": 2.32
-    },
-    {
       "movie_slug": "darwins-nightmare",
       "title": "Darwin's Nightmare",
       "release_date": "2005-08-03",
@@ -18943,6 +18932,17 @@
       "adjusted_score": 78.3,
       "n_reviews": 16,
       "total_adjustment": -1.7
+    },
+    {
+      "movie_slug": "the-nuns-story",
+      "title": "The Nun's Story",
+      "release_date": "1959-07-18",
+      "year": 1959,
+      "genre": "Drama",
+      "raw_score": 78.0,
+      "adjusted_score": 78.3,
+      "n_reviews": 6,
+      "total_adjustment": 0.3
     },
     {
       "movie_slug": "billy-liar",
