@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-17T11:56:19.667677",
+  "updated": "2026-02-18T15:32:44.068781",
   "count": 608,
   "movies": [
     {
@@ -47,6 +47,17 @@
       "total_adjustment": -6.79
     },
     {
+      "movie_slug": "the-secret-agent-2025",
+      "title": "The Secret Agent",
+      "release_date": "2025-11-26",
+      "year": 2025,
+      "genre": "Crime",
+      "raw_score": 91.0,
+      "adjusted_score": 87.9,
+      "n_reviews": 37,
+      "total_adjustment": -3.11
+    },
+    {
       "movie_slug": "my-undesirable-friends-part-i---last-air-in-moscow",
       "title": "My Undesirable Friends: Part I - Last Air in Moscow",
       "release_date": "2025-08-15",
@@ -56,17 +67,6 @@
       "adjusted_score": 87.9,
       "n_reviews": 12,
       "total_adjustment": -5.08
-    },
-    {
-      "movie_slug": "the-secret-agent-2025",
-      "title": "The Secret Agent",
-      "release_date": "2025-11-26",
-      "year": 2025,
-      "genre": "Crime",
-      "raw_score": 91.0,
-      "adjusted_score": 87.3,
-      "n_reviews": 35,
-      "total_adjustment": -3.69
     },
     {
       "movie_slug": "sorry-baby",
@@ -520,6 +520,17 @@
       "total_adjustment": -2.75
     },
     {
+      "movie_slug": "the-presidents-cake",
+      "title": "The President's Cake",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 88.0,
+      "adjusted_score": 80.0,
+      "n_reviews": 13,
+      "total_adjustment": -8.01
+    },
+    {
       "movie_slug": "souleymanes-story",
       "title": "Souleymane's Story",
       "release_date": "2025-08-01",
@@ -584,17 +595,6 @@
       "adjusted_score": 79.8,
       "n_reviews": 48,
       "total_adjustment": -1.17
-    },
-    {
-      "movie_slug": "the-presidents-cake",
-      "title": "The President's Cake",
-      "release_date": "2026-02-06",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 88.0,
-      "adjusted_score": 79.6,
-      "n_reviews": 12,
-      "total_adjustment": -8.36
     },
     {
       "movie_slug": "viet-and-nam",
@@ -3039,17 +3039,6 @@
       "total_adjustment": 0.52
     },
     {
-      "movie_slug": "crime-101",
-      "title": "Crime 101",
-      "release_date": "2026-02-13",
-      "year": 2026,
-      "genre": "Crime",
-      "raw_score": 65.0,
-      "adjusted_score": 66.4,
-      "n_reviews": 36,
-      "total_adjustment": 1.39
-    },
-    {
       "movie_slug": "the-legend-of-ochi",
       "title": "The Legend of Ochi",
       "release_date": "2025-04-18",
@@ -3092,6 +3081,17 @@
       "adjusted_score": 66.4,
       "n_reviews": 57,
       "total_adjustment": -0.58
+    },
+    {
+      "movie_slug": "crime-101",
+      "title": "Crime 101",
+      "release_date": "2026-02-13",
+      "year": 2026,
+      "genre": "Crime",
+      "raw_score": 65.0,
+      "adjusted_score": 66.3,
+      "n_reviews": 37,
+      "total_adjustment": 1.28
     },
     {
       "movie_slug": "it-feeds",
@@ -4810,17 +4810,6 @@
       "total_adjustment": 1.1
     },
     {
-      "movie_slug": "american-sweatshop",
-      "title": "American Sweatshop",
-      "release_date": "2025-08-29",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 58.0,
-      "adjusted_score": 57.0,
-      "n_reviews": 6,
-      "total_adjustment": -1.01
-    },
-    {
       "movie_slug": "control-freak",
       "title": "Control Freak",
       "release_date": "2025-03-13",
@@ -4832,15 +4821,15 @@
       "total_adjustment": -5.01
     },
     {
-      "movie_slug": "wuthering-heights-2026",
-      "title": "Wuthering Heights",
-      "release_date": "2026-02-13",
-      "year": 2026,
+      "movie_slug": "american-sweatshop",
+      "title": "American Sweatshop",
+      "release_date": "2025-08-29",
+      "year": 2025,
       "genre": "Drama",
-      "raw_score": 57.0,
+      "raw_score": 58.0,
       "adjusted_score": 57.0,
-      "n_reviews": 55,
-      "total_adjustment": -0.03
+      "n_reviews": 6,
+      "total_adjustment": -1.01
     },
     {
       "movie_slug": "straw",
@@ -4929,6 +4918,17 @@
       "adjusted_score": 56.6,
       "n_reviews": 7,
       "total_adjustment": 4.63
+    },
+    {
+      "movie_slug": "wuthering-heights-2026",
+      "title": "Wuthering Heights",
+      "release_date": "2026-02-13",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 57.0,
+      "adjusted_score": 56.5,
+      "n_reviews": 57,
+      "total_adjustment": -0.45
     },
     {
       "movie_slug": "breakdown-1975",
@@ -5140,6 +5140,17 @@
       "total_adjustment": -1.39
     },
     {
+      "movie_slug": "the-moment-2026",
+      "title": "The Moment",
+      "release_date": "2026-01-30",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 52.0,
+      "adjusted_score": 55.5,
+      "n_reviews": 32,
+      "total_adjustment": 3.54
+    },
+    {
       "movie_slug": "barrons-cove",
       "title": "Barron's Cove",
       "release_date": "2025-06-06",
@@ -5204,17 +5215,6 @@
       "adjusted_score": 55.2,
       "n_reviews": 16,
       "total_adjustment": 2.15
-    },
-    {
-      "movie_slug": "the-moment-2026",
-      "title": "The Moment",
-      "release_date": "2026-01-30",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 52.0,
-      "adjusted_score": 55.2,
-      "n_reviews": 30,
-      "total_adjustment": 3.21
     },
     {
       "movie_slug": "echo-valley",
@@ -5800,17 +5800,6 @@
       "total_adjustment": -0.31
     },
     {
-      "movie_slug": "dracula-2026",
-      "title": "Dracula",
-      "release_date": "2026-02-06",
-      "year": 2026,
-      "genre": "Fantasy",
-      "raw_score": 45.0,
-      "adjusted_score": 50.5,
-      "n_reviews": 20,
-      "total_adjustment": 5.48
-    },
-    {
       "movie_slug": "snow-white",
       "title": "Snow White",
       "release_date": "2025-03-21",
@@ -5897,6 +5886,17 @@
       "adjusted_score": 49.5,
       "n_reviews": 10,
       "total_adjustment": 4.47
+    },
+    {
+      "movie_slug": "dracula-2026",
+      "title": "Dracula",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "genre": "Fantasy",
+      "raw_score": 45.0,
+      "adjusted_score": 49.3,
+      "n_reviews": 21,
+      "total_adjustment": 4.33
     },
     {
       "movie_slug": "honey-dont",
