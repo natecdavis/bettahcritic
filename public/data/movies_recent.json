@@ -1,6 +1,6 @@
 {
-  "updated": "2026-02-18T15:32:44.068781",
-  "count": 608,
+  "updated": "2026-02-19T11:06:00.199964",
+  "count": 609,
   "movies": [
     {
       "movie_slug": "compensation",
@@ -80,6 +80,17 @@
       "total_adjustment": -3.17
     },
     {
+      "movie_slug": "sound-of-falling",
+      "title": "Sound of Falling",
+      "release_date": "2026-01-16",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 89.0,
+      "adjusted_score": 86.4,
+      "n_reviews": 24,
+      "total_adjustment": -2.6
+    },
+    {
       "movie_slug": "blknws-terms-conditions",
       "title": "BLKNWS: Terms & Conditions",
       "release_date": "2025-11-28",
@@ -89,17 +100,6 @@
       "adjusted_score": 86.2,
       "n_reviews": 9,
       "total_adjustment": -5.82
-    },
-    {
-      "movie_slug": "sound-of-falling",
-      "title": "Sound of Falling",
-      "release_date": "2026-01-16",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 89.0,
-      "adjusted_score": 85.9,
-      "n_reviews": 23,
-      "total_adjustment": -3.07
     },
     {
       "movie_slug": "marty-supreme",
@@ -661,6 +661,17 @@
       "adjusted_score": 79.1,
       "n_reviews": 9,
       "total_adjustment": -3.92
+    },
+    {
+      "movie_slug": "paul-mccartney-man-on-the-run",
+      "title": "Paul McCartney: Man on the Run",
+      "release_date": "2026-02-19",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 90.0,
+      "adjusted_score": 79.1,
+      "n_reviews": 5,
+      "total_adjustment": -10.88
     },
     {
       "movie_slug": "grand-theft-hamlet",
