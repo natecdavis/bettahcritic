@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-23T10:23:00.948271",
+  "updated": "2026-02-24T09:07:48.865474",
   "count": 613,
   "movies": [
     {
@@ -399,17 +399,6 @@
       "total_adjustment": -3.82
     },
     {
-      "movie_slug": "epic-elvis-presley-in-concert",
-      "title": "EPiC: Elvis Presley in Concert",
-      "release_date": "2026-02-20",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 89.0,
-      "adjusted_score": 81.2,
-      "n_reviews": 19,
-      "total_adjustment": -7.79
-    },
-    {
       "movie_slug": "eephus",
       "title": "Eephus",
       "release_date": "2025-03-07",
@@ -441,6 +430,17 @@
       "adjusted_score": 81.0,
       "n_reviews": 43,
       "total_adjustment": -4.03
+    },
+    {
+      "movie_slug": "epic-elvis-presley-in-concert",
+      "title": "EPiC: Elvis Presley in Concert",
+      "release_date": "2026-02-20",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 89.0,
+      "adjusted_score": 80.9,
+      "n_reviews": 21,
+      "total_adjustment": -8.12
     },
     {
       "movie_slug": "peter-hujars-day",
@@ -883,6 +883,17 @@
       "total_adjustment": -2.48
     },
     {
+      "movie_slug": "the-testament-of-ann-lee",
+      "title": "The Testament of Ann Lee",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 79.0,
+      "adjusted_score": 77.5,
+      "n_reviews": 40,
+      "total_adjustment": -1.49
+    },
+    {
       "movie_slug": "come-see-me-in-the-good-light",
       "title": "Come See Me in the Good Light",
       "release_date": "2025-11-14",
@@ -936,17 +947,6 @@
       "adjusted_score": 77.1,
       "n_reviews": 16,
       "total_adjustment": 1.06
-    },
-    {
-      "movie_slug": "the-testament-of-ann-lee",
-      "title": "The Testament of Ann Lee",
-      "release_date": "2025-12-25",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 79.0,
-      "adjusted_score": 76.9,
-      "n_reviews": 39,
-      "total_adjustment": -2.14
     },
     {
       "movie_slug": "warfare",
@@ -1090,17 +1090,6 @@
       "adjusted_score": 75.8,
       "n_reviews": 28,
       "total_adjustment": -2.15
-    },
-    {
-      "movie_slug": "kokuho",
-      "title": "Kokuho",
-      "release_date": "2026-02-06",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 75.0,
-      "adjusted_score": 75.6,
-      "n_reviews": 5,
-      "total_adjustment": 0.57
     },
     {
       "movie_slug": "sly-lives!-aka-the-burden-of-black-genius",
@@ -1277,6 +1266,17 @@
       "adjusted_score": 74.7,
       "n_reviews": 4,
       "total_adjustment": -4.32
+    },
+    {
+      "movie_slug": "kokuho",
+      "title": "Kokuho",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 75.0,
+      "adjusted_score": 74.7,
+      "n_reviews": 6,
+      "total_adjustment": -0.27
     },
     {
       "movie_slug": "ghost-trail",
@@ -1741,17 +1741,6 @@
       "total_adjustment": -4.24
     },
     {
-      "movie_slug": "to-kill-a-wolf",
-      "title": "To Kill a Wolf",
-      "release_date": "2025-08-01",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 80.0,
-      "adjusted_score": 72.8,
-      "n_reviews": 5,
-      "total_adjustment": -7.19
-    },
-    {
       "movie_slug": "happyend",
       "title": "Happyend",
       "release_date": "2025-09-12",
@@ -1761,6 +1750,17 @@
       "adjusted_score": 72.8,
       "n_reviews": 10,
       "total_adjustment": -2.21
+    },
+    {
+      "movie_slug": "to-kill-a-wolf",
+      "title": "To Kill a Wolf",
+      "release_date": "2025-08-01",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 80.0,
+      "adjusted_score": 72.8,
+      "n_reviews": 5,
+      "total_adjustment": -7.19
     },
     {
       "movie_slug": "sally",
@@ -2918,17 +2918,6 @@
       "total_adjustment": 1.89
     },
     {
-      "movie_slug": "happy-holidays",
-      "title": "Happy Holidays",
-      "release_date": "2025-12-05",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 69.0,
-      "adjusted_score": 66.9,
-      "n_reviews": 6,
-      "total_adjustment": -2.05
-    },
-    {
       "movie_slug": "superman-2025",
       "title": "Superman",
       "release_date": "2025-07-11",
@@ -2938,6 +2927,17 @@
       "adjusted_score": 66.9,
       "n_reviews": 58,
       "total_adjustment": -1.09
+    },
+    {
+      "movie_slug": "happy-holidays",
+      "title": "Happy Holidays",
+      "release_date": "2025-12-05",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 69.0,
+      "adjusted_score": 66.9,
+      "n_reviews": 6,
+      "total_adjustment": -2.05
     },
     {
       "movie_slug": "selena-y-los-dinos",
@@ -3171,17 +3171,6 @@
       "total_adjustment": -1.01
     },
     {
-      "movie_slug": "paddington-in-peru",
-      "title": "Paddington In Peru",
-      "release_date": "2025-02-14",
-      "year": 2025,
-      "genre": "Adventure",
-      "raw_score": 65.0,
-      "adjusted_score": 66.0,
-      "n_reviews": 46,
-      "total_adjustment": 0.97
-    },
-    {
       "movie_slug": "kill-the-jockey",
       "title": "Kill the Jockey",
       "release_date": "2025-07-02",
@@ -3191,6 +3180,17 @@
       "adjusted_score": 66.0,
       "n_reviews": 13,
       "total_adjustment": 0.95
+    },
+    {
+      "movie_slug": "paddington-in-peru",
+      "title": "Paddington In Peru",
+      "release_date": "2025-02-14",
+      "year": 2025,
+      "genre": "Adventure",
+      "raw_score": 65.0,
+      "adjusted_score": 66.0,
+      "n_reviews": 46,
+      "total_adjustment": 0.97
     },
     {
       "movie_slug": "drop",
@@ -3257,17 +3257,6 @@
       "adjusted_score": 65.7,
       "n_reviews": 11,
       "total_adjustment": -3.26
-    },
-    {
-      "movie_slug": "all-you-need-is-kill-2025",
-      "title": "All You Need Is Kill",
-      "release_date": "2026-01-16",
-      "year": 2026,
-      "genre": "Animation",
-      "raw_score": 65.0,
-      "adjusted_score": 65.7,
-      "n_reviews": 10,
-      "total_adjustment": 0.71
     },
     {
       "movie_slug": "magazine-dreams",
@@ -3358,17 +3347,6 @@
       "total_adjustment": -0.85
     },
     {
-      "movie_slug": "elio",
-      "title": "Elio",
-      "release_date": "2025-06-20",
-      "year": 2025,
-      "genre": "Animation",
-      "raw_score": 66.0,
-      "adjusted_score": 65.2,
-      "n_reviews": 40,
-      "total_adjustment": -0.8
-    },
-    {
       "movie_slug": "steve",
       "title": "Steve",
       "release_date": "2025-09-19",
@@ -3378,6 +3356,17 @@
       "adjusted_score": 65.2,
       "n_reviews": 25,
       "total_adjustment": 0.16
+    },
+    {
+      "movie_slug": "elio",
+      "title": "Elio",
+      "release_date": "2025-06-20",
+      "year": 2025,
+      "genre": "Animation",
+      "raw_score": 66.0,
+      "adjusted_score": 65.2,
+      "n_reviews": 40,
+      "total_adjustment": -0.8
     },
     {
       "movie_slug": "downton-abbey-the-grand-finale",
@@ -3435,17 +3424,6 @@
       "total_adjustment": 0.98
     },
     {
-      "movie_slug": "by-design",
-      "title": "By Design",
-      "release_date": "2026-02-13",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 62.0,
-      "adjusted_score": 65.0,
-      "n_reviews": 13,
-      "total_adjustment": 3.0
-    },
-    {
       "movie_slug": "the-fantastic-four-first-steps",
       "title": "The Fantastic Four: First Steps",
       "release_date": "2025-07-25",
@@ -3455,6 +3433,17 @@
       "adjusted_score": 65.0,
       "n_reviews": 54,
       "total_adjustment": 0.01
+    },
+    {
+      "movie_slug": "by-design",
+      "title": "By Design",
+      "release_date": "2026-02-13",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 62.0,
+      "adjusted_score": 65.0,
+      "n_reviews": 13,
+      "total_adjustment": 3.0
     },
     {
       "movie_slug": "the-lost-bus",
@@ -3589,17 +3578,6 @@
       "total_adjustment": 2.53
     },
     {
-      "movie_slug": "the-luckiest-man-in-america",
-      "title": "The Luckiest Man in America",
-      "release_date": "2025-04-04",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 68.0,
-      "adjusted_score": 64.4,
-      "n_reviews": 12,
-      "total_adjustment": -3.63
-    },
-    {
       "movie_slug": "h-is-for-hawk",
       "title": "H Is for Hawk",
       "release_date": "2026-01-23",
@@ -3609,6 +3587,17 @@
       "adjusted_score": 64.4,
       "n_reviews": 23,
       "total_adjustment": 1.39
+    },
+    {
+      "movie_slug": "the-luckiest-man-in-america",
+      "title": "The Luckiest Man in America",
+      "release_date": "2025-04-04",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 68.0,
+      "adjusted_score": 64.4,
+      "n_reviews": 12,
+      "total_adjustment": -3.63
     },
     {
       "movie_slug": "the-spongebob-movie-search-for-squarepants",
@@ -3732,6 +3721,17 @@
       "total_adjustment": 1.73
     },
     {
+      "movie_slug": "all-you-need-is-kill-2025",
+      "title": "All You Need Is Kill",
+      "release_date": "2026-01-16",
+      "year": 2026,
+      "genre": "Animation",
+      "raw_score": 65.0,
+      "adjusted_score": 63.6,
+      "n_reviews": 11,
+      "total_adjustment": -1.41
+    },
+    {
       "movie_slug": "on-swift-horses",
       "title": "On Swift Horses",
       "release_date": "2025-04-25",
@@ -3776,17 +3776,6 @@
       "total_adjustment": 3.36
     },
     {
-      "movie_slug": "words-of-war",
-      "title": "Words of War",
-      "release_date": "2025-05-02",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 63.0,
-      "adjusted_score": 63.4,
-      "n_reviews": 7,
-      "total_adjustment": 0.45
-    },
-    {
       "movie_slug": "an-officer-and-a-spy",
       "title": "An Officer and a Spy",
       "release_date": "2025-08-08",
@@ -3796,6 +3785,17 @@
       "adjusted_score": 63.4,
       "n_reviews": 15,
       "total_adjustment": 3.44
+    },
+    {
+      "movie_slug": "words-of-war",
+      "title": "Words of War",
+      "release_date": "2025-05-02",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 63.0,
+      "adjusted_score": 63.4,
+      "n_reviews": 7,
+      "total_adjustment": 0.45
     },
     {
       "movie_slug": "im-chevy-chase-and-youre-not",
@@ -4260,6 +4260,17 @@
       "total_adjustment": -0.93
     },
     {
+      "movie_slug": "cold-storage",
+      "title": "Cold Storage",
+      "release_date": "2026-02-13",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 62.0,
+      "adjusted_score": 61.1,
+      "n_reviews": 12,
+      "total_adjustment": -0.86
+    },
+    {
       "movie_slug": "queen-of-the-ring",
       "title": "Queen of the Ring",
       "release_date": "2025-03-07",
@@ -4489,17 +4500,6 @@
       "adjusted_score": 60.0,
       "n_reviews": 17,
       "total_adjustment": 3.02
-    },
-    {
-      "movie_slug": "cold-storage",
-      "title": "Cold Storage",
-      "release_date": "2026-02-13",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 62.0,
-      "adjusted_score": 59.9,
-      "n_reviews": 11,
-      "total_adjustment": -2.1
     },
     {
       "movie_slug": "the-accountant-2",
@@ -4766,6 +4766,17 @@
       "total_adjustment": -0.28
     },
     {
+      "movie_slug": "midwinter-break",
+      "title": "Midwinter Break",
+      "release_date": "2026-02-20",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 57.0,
+      "adjusted_score": 57.7,
+      "n_reviews": 12,
+      "total_adjustment": 0.72
+    },
+    {
       "movie_slug": "everythings-going-to-be-great",
       "title": "Everything's Going to Be Great",
       "release_date": "2025-06-20",
@@ -4843,17 +4854,6 @@
       "total_adjustment": 1.1
     },
     {
-      "movie_slug": "american-sweatshop",
-      "title": "American Sweatshop",
-      "release_date": "2025-08-29",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 58.0,
-      "adjusted_score": 57.0,
-      "n_reviews": 6,
-      "total_adjustment": -1.01
-    },
-    {
       "movie_slug": "control-freak",
       "title": "Control Freak",
       "release_date": "2025-03-13",
@@ -4865,6 +4865,17 @@
       "total_adjustment": -5.01
     },
     {
+      "movie_slug": "american-sweatshop",
+      "title": "American Sweatshop",
+      "release_date": "2025-08-29",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 58.0,
+      "adjusted_score": 57.0,
+      "n_reviews": 6,
+      "total_adjustment": -1.01
+    },
+    {
       "movie_slug": "straw",
       "title": "Straw",
       "release_date": "2025-06-06",
@@ -4874,17 +4885,6 @@
       "adjusted_score": 57.0,
       "n_reviews": 7,
       "total_adjustment": 1.0
-    },
-    {
-      "movie_slug": "midwinter-break",
-      "title": "Midwinter Break",
-      "release_date": "2026-02-20",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 57.0,
-      "adjusted_score": 56.9,
-      "n_reviews": 11,
-      "total_adjustment": -0.14
     },
     {
       "movie_slug": "stitch-head",
