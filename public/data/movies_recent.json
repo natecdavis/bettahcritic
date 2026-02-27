@@ -1,6 +1,6 @@
 {
-  "updated": "2026-02-24T09:07:48.865474",
-  "count": 613,
+  "updated": "2026-02-26T22:02:40.502525",
+  "count": 618,
   "movies": [
     {
       "movie_slug": "compensation",
@@ -168,17 +168,6 @@
       "total_adjustment": -2.32
     },
     {
-      "movie_slug": "pillion",
-      "title": "Pillion",
-      "release_date": "2026-02-06",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 86.0,
-      "adjusted_score": 83.6,
-      "n_reviews": 38,
-      "total_adjustment": -2.39
-    },
-    {
       "movie_slug": "ocean-with-david-attenborough",
       "title": "Ocean with David Attenborough",
       "release_date": "2025-06-07",
@@ -199,6 +188,17 @@
       "adjusted_score": 83.3,
       "n_reviews": 19,
       "total_adjustment": -2.67
+    },
+    {
+      "movie_slug": "pillion",
+      "title": "Pillion",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 86.0,
+      "adjusted_score": 83.2,
+      "n_reviews": 39,
+      "total_adjustment": -2.82
     },
     {
       "movie_slug": "familiar-touch",
@@ -432,17 +432,6 @@
       "total_adjustment": -4.03
     },
     {
-      "movie_slug": "epic-elvis-presley-in-concert",
-      "title": "EPiC: Elvis Presley in Concert",
-      "release_date": "2026-02-20",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 89.0,
-      "adjusted_score": 80.9,
-      "n_reviews": 21,
-      "total_adjustment": -8.12
-    },
-    {
       "movie_slug": "peter-hujars-day",
       "title": "Peter Hujar's Day",
       "release_date": "2025-11-07",
@@ -452,17 +441,6 @@
       "adjusted_score": 80.8,
       "n_reviews": 32,
       "total_adjustment": -1.22
-    },
-    {
-      "movie_slug": "resurrection-2025",
-      "title": "Resurrection",
-      "release_date": "2025-12-12",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 86.0,
-      "adjusted_score": 80.7,
-      "n_reviews": 22,
-      "total_adjustment": -5.3
     },
     {
       "movie_slug": "universal-language",
@@ -485,6 +463,28 @@
       "adjusted_score": 80.7,
       "n_reviews": 13,
       "total_adjustment": -2.31
+    },
+    {
+      "movie_slug": "resurrection-2025",
+      "title": "Resurrection",
+      "release_date": "2025-12-12",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 86.0,
+      "adjusted_score": 80.7,
+      "n_reviews": 22,
+      "total_adjustment": -5.3
+    },
+    {
+      "movie_slug": "epic-elvis-presley-in-concert",
+      "title": "EPiC: Elvis Presley in Concert",
+      "release_date": "2026-02-20",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 89.0,
+      "adjusted_score": 80.7,
+      "n_reviews": 23,
+      "total_adjustment": -8.27
     },
     {
       "movie_slug": "homebound-2025",
@@ -531,17 +531,6 @@
       "total_adjustment": -2.75
     },
     {
-      "movie_slug": "the-presidents-cake",
-      "title": "The President's Cake",
-      "release_date": "2026-02-06",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 88.0,
-      "adjusted_score": 80.0,
-      "n_reviews": 13,
-      "total_adjustment": -8.01
-    },
-    {
       "movie_slug": "souleymanes-story",
       "title": "Souleymane's Story",
       "release_date": "2025-08-01",
@@ -575,6 +564,28 @@
       "total_adjustment": -4.08
     },
     {
+      "movie_slug": "the-presidents-cake",
+      "title": "The President's Cake",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 88.0,
+      "adjusted_score": 79.8,
+      "n_reviews": 15,
+      "total_adjustment": -8.25
+    },
+    {
+      "movie_slug": "weapons",
+      "title": "Weapons",
+      "release_date": "2025-08-08",
+      "year": 2025,
+      "genre": "Horror",
+      "raw_score": 81.0,
+      "adjusted_score": 79.8,
+      "n_reviews": 48,
+      "total_adjustment": -1.17
+    },
+    {
       "movie_slug": "by-the-stream",
       "title": "By the Stream",
       "release_date": "2025-08-08",
@@ -595,17 +606,6 @@
       "adjusted_score": 79.8,
       "n_reviews": 25,
       "total_adjustment": -3.18
-    },
-    {
-      "movie_slug": "weapons",
-      "title": "Weapons",
-      "release_date": "2025-08-08",
-      "year": 2025,
-      "genre": "Horror",
-      "raw_score": 81.0,
-      "adjusted_score": 79.8,
-      "n_reviews": 48,
-      "total_adjustment": -1.17
     },
     {
       "movie_slug": "viet-and-nam",
@@ -815,17 +815,6 @@
       "adjusted_score": 78.2,
       "n_reviews": 10,
       "total_adjustment": -3.79
-    },
-    {
-      "movie_slug": "paul-mccartney-man-on-the-run",
-      "title": "Paul McCartney: Man on the Run",
-      "release_date": "2026-02-19",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 90.0,
-      "adjusted_score": 78.0,
-      "n_reviews": 8,
-      "total_adjustment": -12.04
     },
     {
       "movie_slug": "twinless",
@@ -1057,6 +1046,17 @@
       "adjusted_score": 76.1,
       "n_reviews": 23,
       "total_adjustment": -1.85
+    },
+    {
+      "movie_slug": "paul-mccartney-man-on-the-run",
+      "title": "Paul McCartney: Man on the Run",
+      "release_date": "2026-02-19",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 90.0,
+      "adjusted_score": 75.9,
+      "n_reviews": 12,
+      "total_adjustment": -14.14
     },
     {
       "movie_slug": "urchin",
@@ -1453,6 +1453,17 @@
       "adjusted_score": 73.9,
       "n_reviews": 41,
       "total_adjustment": -2.09
+    },
+    {
+      "movie_slug": "what-does-that-nature-say-to-you",
+      "title": "What Does That Nature Say to You",
+      "release_date": "2026-02-27",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 69.0,
+      "adjusted_score": 73.8,
+      "n_reviews": 4,
+      "total_adjustment": 4.78
     },
     {
       "movie_slug": "secret-mall-apartment",
@@ -3490,6 +3501,17 @@
       "total_adjustment": 0.68
     },
     {
+      "movie_slug": "all-you-need-is-kill-2025",
+      "title": "All You Need Is Kill",
+      "release_date": "2026-01-16",
+      "year": 2026,
+      "genre": "Animation",
+      "raw_score": 65.0,
+      "adjusted_score": 64.7,
+      "n_reviews": 12,
+      "total_adjustment": -0.29
+    },
+    {
       "movie_slug": "plainclothes",
       "title": "Plainclothes",
       "release_date": "2025-09-19",
@@ -3721,17 +3743,6 @@
       "total_adjustment": 1.73
     },
     {
-      "movie_slug": "all-you-need-is-kill-2025",
-      "title": "All You Need Is Kill",
-      "release_date": "2026-01-16",
-      "year": 2026,
-      "genre": "Animation",
-      "raw_score": 65.0,
-      "adjusted_score": 63.6,
-      "n_reviews": 11,
-      "total_adjustment": -1.41
-    },
-    {
       "movie_slug": "on-swift-horses",
       "title": "On Swift Horses",
       "release_date": "2025-04-25",
@@ -3776,17 +3787,6 @@
       "total_adjustment": 3.36
     },
     {
-      "movie_slug": "an-officer-and-a-spy",
-      "title": "An Officer and a Spy",
-      "release_date": "2025-08-08",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 60.0,
-      "adjusted_score": 63.4,
-      "n_reviews": 15,
-      "total_adjustment": 3.44
-    },
-    {
       "movie_slug": "words-of-war",
       "title": "Words of War",
       "release_date": "2025-05-02",
@@ -3796,6 +3796,17 @@
       "adjusted_score": 63.4,
       "n_reviews": 7,
       "total_adjustment": 0.45
+    },
+    {
+      "movie_slug": "an-officer-and-a-spy",
+      "title": "An Officer and a Spy",
+      "release_date": "2025-08-08",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 60.0,
+      "adjusted_score": 63.4,
+      "n_reviews": 15,
+      "total_adjustment": 3.44
     },
     {
       "movie_slug": "im-chevy-chase-and-youre-not",
@@ -4172,6 +4183,17 @@
       "total_adjustment": 0.57
     },
     {
+      "movie_slug": "the-bluff",
+      "title": "The Bluff",
+      "release_date": "2026-02-25",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 63.0,
+      "adjusted_score": 61.6,
+      "n_reviews": 7,
+      "total_adjustment": -1.36
+    },
+    {
       "movie_slug": "brides",
       "title": "Brides",
       "release_date": "2025-09-26",
@@ -4236,6 +4258,17 @@
       "adjusted_score": 61.3,
       "n_reviews": 42,
       "total_adjustment": 1.34
+    },
+    {
+      "movie_slug": "dreams-2026",
+      "title": "Dreams",
+      "release_date": "2026-02-27",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 61.0,
+      "adjusted_score": 61.2,
+      "n_reviews": 10,
+      "total_adjustment": 0.18
     },
     {
       "movie_slug": "titan-the-oceangate-disaster",
@@ -5327,6 +5360,17 @@
       "total_adjustment": 2.75
     },
     {
+      "movie_slug": "iron-lung",
+      "title": "Iron Lung",
+      "release_date": "2026-01-30",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 53.0,
+      "adjusted_score": 54.7,
+      "n_reviews": 9,
+      "total_adjustment": 1.7
+    },
+    {
       "movie_slug": "the-amateur",
       "title": "The Amateur",
       "release_date": "2025-04-11",
@@ -5503,17 +5547,6 @@
       "total_adjustment": 4.32
     },
     {
-      "movie_slug": "how-to-make-a-killing",
-      "title": "How to Make a Killing",
-      "release_date": "2026-02-20",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 52.0,
-      "adjusted_score": 53.2,
-      "n_reviews": 32,
-      "total_adjustment": 1.22
-    },
-    {
       "movie_slug": "lilo-stitch-2025",
       "title": "Lilo & Stitch",
       "release_date": "2025-05-23",
@@ -5525,17 +5558,6 @@
       "total_adjustment": 0.07
     },
     {
-      "movie_slug": "iron-lung",
-      "title": "Iron Lung",
-      "release_date": "2026-01-30",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 53.0,
-      "adjusted_score": 53.1,
-      "n_reviews": 8,
-      "total_adjustment": 0.08
-    },
-    {
       "movie_slug": "neil-young-coastal",
       "title": "Neil Young: Coastal",
       "release_date": "2025-04-17",
@@ -5545,6 +5567,17 @@
       "adjusted_score": 53.1,
       "n_reviews": 5,
       "total_adjustment": 0.14
+    },
+    {
+      "movie_slug": "how-to-make-a-killing",
+      "title": "How to Make a Killing",
+      "release_date": "2026-02-20",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 52.0,
+      "adjusted_score": 53.0,
+      "n_reviews": 33,
+      "total_adjustment": 1.0
     },
     {
       "movie_slug": "midas-man",
@@ -5767,6 +5800,17 @@
       "total_adjustment": -0.47
     },
     {
+      "movie_slug": "in-cold-light",
+      "title": "In Cold Light",
+      "release_date": "2026-01-23",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 47.0,
+      "adjusted_score": 51.5,
+      "n_reviews": 5,
+      "total_adjustment": 4.52
+    },
+    {
       "movie_slug": "the-twits",
       "title": "The Twits",
       "release_date": "2025-10-17",
@@ -5776,17 +5820,6 @@
       "adjusted_score": 51.3,
       "n_reviews": 9,
       "total_adjustment": 3.27
-    },
-    {
-      "movie_slug": "in-cold-light",
-      "title": "In Cold Light",
-      "release_date": "2026-01-23",
-      "year": 2026,
-      "genre": "Action",
-      "raw_score": 47.0,
-      "adjusted_score": 51.3,
-      "n_reviews": 4,
-      "total_adjustment": 4.26
     },
     {
       "movie_slug": "the-map-that-leads-to-you",
@@ -6405,6 +6438,17 @@
       "total_adjustment": 4.61
     },
     {
+      "movie_slug": "in-the-blink-of-an-eye",
+      "title": "In the Blink of an Eye",
+      "release_date": "2026-02-27",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 36.0,
+      "adjusted_score": 42.6,
+      "n_reviews": 13,
+      "total_adjustment": 6.63
+    },
+    {
       "movie_slug": "odessa",
       "title": "O'Dessa",
       "release_date": "2025-03-20",
@@ -6414,6 +6458,17 @@
       "adjusted_score": 42.4,
       "n_reviews": 14,
       "total_adjustment": 1.35
+    },
+    {
+      "movie_slug": "scream-7",
+      "title": "Scream 7",
+      "release_date": "2026-02-27",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 36.0,
+      "adjusted_score": 42.3,
+      "n_reviews": 25,
+      "total_adjustment": 6.26
     },
     {
       "movie_slug": "him",
