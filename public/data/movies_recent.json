@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-26T22:02:40.502525",
+  "updated": "2026-02-28T13:39:49.795603",
   "count": 618,
   "movies": [
     {
@@ -432,6 +432,17 @@
       "total_adjustment": -4.03
     },
     {
+      "movie_slug": "epic-elvis-presley-in-concert",
+      "title": "EPiC: Elvis Presley in Concert",
+      "release_date": "2026-02-20",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 89.0,
+      "adjusted_score": 80.9,
+      "n_reviews": 26,
+      "total_adjustment": -8.14
+    },
+    {
       "movie_slug": "peter-hujars-day",
       "title": "Peter Hujar's Day",
       "release_date": "2025-11-07",
@@ -441,6 +452,17 @@
       "adjusted_score": 80.8,
       "n_reviews": 32,
       "total_adjustment": -1.22
+    },
+    {
+      "movie_slug": "resurrection-2025",
+      "title": "Resurrection",
+      "release_date": "2025-12-12",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 86.0,
+      "adjusted_score": 80.7,
+      "n_reviews": 22,
+      "total_adjustment": -5.3
     },
     {
       "movie_slug": "universal-language",
@@ -463,28 +485,6 @@
       "adjusted_score": 80.7,
       "n_reviews": 13,
       "total_adjustment": -2.31
-    },
-    {
-      "movie_slug": "resurrection-2025",
-      "title": "Resurrection",
-      "release_date": "2025-12-12",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 86.0,
-      "adjusted_score": 80.7,
-      "n_reviews": 22,
-      "total_adjustment": -5.3
-    },
-    {
-      "movie_slug": "epic-elvis-presley-in-concert",
-      "title": "EPiC: Elvis Presley in Concert",
-      "release_date": "2026-02-20",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 89.0,
-      "adjusted_score": 80.7,
-      "n_reviews": 23,
-      "total_adjustment": -8.27
     },
     {
       "movie_slug": "homebound-2025",
@@ -531,6 +531,17 @@
       "total_adjustment": -2.75
     },
     {
+      "movie_slug": "the-presidents-cake",
+      "title": "The President's Cake",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 88.0,
+      "adjusted_score": 80.1,
+      "n_reviews": 16,
+      "total_adjustment": -7.88
+    },
+    {
       "movie_slug": "souleymanes-story",
       "title": "Souleymane's Story",
       "release_date": "2025-08-01",
@@ -562,17 +573,6 @@
       "adjusted_score": 79.9,
       "n_reviews": 6,
       "total_adjustment": -4.08
-    },
-    {
-      "movie_slug": "the-presidents-cake",
-      "title": "The President's Cake",
-      "release_date": "2026-02-06",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 88.0,
-      "adjusted_score": 79.8,
-      "n_reviews": 15,
-      "total_adjustment": -8.25
     },
     {
       "movie_slug": "weapons",
@@ -861,6 +861,17 @@
       "total_adjustment": -2.42
     },
     {
+      "movie_slug": "what-does-that-nature-say-to-you",
+      "title": "What Does That Nature Say to You",
+      "release_date": "2026-02-27",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 69.0,
+      "adjusted_score": 77.5,
+      "n_reviews": 5,
+      "total_adjustment": 8.47
+    },
+    {
       "movie_slug": "the-mastermind",
       "title": "The Mastermind",
       "release_date": "2025-10-17",
@@ -879,7 +890,7 @@
       "genre": "Biography",
       "raw_score": 79.0,
       "adjusted_score": 77.5,
-      "n_reviews": 40,
+      "n_reviews": 41,
       "total_adjustment": -1.49
     },
     {
@@ -1048,17 +1059,6 @@
       "total_adjustment": -1.85
     },
     {
-      "movie_slug": "paul-mccartney-man-on-the-run",
-      "title": "Paul McCartney: Man on the Run",
-      "release_date": "2026-02-19",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 90.0,
-      "adjusted_score": 75.9,
-      "n_reviews": 12,
-      "total_adjustment": -14.14
-    },
-    {
       "movie_slug": "urchin",
       "title": "Urchin",
       "release_date": "2025-10-10",
@@ -1134,6 +1134,17 @@
       "adjusted_score": 75.5,
       "n_reviews": 58,
       "total_adjustment": -2.46
+    },
+    {
+      "movie_slug": "paul-mccartney-man-on-the-run",
+      "title": "Paul McCartney: Man on the Run",
+      "release_date": "2026-02-19",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 90.0,
+      "adjusted_score": 75.4,
+      "n_reviews": 14,
+      "total_adjustment": -14.58
     },
     {
       "movie_slug": "if-i-had-legs-id-kick-you",
@@ -1453,17 +1464,6 @@
       "adjusted_score": 73.9,
       "n_reviews": 41,
       "total_adjustment": -2.09
-    },
-    {
-      "movie_slug": "what-does-that-nature-say-to-you",
-      "title": "What Does That Nature Say to You",
-      "release_date": "2026-02-27",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 69.0,
-      "adjusted_score": 73.8,
-      "n_reviews": 4,
-      "total_adjustment": 4.78
     },
     {
       "movie_slug": "secret-mall-apartment",
@@ -4183,17 +4183,6 @@
       "total_adjustment": 0.57
     },
     {
-      "movie_slug": "the-bluff",
-      "title": "The Bluff",
-      "release_date": "2026-02-25",
-      "year": 2026,
-      "genre": "Action",
-      "raw_score": 63.0,
-      "adjusted_score": 61.6,
-      "n_reviews": 7,
-      "total_adjustment": -1.36
-    },
-    {
       "movie_slug": "brides",
       "title": "Brides",
       "release_date": "2025-09-26",
@@ -4258,17 +4247,6 @@
       "adjusted_score": 61.3,
       "n_reviews": 42,
       "total_adjustment": 1.34
-    },
-    {
-      "movie_slug": "dreams-2026",
-      "title": "Dreams",
-      "release_date": "2026-02-27",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 61.0,
-      "adjusted_score": 61.2,
-      "n_reviews": 10,
-      "total_adjustment": 0.18
     },
     {
       "movie_slug": "titan-the-oceangate-disaster",
@@ -4557,6 +4535,17 @@
       "total_adjustment": 1.71
     },
     {
+      "movie_slug": "the-bluff",
+      "title": "The Bluff",
+      "release_date": "2026-02-25",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 63.0,
+      "adjusted_score": 59.5,
+      "n_reviews": 8,
+      "total_adjustment": -3.52
+    },
+    {
       "movie_slug": "den-of-thieves-2-pantera",
       "title": "Den of Thieves 2: Pantera",
       "release_date": "2025-01-10",
@@ -4599,6 +4588,17 @@
       "adjusted_score": 59.1,
       "n_reviews": 6,
       "total_adjustment": 4.15
+    },
+    {
+      "movie_slug": "dreams-2026",
+      "title": "Dreams",
+      "release_date": "2026-02-27",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 61.0,
+      "adjusted_score": 59.1,
+      "n_reviews": 12,
+      "total_adjustment": -1.88
     },
     {
       "movie_slug": "spinal-tap-ii-the-end-continues",
@@ -6444,9 +6444,9 @@
       "year": 2026,
       "genre": "Drama",
       "raw_score": 36.0,
-      "adjusted_score": 42.6,
-      "n_reviews": 13,
-      "total_adjustment": 6.63
+      "adjusted_score": 42.5,
+      "n_reviews": 15,
+      "total_adjustment": 6.53
     },
     {
       "movie_slug": "odessa",
@@ -6458,17 +6458,6 @@
       "adjusted_score": 42.4,
       "n_reviews": 14,
       "total_adjustment": 1.35
-    },
-    {
-      "movie_slug": "scream-7",
-      "title": "Scream 7",
-      "release_date": "2026-02-27",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 36.0,
-      "adjusted_score": 42.3,
-      "n_reviews": 25,
-      "total_adjustment": 6.26
     },
     {
       "movie_slug": "him",
@@ -6513,6 +6502,17 @@
       "adjusted_score": 41.6,
       "n_reviews": 8,
       "total_adjustment": 1.62
+    },
+    {
+      "movie_slug": "scream-7",
+      "title": "Scream 7",
+      "release_date": "2026-02-27",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 36.0,
+      "adjusted_score": 41.2,
+      "n_reviews": 37,
+      "total_adjustment": 5.16
     },
     {
       "movie_slug": "the-pickup",
