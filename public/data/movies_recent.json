@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-28T13:39:49.795603",
+  "updated": "2026-03-02T19:38:37.851063",
   "count": 618,
   "movies": [
     {
@@ -538,8 +538,8 @@
       "genre": "Drama",
       "raw_score": 88.0,
       "adjusted_score": 80.1,
-      "n_reviews": 16,
-      "total_adjustment": -7.88
+      "n_reviews": 17,
+      "total_adjustment": -7.9
     },
     {
       "movie_slug": "souleymanes-story",

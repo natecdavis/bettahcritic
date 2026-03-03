@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-28T13:39:49.799700",
+  "updated": "2026-03-02T19:38:37.855386",
   "count": 20895,
   "movies": [
     {
@@ -13269,15 +13269,15 @@
       "total_adjustment": -0.92
     },
     {
-      "movie_slug": "rosie",
-      "title": "Rosie",
-      "release_date": "2019-07-19",
-      "year": 2019,
+      "movie_slug": "the-presidents-cake",
+      "title": "The President's Cake",
+      "release_date": "2026-02-06",
+      "year": 2026,
       "genre": "Drama",
-      "raw_score": 83.0,
+      "raw_score": 88.0,
       "adjusted_score": 80.1,
-      "n_reviews": 11,
-      "total_adjustment": -2.9
+      "n_reviews": 17,
+      "total_adjustment": -7.9
     },
     {
       "movie_slug": "turning-red-2022",
@@ -13346,15 +13346,15 @@
       "total_adjustment": -2.92
     },
     {
-      "movie_slug": "the-endurance",
-      "title": "The Endurance",
-      "release_date": "2001-09-21",
-      "year": 2001,
-      "genre": "Documentary",
-      "raw_score": 85.0,
+      "movie_slug": "the-last-black-man-in-san-francisco",
+      "title": "The Last Black Man in San Francisco",
+      "release_date": "2019-06-07",
+      "year": 2019,
+      "genre": "Drama",
+      "raw_score": 82.0,
       "adjusted_score": 80.1,
-      "n_reviews": 23,
-      "total_adjustment": -4.89
+      "n_reviews": 39,
+      "total_adjustment": -1.89
     },
     {
       "movie_slug": "knives-out",
@@ -13368,15 +13368,15 @@
       "total_adjustment": -1.95
     },
     {
-      "movie_slug": "the-last-black-man-in-san-francisco",
-      "title": "The Last Black Man in San Francisco",
-      "release_date": "2019-06-07",
+      "movie_slug": "rosie",
+      "title": "Rosie",
+      "release_date": "2019-07-19",
       "year": 2019,
       "genre": "Drama",
-      "raw_score": 82.0,
+      "raw_score": 83.0,
       "adjusted_score": 80.1,
-      "n_reviews": 39,
-      "total_adjustment": -1.89
+      "n_reviews": 11,
+      "total_adjustment": -2.9
     },
     {
       "movie_slug": "milk",
@@ -13390,15 +13390,15 @@
       "total_adjustment": -2.91
     },
     {
-      "movie_slug": "the-presidents-cake",
-      "title": "The President's Cake",
-      "release_date": "2026-02-06",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 88.0,
+      "movie_slug": "the-endurance",
+      "title": "The Endurance",
+      "release_date": "2001-09-21",
+      "year": 2001,
+      "genre": "Documentary",
+      "raw_score": 85.0,
       "adjusted_score": 80.1,
-      "n_reviews": 16,
-      "total_adjustment": -7.88
+      "n_reviews": 23,
+      "total_adjustment": -4.89
     },
     {
       "movie_slug": "once-upon-a-time-in-hollywood",
