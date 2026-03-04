@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-02T19:38:37.851063",
+  "updated": "2026-03-03T20:01:31.986579",
   "count": 618,
   "movies": [
     {
@@ -432,17 +432,6 @@
       "total_adjustment": -4.03
     },
     {
-      "movie_slug": "epic-elvis-presley-in-concert",
-      "title": "EPiC: Elvis Presley in Concert",
-      "release_date": "2026-02-20",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 89.0,
-      "adjusted_score": 80.9,
-      "n_reviews": 26,
-      "total_adjustment": -8.14
-    },
-    {
       "movie_slug": "peter-hujars-day",
       "title": "Peter Hujar's Day",
       "release_date": "2025-11-07",
@@ -452,17 +441,6 @@
       "adjusted_score": 80.8,
       "n_reviews": 32,
       "total_adjustment": -1.22
-    },
-    {
-      "movie_slug": "resurrection-2025",
-      "title": "Resurrection",
-      "release_date": "2025-12-12",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 86.0,
-      "adjusted_score": 80.7,
-      "n_reviews": 22,
-      "total_adjustment": -5.3
     },
     {
       "movie_slug": "universal-language",
@@ -485,6 +463,28 @@
       "adjusted_score": 80.7,
       "n_reviews": 13,
       "total_adjustment": -2.31
+    },
+    {
+      "movie_slug": "resurrection-2025",
+      "title": "Resurrection",
+      "release_date": "2025-12-12",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 86.0,
+      "adjusted_score": 80.7,
+      "n_reviews": 22,
+      "total_adjustment": -5.3
+    },
+    {
+      "movie_slug": "epic-elvis-presley-in-concert",
+      "title": "EPiC: Elvis Presley in Concert",
+      "release_date": "2026-02-20",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 89.0,
+      "adjusted_score": 80.7,
+      "n_reviews": 27,
+      "total_adjustment": -8.28
     },
     {
       "movie_slug": "homebound-2025",
@@ -872,6 +872,17 @@
       "total_adjustment": 8.47
     },
     {
+      "movie_slug": "the-testament-of-ann-lee",
+      "title": "The Testament of Ann Lee",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 79.0,
+      "adjusted_score": 77.5,
+      "n_reviews": 42,
+      "total_adjustment": -1.46
+    },
+    {
       "movie_slug": "the-mastermind",
       "title": "The Mastermind",
       "release_date": "2025-10-17",
@@ -881,17 +892,6 @@
       "adjusted_score": 77.5,
       "n_reviews": 37,
       "total_adjustment": -2.48
-    },
-    {
-      "movie_slug": "the-testament-of-ann-lee",
-      "title": "The Testament of Ann Lee",
-      "release_date": "2025-12-25",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 79.0,
-      "adjusted_score": 77.5,
-      "n_reviews": 41,
-      "total_adjustment": -1.49
     },
     {
       "movie_slug": "come-see-me-in-the-good-light",
@@ -1059,6 +1059,17 @@
       "total_adjustment": -1.85
     },
     {
+      "movie_slug": "kokuho",
+      "title": "Kokuho",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 75.0,
+      "adjusted_score": 76.0,
+      "n_reviews": 7,
+      "total_adjustment": 1.04
+    },
+    {
       "movie_slug": "urchin",
       "title": "Urchin",
       "release_date": "2025-10-10",
@@ -1134,17 +1145,6 @@
       "adjusted_score": 75.5,
       "n_reviews": 58,
       "total_adjustment": -2.46
-    },
-    {
-      "movie_slug": "paul-mccartney-man-on-the-run",
-      "title": "Paul McCartney: Man on the Run",
-      "release_date": "2026-02-19",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 90.0,
-      "adjusted_score": 75.4,
-      "n_reviews": 14,
-      "total_adjustment": -14.58
     },
     {
       "movie_slug": "if-i-had-legs-id-kick-you",
@@ -1279,17 +1279,6 @@
       "total_adjustment": -4.32
     },
     {
-      "movie_slug": "kokuho",
-      "title": "Kokuho",
-      "release_date": "2026-02-06",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 75.0,
-      "adjusted_score": 74.7,
-      "n_reviews": 6,
-      "total_adjustment": -0.27
-    },
-    {
       "movie_slug": "ghost-trail",
       "title": "Ghost Trail",
       "release_date": "2025-05-30",
@@ -1409,6 +1398,17 @@
       "adjusted_score": 74.1,
       "n_reviews": 7,
       "total_adjustment": -0.86
+    },
+    {
+      "movie_slug": "paul-mccartney-man-on-the-run",
+      "title": "Paul McCartney: Man on the Run",
+      "release_date": "2026-02-19",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 90.0,
+      "adjusted_score": 74.1,
+      "n_reviews": 15,
+      "total_adjustment": -15.88
     },
     {
       "movie_slug": "shuffle",
@@ -4590,17 +4590,6 @@
       "total_adjustment": 4.15
     },
     {
-      "movie_slug": "dreams-2026",
-      "title": "Dreams",
-      "release_date": "2026-02-27",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 61.0,
-      "adjusted_score": 59.1,
-      "n_reviews": 12,
-      "total_adjustment": -1.88
-    },
-    {
       "movie_slug": "spinal-tap-ii-the-end-continues",
       "title": "Spinal Tap II: The End Continues",
       "release_date": "2025-09-12",
@@ -4632,6 +4621,17 @@
       "adjusted_score": 59.0,
       "n_reviews": 38,
       "total_adjustment": 1.02
+    },
+    {
+      "movie_slug": "dreams-2026",
+      "title": "Dreams",
+      "release_date": "2026-02-27",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 61.0,
+      "adjusted_score": 59.0,
+      "n_reviews": 17,
+      "total_adjustment": -1.99
     },
     {
       "movie_slug": "wicked-for-good",
@@ -6510,9 +6510,9 @@
       "year": 2026,
       "genre": "Horror",
       "raw_score": 36.0,
-      "adjusted_score": 41.2,
-      "n_reviews": 37,
-      "total_adjustment": 5.16
+      "adjusted_score": 41.1,
+      "n_reviews": 38,
+      "total_adjustment": 5.09
     },
     {
       "movie_slug": "the-pickup",
