@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-04T23:44:12.319677",
+  "updated": "2026-03-05T18:49:59.496379",
   "count": 618,
   "movies": [
     {
@@ -1213,15 +1213,15 @@
       "total_adjustment": -4.11
     },
     {
-      "movie_slug": "father-mother-sister-brother",
-      "title": "Father Mother Sister Brother",
-      "release_date": "2025-12-24",
+      "movie_slug": "28-years-later",
+      "title": "28 Years Later",
+      "release_date": "2025-06-20",
       "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 76.0,
+      "genre": "Horror",
+      "raw_score": 77.0,
       "adjusted_score": 74.9,
-      "n_reviews": 30,
-      "total_adjustment": -1.13
+      "n_reviews": 56,
+      "total_adjustment": -2.1
     },
     {
       "movie_slug": "all-thats-left-of-you",
@@ -1235,15 +1235,15 @@
       "total_adjustment": -3.09
     },
     {
-      "movie_slug": "28-years-later",
-      "title": "28 Years Later",
-      "release_date": "2025-06-20",
+      "movie_slug": "father-mother-sister-brother",
+      "title": "Father Mother Sister Brother",
+      "release_date": "2025-12-24",
       "year": 2025,
-      "genre": "Horror",
-      "raw_score": 77.0,
-      "adjusted_score": 74.9,
-      "n_reviews": 56,
-      "total_adjustment": -2.1
+      "genre": "Comedy",
+      "raw_score": 76.0,
+      "adjusted_score": 74.8,
+      "n_reviews": 31,
+      "total_adjustment": -1.2
     },
     {
       "movie_slug": "dreams-drommer",
@@ -2247,17 +2247,6 @@
       "total_adjustment": -2.23
     },
     {
-      "movie_slug": "influencers",
-      "title": "Influencers",
-      "release_date": "2025-12-12",
-      "year": 2025,
-      "genre": "Horror",
-      "raw_score": 75.0,
-      "adjusted_score": 70.7,
-      "n_reviews": 7,
-      "total_adjustment": -4.32
-    },
-    {
       "movie_slug": "zodiac-killer-project",
       "title": "Zodiac Killer Project",
       "release_date": "2025-11-21",
@@ -2355,6 +2344,17 @@
       "adjusted_score": 70.4,
       "n_reviews": 7,
       "total_adjustment": 0.38
+    },
+    {
+      "movie_slug": "influencers",
+      "title": "Influencers",
+      "release_date": "2025-12-12",
+      "year": 2025,
+      "genre": "Horror",
+      "raw_score": 75.0,
+      "adjusted_score": 70.4,
+      "n_reviews": 8,
+      "total_adjustment": -4.63
     },
     {
       "movie_slug": "the-damned-2024",
@@ -3765,6 +3765,17 @@
       "total_adjustment": -2.47
     },
     {
+      "movie_slug": "the-dutchman",
+      "title": "The Dutchman",
+      "release_date": "2026-01-02",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 66.0,
+      "adjusted_score": 63.4,
+      "n_reviews": 9,
+      "total_adjustment": -2.63
+    },
+    {
       "movie_slug": "homegrown",
       "title": "Homegrown",
       "release_date": "2026-01-06",
@@ -3851,6 +3862,17 @@
       "adjusted_score": 63.1,
       "n_reviews": 48,
       "total_adjustment": 1.12
+    },
+    {
+      "movie_slug": "dreams-2026",
+      "title": "Dreams",
+      "release_date": "2026-02-27",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 61.0,
+      "adjusted_score": 63.1,
+      "n_reviews": 22,
+      "total_adjustment": 2.12
     },
     {
       "movie_slug": "armand",
@@ -3972,17 +3994,6 @@
       "adjusted_score": 62.7,
       "n_reviews": 23,
       "total_adjustment": -1.26
-    },
-    {
-      "movie_slug": "the-dutchman",
-      "title": "The Dutchman",
-      "release_date": "2026-01-02",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 66.0,
-      "adjusted_score": 62.6,
-      "n_reviews": 8,
-      "total_adjustment": -3.42
     },
     {
       "movie_slug": "song-sung-blue",
@@ -4368,17 +4379,6 @@
       "adjusted_score": 60.7,
       "n_reviews": 16,
       "total_adjustment": 0.75
-    },
-    {
-      "movie_slug": "dreams-2026",
-      "title": "Dreams",
-      "release_date": "2026-02-27",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 61.0,
-      "adjusted_score": 60.7,
-      "n_reviews": 18,
-      "total_adjustment": -0.29
     },
     {
       "movie_slug": "springsteen-deliver-me-from-nowhere",
@@ -6510,9 +6510,9 @@
       "year": 2026,
       "genre": "Horror",
       "raw_score": 36.0,
-      "adjusted_score": 41.1,
-      "n_reviews": 38,
-      "total_adjustment": 5.09
+      "adjusted_score": 40.5,
+      "n_reviews": 39,
+      "total_adjustment": 4.49
     },
     {
       "movie_slug": "the-pickup",
