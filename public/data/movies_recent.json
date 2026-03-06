@@ -1,6 +1,6 @@
 {
-  "updated": "2026-03-05T18:49:59.496379",
-  "count": 618,
+  "updated": "2026-03-06T08:10:39.939850",
+  "count": 625,
   "movies": [
     {
       "movie_slug": "compensation",
@@ -366,17 +366,6 @@
       "total_adjustment": -3.63
     },
     {
-      "movie_slug": "meeting-with-pol-pot",
-      "title": "Meeting with Pol Pot",
-      "release_date": "2025-06-13",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 83.0,
-      "adjusted_score": 81.3,
-      "n_reviews": 8,
-      "total_adjustment": -1.69
-    },
-    {
       "movie_slug": "the-tale-of-silyan",
       "title": "The Tale of Silyan",
       "release_date": "2025-11-28",
@@ -386,6 +375,17 @@
       "adjusted_score": 81.3,
       "n_reviews": 11,
       "total_adjustment": -2.69
+    },
+    {
+      "movie_slug": "meeting-with-pol-pot",
+      "title": "Meeting with Pol Pot",
+      "release_date": "2025-06-13",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 83.0,
+      "adjusted_score": 81.3,
+      "n_reviews": 8,
+      "total_adjustment": -1.69
     },
     {
       "movie_slug": "cactus-pears",
@@ -540,6 +540,17 @@
       "adjusted_score": 80.1,
       "n_reviews": 17,
       "total_adjustment": -7.9
+    },
+    {
+      "movie_slug": "pompei-below-the-clouds",
+      "title": "Pompei: Below the Clouds",
+      "release_date": "2026-03-06",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 89.0,
+      "adjusted_score": 80.1,
+      "n_reviews": 9,
+      "total_adjustment": -8.91
     },
     {
       "movie_slug": "souleymanes-story",
@@ -817,6 +828,17 @@
       "total_adjustment": -3.79
     },
     {
+      "movie_slug": "the-testament-of-ann-lee",
+      "title": "The Testament of Ann Lee",
+      "release_date": "2025-12-25",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 79.0,
+      "adjusted_score": 78.1,
+      "n_reviews": 43,
+      "total_adjustment": -0.95
+    },
+    {
       "movie_slug": "twinless",
       "title": "Twinless",
       "release_date": "2025-09-05",
@@ -870,17 +892,6 @@
       "adjusted_score": 77.5,
       "n_reviews": 5,
       "total_adjustment": 8.47
-    },
-    {
-      "movie_slug": "the-testament-of-ann-lee",
-      "title": "The Testament of Ann Lee",
-      "release_date": "2025-12-25",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 79.0,
-      "adjusted_score": 77.5,
-      "n_reviews": 42,
-      "total_adjustment": -1.46
     },
     {
       "movie_slug": "the-mastermind",
@@ -1246,15 +1257,15 @@
       "total_adjustment": -1.2
     },
     {
-      "movie_slug": "dreams-drommer",
-      "title": "Dreams",
-      "release_date": "2025-09-12",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 81.0,
+      "movie_slug": "paul-mccartney-man-on-the-run",
+      "title": "Paul McCartney: Man on the Run",
+      "release_date": "2026-02-19",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 90.0,
       "adjusted_score": 74.8,
-      "n_reviews": 9,
-      "total_adjustment": -6.17
+      "n_reviews": 17,
+      "total_adjustment": -15.16
     },
     {
       "movie_slug": "art-spiegelman-disaster-is-my-muse",
@@ -1266,6 +1277,17 @@
       "adjusted_score": 74.8,
       "n_reviews": 5,
       "total_adjustment": 1.84
+    },
+    {
+      "movie_slug": "dreams-drommer",
+      "title": "Dreams",
+      "release_date": "2025-09-12",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 81.0,
+      "adjusted_score": 74.8,
+      "n_reviews": 9,
+      "total_adjustment": -6.17
     },
     {
       "movie_slug": "timestamp",
@@ -1400,15 +1422,15 @@
       "total_adjustment": -0.86
     },
     {
-      "movie_slug": "paul-mccartney-man-on-the-run",
-      "title": "Paul McCartney: Man on the Run",
-      "release_date": "2026-02-19",
+      "movie_slug": "andre-is-an-idiot",
+      "title": "Andr\u00e9 Is an Idiot",
+      "release_date": "2026-03-06",
       "year": 2026,
       "genre": "Documentary",
-      "raw_score": 90.0,
-      "adjusted_score": 74.1,
-      "n_reviews": 15,
-      "total_adjustment": -15.88
+      "raw_score": 78.0,
+      "adjusted_score": 74.0,
+      "n_reviews": 11,
+      "total_adjustment": -4.03
     },
     {
       "movie_slug": "shuffle",
@@ -1686,6 +1708,17 @@
       "total_adjustment": -1.15
     },
     {
+      "movie_slug": "hoppers",
+      "title": "Hoppers",
+      "release_date": "2026-03-06",
+      "year": 2026,
+      "genre": "Animation",
+      "raw_score": 73.0,
+      "adjusted_score": 72.9,
+      "n_reviews": 34,
+      "total_adjustment": -0.15
+    },
+    {
       "movie_slug": "the-encampments",
       "title": "The Encampments",
       "release_date": "2025-03-28",
@@ -1752,17 +1785,6 @@
       "total_adjustment": -4.24
     },
     {
-      "movie_slug": "happyend",
-      "title": "Happyend",
-      "release_date": "2025-09-12",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 75.0,
-      "adjusted_score": 72.8,
-      "n_reviews": 10,
-      "total_adjustment": -2.21
-    },
-    {
       "movie_slug": "to-kill-a-wolf",
       "title": "To Kill a Wolf",
       "release_date": "2025-08-01",
@@ -1772,6 +1794,17 @@
       "adjusted_score": 72.8,
       "n_reviews": 5,
       "total_adjustment": -7.19
+    },
+    {
+      "movie_slug": "happyend",
+      "title": "Happyend",
+      "release_date": "2025-09-12",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 75.0,
+      "adjusted_score": 72.8,
+      "n_reviews": 10,
+      "total_adjustment": -2.21
     },
     {
       "movie_slug": "sally",
@@ -3160,6 +3193,17 @@
       "total_adjustment": -0.77
     },
     {
+      "movie_slug": "heel",
+      "title": "Heel",
+      "release_date": "2026-03-06",
+      "year": 2026,
+      "genre": "Crime",
+      "raw_score": 68.0,
+      "adjusted_score": 66.1,
+      "n_reviews": 10,
+      "total_adjustment": -1.94
+    },
+    {
       "movie_slug": "demon-slayer--kimetsu-no-yaiba--the-movie-infinity-castle",
       "title": "Demon Slayer -Kimetsu no Yaiba- The Movie: Infinity Castle",
       "release_date": "2025-09-12",
@@ -3864,17 +3908,6 @@
       "total_adjustment": 1.12
     },
     {
-      "movie_slug": "dreams-2026",
-      "title": "Dreams",
-      "release_date": "2026-02-27",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 61.0,
-      "adjusted_score": 63.1,
-      "n_reviews": 22,
-      "total_adjustment": 2.12
-    },
-    {
       "movie_slug": "armand",
       "title": "Armand",
       "release_date": "2025-02-07",
@@ -3884,6 +3917,17 @@
       "adjusted_score": 63.0,
       "n_reviews": 23,
       "total_adjustment": 0.97
+    },
+    {
+      "movie_slug": "dreams-2026",
+      "title": "Dreams",
+      "release_date": "2026-02-27",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 61.0,
+      "adjusted_score": 63.0,
+      "n_reviews": 23,
+      "total_adjustment": 1.99
     },
     {
       "movie_slug": "the-prosecutor",
@@ -4203,6 +4247,17 @@
       "adjusted_score": 61.5,
       "n_reviews": 9,
       "total_adjustment": 0.49
+    },
+    {
+      "movie_slug": "peaky-blinders-the-immortal-man",
+      "title": "Peaky Blinders: The Immortal Man",
+      "release_date": "2026-03-06",
+      "year": 2026,
+      "genre": "Crime",
+      "raw_score": 61.0,
+      "adjusted_score": 61.5,
+      "n_reviews": 21,
+      "total_adjustment": 0.51
     },
     {
       "movie_slug": "heart-eyes",
@@ -5030,6 +5085,17 @@
       "total_adjustment": 2.39
     },
     {
+      "movie_slug": "the-bride-2026",
+      "title": "The Bride!",
+      "release_date": "2026-03-06",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 56.0,
+      "adjusted_score": 56.3,
+      "n_reviews": 41,
+      "total_adjustment": 0.27
+    },
+    {
       "movie_slug": "adulthood",
       "title": "Adulthood",
       "release_date": "2025-09-19",
@@ -5085,17 +5151,6 @@
       "total_adjustment": 0.17
     },
     {
-      "movie_slug": "anniversary",
-      "title": "Anniversary",
-      "release_date": "2025-10-29",
-      "year": 2025,
-      "genre": "Thriller",
-      "raw_score": 57.0,
-      "adjusted_score": 56.2,
-      "n_reviews": 13,
-      "total_adjustment": -0.78
-    },
-    {
       "movie_slug": "hot-milk",
       "title": "Hot Milk",
       "release_date": "2025-06-27",
@@ -5105,6 +5160,17 @@
       "adjusted_score": 56.2,
       "n_reviews": 10,
       "total_adjustment": 2.24
+    },
+    {
+      "movie_slug": "anniversary",
+      "title": "Anniversary",
+      "release_date": "2025-10-29",
+      "year": 2025,
+      "genre": "Thriller",
+      "raw_score": 57.0,
+      "adjusted_score": 56.2,
+      "n_reviews": 13,
+      "total_adjustment": -0.78
     },
     {
       "movie_slug": "the-moment-2026",
@@ -5589,6 +5655,17 @@
       "adjusted_score": 53.0,
       "n_reviews": 6,
       "total_adjustment": -0.01
+    },
+    {
+      "movie_slug": "dolly",
+      "title": "Dolly",
+      "release_date": "2026-03-06",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 44.0,
+      "adjusted_score": 53.0,
+      "n_reviews": 4,
+      "total_adjustment": 9.02
     },
     {
       "movie_slug": "the-man-in-my-basement",
