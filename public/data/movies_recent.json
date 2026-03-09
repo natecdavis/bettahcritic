@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-08T10:24:55.706390",
+  "updated": "2026-03-09T18:40:49.130027",
   "count": 625,
   "movies": [
     {
@@ -322,6 +322,17 @@
       "total_adjustment": -6.1
     },
     {
+      "movie_slug": "pompei-below-the-clouds",
+      "title": "Pompei: Below the Clouds",
+      "release_date": "2026-03-06",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 89.0,
+      "adjusted_score": 81.9,
+      "n_reviews": 11,
+      "total_adjustment": -7.06
+    },
+    {
       "movie_slug": "the-voice-of-hind-rajab",
       "title": "The Voice of Hind Rajab",
       "release_date": "2025-12-17",
@@ -353,17 +364,6 @@
       "adjusted_score": 81.6,
       "n_reviews": 16,
       "total_adjustment": -2.36
-    },
-    {
-      "movie_slug": "pompei-below-the-clouds",
-      "title": "Pompei: Below the Clouds",
-      "release_date": "2026-03-06",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 89.0,
-      "adjusted_score": 81.5,
-      "n_reviews": 10,
-      "total_adjustment": -7.54
     },
     {
       "movie_slug": "a-nice-indian-boy",
@@ -1862,17 +1862,6 @@
       "total_adjustment": -3.61
     },
     {
-      "movie_slug": "hoppers",
-      "title": "Hoppers",
-      "release_date": "2026-03-06",
-      "year": 2026,
-      "genre": "Animation",
-      "raw_score": 73.0,
-      "adjusted_score": 72.3,
-      "n_reviews": 41,
-      "total_adjustment": -0.72
-    },
-    {
       "movie_slug": "a-normal-family",
       "title": "A Normal Family",
       "release_date": "2025-04-25",
@@ -1959,6 +1948,17 @@
       "adjusted_score": 72.0,
       "n_reviews": 6,
       "total_adjustment": 4.04
+    },
+    {
+      "movie_slug": "hoppers",
+      "title": "Hoppers",
+      "release_date": "2026-03-06",
+      "year": 2026,
+      "genre": "Animation",
+      "raw_score": 73.0,
+      "adjusted_score": 72.0,
+      "n_reviews": 43,
+      "total_adjustment": -0.98
     },
     {
       "movie_slug": "the-great-escaper",
@@ -3193,17 +3193,6 @@
       "total_adjustment": -0.77
     },
     {
-      "movie_slug": "heel",
-      "title": "Heel",
-      "release_date": "2026-03-06",
-      "year": 2026,
-      "genre": "Crime",
-      "raw_score": 68.0,
-      "adjusted_score": 66.1,
-      "n_reviews": 10,
-      "total_adjustment": -1.94
-    },
-    {
       "movie_slug": "demon-slayer--kimetsu-no-yaiba--the-movie-infinity-castle",
       "title": "Demon Slayer -Kimetsu no Yaiba- The Movie: Infinity Castle",
       "release_date": "2025-09-12",
@@ -3754,6 +3743,17 @@
       "total_adjustment": 0.94
     },
     {
+      "movie_slug": "heel",
+      "title": "Heel",
+      "release_date": "2026-03-06",
+      "year": 2026,
+      "genre": "Crime",
+      "raw_score": 68.0,
+      "adjusted_score": 63.8,
+      "n_reviews": 13,
+      "total_adjustment": -4.22
+    },
+    {
       "movie_slug": "love-brooklyn",
       "title": "Love, Brooklyn",
       "release_date": "2025-08-29",
@@ -4293,17 +4293,6 @@
       "total_adjustment": 0.26
     },
     {
-      "movie_slug": "peaky-blinders-the-immortal-man",
-      "title": "Peaky Blinders: The Immortal Man",
-      "release_date": "2026-03-06",
-      "year": 2026,
-      "genre": "Crime",
-      "raw_score": 61.0,
-      "adjusted_score": 61.3,
-      "n_reviews": 22,
-      "total_adjustment": 0.34
-    },
-    {
       "movie_slug": "freakier-friday",
       "title": "Freakier Friday",
       "release_date": "2025-08-08",
@@ -4313,6 +4302,17 @@
       "adjusted_score": 61.3,
       "n_reviews": 42,
       "total_adjustment": 1.34
+    },
+    {
+      "movie_slug": "peaky-blinders-the-immortal-man",
+      "title": "Peaky Blinders: The Immortal Man",
+      "release_date": "2026-03-06",
+      "year": 2026,
+      "genre": "Crime",
+      "raw_score": 61.0,
+      "adjusted_score": 61.2,
+      "n_reviews": 23,
+      "total_adjustment": 0.19
     },
     {
       "movie_slug": "titan-the-oceangate-disaster",
@@ -4423,17 +4423,6 @@
       "adjusted_score": 60.7,
       "n_reviews": 5,
       "total_adjustment": -2.34
-    },
-    {
-      "movie_slug": "scarlet-2025",
-      "title": "Scarlet",
-      "release_date": "2026-02-06",
-      "year": 2026,
-      "genre": "Animation",
-      "raw_score": 60.0,
-      "adjusted_score": 60.7,
-      "n_reviews": 16,
-      "total_adjustment": 0.75
     },
     {
       "movie_slug": "springsteen-deliver-me-from-nowhere",
@@ -4599,6 +4588,17 @@
       "adjusted_score": 59.7,
       "n_reviews": 6,
       "total_adjustment": 1.71
+    },
+    {
+      "movie_slug": "scarlet-2025",
+      "title": "Scarlet",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "genre": "Animation",
+      "raw_score": 60.0,
+      "adjusted_score": 59.6,
+      "n_reviews": 17,
+      "total_adjustment": -0.38
     },
     {
       "movie_slug": "the-bluff",
@@ -5085,6 +5085,17 @@
       "total_adjustment": -0.57
     },
     {
+      "movie_slug": "the-bride-2026",
+      "title": "The Bride!",
+      "release_date": "2026-03-06",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 56.0,
+      "adjusted_score": 56.3,
+      "n_reviews": 51,
+      "total_adjustment": 0.26
+    },
+    {
       "movie_slug": "adulthood",
       "title": "Adulthood",
       "release_date": "2025-09-19",
@@ -5140,17 +5151,6 @@
       "total_adjustment": 0.17
     },
     {
-      "movie_slug": "anniversary",
-      "title": "Anniversary",
-      "release_date": "2025-10-29",
-      "year": 2025,
-      "genre": "Thriller",
-      "raw_score": 57.0,
-      "adjusted_score": 56.2,
-      "n_reviews": 13,
-      "total_adjustment": -0.78
-    },
-    {
       "movie_slug": "hot-milk",
       "title": "Hot Milk",
       "release_date": "2025-06-27",
@@ -5160,6 +5160,17 @@
       "adjusted_score": 56.2,
       "n_reviews": 10,
       "total_adjustment": 2.24
+    },
+    {
+      "movie_slug": "anniversary",
+      "title": "Anniversary",
+      "release_date": "2025-10-29",
+      "year": 2025,
+      "genre": "Thriller",
+      "raw_score": 57.0,
+      "adjusted_score": 56.2,
+      "n_reviews": 13,
+      "total_adjustment": -0.78
     },
     {
       "movie_slug": "the-moment-2026",
@@ -5206,17 +5217,6 @@
       "total_adjustment": 1.01
     },
     {
-      "movie_slug": "the-dead-thing",
-      "title": "The Dead Thing",
-      "release_date": "2025-02-14",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 53.0,
-      "adjusted_score": 55.9,
-      "n_reviews": 6,
-      "total_adjustment": 2.89
-    },
-    {
       "movie_slug": "another-simple-favor",
       "title": "Another Simple Favor",
       "release_date": "2025-05-01",
@@ -5228,15 +5228,15 @@
       "total_adjustment": 1.9
     },
     {
-      "movie_slug": "the-bride-2026",
-      "title": "The Bride!",
-      "release_date": "2026-03-06",
-      "year": 2026,
+      "movie_slug": "the-dead-thing",
+      "title": "The Dead Thing",
+      "release_date": "2025-02-14",
+      "year": 2025,
       "genre": "Drama",
-      "raw_score": 56.0,
+      "raw_score": 53.0,
       "adjusted_score": 55.9,
-      "n_reviews": 48,
-      "total_adjustment": -0.14
+      "n_reviews": 6,
+      "total_adjustment": 2.89
     },
     {
       "movie_slug": "watch-the-skies",
@@ -5778,17 +5778,6 @@
       "total_adjustment": -0.95
     },
     {
-      "movie_slug": "dolly",
-      "title": "Dolly",
-      "release_date": "2026-03-06",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 44.0,
-      "adjusted_score": 52.0,
-      "n_reviews": 5,
-      "total_adjustment": 7.99
-    },
-    {
       "movie_slug": "eenie-meanie",
       "title": "Eenie Meanie",
       "release_date": "2025-08-22",
@@ -6150,6 +6139,17 @@
       "adjusted_score": 48.0,
       "n_reviews": 4,
       "total_adjustment": 4.01
+    },
+    {
+      "movie_slug": "dolly",
+      "title": "Dolly",
+      "release_date": "2026-03-06",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 44.0,
+      "adjusted_score": 47.8,
+      "n_reviews": 6,
+      "total_adjustment": 3.8
     },
     {
       "movie_slug": "a-minecraft-movie",
@@ -6592,6 +6592,17 @@
       "total_adjustment": 2.38
     },
     {
+      "movie_slug": "scream-7",
+      "title": "Scream 7",
+      "release_date": "2026-02-27",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 36.0,
+      "adjusted_score": 40.2,
+      "n_reviews": 41,
+      "total_adjustment": 4.19
+    },
+    {
       "movie_slug": "ice-road-vengeance",
       "title": "Ice Road: Vengeance",
       "release_date": "2025-06-27",
@@ -6623,17 +6634,6 @@
       "adjusted_score": 40.0,
       "n_reviews": 6,
       "total_adjustment": 4.96
-    },
-    {
-      "movie_slug": "scream-7",
-      "title": "Scream 7",
-      "release_date": "2026-02-27",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 36.0,
-      "adjusted_score": 39.9,
-      "n_reviews": 40,
-      "total_adjustment": 3.86
     },
     {
       "movie_slug": "the-family-plan-2",
