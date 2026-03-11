@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-09T18:40:49.130027",
+  "updated": "2026-03-11T18:39:23.712615",
   "count": 625,
   "movies": [
     {
@@ -366,6 +366,17 @@
       "total_adjustment": -2.36
     },
     {
+      "movie_slug": "resurrection-2025",
+      "title": "Resurrection",
+      "release_date": "2025-12-12",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 86.0,
+      "adjusted_score": 81.5,
+      "n_reviews": 23,
+      "total_adjustment": -4.47
+    },
+    {
       "movie_slug": "a-nice-indian-boy",
       "title": "A Nice Indian Boy",
       "release_date": "2025-04-04",
@@ -474,17 +485,6 @@
       "adjusted_score": 80.7,
       "n_reviews": 13,
       "total_adjustment": -2.31
-    },
-    {
-      "movie_slug": "resurrection-2025",
-      "title": "Resurrection",
-      "release_date": "2025-12-12",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 86.0,
-      "adjusted_score": 80.7,
-      "n_reviews": 22,
-      "total_adjustment": -5.3
     },
     {
       "movie_slug": "epic-elvis-presley-in-concert",
@@ -1389,6 +1389,17 @@
       "total_adjustment": -6.66
     },
     {
+      "movie_slug": "islands-2025",
+      "title": "Islands",
+      "release_date": "2026-01-30",
+      "year": 2026,
+      "genre": "Crime",
+      "raw_score": 75.0,
+      "adjusted_score": 74.2,
+      "n_reviews": 12,
+      "total_adjustment": -0.8
+    },
+    {
       "movie_slug": "holding-liat",
       "title": "Holding Liat",
       "release_date": "2026-01-09",
@@ -1618,17 +1629,6 @@
       "adjusted_score": 73.2,
       "n_reviews": 39,
       "total_adjustment": -1.79
-    },
-    {
-      "movie_slug": "islands-2025",
-      "title": "Islands",
-      "release_date": "2026-01-30",
-      "year": 2026,
-      "genre": "Crime",
-      "raw_score": 75.0,
-      "adjusted_score": 73.2,
-      "n_reviews": 11,
-      "total_adjustment": -1.76
     },
     {
       "movie_slug": "swamp-dogg-gets-his-pool-painted",
@@ -5085,17 +5085,6 @@
       "total_adjustment": -0.57
     },
     {
-      "movie_slug": "the-bride-2026",
-      "title": "The Bride!",
-      "release_date": "2026-03-06",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 56.0,
-      "adjusted_score": 56.3,
-      "n_reviews": 51,
-      "total_adjustment": 0.26
-    },
-    {
       "movie_slug": "adulthood",
       "title": "Adulthood",
       "release_date": "2025-09-19",
@@ -5160,6 +5149,17 @@
       "adjusted_score": 56.2,
       "n_reviews": 10,
       "total_adjustment": 2.24
+    },
+    {
+      "movie_slug": "the-bride-2026",
+      "title": "The Bride!",
+      "release_date": "2026-03-06",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 56.0,
+      "adjusted_score": 56.2,
+      "n_reviews": 53,
+      "total_adjustment": 0.23
     },
     {
       "movie_slug": "anniversary",
@@ -6592,17 +6592,6 @@
       "total_adjustment": 2.38
     },
     {
-      "movie_slug": "scream-7",
-      "title": "Scream 7",
-      "release_date": "2026-02-27",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 36.0,
-      "adjusted_score": 40.2,
-      "n_reviews": 41,
-      "total_adjustment": 4.19
-    },
-    {
       "movie_slug": "ice-road-vengeance",
       "title": "Ice Road: Vengeance",
       "release_date": "2025-06-27",
@@ -6612,6 +6601,17 @@
       "adjusted_score": 40.2,
       "n_reviews": 5,
       "total_adjustment": 3.2
+    },
+    {
+      "movie_slug": "scream-7",
+      "title": "Scream 7",
+      "release_date": "2026-02-27",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 36.0,
+      "adjusted_score": 40.2,
+      "n_reviews": 42,
+      "total_adjustment": 4.22
     },
     {
       "movie_slug": "flight-risk-2025",
