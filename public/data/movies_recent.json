@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-11T18:39:23.712615",
+  "updated": "2026-03-12T08:33:36.183626",
   "count": 625,
   "movies": [
     {
@@ -322,17 +322,6 @@
       "total_adjustment": -6.1
     },
     {
-      "movie_slug": "pompei-below-the-clouds",
-      "title": "Pompei: Below the Clouds",
-      "release_date": "2026-03-06",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 89.0,
-      "adjusted_score": 81.9,
-      "n_reviews": 11,
-      "total_adjustment": -7.06
-    },
-    {
       "movie_slug": "the-voice-of-hind-rajab",
       "title": "The Voice of Hind Rajab",
       "release_date": "2025-12-17",
@@ -342,6 +331,17 @@
       "adjusted_score": 81.8,
       "n_reviews": 27,
       "total_adjustment": 0.79
+    },
+    {
+      "movie_slug": "pompei-below-the-clouds",
+      "title": "Pompei: Below the Clouds",
+      "release_date": "2026-03-06",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 89.0,
+      "adjusted_score": 81.7,
+      "n_reviews": 12,
+      "total_adjustment": -7.29
     },
     {
       "movie_slug": "riefenstahl",
@@ -1433,17 +1433,6 @@
       "total_adjustment": -0.86
     },
     {
-      "movie_slug": "andre-is-an-idiot",
-      "title": "Andr\u00e9 Is an Idiot",
-      "release_date": "2026-03-06",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 78.0,
-      "adjusted_score": 74.0,
-      "n_reviews": 11,
-      "total_adjustment": -4.03
-    },
-    {
       "movie_slug": "shuffle",
       "title": "Shuffle",
       "release_date": "2026-01-16",
@@ -1464,6 +1453,17 @@
       "adjusted_score": 74.0,
       "n_reviews": 48,
       "total_adjustment": -1.04
+    },
+    {
+      "movie_slug": "andre-is-an-idiot",
+      "title": "Andr\u00e9 Is an Idiot",
+      "release_date": "2026-03-06",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 78.0,
+      "adjusted_score": 74.0,
+      "n_reviews": 12,
+      "total_adjustment": -4.0
     },
     {
       "movie_slug": "sunfish-other-stories-on-green-lake",
