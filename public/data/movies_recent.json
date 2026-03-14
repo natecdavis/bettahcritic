@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-13T15:39:25.145614",
+  "updated": "2026-03-14T13:47:40.248445",
   "count": 630,
   "movies": [
     {
@@ -333,17 +333,6 @@
       "total_adjustment": 0.79
     },
     {
-      "movie_slug": "pompei-below-the-clouds",
-      "title": "Pompei: Below the Clouds",
-      "release_date": "2026-03-06",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 89.0,
-      "adjusted_score": 81.7,
-      "n_reviews": 12,
-      "total_adjustment": -7.29
-    },
-    {
       "movie_slug": "riefenstahl",
       "title": "Riefenstahl",
       "release_date": "2025-09-05",
@@ -386,6 +375,17 @@
       "adjusted_score": 81.4,
       "n_reviews": 7,
       "total_adjustment": -3.63
+    },
+    {
+      "movie_slug": "pompei-below-the-clouds",
+      "title": "Pompei: Below the Clouds",
+      "release_date": "2026-03-06",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 89.0,
+      "adjusted_score": 81.4,
+      "n_reviews": 13,
+      "total_adjustment": -7.57
     },
     {
       "movie_slug": "the-tale-of-silyan",
@@ -4799,17 +4799,6 @@
       "total_adjustment": 1.44
     },
     {
-      "movie_slug": "slanted",
-      "title": "Slanted",
-      "release_date": "2026-03-13",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 57.0,
-      "adjusted_score": 58.4,
-      "n_reviews": 6,
-      "total_adjustment": 1.42
-    },
-    {
       "movie_slug": "mr-k",
       "title": "Mr. K",
       "release_date": "2025-10-08",
@@ -5030,15 +5019,15 @@
       "total_adjustment": -3.06
     },
     {
-      "movie_slug": "black-tea",
-      "title": "Black Tea",
-      "release_date": "2025-05-09",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 52.0,
+      "movie_slug": "slanted",
+      "title": "Slanted",
+      "release_date": "2026-03-13",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 57.0,
       "adjusted_score": 56.8,
-      "n_reviews": 5,
-      "total_adjustment": 4.81
+      "n_reviews": 7,
+      "total_adjustment": -0.2
     },
     {
       "movie_slug": "goodbye-june",
@@ -5050,6 +5039,17 @@
       "adjusted_score": 56.8,
       "n_reviews": 27,
       "total_adjustment": 2.84
+    },
+    {
+      "movie_slug": "black-tea",
+      "title": "Black Tea",
+      "release_date": "2025-05-09",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 52.0,
+      "adjusted_score": 56.8,
+      "n_reviews": 5,
+      "total_adjustment": 4.81
     },
     {
       "movie_slug": "the-hand-that-rocks-the-cradle-2025",
@@ -5723,17 +5723,6 @@
       "total_adjustment": 2.84
     },
     {
-      "movie_slug": "reminders-of-him",
-      "title": "Reminders of Him",
-      "release_date": "2026-03-13",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 50.0,
-      "adjusted_score": 52.8,
-      "n_reviews": 25,
-      "total_adjustment": 2.84
-    },
-    {
       "movie_slug": "night-patrol",
       "title": "Night Patrol",
       "release_date": "2026-01-16",
@@ -5875,6 +5864,17 @@
       "adjusted_score": 51.7,
       "n_reviews": 5,
       "total_adjustment": 1.67
+    },
+    {
+      "movie_slug": "reminders-of-him",
+      "title": "Reminders of Him",
+      "release_date": "2026-03-13",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 50.0,
+      "adjusted_score": 51.7,
+      "n_reviews": 27,
+      "total_adjustment": 1.65
     },
     {
       "movie_slug": "the-age-of-disclosure",
