@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-14T13:47:40.248445",
+  "updated": "2026-03-15T08:43:38.790000",
   "count": 630,
   "movies": [
     {
@@ -5833,6 +5833,17 @@
       "total_adjustment": -7.96
     },
     {
+      "movie_slug": "reminders-of-him",
+      "title": "Reminders of Him",
+      "release_date": "2026-03-13",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 50.0,
+      "adjusted_score": 51.9,
+      "n_reviews": 28,
+      "total_adjustment": 1.86
+    },
+    {
       "movie_slug": "a-working-man",
       "title": "A Working Man",
       "release_date": "2025-03-28",
@@ -5864,17 +5875,6 @@
       "adjusted_score": 51.7,
       "n_reviews": 5,
       "total_adjustment": 1.67
-    },
-    {
-      "movie_slug": "reminders-of-him",
-      "title": "Reminders of Him",
-      "release_date": "2026-03-13",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 50.0,
-      "adjusted_score": 51.7,
-      "n_reviews": 27,
-      "total_adjustment": 1.65
     },
     {
       "movie_slug": "the-age-of-disclosure",
@@ -6928,9 +6928,9 @@
       "year": 2026,
       "genre": "Documentary",
       "raw_score": 5.0,
-      "adjusted_score": 9.7,
-      "n_reviews": 17,
-      "total_adjustment": 4.7
+      "adjusted_score": 9.6,
+      "n_reviews": 18,
+      "total_adjustment": 4.6
     }
   ]
 }

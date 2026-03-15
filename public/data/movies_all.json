@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-14T13:47:40.252775",
+  "updated": "2026-03-15T08:43:38.796486",
   "count": 20907,
   "movies": [
     {
@@ -161483,26 +161483,15 @@
       "total_adjustment": -1.97
     },
     {
-      "movie_slug": "welcome-to-the-punch",
-      "title": "Welcome to the Punch",
-      "release_date": "2013-03-27",
-      "year": 2013,
-      "genre": "Action",
-      "raw_score": 49.0,
+      "movie_slug": "km-0---kilometer-zero",
+      "title": "Km. 0 - Kilometer Zero",
+      "release_date": "2003-07-11",
+      "year": 2003,
+      "genre": "Comedy",
+      "raw_score": 51.0,
       "adjusted_score": 51.9,
-      "n_reviews": 16,
-      "total_adjustment": 2.87
-    },
-    {
-      "movie_slug": "eiffel",
-      "title": "Eiffel",
-      "release_date": "2022-06-03",
-      "year": 2022,
-      "genre": "Biography",
-      "raw_score": 52.0,
-      "adjusted_score": 51.9,
-      "n_reviews": 10,
-      "total_adjustment": -0.1
+      "n_reviews": 19,
+      "total_adjustment": 0.87
     },
     {
       "movie_slug": "the-marvels",
@@ -161615,26 +161604,26 @@
       "total_adjustment": 1.87
     },
     {
-      "movie_slug": "picasso-and-braque-go-to-the-movies",
-      "title": "Picasso and Braque Go to the Movies",
-      "release_date": "2010-05-28",
-      "year": 2010,
-      "genre": "Documentary",
-      "raw_score": 48.0,
+      "movie_slug": "welcome-to-the-punch",
+      "title": "Welcome to the Punch",
+      "release_date": "2013-03-27",
+      "year": 2013,
+      "genre": "Action",
+      "raw_score": 49.0,
       "adjusted_score": 51.9,
-      "n_reviews": 7,
-      "total_adjustment": 3.9
+      "n_reviews": 16,
+      "total_adjustment": 2.87
     },
     {
-      "movie_slug": "km-0---kilometer-zero",
-      "title": "Km. 0 - Kilometer Zero",
-      "release_date": "2003-07-11",
-      "year": 2003,
-      "genre": "Comedy",
-      "raw_score": 51.0,
+      "movie_slug": "carrie",
+      "title": "Carrie",
+      "release_date": "2013-10-18",
+      "year": 2013,
+      "genre": "Drama",
+      "raw_score": 53.0,
       "adjusted_score": 51.9,
-      "n_reviews": 19,
-      "total_adjustment": 0.87
+      "n_reviews": 34,
+      "total_adjustment": -1.1
     },
     {
       "movie_slug": "top-gun",
@@ -161667,6 +161656,17 @@
       "raw_score": 50.0,
       "adjusted_score": 51.9,
       "n_reviews": 6,
+      "total_adjustment": 1.86
+    },
+    {
+      "movie_slug": "reminders-of-him",
+      "title": "Reminders of Him",
+      "release_date": "2026-03-13",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 50.0,
+      "adjusted_score": 51.9,
+      "n_reviews": 28,
       "total_adjustment": 1.86
     },
     {
@@ -161758,15 +161758,15 @@
       "total_adjustment": 1.85
     },
     {
-      "movie_slug": "carrie",
-      "title": "Carrie",
-      "release_date": "2013-10-18",
-      "year": 2013,
-      "genre": "Drama",
-      "raw_score": 53.0,
+      "movie_slug": "eiffel",
+      "title": "Eiffel",
+      "release_date": "2022-06-03",
+      "year": 2022,
+      "genre": "Biography",
+      "raw_score": 52.0,
       "adjusted_score": 51.9,
-      "n_reviews": 34,
-      "total_adjustment": -1.1
+      "n_reviews": 10,
+      "total_adjustment": -0.1
     },
     {
       "movie_slug": "paw-patrol-the-mighty-movie",
@@ -161780,6 +161780,28 @@
       "total_adjustment": 2.88
     },
     {
+      "movie_slug": "picasso-and-braque-go-to-the-movies",
+      "title": "Picasso and Braque Go to the Movies",
+      "release_date": "2010-05-28",
+      "year": 2010,
+      "genre": "Documentary",
+      "raw_score": 48.0,
+      "adjusted_score": 51.9,
+      "n_reviews": 7,
+      "total_adjustment": 3.9
+    },
+    {
+      "movie_slug": "the-walrus-and-the-whistleblower",
+      "title": "The Walrus and the Whistleblower",
+      "release_date": "2020-11-24",
+      "year": 2020,
+      "genre": "Documentary",
+      "raw_score": 54.0,
+      "adjusted_score": 51.9,
+      "n_reviews": 4,
+      "total_adjustment": -2.07
+    },
+    {
       "movie_slug": "47-meters-down",
       "title": "47 Meters Down",
       "release_date": "2017-06-16",
@@ -161789,28 +161811,6 @@
       "adjusted_score": 51.9,
       "n_reviews": 24,
       "total_adjustment": -0.1
-    },
-    {
-      "movie_slug": "the-ice-pirates",
-      "title": "The Ice Pirates",
-      "release_date": "1984-03-16",
-      "year": 1984,
-      "genre": "Action",
-      "raw_score": 44.0,
-      "adjusted_score": 51.9,
-      "n_reviews": 4,
-      "total_adjustment": 7.93
-    },
-    {
-      "movie_slug": "empathy-inc",
-      "title": "Empathy, Inc.",
-      "release_date": "2019-09-13",
-      "year": 2019,
-      "genre": "Drama",
-      "raw_score": 48.0,
-      "adjusted_score": 51.9,
-      "n_reviews": 4,
-      "total_adjustment": 3.9
     },
     {
       "movie_slug": "the-american-astronaut",
@@ -161923,6 +161923,17 @@
       "total_adjustment": 0.93
     },
     {
+      "movie_slug": "the-ice-pirates",
+      "title": "The Ice Pirates",
+      "release_date": "1984-03-16",
+      "year": 1984,
+      "genre": "Action",
+      "raw_score": 44.0,
+      "adjusted_score": 51.9,
+      "n_reviews": 4,
+      "total_adjustment": 7.93
+    },
+    {
       "movie_slug": "the-protector",
       "title": "The Protector",
       "release_date": "2006-09-08",
@@ -161932,28 +161943,6 @@
       "adjusted_score": 51.9,
       "n_reviews": 22,
       "total_adjustment": -0.06
-    },
-    {
-      "movie_slug": "the-walrus-and-the-whistleblower",
-      "title": "The Walrus and the Whistleblower",
-      "release_date": "2020-11-24",
-      "year": 2020,
-      "genre": "Documentary",
-      "raw_score": 54.0,
-      "adjusted_score": 51.9,
-      "n_reviews": 4,
-      "total_adjustment": -2.07
-    },
-    {
-      "movie_slug": "mars-needs-moms",
-      "title": "Mars Needs Moms",
-      "release_date": "2011-03-11",
-      "year": 2011,
-      "genre": "Animation",
-      "raw_score": 49.0,
-      "adjusted_score": 51.9,
-      "n_reviews": 22,
-      "total_adjustment": 2.91
     },
     {
       "movie_slug": "3-days-with-dad",
@@ -161967,15 +161956,37 @@
       "total_adjustment": -3.08
     },
     {
-      "movie_slug": "nicotina",
-      "title": "Nicotina",
-      "release_date": "2004-08-20",
-      "year": 2004,
+      "movie_slug": "conan-the-destroyer",
+      "title": "Conan the Destroyer",
+      "release_date": "1984-06-29",
+      "year": 1984,
       "genre": "Action",
-      "raw_score": 49.0,
+      "raw_score": 53.0,
       "adjusted_score": 51.9,
-      "n_reviews": 17,
-      "total_adjustment": 2.9
+      "n_reviews": 12,
+      "total_adjustment": -1.09
+    },
+    {
+      "movie_slug": "the-end-of-sex",
+      "title": "The End of Sex",
+      "release_date": "2023-04-28",
+      "year": 2023,
+      "genre": "Comedy",
+      "raw_score": 43.0,
+      "adjusted_score": 51.9,
+      "n_reviews": 4,
+      "total_adjustment": 8.92
+    },
+    {
+      "movie_slug": "empathy-inc",
+      "title": "Empathy, Inc.",
+      "release_date": "2019-09-13",
+      "year": 2019,
+      "genre": "Drama",
+      "raw_score": 48.0,
+      "adjusted_score": 51.9,
+      "n_reviews": 4,
+      "total_adjustment": 3.9
     },
     {
       "movie_slug": "rat-race",
@@ -161989,17 +162000,6 @@
       "total_adjustment": -0.05
     },
     {
-      "movie_slug": "conan-the-destroyer",
-      "title": "Conan the Destroyer",
-      "release_date": "1984-06-29",
-      "year": 1984,
-      "genre": "Action",
-      "raw_score": 53.0,
-      "adjusted_score": 51.9,
-      "n_reviews": 12,
-      "total_adjustment": -1.09
-    },
-    {
       "movie_slug": "tales-from-the-darkside-the-movie",
       "title": "Tales from the Darkside: The Movie",
       "release_date": "1990-05-04",
@@ -162009,6 +162009,28 @@
       "adjusted_score": 51.9,
       "n_reviews": 13,
       "total_adjustment": -2.09
+    },
+    {
+      "movie_slug": "nicotina",
+      "title": "Nicotina",
+      "release_date": "2004-08-20",
+      "year": 2004,
+      "genre": "Action",
+      "raw_score": 49.0,
+      "adjusted_score": 51.9,
+      "n_reviews": 17,
+      "total_adjustment": 2.9
+    },
+    {
+      "movie_slug": "mars-needs-moms",
+      "title": "Mars Needs Moms",
+      "release_date": "2011-03-11",
+      "year": 2011,
+      "genre": "Animation",
+      "raw_score": 49.0,
+      "adjusted_score": 51.9,
+      "n_reviews": 22,
+      "total_adjustment": 2.91
     },
     {
       "movie_slug": "level-16",
@@ -162053,17 +162075,6 @@
       "adjusted_score": 51.9,
       "n_reviews": 4,
       "total_adjustment": 0.92
-    },
-    {
-      "movie_slug": "the-end-of-sex",
-      "title": "The End of Sex",
-      "release_date": "2023-04-28",
-      "year": 2023,
-      "genre": "Comedy",
-      "raw_score": 43.0,
-      "adjusted_score": 51.9,
-      "n_reviews": 4,
-      "total_adjustment": 8.92
     },
     {
       "movie_slug": "detachment",
@@ -162275,14 +162286,14 @@
       "total_adjustment": 1.8
     },
     {
-      "movie_slug": "demolition",
-      "title": "Demolition",
-      "release_date": "2016-04-08",
-      "year": 2016,
+      "movie_slug": "downhill",
+      "title": "Downhill",
+      "release_date": "2020-02-14",
+      "year": 2020,
       "genre": "Comedy",
       "raw_score": 49.0,
       "adjusted_score": 51.8,
-      "n_reviews": 42,
+      "n_reviews": 39,
       "total_adjustment": 2.81
     },
     {
@@ -162297,15 +162308,26 @@
       "total_adjustment": 0.81
     },
     {
-      "movie_slug": "the-card-player",
-      "title": "The Card Player",
-      "release_date": "2004-10-06",
-      "year": 2004,
-      "genre": "Horror",
-      "raw_score": 48.0,
+      "movie_slug": "a-tourists-guide-to-love",
+      "title": "A Tourist's Guide to Love",
+      "release_date": "2023-04-21",
+      "year": 2023,
+      "genre": "Adventure",
+      "raw_score": 49.0,
       "adjusted_score": 51.8,
-      "n_reviews": 6,
-      "total_adjustment": 3.82
+      "n_reviews": 8,
+      "total_adjustment": 2.83
+    },
+    {
+      "movie_slug": "demolition",
+      "title": "Demolition",
+      "release_date": "2016-04-08",
+      "year": 2016,
+      "genre": "Comedy",
+      "raw_score": 49.0,
+      "adjusted_score": 51.8,
+      "n_reviews": 42,
+      "total_adjustment": 2.81
     },
     {
       "movie_slug": "penelope",
@@ -162352,15 +162374,15 @@
       "total_adjustment": 2.84
     },
     {
-      "movie_slug": "the-outsiders",
-      "title": "The Outsiders",
-      "release_date": "1983-03-25",
-      "year": 1983,
-      "genre": "Crime",
-      "raw_score": 45.0,
+      "movie_slug": "blessed-is-the-match-the-life-and-death-of-hannah-senesh",
+      "title": "Blessed Is the Match: The Life and Death of Hannah Senesh",
+      "release_date": "2009-01-28",
+      "year": 2009,
+      "genre": "Documentary",
+      "raw_score": 49.0,
       "adjusted_score": 51.8,
-      "n_reviews": 18,
-      "total_adjustment": 6.84
+      "n_reviews": 7,
+      "total_adjustment": 2.84
     },
     {
       "movie_slug": "mary-shelleys-frankenstein",
@@ -162385,37 +162407,37 @@
       "total_adjustment": -0.16
     },
     {
-      "movie_slug": "a-tourists-guide-to-love",
-      "title": "A Tourist's Guide to Love",
-      "release_date": "2023-04-21",
-      "year": 2023,
-      "genre": "Adventure",
-      "raw_score": 49.0,
+      "movie_slug": "the-outsiders",
+      "title": "The Outsiders",
+      "release_date": "1983-03-25",
+      "year": 1983,
+      "genre": "Crime",
+      "raw_score": 45.0,
       "adjusted_score": 51.8,
-      "n_reviews": 8,
-      "total_adjustment": 2.83
+      "n_reviews": 18,
+      "total_adjustment": 6.84
     },
     {
-      "movie_slug": "blessed-is-the-match-the-life-and-death-of-hannah-senesh",
-      "title": "Blessed Is the Match: The Life and Death of Hannah Senesh",
-      "release_date": "2009-01-28",
-      "year": 2009,
-      "genre": "Documentary",
-      "raw_score": 49.0,
+      "movie_slug": "the-card-player",
+      "title": "The Card Player",
+      "release_date": "2004-10-06",
+      "year": 2004,
+      "genre": "Horror",
+      "raw_score": 48.0,
       "adjusted_score": 51.8,
-      "n_reviews": 7,
-      "total_adjustment": 2.84
+      "n_reviews": 6,
+      "total_adjustment": 3.82
     },
     {
-      "movie_slug": "the-chaperone-2019",
-      "title": "The Chaperone",
-      "release_date": "2019-03-29",
-      "year": 2019,
-      "genre": "Drama",
-      "raw_score": 49.0,
+      "movie_slug": "the-accountant",
+      "title": "The Accountant",
+      "release_date": "2016-10-14",
+      "year": 2016,
+      "genre": "Action",
+      "raw_score": 51.0,
       "adjusted_score": 51.8,
-      "n_reviews": 15,
-      "total_adjustment": 2.82
+      "n_reviews": 45,
+      "total_adjustment": 0.82
     },
     {
       "movie_slug": "the-real-blonde",
@@ -162473,26 +162495,15 @@
       "total_adjustment": -1.19
     },
     {
-      "movie_slug": "downhill",
-      "title": "Downhill",
-      "release_date": "2020-02-14",
-      "year": 2020,
-      "genre": "Comedy",
+      "movie_slug": "the-chaperone-2019",
+      "title": "The Chaperone",
+      "release_date": "2019-03-29",
+      "year": 2019,
+      "genre": "Drama",
       "raw_score": 49.0,
       "adjusted_score": 51.8,
-      "n_reviews": 39,
-      "total_adjustment": 2.81
-    },
-    {
-      "movie_slug": "the-accountant",
-      "title": "The Accountant",
-      "release_date": "2016-10-14",
-      "year": 2016,
-      "genre": "Action",
-      "raw_score": 51.0,
-      "adjusted_score": 51.8,
-      "n_reviews": 45,
-      "total_adjustment": 0.82
+      "n_reviews": 15,
+      "total_adjustment": 2.82
     },
     {
       "movie_slug": "love-2015",
@@ -162504,17 +162515,6 @@
       "adjusted_score": 51.7,
       "n_reviews": 27,
       "total_adjustment": 0.68
-    },
-    {
-      "movie_slug": "billy-jack",
-      "title": "Billy Jack",
-      "release_date": "1971-05-01",
-      "year": 1971,
-      "genre": "Action",
-      "raw_score": 50.0,
-      "adjusted_score": 51.7,
-      "n_reviews": 7,
-      "total_adjustment": 1.67
     },
     {
       "movie_slug": "code-8-part-ii",
@@ -162594,17 +162594,6 @@
       "total_adjustment": -0.32
     },
     {
-      "movie_slug": "no-reservations",
-      "title": "No Reservations",
-      "release_date": "2007-07-27",
-      "year": 2007,
-      "genre": "Comedy",
-      "raw_score": 50.0,
-      "adjusted_score": 51.7,
-      "n_reviews": 33,
-      "total_adjustment": 1.67
-    },
-    {
       "movie_slug": "wish-you-were-here-2025",
       "title": "Wish You Were Here",
       "release_date": "2025-01-17",
@@ -162613,6 +162602,17 @@
       "raw_score": 50.0,
       "adjusted_score": 51.7,
       "n_reviews": 5,
+      "total_adjustment": 1.67
+    },
+    {
+      "movie_slug": "billy-jack",
+      "title": "Billy Jack",
+      "release_date": "1971-05-01",
+      "year": 1971,
+      "genre": "Action",
+      "raw_score": 50.0,
+      "adjusted_score": 51.7,
+      "n_reviews": 7,
       "total_adjustment": 1.67
     },
     {
@@ -162625,6 +162625,17 @@
       "adjusted_score": 51.7,
       "n_reviews": 10,
       "total_adjustment": 1.65
+    },
+    {
+      "movie_slug": "no-reservations",
+      "title": "No Reservations",
+      "release_date": "2007-07-27",
+      "year": 2007,
+      "genre": "Comedy",
+      "raw_score": 50.0,
+      "adjusted_score": 51.7,
+      "n_reviews": 33,
+      "total_adjustment": 1.67
     },
     {
       "movie_slug": "the-wedding-video",
@@ -162726,17 +162737,6 @@
       "total_adjustment": 1.69
     },
     {
-      "movie_slug": "reminders-of-him",
-      "title": "Reminders of Him",
-      "release_date": "2026-03-13",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 50.0,
-      "adjusted_score": 51.7,
-      "n_reviews": 27,
-      "total_adjustment": 1.65
-    },
-    {
       "movie_slug": "the-age-of-disclosure",
       "title": "The Age of Disclosure",
       "release_date": "2025-11-21",
@@ -162748,15 +162748,15 @@
       "total_adjustment": 6.69
     },
     {
-      "movie_slug": "hot-to-trot",
-      "title": "Hot to Trot",
-      "release_date": "2018-08-24",
+      "movie_slug": "indivisible-2018",
+      "title": "Indivisible",
+      "release_date": "2018-10-26",
       "year": 2018,
-      "genre": "Documentary",
-      "raw_score": 47.0,
+      "genre": "Drama",
+      "raw_score": 53.0,
       "adjusted_score": 51.7,
       "n_reviews": 6,
-      "total_adjustment": 4.74
+      "total_adjustment": -1.25
     },
     {
       "movie_slug": "paradise-road",
@@ -162814,15 +162814,15 @@
       "total_adjustment": 0.75
     },
     {
-      "movie_slug": "indivisible-2018",
-      "title": "Indivisible",
-      "release_date": "2018-10-26",
+      "movie_slug": "hot-to-trot",
+      "title": "Hot to Trot",
+      "release_date": "2018-08-24",
       "year": 2018,
-      "genre": "Drama",
-      "raw_score": 53.0,
+      "genre": "Documentary",
+      "raw_score": 47.0,
       "adjusted_score": 51.7,
       "n_reviews": 6,
-      "total_adjustment": -1.25
+      "total_adjustment": 4.74
     },
     {
       "movie_slug": "aquamarine",
@@ -163001,17 +163001,6 @@
       "total_adjustment": 4.71
     },
     {
-      "movie_slug": "the-theory-of-flight",
-      "title": "The Theory of Flight",
-      "release_date": "1998-12-23",
-      "year": 1998,
-      "genre": "Comedy",
-      "raw_score": 48.0,
-      "adjusted_score": 51.6,
-      "n_reviews": 15,
-      "total_adjustment": 3.61
-    },
-    {
       "movie_slug": "decoding-deepak",
       "title": "Decoding Deepak",
       "release_date": "2012-10-05",
@@ -163021,6 +163010,17 @@
       "adjusted_score": 51.6,
       "n_reviews": 7,
       "total_adjustment": 3.59
+    },
+    {
+      "movie_slug": "the-theory-of-flight",
+      "title": "The Theory of Flight",
+      "release_date": "1998-12-23",
+      "year": 1998,
+      "genre": "Comedy",
+      "raw_score": 48.0,
+      "adjusted_score": 51.6,
+      "n_reviews": 15,
+      "total_adjustment": 3.61
     },
     {
       "movie_slug": "goodbye-charlie",
@@ -229909,9 +229909,9 @@
       "year": 2026,
       "genre": "Documentary",
       "raw_score": 5.0,
-      "adjusted_score": 9.7,
-      "n_reviews": 17,
-      "total_adjustment": 4.7
+      "adjusted_score": 9.6,
+      "n_reviews": 18,
+      "total_adjustment": 4.6
     },
     {
       "movie_slug": "bio-dome",
