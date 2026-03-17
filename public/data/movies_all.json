@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-16T12:29:41.111631",
+  "updated": "2026-03-17T08:06:29.766192",
   "count": 20907,
   "movies": [
     {
@@ -43519,26 +43519,15 @@
       "total_adjustment": -4.47
     },
     {
-      "movie_slug": "finding-vivian-maier",
-      "title": "Finding Vivian Maier",
-      "release_date": "2014-03-28",
-      "year": 2014,
-      "genre": "Documentary",
-      "raw_score": 75.0,
+      "movie_slug": "boys-go-to-jupiter",
+      "title": "Boys Go to Jupiter",
+      "release_date": "2025-08-08",
+      "year": 2025,
+      "genre": "Animation",
+      "raw_score": 76.0,
       "adjusted_score": 72.4,
-      "n_reviews": 27,
-      "total_adjustment": -2.62
-    },
-    {
-      "movie_slug": "fair-play-2023",
-      "title": "Fair Play",
-      "release_date": "2023-09-29",
-      "year": 2023,
-      "genre": "Drama",
-      "raw_score": 73.0,
-      "adjusted_score": 72.4,
-      "n_reviews": 47,
-      "total_adjustment": -0.62
+      "n_reviews": 15,
+      "total_adjustment": -3.61
     },
     {
       "movie_slug": "hatching",
@@ -43574,26 +43563,26 @@
       "total_adjustment": 0.38
     },
     {
-      "movie_slug": "a-most-beautiful-thing",
-      "title": "A Most Beautiful Thing",
-      "release_date": "2020-07-31",
-      "year": 2020,
+      "movie_slug": "finding-vivian-maier",
+      "title": "Finding Vivian Maier",
+      "release_date": "2014-03-28",
+      "year": 2014,
       "genre": "Documentary",
-      "raw_score": 79.0,
+      "raw_score": 75.0,
       "adjusted_score": 72.4,
-      "n_reviews": 4,
-      "total_adjustment": -6.6
+      "n_reviews": 27,
+      "total_adjustment": -2.62
     },
     {
-      "movie_slug": "boys-go-to-jupiter",
-      "title": "Boys Go to Jupiter",
-      "release_date": "2025-08-08",
-      "year": 2025,
-      "genre": "Animation",
-      "raw_score": 76.0,
+      "movie_slug": "sweet-land",
+      "title": "Sweet Land",
+      "release_date": "2006-10-18",
+      "year": 2006,
+      "genre": "Drama",
+      "raw_score": 75.0,
       "adjusted_score": 72.4,
-      "n_reviews": 15,
-      "total_adjustment": -3.61
+      "n_reviews": 19,
+      "total_adjustment": -2.6
     },
     {
       "movie_slug": "adam-2021",
@@ -43629,15 +43618,15 @@
       "total_adjustment": -0.61
     },
     {
-      "movie_slug": "django-1966",
-      "title": "Django",
-      "release_date": "1966-12-01",
-      "year": 1966,
-      "genre": "Action",
-      "raw_score": 75.0,
+      "movie_slug": "a-most-beautiful-thing",
+      "title": "A Most Beautiful Thing",
+      "release_date": "2020-07-31",
+      "year": 2020,
+      "genre": "Documentary",
+      "raw_score": 79.0,
       "adjusted_score": 72.4,
-      "n_reviews": 6,
-      "total_adjustment": -2.63
+      "n_reviews": 4,
+      "total_adjustment": -6.6
     },
     {
       "movie_slug": "a-monster-calls",
@@ -43651,6 +43640,17 @@
       "total_adjustment": -3.62
     },
     {
+      "movie_slug": "fair-play-2023",
+      "title": "Fair Play",
+      "release_date": "2023-09-29",
+      "year": 2023,
+      "genre": "Drama",
+      "raw_score": 73.0,
+      "adjusted_score": 72.4,
+      "n_reviews": 47,
+      "total_adjustment": -0.62
+    },
+    {
       "movie_slug": "wicked",
       "title": "Wicked",
       "release_date": "2024-11-22",
@@ -43660,6 +43660,17 @@
       "adjusted_score": 72.4,
       "n_reviews": 63,
       "total_adjustment": -0.64
+    },
+    {
+      "movie_slug": "django-1966",
+      "title": "Django",
+      "release_date": "1966-12-01",
+      "year": 1966,
+      "genre": "Action",
+      "raw_score": 75.0,
+      "adjusted_score": 72.4,
+      "n_reviews": 6,
+      "total_adjustment": -2.63
     },
     {
       "movie_slug": "the-last-man-on-the-moon",
@@ -43761,15 +43772,15 @@
       "total_adjustment": -5.64
     },
     {
-      "movie_slug": "diamond-tongues",
-      "title": "Diamond Tongues",
-      "release_date": "2016-02-19",
-      "year": 2016,
-      "genre": "Comedy",
-      "raw_score": 75.0,
+      "movie_slug": "a-mothers-courage-talking-back-to-autism",
+      "title": "A Mother's Courage: Talking Back to Autism",
+      "release_date": "2010-09-24",
+      "year": 2010,
+      "genre": "Documentary",
+      "raw_score": 76.0,
       "adjusted_score": 72.4,
-      "n_reviews": 7,
-      "total_adjustment": -2.6
+      "n_reviews": 5,
+      "total_adjustment": -3.6
     },
     {
       "movie_slug": "the-most-beautiful-boy-in-the-world",
@@ -43783,14 +43794,14 @@
       "total_adjustment": -0.64
     },
     {
-      "movie_slug": "sweet-land",
-      "title": "Sweet Land",
-      "release_date": "2006-10-18",
-      "year": 2006,
-      "genre": "Drama",
+      "movie_slug": "diamond-tongues",
+      "title": "Diamond Tongues",
+      "release_date": "2016-02-19",
+      "year": 2016,
+      "genre": "Comedy",
       "raw_score": 75.0,
       "adjusted_score": 72.4,
-      "n_reviews": 19,
+      "n_reviews": 7,
       "total_adjustment": -2.6
     },
     {
@@ -43805,14 +43816,14 @@
       "total_adjustment": -3.61
     },
     {
-      "movie_slug": "a-mothers-courage-talking-back-to-autism",
-      "title": "A Mother's Courage: Talking Back to Autism",
-      "release_date": "2010-09-24",
-      "year": 2010,
-      "genre": "Documentary",
+      "movie_slug": "jane-eyre",
+      "title": "Jane Eyre",
+      "release_date": "2011-03-11",
+      "year": 2011,
+      "genre": "Drama",
       "raw_score": 76.0,
       "adjusted_score": 72.4,
-      "n_reviews": 5,
+      "n_reviews": 35,
       "total_adjustment": -3.6
     },
     {
@@ -43827,15 +43838,15 @@
       "total_adjustment": 1.42
     },
     {
-      "movie_slug": "jane-eyre",
-      "title": "Jane Eyre",
-      "release_date": "2011-03-11",
-      "year": 2011,
-      "genre": "Drama",
-      "raw_score": 76.0,
+      "movie_slug": "arco",
+      "title": "Arco",
+      "release_date": "2026-01-23",
+      "year": 2026,
+      "genre": "Animation",
+      "raw_score": 73.0,
       "adjusted_score": 72.4,
-      "n_reviews": 35,
-      "total_adjustment": -3.6
+      "n_reviews": 23,
+      "total_adjustment": -0.59
     },
     {
       "movie_slug": "jinn-2018",
@@ -44399,15 +44410,15 @@
       "total_adjustment": -5.7
     },
     {
-      "movie_slug": "now-voyager",
-      "title": "Now, Voyager",
-      "release_date": "1942-10-31",
-      "year": 1942,
-      "genre": "Drama",
-      "raw_score": 70.0,
+      "movie_slug": "mississippi-grind",
+      "title": "Mississippi Grind",
+      "release_date": "2015-09-25",
+      "year": 2015,
+      "genre": "Comedy",
+      "raw_score": 77.0,
       "adjusted_score": 72.3,
-      "n_reviews": 12,
-      "total_adjustment": 2.34
+      "n_reviews": 27,
+      "total_adjustment": -4.65
     },
     {
       "movie_slug": "butch-cassidy-and-the-sundance-kid",
@@ -44432,15 +44443,15 @@
       "total_adjustment": 0.33
     },
     {
-      "movie_slug": "mississippi-grind",
-      "title": "Mississippi Grind",
-      "release_date": "2015-09-25",
-      "year": 2015,
-      "genre": "Comedy",
-      "raw_score": 77.0,
+      "movie_slug": "now-voyager",
+      "title": "Now, Voyager",
+      "release_date": "1942-10-31",
+      "year": 1942,
+      "genre": "Drama",
+      "raw_score": 70.0,
       "adjusted_score": 72.3,
-      "n_reviews": 27,
-      "total_adjustment": -4.65
+      "n_reviews": 12,
+      "total_adjustment": 2.34
     },
     {
       "movie_slug": "the-kid-detective",
@@ -44938,14 +44949,14 @@
       "total_adjustment": -2.76
     },
     {
-      "movie_slug": "pow-wow",
-      "title": "Pow Wow",
-      "release_date": "2018-01-19",
-      "year": 2018,
-      "genre": "Documentary",
+      "movie_slug": "emily-2022",
+      "title": "Emily",
+      "release_date": "2023-02-17",
+      "year": 2023,
+      "genre": "Biography",
       "raw_score": 75.0,
       "adjusted_score": 72.2,
-      "n_reviews": 4,
+      "n_reviews": 36,
       "total_adjustment": -2.77
     },
     {
@@ -44960,15 +44971,15 @@
       "total_adjustment": -2.75
     },
     {
-      "movie_slug": "arco",
-      "title": "Arco",
-      "release_date": "2026-01-23",
-      "year": 2026,
-      "genre": "Animation",
-      "raw_score": 73.0,
+      "movie_slug": "horror-of-dracula",
+      "title": "Horror of Dracula",
+      "release_date": "1958-05-08",
+      "year": 1958,
+      "genre": "Drama",
+      "raw_score": 67.0,
       "adjusted_score": 72.2,
-      "n_reviews": 22,
-      "total_adjustment": -0.79
+      "n_reviews": 9,
+      "total_adjustment": 5.21
     },
     {
       "movie_slug": "harry-dean-stanton-partly-fiction",
@@ -45026,17 +45037,6 @@
       "total_adjustment": -2.76
     },
     {
-      "movie_slug": "emily-2022",
-      "title": "Emily",
-      "release_date": "2023-02-17",
-      "year": 2023,
-      "genre": "Biography",
-      "raw_score": 75.0,
-      "adjusted_score": 72.2,
-      "n_reviews": 36,
-      "total_adjustment": -2.77
-    },
-    {
       "movie_slug": "smoking-causes-coughing",
       "title": "Smoking Causes Coughing",
       "release_date": "2023-03-31",
@@ -45046,6 +45046,17 @@
       "adjusted_score": 72.2,
       "n_reviews": 20,
       "total_adjustment": -1.76
+    },
+    {
+      "movie_slug": "pow-wow",
+      "title": "Pow Wow",
+      "release_date": "2018-01-19",
+      "year": 2018,
+      "genre": "Documentary",
+      "raw_score": 75.0,
+      "adjusted_score": 72.2,
+      "n_reviews": 4,
+      "total_adjustment": -2.77
     },
     {
       "movie_slug": "hala",
@@ -45125,26 +45136,26 @@
       "total_adjustment": -4.79
     },
     {
-      "movie_slug": "horror-of-dracula",
-      "title": "Horror of Dracula",
-      "release_date": "1958-05-08",
-      "year": 1958,
-      "genre": "Drama",
-      "raw_score": 67.0,
-      "adjusted_score": 72.2,
-      "n_reviews": 9,
-      "total_adjustment": 5.21
+      "movie_slug": "an-honest-liar",
+      "title": "An Honest Liar",
+      "release_date": "2015-03-06",
+      "year": 2015,
+      "genre": "Documentary",
+      "raw_score": 76.0,
+      "adjusted_score": 72.1,
+      "n_reviews": 16,
+      "total_adjustment": -3.92
     },
     {
-      "movie_slug": "creature-from-the-black-lagoon",
-      "title": "Creature from the Black Lagoon",
-      "release_date": "1954-03-05",
-      "year": 1954,
-      "genre": "Horror",
-      "raw_score": 68.0,
+      "movie_slug": "dirty-god",
+      "title": "Dirty God",
+      "release_date": "2020-11-13",
+      "year": 2020,
+      "genre": "Drama",
+      "raw_score": 75.0,
       "adjusted_score": 72.1,
-      "n_reviews": 11,
-      "total_adjustment": 4.09
+      "n_reviews": 10,
+      "total_adjustment": -2.92
     },
     {
       "movie_slug": "hard-eight",
@@ -45180,26 +45191,26 @@
       "total_adjustment": -2.92
     },
     {
-      "movie_slug": "an-honest-liar",
-      "title": "An Honest Liar",
-      "release_date": "2015-03-06",
-      "year": 2015,
-      "genre": "Documentary",
-      "raw_score": 76.0,
-      "adjusted_score": 72.1,
-      "n_reviews": 16,
-      "total_adjustment": -3.92
-    },
-    {
-      "movie_slug": "tabloid",
-      "title": "Tabloid",
-      "release_date": "2011-07-15",
+      "movie_slug": "foreign-parts",
+      "title": "Foreign Parts",
+      "release_date": "2011-03-10",
       "year": 2011,
       "genre": "Documentary",
-      "raw_score": 74.0,
+      "raw_score": 78.0,
       "adjusted_score": 72.1,
-      "n_reviews": 34,
-      "total_adjustment": -1.95
+      "n_reviews": 4,
+      "total_adjustment": -5.91
+    },
+    {
+      "movie_slug": "creature-from-the-black-lagoon",
+      "title": "Creature from the Black Lagoon",
+      "release_date": "1954-03-05",
+      "year": 1954,
+      "genre": "Horror",
+      "raw_score": 68.0,
+      "adjusted_score": 72.1,
+      "n_reviews": 11,
+      "total_adjustment": 4.09
     },
     {
       "movie_slug": "hoppers",
@@ -45224,15 +45235,15 @@
       "total_adjustment": -1.91
     },
     {
-      "movie_slug": "listen-up-philip",
-      "title": "Listen Up Philip",
-      "release_date": "2014-10-17",
-      "year": 2014,
-      "genre": "Comedy",
-      "raw_score": 76.0,
+      "movie_slug": "a-christmas-carol-1938",
+      "title": "A Christmas Carol",
+      "release_date": "1938-12-16",
+      "year": 1938,
+      "genre": "Drama",
+      "raw_score": 72.0,
       "adjusted_score": 72.1,
-      "n_reviews": 34,
-      "total_adjustment": -3.91
+      "n_reviews": 6,
+      "total_adjustment": 0.07
     },
     {
       "movie_slug": "mommy",
@@ -45246,37 +45257,15 @@
       "total_adjustment": -1.92
     },
     {
-      "movie_slug": "dirty-god",
-      "title": "Dirty God",
-      "release_date": "2020-11-13",
-      "year": 2020,
-      "genre": "Drama",
-      "raw_score": 75.0,
+      "movie_slug": "tabloid",
+      "title": "Tabloid",
+      "release_date": "2011-07-15",
+      "year": 2011,
+      "genre": "Documentary",
+      "raw_score": 74.0,
       "adjusted_score": 72.1,
-      "n_reviews": 10,
-      "total_adjustment": -2.92
-    },
-    {
-      "movie_slug": "x-men-days-of-future-past",
-      "title": "X-Men: Days of Future Past",
-      "release_date": "2014-05-23",
-      "year": 2014,
-      "genre": "Action",
-      "raw_score": 75.0,
-      "adjusted_score": 72.1,
-      "n_reviews": 44,
-      "total_adjustment": -2.95
-    },
-    {
-      "movie_slug": "a-christmas-carol-1938",
-      "title": "A Christmas Carol",
-      "release_date": "1938-12-16",
-      "year": 1938,
-      "genre": "Drama",
-      "raw_score": 72.0,
-      "adjusted_score": 72.1,
-      "n_reviews": 6,
-      "total_adjustment": 0.07
+      "n_reviews": 34,
+      "total_adjustment": -1.95
     },
     {
       "movie_slug": "bridesmaids",
@@ -45367,15 +45356,15 @@
       "total_adjustment": -2.95
     },
     {
-      "movie_slug": "ema",
-      "title": "Ema",
-      "release_date": "2021-08-13",
-      "year": 2021,
-      "genre": "Drama",
-      "raw_score": 71.0,
+      "movie_slug": "x-men-days-of-future-past",
+      "title": "X-Men: Days of Future Past",
+      "release_date": "2014-05-23",
+      "year": 2014,
+      "genre": "Action",
+      "raw_score": 75.0,
       "adjusted_score": 72.1,
-      "n_reviews": 25,
-      "total_adjustment": 1.1
+      "n_reviews": 44,
+      "total_adjustment": -2.95
     },
     {
       "movie_slug": "rising-phoenix",
@@ -45389,37 +45378,48 @@
       "total_adjustment": -3.9
     },
     {
-      "movie_slug": "foreign-parts",
-      "title": "Foreign Parts",
-      "release_date": "2011-03-10",
-      "year": 2011,
-      "genre": "Documentary",
-      "raw_score": 78.0,
+      "movie_slug": "listen-up-philip",
+      "title": "Listen Up Philip",
+      "release_date": "2014-10-17",
+      "year": 2014,
+      "genre": "Comedy",
+      "raw_score": 76.0,
       "adjusted_score": 72.1,
-      "n_reviews": 4,
-      "total_adjustment": -5.91
+      "n_reviews": 34,
+      "total_adjustment": -3.91
     },
     {
-      "movie_slug": "piggy",
-      "title": "Piggy",
-      "release_date": "2022-10-14",
-      "year": 2022,
+      "movie_slug": "billy-elliot",
+      "title": "Billy Elliot",
+      "release_date": "2000-10-13",
+      "year": 2000,
       "genre": "Drama",
-      "raw_score": 72.0,
-      "adjusted_score": 72.1,
-      "n_reviews": 17,
-      "total_adjustment": 0.1
-    },
-    {
-      "movie_slug": "hidden-figures",
-      "title": "Hidden Figures",
-      "release_date": "2016-12-25",
-      "year": 2016,
-      "genre": "Biography",
       "raw_score": 74.0,
       "adjusted_score": 72.1,
-      "n_reviews": 47,
-      "total_adjustment": -1.87
+      "n_reviews": 34,
+      "total_adjustment": -1.9
+    },
+    {
+      "movie_slug": "ema",
+      "title": "Ema",
+      "release_date": "2021-08-13",
+      "year": 2021,
+      "genre": "Drama",
+      "raw_score": 71.0,
+      "adjusted_score": 72.1,
+      "n_reviews": 25,
+      "total_adjustment": 1.1
+    },
+    {
+      "movie_slug": "gallipoli",
+      "title": "Gallipoli",
+      "release_date": "1981-08-28",
+      "year": 1981,
+      "genre": "Adventure",
+      "raw_score": 65.0,
+      "adjusted_score": 72.1,
+      "n_reviews": 6,
+      "total_adjustment": 7.13
     },
     {
       "movie_slug": "on-the-count-of-three",
@@ -45431,17 +45431,6 @@
       "adjusted_score": 72.1,
       "n_reviews": 24,
       "total_adjustment": -1.85
-    },
-    {
-      "movie_slug": "the-duchess-of-langeais",
-      "title": "The Duchess of Langeais",
-      "release_date": "2008-02-22",
-      "year": 2008,
-      "genre": "Drama",
-      "raw_score": 74.0,
-      "adjusted_score": 72.1,
-      "n_reviews": 23,
-      "total_adjustment": -1.9
     },
     {
       "movie_slug": "here-comes-mr-jordan",
@@ -45499,15 +45488,26 @@
       "total_adjustment": -3.86
     },
     {
-      "movie_slug": "art-talent-show",
-      "title": "Art Talent Show",
-      "release_date": "2024-03-22",
+      "movie_slug": "woman-of-the-hour",
+      "title": "Woman of the Hour",
+      "release_date": "2024-10-11",
       "year": 2024,
-      "genre": "Documentary",
-      "raw_score": 82.0,
+      "genre": "Crime",
+      "raw_score": 74.0,
       "adjusted_score": 72.1,
-      "n_reviews": 4,
-      "total_adjustment": -9.87
+      "n_reviews": 35,
+      "total_adjustment": -1.86
+    },
+    {
+      "movie_slug": "piggy",
+      "title": "Piggy",
+      "release_date": "2022-10-14",
+      "year": 2022,
+      "genre": "Drama",
+      "raw_score": 72.0,
+      "adjusted_score": 72.1,
+      "n_reviews": 17,
+      "total_adjustment": 0.1
     },
     {
       "movie_slug": "love+war",
@@ -45532,37 +45532,26 @@
       "total_adjustment": -2.87
     },
     {
-      "movie_slug": "woman-of-the-hour",
-      "title": "Woman of the Hour",
-      "release_date": "2024-10-11",
-      "year": 2024,
-      "genre": "Crime",
+      "movie_slug": "hidden-figures",
+      "title": "Hidden Figures",
+      "release_date": "2016-12-25",
+      "year": 2016,
+      "genre": "Biography",
       "raw_score": 74.0,
       "adjusted_score": 72.1,
-      "n_reviews": 35,
-      "total_adjustment": -1.86
+      "n_reviews": 47,
+      "total_adjustment": -1.87
     },
     {
-      "movie_slug": "gallipoli",
-      "title": "Gallipoli",
-      "release_date": "1981-08-28",
-      "year": 1981,
-      "genre": "Adventure",
-      "raw_score": 65.0,
+      "movie_slug": "art-talent-show",
+      "title": "Art Talent Show",
+      "release_date": "2024-03-22",
+      "year": 2024,
+      "genre": "Documentary",
+      "raw_score": 82.0,
       "adjusted_score": 72.1,
-      "n_reviews": 6,
-      "total_adjustment": 7.13
-    },
-    {
-      "movie_slug": "the-insult",
-      "title": "The Insult",
-      "release_date": "2018-01-12",
-      "year": 2018,
-      "genre": "Crime",
-      "raw_score": 72.0,
-      "adjusted_score": 72.1,
-      "n_reviews": 25,
-      "total_adjustment": 0.12
+      "n_reviews": 4,
+      "total_adjustment": -9.87
     },
     {
       "movie_slug": "kids-for-cash",
@@ -45576,48 +45565,15 @@
       "total_adjustment": -2.88
     },
     {
-      "movie_slug": "circo",
-      "title": "Circo",
-      "release_date": "2011-04-01",
-      "year": 2011,
-      "genre": "Documentary",
-      "raw_score": 77.0,
+      "movie_slug": "the-last-time-i-saw-macao",
+      "title": "The Last Time I Saw Macao",
+      "release_date": "2013-09-13",
+      "year": 2013,
+      "genre": "Crime",
+      "raw_score": 69.0,
       "adjusted_score": 72.1,
-      "n_reviews": 13,
-      "total_adjustment": -4.9
-    },
-    {
-      "movie_slug": "limmensits",
-      "title": "L'Immensit\u00e0",
-      "release_date": "2023-05-12",
-      "year": 2023,
-      "genre": "Drama",
-      "raw_score": 70.0,
-      "adjusted_score": 72.1,
-      "n_reviews": 19,
-      "total_adjustment": 2.11
-    },
-    {
-      "movie_slug": "stuff-and-dough",
-      "title": "Stuff and Dough",
-      "release_date": "2008-04-23",
-      "year": 2008,
-      "genre": "Drama",
-      "raw_score": 76.0,
-      "adjusted_score": 72.1,
-      "n_reviews": 6,
-      "total_adjustment": -3.88
-    },
-    {
-      "movie_slug": "billy-elliot",
-      "title": "Billy Elliot",
-      "release_date": "2000-10-13",
-      "year": 2000,
-      "genre": "Drama",
-      "raw_score": 74.0,
-      "adjusted_score": 72.1,
-      "n_reviews": 34,
-      "total_adjustment": -1.9
+      "n_reviews": 4,
+      "total_adjustment": 3.12
     },
     {
       "movie_slug": "mystery-train",
@@ -45631,15 +45587,59 @@
       "total_adjustment": -7.88
     },
     {
-      "movie_slug": "the-last-time-i-saw-macao",
-      "title": "The Last Time I Saw Macao",
-      "release_date": "2013-09-13",
-      "year": 2013,
+      "movie_slug": "the-insult",
+      "title": "The Insult",
+      "release_date": "2018-01-12",
+      "year": 2018,
       "genre": "Crime",
-      "raw_score": 69.0,
+      "raw_score": 72.0,
       "adjusted_score": 72.1,
-      "n_reviews": 4,
-      "total_adjustment": 3.12
+      "n_reviews": 25,
+      "total_adjustment": 0.12
+    },
+    {
+      "movie_slug": "stuff-and-dough",
+      "title": "Stuff and Dough",
+      "release_date": "2008-04-23",
+      "year": 2008,
+      "genre": "Drama",
+      "raw_score": 76.0,
+      "adjusted_score": 72.1,
+      "n_reviews": 6,
+      "total_adjustment": -3.88
+    },
+    {
+      "movie_slug": "limmensits",
+      "title": "L'Immensit\u00e0",
+      "release_date": "2023-05-12",
+      "year": 2023,
+      "genre": "Drama",
+      "raw_score": 70.0,
+      "adjusted_score": 72.1,
+      "n_reviews": 19,
+      "total_adjustment": 2.11
+    },
+    {
+      "movie_slug": "circo",
+      "title": "Circo",
+      "release_date": "2011-04-01",
+      "year": 2011,
+      "genre": "Documentary",
+      "raw_score": 77.0,
+      "adjusted_score": 72.1,
+      "n_reviews": 13,
+      "total_adjustment": -4.9
+    },
+    {
+      "movie_slug": "the-duchess-of-langeais",
+      "title": "The Duchess of Langeais",
+      "release_date": "2008-02-22",
+      "year": 2008,
+      "genre": "Drama",
+      "raw_score": 74.0,
+      "adjusted_score": 72.1,
+      "n_reviews": 23,
+      "total_adjustment": -1.9
     },
     {
       "movie_slug": "edward-scissorhands",
@@ -45653,15 +45653,15 @@
       "total_adjustment": -1.88
     },
     {
-      "movie_slug": "unlovable",
-      "title": "Unlovable",
-      "release_date": "2018-11-02",
-      "year": 2018,
-      "genre": "Comedy",
-      "raw_score": 77.0,
+      "movie_slug": "air-2023",
+      "title": "Air",
+      "release_date": "2023-04-05",
+      "year": 2023,
+      "genre": "Drama",
+      "raw_score": 73.0,
       "adjusted_score": 72.0,
-      "n_reviews": 7,
-      "total_adjustment": -5.02
+      "n_reviews": 59,
+      "total_adjustment": -1.01
     },
     {
       "movie_slug": "the-unspeakable-act",
@@ -45675,6 +45675,39 @@
       "total_adjustment": -4.01
     },
     {
+      "movie_slug": "in-flames",
+      "title": "In Flames",
+      "release_date": "2024-04-12",
+      "year": 2024,
+      "genre": "Drama",
+      "raw_score": 75.0,
+      "adjusted_score": 72.0,
+      "n_reviews": 9,
+      "total_adjustment": -3.02
+    },
+    {
+      "movie_slug": "cold-mountain",
+      "title": "Cold Mountain",
+      "release_date": "2003-12-25",
+      "year": 2003,
+      "genre": "Adventure",
+      "raw_score": 73.0,
+      "adjusted_score": 72.0,
+      "n_reviews": 41,
+      "total_adjustment": -1.02
+    },
+    {
+      "movie_slug": "the-sure-thing",
+      "title": "The Sure Thing",
+      "release_date": "1985-03-01",
+      "year": 1985,
+      "genre": "Comedy",
+      "raw_score": 76.0,
+      "adjusted_score": 72.0,
+      "n_reviews": 18,
+      "total_adjustment": -4.02
+    },
+    {
       "movie_slug": "the-kindergarten-teacher-2018",
       "title": "The Kindergarten Teacher",
       "release_date": "2018-10-12",
@@ -45686,14 +45719,14 @@
       "total_adjustment": -3.01
     },
     {
-      "movie_slug": "raya-and-the-last-dragon",
-      "title": "Raya and the Last Dragon",
-      "release_date": "2021-03-05",
-      "year": 2021,
-      "genre": "Animation",
+      "movie_slug": "joe-goulds-secret",
+      "title": "Joe Gould's Secret",
+      "release_date": "2000-04-07",
+      "year": 2000,
+      "genre": "Drama",
       "raw_score": 74.0,
       "adjusted_score": 72.0,
-      "n_reviews": 48,
+      "n_reviews": 23,
       "total_adjustment": -2.01
     },
     {
@@ -45708,81 +45741,15 @@
       "total_adjustment": -4.01
     },
     {
-      "movie_slug": "joe-goulds-secret",
-      "title": "Joe Gould's Secret",
-      "release_date": "2000-04-07",
-      "year": 2000,
-      "genre": "Drama",
+      "movie_slug": "raya-and-the-last-dragon",
+      "title": "Raya and the Last Dragon",
+      "release_date": "2021-03-05",
+      "year": 2021,
+      "genre": "Animation",
       "raw_score": 74.0,
       "adjusted_score": 72.0,
-      "n_reviews": 23,
+      "n_reviews": 48,
       "total_adjustment": -2.01
-    },
-    {
-      "movie_slug": "air-2023",
-      "title": "Air",
-      "release_date": "2023-04-05",
-      "year": 2023,
-      "genre": "Drama",
-      "raw_score": 73.0,
-      "adjusted_score": 72.0,
-      "n_reviews": 59,
-      "total_adjustment": -1.01
-    },
-    {
-      "movie_slug": "the-sure-thing",
-      "title": "The Sure Thing",
-      "release_date": "1985-03-01",
-      "year": 1985,
-      "genre": "Comedy",
-      "raw_score": 76.0,
-      "adjusted_score": 72.0,
-      "n_reviews": 18,
-      "total_adjustment": -4.02
-    },
-    {
-      "movie_slug": "cold-mountain",
-      "title": "Cold Mountain",
-      "release_date": "2003-12-25",
-      "year": 2003,
-      "genre": "Adventure",
-      "raw_score": 73.0,
-      "adjusted_score": 72.0,
-      "n_reviews": 41,
-      "total_adjustment": -1.02
-    },
-    {
-      "movie_slug": "the-golden-dream",
-      "title": "The Golden Dream",
-      "release_date": "2015-08-28",
-      "year": 2015,
-      "genre": "Drama",
-      "raw_score": 74.0,
-      "adjusted_score": 72.0,
-      "n_reviews": 16,
-      "total_adjustment": -2.01
-    },
-    {
-      "movie_slug": "in-flames",
-      "title": "In Flames",
-      "release_date": "2024-04-12",
-      "year": 2024,
-      "genre": "Drama",
-      "raw_score": 75.0,
-      "adjusted_score": 72.0,
-      "n_reviews": 9,
-      "total_adjustment": -3.02
-    },
-    {
-      "movie_slug": "jfk",
-      "title": "JFK",
-      "release_date": "1991-12-20",
-      "year": 1991,
-      "genre": "Drama",
-      "raw_score": 72.0,
-      "adjusted_score": 72.0,
-      "n_reviews": 29,
-      "total_adjustment": -0.04
     },
     {
       "movie_slug": "les-amities-malefiques",
@@ -45794,6 +45761,28 @@
       "adjusted_score": 72.0,
       "n_reviews": 14,
       "total_adjustment": -3.02
+    },
+    {
+      "movie_slug": "unlovable",
+      "title": "Unlovable",
+      "release_date": "2018-11-02",
+      "year": 2018,
+      "genre": "Comedy",
+      "raw_score": 77.0,
+      "adjusted_score": 72.0,
+      "n_reviews": 7,
+      "total_adjustment": -5.02
+    },
+    {
+      "movie_slug": "jean-michel-basquiat-the-radiant-child",
+      "title": "Jean-Michel Basquiat: The Radiant Child",
+      "release_date": "2010-07-21",
+      "year": 2010,
+      "genre": "Documentary",
+      "raw_score": 74.0,
+      "adjusted_score": 72.0,
+      "n_reviews": 15,
+      "total_adjustment": -1.98
     },
     {
       "movie_slug": "bellingcat-truth-in-a-post-truth-world",
@@ -45895,15 +45884,15 @@
       "total_adjustment": -2.04
     },
     {
-      "movie_slug": "the-art-of-the-steal",
-      "title": "The Art of the Steal",
-      "release_date": "2010-02-26",
-      "year": 2010,
-      "genre": "Documentary",
-      "raw_score": 75.0,
+      "movie_slug": "jfk",
+      "title": "JFK",
+      "release_date": "1991-12-20",
+      "year": 1991,
+      "genre": "Drama",
+      "raw_score": 72.0,
       "adjusted_score": 72.0,
-      "n_reviews": 19,
-      "total_adjustment": -3.01
+      "n_reviews": 29,
+      "total_adjustment": -0.04
     },
     {
       "movie_slug": "the-adults",
@@ -45917,37 +45906,15 @@
       "total_adjustment": -1.01
     },
     {
-      "movie_slug": "jean-michel-basquiat-the-radiant-child",
-      "title": "Jean-Michel Basquiat: The Radiant Child",
-      "release_date": "2010-07-21",
-      "year": 2010,
-      "genre": "Documentary",
+      "movie_slug": "the-golden-dream",
+      "title": "The Golden Dream",
+      "release_date": "2015-08-28",
+      "year": 2015,
+      "genre": "Drama",
       "raw_score": 74.0,
       "adjusted_score": 72.0,
-      "n_reviews": 15,
-      "total_adjustment": -1.98
-    },
-    {
-      "movie_slug": "a-choice-of-weapons-inspired-by-gordon-parks",
-      "title": "A Choice of Weapons: Inspired by Gordon Parks",
-      "release_date": "2021-11-15",
-      "year": 2021,
-      "genre": "Documentary",
-      "raw_score": 73.0,
-      "adjusted_score": 72.0,
-      "n_reviews": 4,
-      "total_adjustment": -1.01
-    },
-    {
-      "movie_slug": "eternity-and-a-day",
-      "title": "Eternity and a Day",
-      "release_date": "1999-05-28",
-      "year": 1999,
-      "genre": "Drama",
-      "raw_score": 80.0,
-      "adjusted_score": 72.0,
-      "n_reviews": 21,
-      "total_adjustment": -7.98
+      "n_reviews": 16,
+      "total_adjustment": -2.01
     },
     {
       "movie_slug": "chuck-buck",
@@ -45961,6 +45928,28 @@
       "total_adjustment": -3.95
     },
     {
+      "movie_slug": "the-art-of-the-steal",
+      "title": "The Art of the Steal",
+      "release_date": "2010-02-26",
+      "year": 2010,
+      "genre": "Documentary",
+      "raw_score": 75.0,
+      "adjusted_score": 72.0,
+      "n_reviews": 19,
+      "total_adjustment": -3.01
+    },
+    {
+      "movie_slug": "get-me-roger-stone",
+      "title": "Get Me Roger Stone",
+      "release_date": "2017-05-12",
+      "year": 2017,
+      "genre": "Documentary",
+      "raw_score": 75.0,
+      "adjusted_score": 72.0,
+      "n_reviews": 9,
+      "total_adjustment": -2.99
+    },
+    {
       "movie_slug": "will-harper",
       "title": "Will & Harper",
       "release_date": "2024-09-13",
@@ -45972,26 +45961,26 @@
       "total_adjustment": -1.96
     },
     {
-      "movie_slug": "wild-indian",
-      "title": "Wild Indian",
-      "release_date": "2021-09-03",
-      "year": 2021,
-      "genre": "Crime",
-      "raw_score": 74.0,
+      "movie_slug": "strange-journey-the-story-of-rocky-horror",
+      "title": "Strange Journey: The Story of Rocky Horror",
+      "release_date": "2025-09-26",
+      "year": 2025,
+      "genre": "Documentary",
+      "raw_score": 68.0,
       "adjusted_score": 72.0,
-      "n_reviews": 13,
-      "total_adjustment": -2.01
+      "n_reviews": 6,
+      "total_adjustment": 4.04
     },
     {
-      "movie_slug": "the-space-race",
-      "title": "The Space Race",
-      "release_date": "2024-02-13",
-      "year": 2024,
+      "movie_slug": "a-choice-of-weapons-inspired-by-gordon-parks",
+      "title": "A Choice of Weapons: Inspired by Gordon Parks",
+      "release_date": "2021-11-15",
+      "year": 2021,
       "genre": "Documentary",
-      "raw_score": 71.0,
+      "raw_score": 73.0,
       "adjusted_score": 72.0,
-      "n_reviews": 5,
-      "total_adjustment": 1.04
+      "n_reviews": 4,
+      "total_adjustment": -1.01
     },
     {
       "movie_slug": "maria-by-callas",
@@ -46060,37 +46049,26 @@
       "total_adjustment": -1.98
     },
     {
-      "movie_slug": "strange-journey-the-story-of-rocky-horror",
-      "title": "Strange Journey: The Story of Rocky Horror",
-      "release_date": "2025-09-26",
-      "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 68.0,
+      "movie_slug": "eternity-and-a-day",
+      "title": "Eternity and a Day",
+      "release_date": "1999-05-28",
+      "year": 1999,
+      "genre": "Drama",
+      "raw_score": 80.0,
       "adjusted_score": 72.0,
-      "n_reviews": 6,
-      "total_adjustment": 4.04
+      "n_reviews": 21,
+      "total_adjustment": -7.98
     },
     {
-      "movie_slug": "get-me-roger-stone",
-      "title": "Get Me Roger Stone",
-      "release_date": "2017-05-12",
-      "year": 2017,
+      "movie_slug": "the-space-race",
+      "title": "The Space Race",
+      "release_date": "2024-02-13",
+      "year": 2024,
       "genre": "Documentary",
-      "raw_score": 75.0,
+      "raw_score": 71.0,
       "adjusted_score": 72.0,
-      "n_reviews": 9,
-      "total_adjustment": -2.99
-    },
-    {
-      "movie_slug": "the-ballad-of-ramblin-jack",
-      "title": "The Ballad of Ramblin' Jack",
-      "release_date": "2000-08-18",
-      "year": 2000,
-      "genre": "Documentary",
-      "raw_score": 72.0,
-      "adjusted_score": 72.0,
-      "n_reviews": 0,
-      "total_adjustment": 0.0
+      "n_reviews": 5,
+      "total_adjustment": 1.04
     },
     {
       "movie_slug": "scheherazade-tell-me-a-story",
@@ -46104,17 +46082,6 @@
       "total_adjustment": -2.99
     },
     {
-      "movie_slug": "bones-and-all",
-      "title": "Bones and All",
-      "release_date": "2022-11-18",
-      "year": 2022,
-      "genre": "Drama",
-      "raw_score": 74.0,
-      "adjusted_score": 72.0,
-      "n_reviews": 54,
-      "total_adjustment": -2.0
-    },
-    {
       "movie_slug": "like-father-like-son",
       "title": "Like Father, Like Son",
       "release_date": "2014-01-17",
@@ -46126,6 +46093,17 @@
       "total_adjustment": -1.0
     },
     {
+      "movie_slug": "plot-for-peace",
+      "title": "Plot for Peace",
+      "release_date": "2014-10-31",
+      "year": 2014,
+      "genre": "Documentary",
+      "raw_score": 75.0,
+      "adjusted_score": 72.0,
+      "n_reviews": 9,
+      "total_adjustment": -2.99
+    },
+    {
       "movie_slug": "dancing-in-jaffa",
       "title": "Dancing in Jaffa",
       "release_date": "2014-04-11",
@@ -46135,6 +46113,39 @@
       "adjusted_score": 72.0,
       "n_reviews": 10,
       "total_adjustment": -2.0
+    },
+    {
+      "movie_slug": "bones-and-all",
+      "title": "Bones and All",
+      "release_date": "2022-11-18",
+      "year": 2022,
+      "genre": "Drama",
+      "raw_score": 74.0,
+      "adjusted_score": 72.0,
+      "n_reviews": 54,
+      "total_adjustment": -2.0
+    },
+    {
+      "movie_slug": "wild-indian",
+      "title": "Wild Indian",
+      "release_date": "2021-09-03",
+      "year": 2021,
+      "genre": "Crime",
+      "raw_score": 74.0,
+      "adjusted_score": 72.0,
+      "n_reviews": 13,
+      "total_adjustment": -2.01
+    },
+    {
+      "movie_slug": "the-ballad-of-ramblin-jack",
+      "title": "The Ballad of Ramblin' Jack",
+      "release_date": "2000-08-18",
+      "year": 2000,
+      "genre": "Documentary",
+      "raw_score": 72.0,
+      "adjusted_score": 72.0,
+      "n_reviews": 0,
+      "total_adjustment": 0.0
     },
     {
       "movie_slug": "big-fish-begonia",
@@ -46167,17 +46178,6 @@
       "raw_score": 75.0,
       "adjusted_score": 72.0,
       "n_reviews": 13,
-      "total_adjustment": -2.99
-    },
-    {
-      "movie_slug": "plot-for-peace",
-      "title": "Plot for Peace",
-      "release_date": "2014-10-31",
-      "year": 2014,
-      "genre": "Documentary",
-      "raw_score": 75.0,
-      "adjusted_score": 72.0,
-      "n_reviews": 9,
       "total_adjustment": -2.99
     },
     {
@@ -74033,17 +74033,6 @@
       "total_adjustment": 1.32
     },
     {
-      "movie_slug": "pinocchio-2019",
-      "title": "Pinocchio",
-      "release_date": "2020-12-25",
-      "year": 2020,
-      "genre": "Drama",
-      "raw_score": 65.0,
-      "adjusted_score": 67.2,
-      "n_reviews": 11,
-      "total_adjustment": 2.17
-    },
-    {
       "movie_slug": "the-decomposition-of-the-soul",
       "title": "The Decomposition of the Soul",
       "release_date": "2007-02-07",
@@ -74088,17 +74077,6 @@
       "total_adjustment": 2.18
     },
     {
-      "movie_slug": "dark-star",
-      "title": "Dark Star",
-      "release_date": "1974-04-01",
-      "year": 1974,
-      "genre": "Comedy",
-      "raw_score": 66.0,
-      "adjusted_score": 67.2,
-      "n_reviews": 10,
-      "total_adjustment": 1.18
-    },
-    {
       "movie_slug": "selah-and-the-spades",
       "title": "Selah and The Spades",
       "release_date": "2020-04-17",
@@ -74119,6 +74097,17 @@
       "adjusted_score": 67.2,
       "n_reviews": 10,
       "total_adjustment": 5.18
+    },
+    {
+      "movie_slug": "dark-star",
+      "title": "Dark Star",
+      "release_date": "1974-04-01",
+      "year": 1974,
+      "genre": "Comedy",
+      "raw_score": 66.0,
+      "adjusted_score": 67.2,
+      "n_reviews": 10,
+      "total_adjustment": 1.18
     },
     {
       "movie_slug": "adorenarin-doraibu",
@@ -74143,15 +74132,15 @@
       "total_adjustment": -7.82
     },
     {
-      "movie_slug": "radical-wolfe",
-      "title": "Radical Wolfe",
-      "release_date": "2023-09-15",
-      "year": 2023,
-      "genre": "Documentary",
-      "raw_score": 65.0,
+      "movie_slug": "after-love",
+      "title": "After Love",
+      "release_date": "2017-08-09",
+      "year": 2017,
+      "genre": "Drama",
+      "raw_score": 66.0,
       "adjusted_score": 67.2,
-      "n_reviews": 8,
-      "total_adjustment": 2.17
+      "n_reviews": 15,
+      "total_adjustment": 1.19
     },
     {
       "movie_slug": "africa",
@@ -74165,6 +74154,17 @@
       "total_adjustment": -0.83
     },
     {
+      "movie_slug": "pinocchio-2019",
+      "title": "Pinocchio",
+      "release_date": "2020-12-25",
+      "year": 2020,
+      "genre": "Drama",
+      "raw_score": 65.0,
+      "adjusted_score": 67.2,
+      "n_reviews": 11,
+      "total_adjustment": 2.17
+    },
+    {
       "movie_slug": "the-great-museum",
       "title": "The Great Museum",
       "release_date": "2015-04-24",
@@ -74176,15 +74176,15 @@
       "total_adjustment": 1.16
     },
     {
-      "movie_slug": "dead-mans-wire",
-      "title": "Dead Man's Wire",
-      "release_date": "2026-01-09",
-      "year": 2026,
-      "genre": "Biography",
-      "raw_score": 68.0,
+      "movie_slug": "radical-wolfe",
+      "title": "Radical Wolfe",
+      "release_date": "2023-09-15",
+      "year": 2023,
+      "genre": "Documentary",
+      "raw_score": 65.0,
       "adjusted_score": 67.2,
-      "n_reviews": 30,
-      "total_adjustment": -0.83
+      "n_reviews": 8,
+      "total_adjustment": 2.17
     },
     {
       "movie_slug": "nobody-speak-trials-of-the-free-press",
@@ -74286,6 +74286,17 @@
       "total_adjustment": -0.85
     },
     {
+      "movie_slug": "black-butterflies",
+      "title": "Black Butterflies",
+      "release_date": "2012-03-02",
+      "year": 2012,
+      "genre": "Biography",
+      "raw_score": 66.0,
+      "adjusted_score": 67.2,
+      "n_reviews": 9,
+      "total_adjustment": 1.19
+    },
+    {
       "movie_slug": "rez-ball",
       "title": "Rez Ball",
       "release_date": "2024-09-27",
@@ -74295,17 +74306,6 @@
       "adjusted_score": 67.2,
       "n_reviews": 10,
       "total_adjustment": -1.81
-    },
-    {
-      "movie_slug": "after-love",
-      "title": "After Love",
-      "release_date": "2017-08-09",
-      "year": 2017,
-      "genre": "Drama",
-      "raw_score": 66.0,
-      "adjusted_score": 67.2,
-      "n_reviews": 15,
-      "total_adjustment": 1.19
     },
     {
       "movie_slug": "no-sleep-till",
@@ -74319,28 +74319,6 @@
       "total_adjustment": -2.79
     },
     {
-      "movie_slug": "black-butterflies",
-      "title": "Black Butterflies",
-      "release_date": "2012-03-02",
-      "year": 2012,
-      "genre": "Biography",
-      "raw_score": 66.0,
-      "adjusted_score": 67.2,
-      "n_reviews": 9,
-      "total_adjustment": 1.19
-    },
-    {
-      "movie_slug": "ben-gurion-epilogue",
-      "title": "Ben-Gurion, Epilogue",
-      "release_date": "2017-03-03",
-      "year": 2017,
-      "genre": "Documentary",
-      "raw_score": 74.0,
-      "adjusted_score": 67.2,
-      "n_reviews": 4,
-      "total_adjustment": -6.75
-    },
-    {
       "movie_slug": "nathalie",
       "title": "Nathalie...",
       "release_date": "2006-04-14",
@@ -74349,6 +74327,28 @@
       "raw_score": 69.0,
       "adjusted_score": 67.2,
       "n_reviews": 11,
+      "total_adjustment": -1.81
+    },
+    {
+      "movie_slug": "the-boy-from-medellin",
+      "title": "The Boy from Medell\u00edn",
+      "release_date": "2021-05-07",
+      "year": 2021,
+      "genre": "Documentary",
+      "raw_score": 69.0,
+      "adjusted_score": 67.2,
+      "n_reviews": 8,
+      "total_adjustment": -1.78
+    },
+    {
+      "movie_slug": "itzhak",
+      "title": "Itzhak",
+      "release_date": "2018-03-09",
+      "year": 2018,
+      "genre": "Documentary",
+      "raw_score": 69.0,
+      "adjusted_score": 67.2,
+      "n_reviews": 12,
       "total_adjustment": -1.81
     },
     {
@@ -74363,15 +74363,15 @@
       "total_adjustment": -3.75
     },
     {
-      "movie_slug": "divan",
-      "title": "Divan",
-      "release_date": "2004-03-17",
-      "year": 2004,
-      "genre": "Documentary",
-      "raw_score": 71.0,
+      "movie_slug": "3-backyards",
+      "title": "3 Backyards",
+      "release_date": "2011-03-11",
+      "year": 2011,
+      "genre": "Drama",
+      "raw_score": 69.0,
       "adjusted_score": 67.2,
-      "n_reviews": 13,
-      "total_adjustment": -3.75
+      "n_reviews": 9,
+      "total_adjustment": -1.76
     },
     {
       "movie_slug": "linda-linda-linda",
@@ -74451,26 +74451,37 @@
       "total_adjustment": -1.78
     },
     {
-      "movie_slug": "the-boy-from-medellin",
-      "title": "The Boy from Medell\u00edn",
-      "release_date": "2021-05-07",
-      "year": 2021,
+      "movie_slug": "divan",
+      "title": "Divan",
+      "release_date": "2004-03-17",
+      "year": 2004,
       "genre": "Documentary",
-      "raw_score": 69.0,
+      "raw_score": 71.0,
       "adjusted_score": 67.2,
-      "n_reviews": 8,
-      "total_adjustment": -1.78
+      "n_reviews": 13,
+      "total_adjustment": -3.75
     },
     {
-      "movie_slug": "3-backyards",
-      "title": "3 Backyards",
-      "release_date": "2011-03-11",
-      "year": 2011,
-      "genre": "Drama",
-      "raw_score": 69.0,
+      "movie_slug": "ben-gurion-epilogue",
+      "title": "Ben-Gurion, Epilogue",
+      "release_date": "2017-03-03",
+      "year": 2017,
+      "genre": "Documentary",
+      "raw_score": 74.0,
       "adjusted_score": 67.2,
-      "n_reviews": 9,
-      "total_adjustment": -1.76
+      "n_reviews": 4,
+      "total_adjustment": -6.75
+    },
+    {
+      "movie_slug": "emergency-declaration",
+      "title": "Emergency Declaration",
+      "release_date": "2022-08-12",
+      "year": 2022,
+      "genre": "Action",
+      "raw_score": 70.0,
+      "adjusted_score": 67.2,
+      "n_reviews": 4,
+      "total_adjustment": -2.8
     },
     {
       "movie_slug": "the-assassination-of-jesse-james-by-the-coward-robert-ford",
@@ -74481,61 +74492,6 @@
       "raw_score": 68.0,
       "adjusted_score": 67.2,
       "n_reviews": 32,
-      "total_adjustment": -0.8
-    },
-    {
-      "movie_slug": "come-true",
-      "title": "Come True",
-      "release_date": "2021-03-12",
-      "year": 2021,
-      "genre": "Horror",
-      "raw_score": 68.0,
-      "adjusted_score": 67.2,
-      "n_reviews": 17,
-      "total_adjustment": -0.8
-    },
-    {
-      "movie_slug": "tomorrow",
-      "title": "Tomorrow",
-      "release_date": "2017-04-21",
-      "year": 2017,
-      "genre": "Documentary",
-      "raw_score": 71.0,
-      "adjusted_score": 67.2,
-      "n_reviews": 7,
-      "total_adjustment": -3.8
-    },
-    {
-      "movie_slug": "itzhak",
-      "title": "Itzhak",
-      "release_date": "2018-03-09",
-      "year": 2018,
-      "genre": "Documentary",
-      "raw_score": 69.0,
-      "adjusted_score": 67.2,
-      "n_reviews": 12,
-      "total_adjustment": -1.81
-    },
-    {
-      "movie_slug": "owning-mahowny",
-      "title": "Owning Mahowny",
-      "release_date": "2003-05-02",
-      "year": 2003,
-      "genre": "Crime",
-      "raw_score": 70.0,
-      "adjusted_score": 67.2,
-      "n_reviews": 29,
-      "total_adjustment": -2.8
-    },
-    {
-      "movie_slug": "walking-and-talking",
-      "title": "Walking and Talking",
-      "release_date": "1996-07-17",
-      "year": 1996,
-      "genre": "Comedy",
-      "raw_score": 68.0,
-      "adjusted_score": 67.2,
-      "n_reviews": 15,
       "total_adjustment": -0.8
     },
     {
@@ -74550,14 +74506,36 @@
       "total_adjustment": 1.2
     },
     {
-      "movie_slug": "emergency-declaration",
-      "title": "Emergency Declaration",
-      "release_date": "2022-08-12",
-      "year": 2022,
-      "genre": "Action",
+      "movie_slug": "walking-and-talking",
+      "title": "Walking and Talking",
+      "release_date": "1996-07-17",
+      "year": 1996,
+      "genre": "Comedy",
+      "raw_score": 68.0,
+      "adjusted_score": 67.2,
+      "n_reviews": 15,
+      "total_adjustment": -0.8
+    },
+    {
+      "movie_slug": "come-true",
+      "title": "Come True",
+      "release_date": "2021-03-12",
+      "year": 2021,
+      "genre": "Horror",
+      "raw_score": 68.0,
+      "adjusted_score": 67.2,
+      "n_reviews": 17,
+      "total_adjustment": -0.8
+    },
+    {
+      "movie_slug": "owning-mahowny",
+      "title": "Owning Mahowny",
+      "release_date": "2003-05-02",
+      "year": 2003,
+      "genre": "Crime",
       "raw_score": 70.0,
       "adjusted_score": 67.2,
-      "n_reviews": 4,
+      "n_reviews": 29,
       "total_adjustment": -2.8
     },
     {
@@ -74594,6 +74572,17 @@
       "total_adjustment": 0.2
     },
     {
+      "movie_slug": "tomorrow",
+      "title": "Tomorrow",
+      "release_date": "2017-04-21",
+      "year": 2017,
+      "genre": "Documentary",
+      "raw_score": 71.0,
+      "adjusted_score": 67.2,
+      "n_reviews": 7,
+      "total_adjustment": -3.8
+    },
+    {
       "movie_slug": "magnificent-desolation-walking-on-the-moon-3d",
       "title": "Magnificent Desolation: Walking on the Moon 3D",
       "release_date": "2005-09-23",
@@ -74616,15 +74605,15 @@
       "total_adjustment": -0.92
     },
     {
-      "movie_slug": "the-ides-of-march",
-      "title": "The Ides of March",
-      "release_date": "2011-10-07",
-      "year": 2011,
-      "genre": "Drama",
-      "raw_score": 67.0,
+      "movie_slug": "the-road-2012",
+      "title": "The Road",
+      "release_date": "2012-05-11",
+      "year": 2012,
+      "genre": "Crime",
+      "raw_score": 71.0,
       "adjusted_score": 67.1,
-      "n_reviews": 43,
-      "total_adjustment": 0.09
+      "n_reviews": 9,
+      "total_adjustment": -3.91
     },
     {
       "movie_slug": "in-my-mothers-arms",
@@ -74814,15 +74803,15 @@
       "total_adjustment": -0.91
     },
     {
-      "movie_slug": "the-road-2012",
-      "title": "The Road",
-      "release_date": "2012-05-11",
-      "year": 2012,
-      "genre": "Crime",
-      "raw_score": 71.0,
+      "movie_slug": "the-ides-of-march",
+      "title": "The Ides of March",
+      "release_date": "2011-10-07",
+      "year": 2011,
+      "genre": "Drama",
+      "raw_score": 67.0,
       "adjusted_score": 67.1,
-      "n_reviews": 9,
-      "total_adjustment": -3.91
+      "n_reviews": 43,
+      "total_adjustment": 0.09
     },
     {
       "movie_slug": "eva-hesse",
@@ -75012,28 +75001,6 @@
       "total_adjustment": 1.11
     },
     {
-      "movie_slug": "penguins",
-      "title": "Penguins",
-      "release_date": "2019-04-17",
-      "year": 2019,
-      "genre": "Documentary",
-      "raw_score": 69.0,
-      "adjusted_score": 67.1,
-      "n_reviews": 18,
-      "total_adjustment": -1.89
-    },
-    {
-      "movie_slug": "above-and-beyond",
-      "title": "Above and Beyond",
-      "release_date": "2015-01-30",
-      "year": 2015,
-      "genre": "Documentary",
-      "raw_score": 69.0,
-      "adjusted_score": 67.1,
-      "n_reviews": 9,
-      "total_adjustment": -1.9
-    },
-    {
       "movie_slug": "moscow-belgium",
       "title": "Moscow, Belgium",
       "release_date": "2008-12-19",
@@ -75045,6 +75012,17 @@
       "total_adjustment": -0.9
     },
     {
+      "movie_slug": "penguins",
+      "title": "Penguins",
+      "release_date": "2019-04-17",
+      "year": 2019,
+      "genre": "Documentary",
+      "raw_score": 69.0,
+      "adjusted_score": 67.1,
+      "n_reviews": 18,
+      "total_adjustment": -1.89
+    },
+    {
       "movie_slug": "goyangileul-butaghae",
       "title": "Goyangileul butaghae",
       "release_date": "2002-10-18",
@@ -75054,6 +75032,17 @@
       "adjusted_score": 67.1,
       "n_reviews": 12,
       "total_adjustment": -1.88
+    },
+    {
+      "movie_slug": "above-and-beyond",
+      "title": "Above and Beyond",
+      "release_date": "2015-01-30",
+      "year": 2015,
+      "genre": "Documentary",
+      "raw_score": 69.0,
+      "adjusted_score": 67.1,
+      "n_reviews": 9,
+      "total_adjustment": -1.9
     },
     {
       "movie_slug": "the-woman-with-the-5-elephants",
@@ -75144,17 +75133,6 @@
       "total_adjustment": -3.02
     },
     {
-      "movie_slug": "you-can-live-forever",
-      "title": "You Can Live Forever",
-      "release_date": "2023-05-05",
-      "year": 2023,
-      "genre": "Drama",
-      "raw_score": 68.0,
-      "adjusted_score": 67.0,
-      "n_reviews": 7,
-      "total_adjustment": -1.01
-    },
-    {
       "movie_slug": "true-lies",
       "title": "True Lies",
       "release_date": "1994-07-15",
@@ -75193,6 +75171,17 @@
       "release_date": "2005-01-19",
       "year": 2005,
       "genre": "Documentary",
+      "raw_score": 68.0,
+      "adjusted_score": 67.0,
+      "n_reviews": 7,
+      "total_adjustment": -1.01
+    },
+    {
+      "movie_slug": "you-can-live-forever",
+      "title": "You Can Live Forever",
+      "release_date": "2023-05-05",
+      "year": 2023,
+      "genre": "Drama",
       "raw_score": 68.0,
       "adjusted_score": 67.0,
       "n_reviews": 7,
@@ -75408,15 +75397,15 @@
       "total_adjustment": -6.0
     },
     {
-      "movie_slug": "kings-of-pastry",
-      "title": "Kings of Pastry",
-      "release_date": "2010-09-15",
-      "year": 2010,
-      "genre": "Documentary",
-      "raw_score": 69.0,
+      "movie_slug": "support-your-local-sheriff!",
+      "title": "Support Your Local Sheriff!",
+      "release_date": "1969-03-26",
+      "year": 1969,
+      "genre": "Comedy",
+      "raw_score": 56.0,
       "adjusted_score": 67.0,
-      "n_reviews": 11,
-      "total_adjustment": -1.97
+      "n_reviews": 9,
+      "total_adjustment": 11.03
     },
     {
       "movie_slug": "deep-cover-2025",
@@ -75573,15 +75562,15 @@
       "total_adjustment": -0.97
     },
     {
-      "movie_slug": "support-your-local-sheriff!",
-      "title": "Support Your Local Sheriff!",
-      "release_date": "1969-03-26",
-      "year": 1969,
-      "genre": "Comedy",
-      "raw_score": 56.0,
+      "movie_slug": "kings-of-pastry",
+      "title": "Kings of Pastry",
+      "release_date": "2010-09-15",
+      "year": 2010,
+      "genre": "Documentary",
+      "raw_score": 69.0,
       "adjusted_score": 67.0,
-      "n_reviews": 9,
-      "total_adjustment": 11.03
+      "n_reviews": 11,
+      "total_adjustment": -1.97
     },
     {
       "movie_slug": "after-class",
@@ -76068,10 +76057,10 @@
       "total_adjustment": -1.1
     },
     {
-      "movie_slug": "the-test-the-art-of-thinking",
-      "title": "The Test & The Art of Thinking",
-      "release_date": "2018-04-27",
-      "year": 2018,
+      "movie_slug": "own-the-room",
+      "title": "Own the Room",
+      "release_date": "2021-03-12",
+      "year": 2021,
       "genre": "Documentary",
       "raw_score": 68.0,
       "adjusted_score": 66.9,
@@ -76090,15 +76079,15 @@
       "total_adjustment": -1.09
     },
     {
-      "movie_slug": "own-the-room",
-      "title": "Own the Room",
-      "release_date": "2021-03-12",
-      "year": 2021,
-      "genre": "Documentary",
-      "raw_score": 68.0,
+      "movie_slug": "happy-holidays",
+      "title": "Happy Holidays",
+      "release_date": "2025-12-05",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 69.0,
       "adjusted_score": 66.9,
-      "n_reviews": 4,
-      "total_adjustment": -1.07
+      "n_reviews": 6,
+      "total_adjustment": -2.05
     },
     {
       "movie_slug": "superman-2025",
@@ -76222,15 +76211,15 @@
       "total_adjustment": -1.07
     },
     {
-      "movie_slug": "happy-holidays",
-      "title": "Happy Holidays",
-      "release_date": "2025-12-05",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 69.0,
+      "movie_slug": "the-test-the-art-of-thinking",
+      "title": "The Test & The Art of Thinking",
+      "release_date": "2018-04-27",
+      "year": 2018,
+      "genre": "Documentary",
+      "raw_score": 68.0,
       "adjusted_score": 66.9,
-      "n_reviews": 6,
-      "total_adjustment": -2.05
+      "n_reviews": 4,
+      "total_adjustment": -1.07
     },
     {
       "movie_slug": "following-the-ninth-in-the-footsteps-of-beethovens-final-symphony",
@@ -76277,6 +76266,17 @@
       "total_adjustment": -4.08
     },
     {
+      "movie_slug": "babi-leto",
+      "title": "Bab\u00ed l\u00e9to",
+      "release_date": "2003-08-22",
+      "year": 2003,
+      "genre": "Comedy",
+      "raw_score": 68.0,
+      "adjusted_score": 66.9,
+      "n_reviews": 15,
+      "total_adjustment": -1.09
+    },
+    {
       "movie_slug": "story-ave",
       "title": "Story Ave",
       "release_date": "2023-09-29",
@@ -76299,17 +76299,6 @@
       "total_adjustment": -6.09
     },
     {
-      "movie_slug": "professor-marston-the-wonder-women",
-      "title": "Professor Marston & the Wonder Women",
-      "release_date": "2017-10-13",
-      "year": 2017,
-      "genre": "Biography",
-      "raw_score": 68.0,
-      "adjusted_score": 66.9,
-      "n_reviews": 38,
-      "total_adjustment": -1.09
-    },
-    {
       "movie_slug": "london-river",
       "title": "London River",
       "release_date": "2011-12-09",
@@ -76321,14 +76310,14 @@
       "total_adjustment": -0.09
     },
     {
-      "movie_slug": "babi-leto",
-      "title": "Bab\u00ed l\u00e9to",
-      "release_date": "2003-08-22",
-      "year": 2003,
-      "genre": "Comedy",
+      "movie_slug": "professor-marston-the-wonder-women",
+      "title": "Professor Marston & the Wonder Women",
+      "release_date": "2017-10-13",
+      "year": 2017,
+      "genre": "Biography",
       "raw_score": 68.0,
       "adjusted_score": 66.9,
-      "n_reviews": 15,
+      "n_reviews": 38,
       "total_adjustment": -1.09
     },
     {
@@ -76387,17 +76376,6 @@
       "total_adjustment": -3.08
     },
     {
-      "movie_slug": "apocalypto",
-      "title": "Apocalypto",
-      "release_date": "2006-12-08",
-      "year": 2006,
-      "genre": "Action",
-      "raw_score": 68.0,
-      "adjusted_score": 66.8,
-      "n_reviews": 37,
-      "total_adjustment": -1.2
-    },
-    {
       "movie_slug": "the-last-winter",
       "title": "The Last Winter",
       "release_date": "2007-09-21",
@@ -76407,6 +76385,17 @@
       "adjusted_score": 66.8,
       "n_reviews": 17,
       "total_adjustment": -2.22
+    },
+    {
+      "movie_slug": "shanghai-ghetto",
+      "title": "Shanghai Ghetto",
+      "release_date": "2002-09-27",
+      "year": 2002,
+      "genre": "Documentary",
+      "raw_score": 68.0,
+      "adjusted_score": 66.8,
+      "n_reviews": 19,
+      "total_adjustment": -1.2
     },
     {
       "movie_slug": "bye-bye-germany",
@@ -76453,26 +76442,26 @@
       "total_adjustment": 3.8
     },
     {
-      "movie_slug": "audition",
-      "title": "Audition",
-      "release_date": "2001-08-08",
-      "year": 2001,
-      "genre": "Drama",
-      "raw_score": 70.0,
-      "adjusted_score": 66.8,
-      "n_reviews": 19,
-      "total_adjustment": -3.19
-    },
-    {
-      "movie_slug": "shanghai-ghetto",
-      "title": "Shanghai Ghetto",
-      "release_date": "2002-09-27",
-      "year": 2002,
-      "genre": "Documentary",
+      "movie_slug": "apocalypto",
+      "title": "Apocalypto",
+      "release_date": "2006-12-08",
+      "year": 2006,
+      "genre": "Action",
       "raw_score": 68.0,
       "adjusted_score": 66.8,
-      "n_reviews": 19,
+      "n_reviews": 37,
       "total_adjustment": -1.2
+    },
+    {
+      "movie_slug": "maurizio-cattelan-be-right-back",
+      "title": "Maurizio Cattelan: Be Right Back",
+      "release_date": "2017-04-14",
+      "year": 2017,
+      "genre": "Documentary",
+      "raw_score": 70.0,
+      "adjusted_score": 66.8,
+      "n_reviews": 4,
+      "total_adjustment": -3.19
     },
     {
       "movie_slug": "never-let-me-go",
@@ -76486,15 +76475,15 @@
       "total_adjustment": -2.19
     },
     {
-      "movie_slug": "rafiki",
-      "title": "Rafiki",
-      "release_date": "2019-04-19",
-      "year": 2019,
+      "movie_slug": "audition",
+      "title": "Audition",
+      "release_date": "2001-08-08",
+      "year": 2001,
       "genre": "Drama",
-      "raw_score": 68.0,
+      "raw_score": 70.0,
       "adjusted_score": 66.8,
-      "n_reviews": 17,
-      "total_adjustment": -1.22
+      "n_reviews": 19,
+      "total_adjustment": -3.19
     },
     {
       "movie_slug": "year-of-the-dog",
@@ -76528,6 +76517,17 @@
       "adjusted_score": 66.8,
       "n_reviews": 8,
       "total_adjustment": 6.81
+    },
+    {
+      "movie_slug": "rafiki",
+      "title": "Rafiki",
+      "release_date": "2019-04-19",
+      "year": 2019,
+      "genre": "Drama",
+      "raw_score": 68.0,
+      "adjusted_score": 66.8,
+      "n_reviews": 17,
+      "total_adjustment": -1.22
     },
     {
       "movie_slug": "the-fate-of-lee-khan-1973",
@@ -76695,28 +76695,6 @@
       "total_adjustment": -3.24
     },
     {
-      "movie_slug": "the-good-thief",
-      "title": "The Good Thief",
-      "release_date": "2003-04-02",
-      "year": 2003,
-      "genre": "Action",
-      "raw_score": 68.0,
-      "adjusted_score": 66.8,
-      "n_reviews": 37,
-      "total_adjustment": -1.19
-    },
-    {
-      "movie_slug": "maurizio-cattelan-be-right-back",
-      "title": "Maurizio Cattelan: Be Right Back",
-      "release_date": "2017-04-14",
-      "year": 2017,
-      "genre": "Documentary",
-      "raw_score": 70.0,
-      "adjusted_score": 66.8,
-      "n_reviews": 4,
-      "total_adjustment": -3.19
-    },
-    {
       "movie_slug": "a-walk-on-the-moon",
       "title": "A Walk on the Moon",
       "release_date": "1999-03-26",
@@ -76728,37 +76706,26 @@
       "total_adjustment": -4.19
     },
     {
-      "movie_slug": "nureyev",
-      "title": "Nureyev",
-      "release_date": "2019-04-26",
-      "year": 2019,
+      "movie_slug": "the-good-thief",
+      "title": "The Good Thief",
+      "release_date": "2003-04-02",
+      "year": 2003,
+      "genre": "Action",
+      "raw_score": 68.0,
+      "adjusted_score": 66.8,
+      "n_reviews": 37,
+      "total_adjustment": -1.19
+    },
+    {
+      "movie_slug": "the-seer-and-the-unseen",
+      "title": "The Seer and the Unseen",
+      "release_date": "2021-08-17",
+      "year": 2021,
       "genre": "Documentary",
-      "raw_score": 66.0,
+      "raw_score": 75.0,
       "adjusted_score": 66.8,
       "n_reviews": 4,
-      "total_adjustment": 0.85
-    },
-    {
-      "movie_slug": "for-the-birds",
-      "title": "For the Birds",
-      "release_date": "2019-05-31",
-      "year": 2019,
-      "genre": "Documentary",
-      "raw_score": 73.0,
-      "adjusted_score": 66.8,
-      "n_reviews": 5,
-      "total_adjustment": -6.16
-    },
-    {
-      "movie_slug": "starman",
-      "title": "Starman",
-      "release_date": "1984-12-14",
-      "year": 1984,
-      "genre": "Romance",
-      "raw_score": 70.0,
-      "adjusted_score": 66.8,
-      "n_reviews": 8,
-      "total_adjustment": -3.15
+      "total_adjustment": -8.18
     },
     {
       "movie_slug": "caught-stealing",
@@ -76772,15 +76739,59 @@
       "total_adjustment": 1.85
     },
     {
-      "movie_slug": "the-seer-and-the-unseen",
-      "title": "The Seer and the Unseen",
-      "release_date": "2021-08-17",
-      "year": 2021,
+      "movie_slug": "curse-of-the-golden-flower",
+      "title": "Curse of the Golden Flower",
+      "release_date": "2006-12-21",
+      "year": 2006,
+      "genre": "Action",
+      "raw_score": 70.0,
+      "adjusted_score": 66.8,
+      "n_reviews": 32,
+      "total_adjustment": -3.16
+    },
+    {
+      "movie_slug": "starman",
+      "title": "Starman",
+      "release_date": "1984-12-14",
+      "year": 1984,
+      "genre": "Romance",
+      "raw_score": 70.0,
+      "adjusted_score": 66.8,
+      "n_reviews": 8,
+      "total_adjustment": -3.15
+    },
+    {
+      "movie_slug": "dead-mans-wire",
+      "title": "Dead Man's Wire",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Biography",
+      "raw_score": 68.0,
+      "adjusted_score": 66.8,
+      "n_reviews": 31,
+      "total_adjustment": -1.15
+    },
+    {
+      "movie_slug": "martha",
+      "title": "Martha",
+      "release_date": "2024-10-25",
+      "year": 2024,
       "genre": "Documentary",
-      "raw_score": 75.0,
+      "raw_score": 69.0,
+      "adjusted_score": 66.8,
+      "n_reviews": 10,
+      "total_adjustment": -2.18
+    },
+    {
+      "movie_slug": "nureyev",
+      "title": "Nureyev",
+      "release_date": "2019-04-26",
+      "year": 2019,
+      "genre": "Documentary",
+      "raw_score": 66.0,
       "adjusted_score": 66.8,
       "n_reviews": 4,
-      "total_adjustment": -8.18
+      "total_adjustment": 0.85
     },
     {
       "movie_slug": "the-yes-men",
@@ -76838,15 +76849,15 @@
       "total_adjustment": -0.16
     },
     {
-      "movie_slug": "palestine-36",
-      "title": "Palestine 36",
-      "release_date": "2026-02-13",
-      "year": 2026,
-      "genre": "Biography",
-      "raw_score": 64.0,
+      "movie_slug": "fearless",
+      "title": "Fearless",
+      "release_date": "2006-09-22",
+      "year": 2006,
+      "genre": "Action",
+      "raw_score": 70.0,
       "adjusted_score": 66.8,
-      "n_reviews": 5,
-      "total_adjustment": 2.84
+      "n_reviews": 24,
+      "total_adjustment": -3.16
     },
     {
       "movie_slug": "meet-john-doe",
@@ -76893,26 +76904,48 @@
       "total_adjustment": -1.16
     },
     {
-      "movie_slug": "curse-of-the-golden-flower",
-      "title": "Curse of the Golden Flower",
-      "release_date": "2006-12-21",
-      "year": 2006,
-      "genre": "Action",
-      "raw_score": 70.0,
+      "movie_slug": "palestine-36",
+      "title": "Palestine 36",
+      "release_date": "2026-02-13",
+      "year": 2026,
+      "genre": "Biography",
+      "raw_score": 64.0,
       "adjusted_score": 66.8,
-      "n_reviews": 32,
-      "total_adjustment": -3.16
+      "n_reviews": 5,
+      "total_adjustment": 2.84
     },
     {
-      "movie_slug": "fearless",
-      "title": "Fearless",
-      "release_date": "2006-09-22",
-      "year": 2006,
-      "genre": "Action",
+      "movie_slug": "for-the-birds",
+      "title": "For the Birds",
+      "release_date": "2019-05-31",
+      "year": 2019,
+      "genre": "Documentary",
+      "raw_score": 73.0,
+      "adjusted_score": 66.8,
+      "n_reviews": 5,
+      "total_adjustment": -6.16
+    },
+    {
+      "movie_slug": "okkos-inn",
+      "title": "Okko's Inn",
+      "release_date": "2019-04-22",
+      "year": 2019,
+      "genre": "Animation",
       "raw_score": 70.0,
       "adjusted_score": 66.8,
-      "n_reviews": 24,
-      "total_adjustment": -3.16
+      "n_reviews": 5,
+      "total_adjustment": -3.17
+    },
+    {
+      "movie_slug": "pay-or-die",
+      "title": "Pay or Die",
+      "release_date": "2023-11-01",
+      "year": 2023,
+      "genre": "Documentary",
+      "raw_score": 75.0,
+      "adjusted_score": 66.8,
+      "n_reviews": 4,
+      "total_adjustment": -8.18
     },
     {
       "movie_slug": "thunderbolts",
@@ -76924,50 +76957,6 @@
       "adjusted_score": 66.8,
       "n_reviews": 53,
       "total_adjustment": -1.16
-    },
-    {
-      "movie_slug": "kite",
-      "title": "Kite",
-      "release_date": "2012-06-15",
-      "year": 2012,
-      "genre": "Drama",
-      "raw_score": 67.0,
-      "adjusted_score": 66.8,
-      "n_reviews": 8,
-      "total_adjustment": -0.17
-    },
-    {
-      "movie_slug": "martha",
-      "title": "Martha",
-      "release_date": "2024-10-25",
-      "year": 2024,
-      "genre": "Documentary",
-      "raw_score": 69.0,
-      "adjusted_score": 66.8,
-      "n_reviews": 10,
-      "total_adjustment": -2.18
-    },
-    {
-      "movie_slug": "forgetting-sarah-marshall",
-      "title": "Forgetting Sarah Marshall",
-      "release_date": "2008-04-18",
-      "year": 2008,
-      "genre": "Comedy",
-      "raw_score": 67.0,
-      "adjusted_score": 66.8,
-      "n_reviews": 37,
-      "total_adjustment": -0.17
-    },
-    {
-      "movie_slug": "a-wolf-at-the-door",
-      "title": "A Wolf at the Door",
-      "release_date": "2015-03-27",
-      "year": 2015,
-      "genre": "Crime",
-      "raw_score": 67.0,
-      "adjusted_score": 66.8,
-      "n_reviews": 10,
-      "total_adjustment": -0.18
     },
     {
       "movie_slug": "deadstream",
@@ -77003,36 +76992,36 @@
       "total_adjustment": -2.18
     },
     {
-      "movie_slug": "pay-or-die",
-      "title": "Pay or Die",
-      "release_date": "2023-11-01",
-      "year": 2023,
-      "genre": "Documentary",
-      "raw_score": 75.0,
+      "movie_slug": "kite",
+      "title": "Kite",
+      "release_date": "2012-06-15",
+      "year": 2012,
+      "genre": "Drama",
+      "raw_score": 67.0,
       "adjusted_score": 66.8,
-      "n_reviews": 4,
-      "total_adjustment": -8.18
+      "n_reviews": 8,
+      "total_adjustment": -0.17
     },
     {
-      "movie_slug": "okkos-inn",
-      "title": "Okko's Inn",
-      "release_date": "2019-04-22",
-      "year": 2019,
-      "genre": "Animation",
-      "raw_score": 70.0,
+      "movie_slug": "a-wolf-at-the-door",
+      "title": "A Wolf at the Door",
+      "release_date": "2015-03-27",
+      "year": 2015,
+      "genre": "Crime",
+      "raw_score": 67.0,
       "adjusted_score": 66.8,
-      "n_reviews": 5,
-      "total_adjustment": -3.17
+      "n_reviews": 10,
+      "total_adjustment": -0.18
     },
     {
-      "movie_slug": "how-to-make-money-selling-drugs",
-      "title": "How to Make Money Selling Drugs",
-      "release_date": "2013-06-26",
-      "year": 2013,
-      "genre": "Documentary",
+      "movie_slug": "performance",
+      "title": "Performance",
+      "release_date": "2001-05-11",
+      "year": 2001,
+      "genre": "Crime",
       "raw_score": 69.0,
       "adjusted_score": 66.8,
-      "n_reviews": 18,
+      "n_reviews": 14,
       "total_adjustment": -2.17
     },
     {
@@ -77058,14 +77047,25 @@
       "total_adjustment": -3.17
     },
     {
-      "movie_slug": "performance",
-      "title": "Performance",
-      "release_date": "2001-05-11",
-      "year": 2001,
-      "genre": "Crime",
+      "movie_slug": "forgetting-sarah-marshall",
+      "title": "Forgetting Sarah Marshall",
+      "release_date": "2008-04-18",
+      "year": 2008,
+      "genre": "Comedy",
+      "raw_score": 67.0,
+      "adjusted_score": 66.8,
+      "n_reviews": 37,
+      "total_adjustment": -0.17
+    },
+    {
+      "movie_slug": "how-to-make-money-selling-drugs",
+      "title": "How to Make Money Selling Drugs",
+      "release_date": "2013-06-26",
+      "year": 2013,
+      "genre": "Documentary",
       "raw_score": 69.0,
       "adjusted_score": 66.8,
-      "n_reviews": 14,
+      "n_reviews": 18,
       "total_adjustment": -2.17
     },
     {

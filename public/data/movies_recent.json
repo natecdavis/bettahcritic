@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-16T12:29:41.107564",
+  "updated": "2026-03-17T08:06:29.761992",
   "count": 630,
   "movies": [
     {
@@ -1862,6 +1862,17 @@
       "total_adjustment": -3.61
     },
     {
+      "movie_slug": "arco",
+      "title": "Arco",
+      "release_date": "2026-01-23",
+      "year": 2026,
+      "genre": "Animation",
+      "raw_score": 73.0,
+      "adjusted_score": 72.4,
+      "n_reviews": 23,
+      "total_adjustment": -0.59
+    },
+    {
       "movie_slug": "a-normal-family",
       "title": "A Normal Family",
       "release_date": "2025-04-25",
@@ -1893,17 +1904,6 @@
       "adjusted_score": 72.2,
       "n_reviews": 18,
       "total_adjustment": -0.83
-    },
-    {
-      "movie_slug": "arco",
-      "title": "Arco",
-      "release_date": "2026-01-23",
-      "year": 2026,
-      "genre": "Animation",
-      "raw_score": 73.0,
-      "adjusted_score": 72.2,
-      "n_reviews": 22,
-      "total_adjustment": -0.79
     },
     {
       "movie_slug": "hoppers",
@@ -2907,17 +2907,6 @@
       "total_adjustment": -4.67
     },
     {
-      "movie_slug": "dead-mans-wire",
-      "title": "Dead Man's Wire",
-      "release_date": "2026-01-09",
-      "year": 2026,
-      "genre": "Biography",
-      "raw_score": 68.0,
-      "adjusted_score": 67.2,
-      "n_reviews": 30,
-      "total_adjustment": -0.83
-    },
-    {
       "movie_slug": "no-sleep-till",
       "title": "No Sleep Till",
       "release_date": "2025-07-18",
@@ -2984,17 +2973,6 @@
       "total_adjustment": 1.89
     },
     {
-      "movie_slug": "superman-2025",
-      "title": "Superman",
-      "release_date": "2025-07-11",
-      "year": 2025,
-      "genre": "Action",
-      "raw_score": 68.0,
-      "adjusted_score": 66.9,
-      "n_reviews": 58,
-      "total_adjustment": -1.09
-    },
-    {
       "movie_slug": "happy-holidays",
       "title": "Happy Holidays",
       "release_date": "2025-12-05",
@@ -3004,6 +2982,17 @@
       "adjusted_score": 66.9,
       "n_reviews": 6,
       "total_adjustment": -2.05
+    },
+    {
+      "movie_slug": "superman-2025",
+      "title": "Superman",
+      "release_date": "2025-07-11",
+      "year": 2025,
+      "genre": "Action",
+      "raw_score": 68.0,
+      "adjusted_score": 66.9,
+      "n_reviews": 58,
+      "total_adjustment": -1.09
     },
     {
       "movie_slug": "selena-y-los-dinos",
@@ -3026,6 +3015,17 @@
       "adjusted_score": 66.8,
       "n_reviews": 47,
       "total_adjustment": 1.85
+    },
+    {
+      "movie_slug": "dead-mans-wire",
+      "title": "Dead Man's Wire",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Biography",
+      "raw_score": 68.0,
+      "adjusted_score": 66.8,
+      "n_reviews": 31,
+      "total_adjustment": -1.15
     },
     {
       "movie_slug": "palestine-36",
