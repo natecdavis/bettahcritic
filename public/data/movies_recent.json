@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-17T08:06:29.761992",
+  "updated": "2026-03-18T16:45:01.047373",
   "count": 630,
   "movies": [
     {
@@ -1862,17 +1862,6 @@
       "total_adjustment": -3.61
     },
     {
-      "movie_slug": "arco",
-      "title": "Arco",
-      "release_date": "2026-01-23",
-      "year": 2026,
-      "genre": "Animation",
-      "raw_score": 73.0,
-      "adjusted_score": 72.4,
-      "n_reviews": 23,
-      "total_adjustment": -0.59
-    },
-    {
       "movie_slug": "a-normal-family",
       "title": "A Normal Family",
       "release_date": "2025-04-25",
@@ -1882,6 +1871,17 @@
       "adjusted_score": 72.3,
       "n_reviews": 4,
       "total_adjustment": -6.74
+    },
+    {
+      "movie_slug": "arco",
+      "title": "Arco",
+      "release_date": "2026-01-23",
+      "year": 2026,
+      "genre": "Animation",
+      "raw_score": 73.0,
+      "adjusted_score": 72.3,
+      "n_reviews": 25,
+      "total_adjustment": -0.67
     },
     {
       "movie_slug": "sisu-road-to-revenge",
@@ -3545,17 +3545,6 @@
       "total_adjustment": -2.16
     },
     {
-      "movie_slug": "undertone",
-      "title": "undertone",
-      "release_date": "2026-03-13",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 66.0,
-      "adjusted_score": 64.8,
-      "n_reviews": 26,
-      "total_adjustment": -1.18
-    },
-    {
       "movie_slug": "the-damned-2025",
       "title": "The Damned",
       "release_date": "2025-01-03",
@@ -3587,6 +3576,17 @@
       "adjusted_score": 64.7,
       "n_reviews": 13,
       "total_adjustment": -0.29
+    },
+    {
+      "movie_slug": "undertone",
+      "title": "undertone",
+      "release_date": "2026-03-13",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 66.0,
+      "adjusted_score": 64.6,
+      "n_reviews": 27,
+      "total_adjustment": -1.44
     },
     {
       "movie_slug": "the-annihilation-of-fish",
