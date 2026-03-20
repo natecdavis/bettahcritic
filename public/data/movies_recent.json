@@ -1,6 +1,6 @@
 {
-  "updated": "2026-03-19T20:11:07.879451",
-  "count": 630,
+  "updated": "2026-03-20T12:08:18.474360",
+  "count": 638,
   "movies": [
     {
       "movie_slug": "compensation",
@@ -652,6 +652,17 @@
       "total_adjustment": -1.46
     },
     {
+      "movie_slug": "two-prosecutors",
+      "title": "Two Prosecutors",
+      "release_date": "2026-03-20",
+      "year": 2026,
+      "genre": "Biography",
+      "raw_score": 85.0,
+      "adjusted_score": 79.4,
+      "n_reviews": 14,
+      "total_adjustment": -5.57
+    },
+    {
       "movie_slug": "a-little-prayer",
       "title": "A Little Prayer",
       "release_date": "2025-08-29",
@@ -971,6 +982,17 @@
       "total_adjustment": 1.06
     },
     {
+      "movie_slug": "project-hail-mary",
+      "title": "Project Hail Mary",
+      "release_date": "2026-03-20",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 77.0,
+      "adjusted_score": 76.9,
+      "n_reviews": 47,
+      "total_adjustment": -0.13
+    },
+    {
       "movie_slug": "warfare",
       "title": "Warfare",
       "release_date": "2025-04-11",
@@ -1213,6 +1235,17 @@
       "total_adjustment": -4.76
     },
     {
+      "movie_slug": "miroirs-no-3",
+      "title": "Miroirs No. 3",
+      "release_date": "2026-03-20",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 80.0,
+      "adjusted_score": 75.1,
+      "n_reviews": 12,
+      "total_adjustment": -4.91
+    },
+    {
       "movie_slug": "paying-for-it",
       "title": "Paying for It",
       "release_date": "2026-01-30",
@@ -1224,17 +1257,6 @@
       "total_adjustment": -6.95
     },
     {
-      "movie_slug": "one-to-one-john-yoko",
-      "title": "One to One: John & Yoko",
-      "release_date": "2025-04-11",
-      "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 79.0,
-      "adjusted_score": 74.9,
-      "n_reviews": 24,
-      "total_adjustment": -4.11
-    },
-    {
       "movie_slug": "28-years-later",
       "title": "28 Years Later",
       "release_date": "2025-06-20",
@@ -1244,6 +1266,17 @@
       "adjusted_score": 74.9,
       "n_reviews": 56,
       "total_adjustment": -2.1
+    },
+    {
+      "movie_slug": "one-to-one-john-yoko",
+      "title": "One to One: John & Yoko",
+      "release_date": "2025-04-11",
+      "year": 2025,
+      "genre": "Documentary",
+      "raw_score": 79.0,
+      "adjusted_score": 74.9,
+      "n_reviews": 24,
+      "total_adjustment": -4.11
     },
     {
       "movie_slug": "all-thats-left-of-you",
@@ -1464,6 +1497,17 @@
       "adjusted_score": 74.0,
       "n_reviews": 48,
       "total_adjustment": -1.04
+    },
+    {
+      "movie_slug": "dry-leaf",
+      "title": "Dry Leaf",
+      "release_date": "2026-03-20",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 78.0,
+      "adjusted_score": 74.0,
+      "n_reviews": 4,
+      "total_adjustment": -3.95
     },
     {
       "movie_slug": "sunfish-other-stories-on-green-lake",
@@ -2621,17 +2665,6 @@
       "total_adjustment": -0.99
     },
     {
-      "movie_slug": "neighborhood-watch-2025",
-      "title": "Neighborhood Watch",
-      "release_date": "2025-04-25",
-      "year": 2025,
-      "genre": "Crime",
-      "raw_score": 74.0,
-      "adjusted_score": 68.9,
-      "n_reviews": 6,
-      "total_adjustment": -5.08
-    },
-    {
       "movie_slug": "predator-badlands",
       "title": "Predator: Badlands",
       "release_date": "2025-11-07",
@@ -2641,6 +2674,17 @@
       "adjusted_score": 68.9,
       "n_reviews": 43,
       "total_adjustment": -2.06
+    },
+    {
+      "movie_slug": "neighborhood-watch-2025",
+      "title": "Neighborhood Watch",
+      "release_date": "2025-04-25",
+      "year": 2025,
+      "genre": "Crime",
+      "raw_score": 74.0,
+      "adjusted_score": 68.9,
+      "n_reviews": 6,
+      "total_adjustment": -5.08
     },
     {
       "movie_slug": "unicorns",
@@ -2696,6 +2740,17 @@
       "adjusted_score": 68.4,
       "n_reviews": 4,
       "total_adjustment": -3.63
+    },
+    {
+      "movie_slug": "late-shift",
+      "title": "Late Shift",
+      "release_date": "2026-03-20",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 68.0,
+      "adjusted_score": 68.4,
+      "n_reviews": 10,
+      "total_adjustment": 0.43
     },
     {
       "movie_slug": "invention",
@@ -2775,6 +2830,17 @@
       "total_adjustment": -1.21
     },
     {
+      "movie_slug": "the-surfer",
+      "title": "The Surfer",
+      "release_date": "2025-05-02",
+      "year": 2025,
+      "genre": "Thriller",
+      "raw_score": 67.0,
+      "adjusted_score": 67.8,
+      "n_reviews": 29,
+      "total_adjustment": 0.8
+    },
+    {
       "movie_slug": "harvest-2024",
       "title": "Harvest",
       "release_date": "2025-08-01",
@@ -2797,15 +2863,15 @@
       "total_adjustment": -2.23
     },
     {
-      "movie_slug": "the-surfer",
-      "title": "The Surfer",
-      "release_date": "2025-05-02",
-      "year": 2025,
-      "genre": "Thriller",
-      "raw_score": 67.0,
+      "movie_slug": "palestine-36",
+      "title": "Palestine 36",
+      "release_date": "2026-02-13",
+      "year": 2026,
+      "genre": "Biography",
+      "raw_score": 64.0,
       "adjusted_score": 67.8,
-      "n_reviews": 29,
-      "total_adjustment": 0.8
+      "n_reviews": 6,
+      "total_adjustment": 3.83
     },
     {
       "movie_slug": "all-of-you",
@@ -3015,17 +3081,6 @@
       "adjusted_score": 66.8,
       "n_reviews": 5,
       "total_adjustment": 1.76
-    },
-    {
-      "movie_slug": "palestine-36",
-      "title": "Palestine 36",
-      "release_date": "2026-02-13",
-      "year": 2026,
-      "genre": "Biography",
-      "raw_score": 64.0,
-      "adjusted_score": 66.8,
-      "n_reviews": 5,
-      "total_adjustment": 2.84
     },
     {
       "movie_slug": "caught-stealing",
@@ -4139,6 +4194,17 @@
       "total_adjustment": 0.17
     },
     {
+      "movie_slug": "tow",
+      "title": "Tow",
+      "release_date": "2026-03-20",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 63.0,
+      "adjusted_score": 62.2,
+      "n_reviews": 4,
+      "total_adjustment": -0.77
+    },
+    {
       "movie_slug": "americana",
       "title": "Americana",
       "release_date": "2025-08-15",
@@ -4293,6 +4359,17 @@
       "total_adjustment": 0.35
     },
     {
+      "movie_slug": "mr-burton",
+      "title": "Mr. Burton",
+      "release_date": "2026-03-20",
+      "year": 2026,
+      "genre": "Biography",
+      "raw_score": 54.0,
+      "adjusted_score": 61.4,
+      "n_reviews": 6,
+      "total_adjustment": 7.41
+    },
+    {
       "movie_slug": "eric-larue",
       "title": "Eric Larue",
       "release_date": "2025-04-04",
@@ -4335,17 +4412,6 @@
       "adjusted_score": 61.3,
       "n_reviews": 42,
       "total_adjustment": 1.34
-    },
-    {
-      "movie_slug": "peaky-blinders-the-immortal-man",
-      "title": "Peaky Blinders: The Immortal Man",
-      "release_date": "2026-03-06",
-      "year": 2026,
-      "genre": "Crime",
-      "raw_score": 61.0,
-      "adjusted_score": 61.2,
-      "n_reviews": 23,
-      "total_adjustment": 0.19
     },
     {
       "movie_slug": "titan-the-oceangate-disaster",
@@ -4467,6 +4533,17 @@
       "adjusted_score": 60.7,
       "n_reviews": 5,
       "total_adjustment": -2.34
+    },
+    {
+      "movie_slug": "peaky-blinders-the-immortal-man",
+      "title": "Peaky Blinders: The Immortal Man",
+      "release_date": "2026-03-06",
+      "year": 2026,
+      "genre": "Crime",
+      "raw_score": 61.0,
+      "adjusted_score": 60.7,
+      "n_reviews": 24,
+      "total_adjustment": -0.28
     },
     {
       "movie_slug": "springsteen-deliver-me-from-nowhere",
@@ -5017,6 +5094,17 @@
       "adjusted_score": 56.9,
       "n_reviews": 7,
       "total_adjustment": -3.06
+    },
+    {
+      "movie_slug": "ready-or-not-2-here-i-come",
+      "title": "Ready or Not 2: Here I Come",
+      "release_date": "2026-03-20",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 58.0,
+      "adjusted_score": 56.8,
+      "n_reviews": 25,
+      "total_adjustment": -1.21
     },
     {
       "movie_slug": "black-tea",
