@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-20T12:08:18.474360",
+  "updated": "2026-03-21T09:47:29.035909",
   "count": 638,
   "movies": [
     {
@@ -333,6 +333,17 @@
       "total_adjustment": 0.79
     },
     {
+      "movie_slug": "two-prosecutors",
+      "title": "Two Prosecutors",
+      "release_date": "2026-03-20",
+      "year": 2026,
+      "genre": "Biography",
+      "raw_score": 85.0,
+      "adjusted_score": 81.6,
+      "n_reviews": 16,
+      "total_adjustment": -3.43
+    },
+    {
       "movie_slug": "riefenstahl",
       "title": "Riefenstahl",
       "release_date": "2025-09-05",
@@ -652,17 +663,6 @@
       "total_adjustment": -1.46
     },
     {
-      "movie_slug": "two-prosecutors",
-      "title": "Two Prosecutors",
-      "release_date": "2026-03-20",
-      "year": 2026,
-      "genre": "Biography",
-      "raw_score": 85.0,
-      "adjusted_score": 79.4,
-      "n_reviews": 14,
-      "total_adjustment": -5.57
-    },
-    {
       "movie_slug": "a-little-prayer",
       "title": "A Little Prayer",
       "release_date": "2025-08-29",
@@ -949,6 +949,17 @@
       "total_adjustment": -0.8
     },
     {
+      "movie_slug": "project-hail-mary",
+      "title": "Project Hail Mary",
+      "release_date": "2026-03-20",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 77.0,
+      "adjusted_score": 77.2,
+      "n_reviews": 54,
+      "total_adjustment": 0.16
+    },
+    {
       "movie_slug": "the-plague",
       "title": "The Plague",
       "release_date": "2025-12-24",
@@ -980,17 +991,6 @@
       "adjusted_score": 77.1,
       "n_reviews": 16,
       "total_adjustment": 1.06
-    },
-    {
-      "movie_slug": "project-hail-mary",
-      "title": "Project Hail Mary",
-      "release_date": "2026-03-20",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 77.0,
-      "adjusted_score": 76.9,
-      "n_reviews": 47,
-      "total_adjustment": -0.13
     },
     {
       "movie_slug": "warfare",
@@ -1235,17 +1235,6 @@
       "total_adjustment": -4.76
     },
     {
-      "movie_slug": "miroirs-no-3",
-      "title": "Miroirs No. 3",
-      "release_date": "2026-03-20",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 80.0,
-      "adjusted_score": 75.1,
-      "n_reviews": 12,
-      "total_adjustment": -4.91
-    },
-    {
       "movie_slug": "paying-for-it",
       "title": "Paying for It",
       "release_date": "2026-01-30",
@@ -1257,17 +1246,6 @@
       "total_adjustment": -6.95
     },
     {
-      "movie_slug": "28-years-later",
-      "title": "28 Years Later",
-      "release_date": "2025-06-20",
-      "year": 2025,
-      "genre": "Horror",
-      "raw_score": 77.0,
-      "adjusted_score": 74.9,
-      "n_reviews": 56,
-      "total_adjustment": -2.1
-    },
-    {
       "movie_slug": "one-to-one-john-yoko",
       "title": "One to One: John & Yoko",
       "release_date": "2025-04-11",
@@ -1277,6 +1255,17 @@
       "adjusted_score": 74.9,
       "n_reviews": 24,
       "total_adjustment": -4.11
+    },
+    {
+      "movie_slug": "28-years-later",
+      "title": "28 Years Later",
+      "release_date": "2025-06-20",
+      "year": 2025,
+      "genre": "Horror",
+      "raw_score": 77.0,
+      "adjusted_score": 74.9,
+      "n_reviews": 56,
+      "total_adjustment": -2.1
     },
     {
       "movie_slug": "all-thats-left-of-you",
@@ -1354,6 +1343,17 @@
       "adjusted_score": 74.7,
       "n_reviews": 11,
       "total_adjustment": -0.27
+    },
+    {
+      "movie_slug": "miroirs-no-3",
+      "title": "Miroirs No. 3",
+      "release_date": "2026-03-20",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 80.0,
+      "adjusted_score": 74.7,
+      "n_reviews": 13,
+      "total_adjustment": -5.27
     },
     {
       "movie_slug": "stiller-meara-nothing-is-lost",
@@ -2830,17 +2830,6 @@
       "total_adjustment": -1.21
     },
     {
-      "movie_slug": "the-surfer",
-      "title": "The Surfer",
-      "release_date": "2025-05-02",
-      "year": 2025,
-      "genre": "Thriller",
-      "raw_score": 67.0,
-      "adjusted_score": 67.8,
-      "n_reviews": 29,
-      "total_adjustment": 0.8
-    },
-    {
       "movie_slug": "harvest-2024",
       "title": "Harvest",
       "release_date": "2025-08-01",
@@ -2863,15 +2852,15 @@
       "total_adjustment": -2.23
     },
     {
-      "movie_slug": "palestine-36",
-      "title": "Palestine 36",
-      "release_date": "2026-02-13",
-      "year": 2026,
-      "genre": "Biography",
-      "raw_score": 64.0,
+      "movie_slug": "the-surfer",
+      "title": "The Surfer",
+      "release_date": "2025-05-02",
+      "year": 2025,
+      "genre": "Thriller",
+      "raw_score": 67.0,
       "adjusted_score": 67.8,
-      "n_reviews": 6,
-      "total_adjustment": 3.83
+      "n_reviews": 29,
+      "total_adjustment": 0.8
     },
     {
       "movie_slug": "all-of-you",
@@ -3224,6 +3213,17 @@
       "adjusted_score": 66.4,
       "n_reviews": 33,
       "total_adjustment": 1.36
+    },
+    {
+      "movie_slug": "palestine-36",
+      "title": "Palestine 36",
+      "release_date": "2026-02-13",
+      "year": 2026,
+      "genre": "Biography",
+      "raw_score": 64.0,
+      "adjusted_score": 66.4,
+      "n_reviews": 7,
+      "total_adjustment": 2.44
     },
     {
       "movie_slug": "mission-impossible-the-final-reckoning",
@@ -4007,6 +4007,17 @@
       "total_adjustment": 0.97
     },
     {
+      "movie_slug": "tow",
+      "title": "Tow",
+      "release_date": "2026-03-20",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 63.0,
+      "adjusted_score": 63.0,
+      "n_reviews": 8,
+      "total_adjustment": -0.02
+    },
+    {
       "movie_slug": "dreams-2026",
       "title": "Dreams",
       "release_date": "2026-02-27",
@@ -4062,17 +4073,6 @@
       "total_adjustment": -2.08
     },
     {
-      "movie_slug": "koln-75",
-      "title": "K\u00f6ln 75",
-      "release_date": "2025-10-17",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 62.0,
-      "adjusted_score": 62.9,
-      "n_reviews": 6,
-      "total_adjustment": 0.91
-    },
-    {
       "movie_slug": "wto99",
       "title": "WTO/99",
       "release_date": "2025-12-04",
@@ -4082,6 +4082,17 @@
       "adjusted_score": 62.9,
       "n_reviews": 4,
       "total_adjustment": -0.08
+    },
+    {
+      "movie_slug": "koln-75",
+      "title": "K\u00f6ln 75",
+      "release_date": "2025-10-17",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 62.0,
+      "adjusted_score": 62.9,
+      "n_reviews": 6,
+      "total_adjustment": 0.91
     },
     {
       "movie_slug": "rounding",
@@ -4172,6 +4183,17 @@
       "total_adjustment": 1.37
     },
     {
+      "movie_slug": "mr-burton",
+      "title": "Mr. Burton",
+      "release_date": "2026-03-20",
+      "year": 2026,
+      "genre": "Biography",
+      "raw_score": 54.0,
+      "adjusted_score": 62.4,
+      "n_reviews": 7,
+      "total_adjustment": 8.4
+    },
+    {
       "movie_slug": "chaos-the-manson-murders",
       "title": "CHAOS: The Manson Murders",
       "release_date": "2025-03-07",
@@ -4192,17 +4214,6 @@
       "adjusted_score": 62.2,
       "n_reviews": 12,
       "total_adjustment": 0.17
-    },
-    {
-      "movie_slug": "tow",
-      "title": "Tow",
-      "release_date": "2026-03-20",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 63.0,
-      "adjusted_score": 62.2,
-      "n_reviews": 4,
-      "total_adjustment": -0.77
     },
     {
       "movie_slug": "americana",
@@ -4359,17 +4370,6 @@
       "total_adjustment": 0.35
     },
     {
-      "movie_slug": "mr-burton",
-      "title": "Mr. Burton",
-      "release_date": "2026-03-20",
-      "year": 2026,
-      "genre": "Biography",
-      "raw_score": 54.0,
-      "adjusted_score": 61.4,
-      "n_reviews": 6,
-      "total_adjustment": 7.41
-    },
-    {
       "movie_slug": "eric-larue",
       "title": "Eric Larue",
       "release_date": "2025-04-04",
@@ -4469,6 +4469,17 @@
       "total_adjustment": -3.0
     },
     {
+      "movie_slug": "peaky-blinders-the-immortal-man",
+      "title": "Peaky Blinders: The Immortal Man",
+      "release_date": "2026-03-06",
+      "year": 2026,
+      "genre": "Crime",
+      "raw_score": 61.0,
+      "adjusted_score": 61.0,
+      "n_reviews": 26,
+      "total_adjustment": -0.02
+    },
+    {
       "movie_slug": "animale",
       "title": "Animale",
       "release_date": "2025-08-08",
@@ -4533,17 +4544,6 @@
       "adjusted_score": 60.7,
       "n_reviews": 5,
       "total_adjustment": -2.34
-    },
-    {
-      "movie_slug": "peaky-blinders-the-immortal-man",
-      "title": "Peaky Blinders: The Immortal Man",
-      "release_date": "2026-03-06",
-      "year": 2026,
-      "genre": "Crime",
-      "raw_score": 61.0,
-      "adjusted_score": 60.7,
-      "n_reviews": 24,
-      "total_adjustment": -0.28
     },
     {
       "movie_slug": "springsteen-deliver-me-from-nowhere",
@@ -4920,6 +4920,17 @@
       "total_adjustment": 0.04
     },
     {
+      "movie_slug": "ready-or-not-2-here-i-come",
+      "title": "Ready or Not 2: Here I Come",
+      "release_date": "2026-03-20",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 58.0,
+      "adjusted_score": 58.0,
+      "n_reviews": 31,
+      "total_adjustment": 0.01
+    },
+    {
       "movie_slug": "fight-or-flight",
       "title": "Fight or Flight",
       "release_date": "2025-05-09",
@@ -5094,17 +5105,6 @@
       "adjusted_score": 56.9,
       "n_reviews": 7,
       "total_adjustment": -3.06
-    },
-    {
-      "movie_slug": "ready-or-not-2-here-i-come",
-      "title": "Ready or Not 2: Here I Come",
-      "release_date": "2026-03-20",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 58.0,
-      "adjusted_score": 56.8,
-      "n_reviews": 25,
-      "total_adjustment": -1.21
     },
     {
       "movie_slug": "black-tea",
@@ -5921,17 +5921,6 @@
       "total_adjustment": -7.96
     },
     {
-      "movie_slug": "reminders-of-him",
-      "title": "Reminders of Him",
-      "release_date": "2026-03-13",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 50.0,
-      "adjusted_score": 51.9,
-      "n_reviews": 28,
-      "total_adjustment": 1.86
-    },
-    {
       "movie_slug": "a-working-man",
       "title": "A Working Man",
       "release_date": "2025-03-28",
@@ -6018,6 +6007,17 @@
       "adjusted_score": 51.5,
       "n_reviews": 5,
       "total_adjustment": 4.52
+    },
+    {
+      "movie_slug": "reminders-of-him",
+      "title": "Reminders of Him",
+      "release_date": "2026-03-13",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 50.0,
+      "adjusted_score": 51.4,
+      "n_reviews": 29,
+      "total_adjustment": 1.39
     },
     {
       "movie_slug": "the-twits",
