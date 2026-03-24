@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-22T18:11:10.778823",
+  "updated": "2026-03-23T22:39:15.878730",
   "count": 638,
   "movies": [
     {
@@ -2665,6 +2665,17 @@
       "total_adjustment": -0.99
     },
     {
+      "movie_slug": "late-shift",
+      "title": "Late Shift",
+      "release_date": "2026-03-20",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 68.0,
+      "adjusted_score": 68.9,
+      "n_reviews": 11,
+      "total_adjustment": 0.9
+    },
+    {
       "movie_slug": "predator-badlands",
       "title": "Predator: Badlands",
       "release_date": "2025-11-07",
@@ -2740,17 +2751,6 @@
       "adjusted_score": 68.4,
       "n_reviews": 4,
       "total_adjustment": -3.63
-    },
-    {
-      "movie_slug": "late-shift",
-      "title": "Late Shift",
-      "release_date": "2026-03-20",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 68.0,
-      "adjusted_score": 68.4,
-      "n_reviews": 10,
-      "total_adjustment": 0.43
     },
     {
       "movie_slug": "invention",
@@ -4909,6 +4909,17 @@
       "total_adjustment": 0.23
     },
     {
+      "movie_slug": "ready-or-not-2-here-i-come",
+      "title": "Ready or Not 2: Here I Come",
+      "release_date": "2026-03-20",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 58.0,
+      "adjusted_score": 58.1,
+      "n_reviews": 32,
+      "total_adjustment": 0.08
+    },
+    {
       "movie_slug": "eden-2024",
       "title": "Eden",
       "release_date": "2025-08-22",
@@ -4918,17 +4929,6 @@
       "adjusted_score": 58.0,
       "n_reviews": 28,
       "total_adjustment": 0.04
-    },
-    {
-      "movie_slug": "ready-or-not-2-here-i-come",
-      "title": "Ready or Not 2: Here I Come",
-      "release_date": "2026-03-20",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 58.0,
-      "adjusted_score": 58.0,
-      "n_reviews": 31,
-      "total_adjustment": 0.01
     },
     {
       "movie_slug": "fight-or-flight",
