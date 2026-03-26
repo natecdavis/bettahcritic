@@ -1,6 +1,6 @@
 {
-  "updated": "2026-03-24T18:40:37.477255",
-  "count": 638,
+  "updated": "2026-03-25T21:57:33.408656",
+  "count": 639,
   "movies": [
     {
       "movie_slug": "compensation",
@@ -278,6 +278,17 @@
       "total_adjustment": -2.54
     },
     {
+      "movie_slug": "two-prosecutors",
+      "title": "Two Prosecutors",
+      "release_date": "2026-03-20",
+      "year": 2026,
+      "genre": "Biography",
+      "raw_score": 85.0,
+      "adjusted_score": 82.3,
+      "n_reviews": 19,
+      "total_adjustment": -2.69
+    },
+    {
       "movie_slug": "sinners",
       "title": "Sinners",
       "release_date": "2025-04-18",
@@ -331,17 +342,6 @@
       "adjusted_score": 81.8,
       "n_reviews": 27,
       "total_adjustment": 0.79
-    },
-    {
-      "movie_slug": "two-prosecutors",
-      "title": "Two Prosecutors",
-      "release_date": "2026-03-20",
-      "year": 2026,
-      "genre": "Biography",
-      "raw_score": 85.0,
-      "adjusted_score": 81.6,
-      "n_reviews": 16,
-      "total_adjustment": -3.43
     },
     {
       "movie_slug": "riefenstahl",
@@ -949,17 +949,6 @@
       "total_adjustment": -0.8
     },
     {
-      "movie_slug": "project-hail-mary",
-      "title": "Project Hail Mary",
-      "release_date": "2026-03-20",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 77.0,
-      "adjusted_score": 77.2,
-      "n_reviews": 54,
-      "total_adjustment": 0.16
-    },
-    {
       "movie_slug": "the-plague",
       "title": "The Plague",
       "release_date": "2025-12-24",
@@ -991,6 +980,17 @@
       "adjusted_score": 77.1,
       "n_reviews": 16,
       "total_adjustment": 1.06
+    },
+    {
+      "movie_slug": "project-hail-mary",
+      "title": "Project Hail Mary",
+      "release_date": "2026-03-20",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 77.0,
+      "adjusted_score": 77.0,
+      "n_reviews": 55,
+      "total_adjustment": 0.01
     },
     {
       "movie_slug": "warfare",
@@ -1026,17 +1026,6 @@
       "total_adjustment": -3.2
     },
     {
-      "movie_slug": "devo",
-      "title": "Devo",
-      "release_date": "2025-08-19",
-      "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 80.0,
-      "adjusted_score": 76.6,
-      "n_reviews": 14,
-      "total_adjustment": -3.39
-    },
-    {
       "movie_slug": "cutting-through-rocks",
       "title": "Cutting Through Rocks",
       "release_date": "2025-11-21",
@@ -1046,6 +1035,28 @@
       "adjusted_score": 76.6,
       "n_reviews": 8,
       "total_adjustment": -3.4
+    },
+    {
+      "movie_slug": "miroirs-no-3",
+      "title": "Miroirs No. 3",
+      "release_date": "2026-03-20",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 80.0,
+      "adjusted_score": 76.6,
+      "n_reviews": 15,
+      "total_adjustment": -3.37
+    },
+    {
+      "movie_slug": "devo",
+      "title": "Devo",
+      "release_date": "2025-08-19",
+      "year": 2025,
+      "genre": "Documentary",
+      "raw_score": 80.0,
+      "adjusted_score": 76.6,
+      "n_reviews": 14,
+      "total_adjustment": -3.39
     },
     {
       "movie_slug": "blue-moon-2025",
@@ -1090,17 +1101,6 @@
       "adjusted_score": 76.1,
       "n_reviews": 23,
       "total_adjustment": -1.85
-    },
-    {
-      "movie_slug": "miroirs-no-3",
-      "title": "Miroirs No. 3",
-      "release_date": "2026-03-20",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 80.0,
-      "adjusted_score": 76.0,
-      "n_reviews": 14,
-      "total_adjustment": -4.03
     },
     {
       "movie_slug": "kokuho",
@@ -5426,6 +5426,17 @@
       "total_adjustment": -1.39
     },
     {
+      "movie_slug": "pretty-lethal",
+      "title": "Pretty Lethal",
+      "release_date": "2026-03-25",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 51.0,
+      "adjusted_score": 55.5,
+      "n_reviews": 12,
+      "total_adjustment": 4.45
+    },
+    {
       "movie_slug": "barrons-cove",
       "title": "Barron's Cove",
       "release_date": "2025-06-06",
@@ -5437,17 +5448,6 @@
       "total_adjustment": -5.47
     },
     {
-      "movie_slug": "eleanor-the-great",
-      "title": "Eleanor the Great",
-      "release_date": "2025-09-26",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 52.0,
-      "adjusted_score": 55.4,
-      "n_reviews": 28,
-      "total_adjustment": 3.39
-    },
-    {
       "movie_slug": "fackham-hall",
       "title": "Fackham Hall",
       "release_date": "2025-12-05",
@@ -5457,6 +5457,17 @@
       "adjusted_score": 55.4,
       "n_reviews": 11,
       "total_adjustment": 1.39
+    },
+    {
+      "movie_slug": "eleanor-the-great",
+      "title": "Eleanor the Great",
+      "release_date": "2025-09-26",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 52.0,
+      "adjusted_score": 55.4,
+      "n_reviews": 28,
+      "total_adjustment": 3.39
     },
     {
       "movie_slug": "the-conjuring-last-rites",
