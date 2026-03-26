@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-25T21:57:33.408656",
+  "updated": "2026-03-26T18:41:29.174252",
   "count": 639,
   "movies": [
     {
@@ -278,17 +278,6 @@
       "total_adjustment": -2.54
     },
     {
-      "movie_slug": "two-prosecutors",
-      "title": "Two Prosecutors",
-      "release_date": "2026-03-20",
-      "year": 2026,
-      "genre": "Biography",
-      "raw_score": 85.0,
-      "adjusted_score": 82.3,
-      "n_reviews": 19,
-      "total_adjustment": -2.69
-    },
-    {
       "movie_slug": "sinners",
       "title": "Sinners",
       "release_date": "2025-04-18",
@@ -331,6 +320,17 @@
       "adjusted_score": 81.9,
       "n_reviews": 16,
       "total_adjustment": -6.1
+    },
+    {
+      "movie_slug": "two-prosecutors",
+      "title": "Two Prosecutors",
+      "release_date": "2026-03-20",
+      "year": 2026,
+      "genre": "Biography",
+      "raw_score": 85.0,
+      "adjusted_score": 81.8,
+      "n_reviews": 21,
+      "total_adjustment": -3.22
     },
     {
       "movie_slug": "the-voice-of-hind-rajab",
@@ -5250,17 +5250,6 @@
       "total_adjustment": 4.18
     },
     {
-      "movie_slug": "the-running-man-2025",
-      "title": "The Running Man",
-      "release_date": "2025-11-14",
-      "year": 2025,
-      "genre": "Action",
-      "raw_score": 56.0,
-      "adjusted_score": 56.2,
-      "n_reviews": 52,
-      "total_adjustment": 0.17
-    },
-    {
       "movie_slug": "clown-in-a-cornfield",
       "title": "Clown in a Cornfield",
       "release_date": "2025-05-09",
@@ -5270,6 +5259,17 @@
       "adjusted_score": 56.2,
       "n_reviews": 15,
       "total_adjustment": 1.17
+    },
+    {
+      "movie_slug": "the-running-man-2025",
+      "title": "The Running Man",
+      "release_date": "2025-11-14",
+      "year": 2025,
+      "genre": "Action",
+      "raw_score": 56.0,
+      "adjusted_score": 56.2,
+      "n_reviews": 52,
+      "total_adjustment": 0.17
     },
     {
       "movie_slug": "hot-milk",
@@ -5292,6 +5292,17 @@
       "adjusted_score": 56.2,
       "n_reviews": 13,
       "total_adjustment": -0.78
+    },
+    {
+      "movie_slug": "the-bride-2026",
+      "title": "The Bride!",
+      "release_date": "2026-03-06",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 56.0,
+      "adjusted_score": 56.0,
+      "n_reviews": 55,
+      "total_adjustment": -0.02
     },
     {
       "movie_slug": "the-moment-2026",
@@ -5402,17 +5413,6 @@
       "adjusted_score": 55.6,
       "n_reviews": 14,
       "total_adjustment": 2.63
-    },
-    {
-      "movie_slug": "the-bride-2026",
-      "title": "The Bride!",
-      "release_date": "2026-03-06",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 56.0,
-      "adjusted_score": 55.6,
-      "n_reviews": 54,
-      "total_adjustment": -0.37
     },
     {
       "movie_slug": "whistle",
