@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-27T07:48:49.906025",
+  "updated": "2026-03-28T13:25:55.762438",
   "count": 649,
   "movies": [
     {
@@ -520,17 +520,6 @@
       "total_adjustment": -8.28
     },
     {
-      "movie_slug": "predators-2025",
-      "title": "Predators",
-      "release_date": "2025-09-19",
-      "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 83.0,
-      "adjusted_score": 80.6,
-      "n_reviews": 18,
-      "total_adjustment": -2.38
-    },
-    {
       "movie_slug": "homebound-2025",
       "title": "Homebound",
       "release_date": "2025-09-26",
@@ -542,15 +531,15 @@
       "total_adjustment": -4.38
     },
     {
-      "movie_slug": "kontinental-25",
-      "title": "Kontinental '25",
-      "release_date": "2026-03-27",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 81.0,
-      "adjusted_score": 80.5,
-      "n_reviews": 10,
-      "total_adjustment": -0.46
+      "movie_slug": "predators-2025",
+      "title": "Predators",
+      "release_date": "2025-09-19",
+      "year": 2025,
+      "genre": "Documentary",
+      "raw_score": 83.0,
+      "adjusted_score": 80.6,
+      "n_reviews": 18,
+      "total_adjustment": -2.38
     },
     {
       "movie_slug": "from-ground-zero",
@@ -738,6 +727,17 @@
       "adjusted_score": 79.0,
       "n_reviews": 7,
       "total_adjustment": -4.0
+    },
+    {
+      "movie_slug": "kontinental-25",
+      "title": "Kontinental '25",
+      "release_date": "2026-03-27",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 81.0,
+      "adjusted_score": 78.9,
+      "n_reviews": 12,
+      "total_adjustment": -2.07
     },
     {
       "movie_slug": "sunday-best-the-untold-story-of-ed-sullivan",
@@ -1004,17 +1004,6 @@
       "total_adjustment": 1.06
     },
     {
-      "movie_slug": "project-hail-mary",
-      "title": "Project Hail Mary",
-      "release_date": "2026-03-20",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 77.0,
-      "adjusted_score": 76.9,
-      "n_reviews": 56,
-      "total_adjustment": -0.13
-    },
-    {
       "movie_slug": "warfare",
       "title": "Warfare",
       "release_date": "2025-04-11",
@@ -1046,6 +1035,17 @@
       "adjusted_score": 76.8,
       "n_reviews": 13,
       "total_adjustment": -3.2
+    },
+    {
+      "movie_slug": "project-hail-mary",
+      "title": "Project Hail Mary",
+      "release_date": "2026-03-20",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 77.0,
+      "adjusted_score": 76.8,
+      "n_reviews": 60,
+      "total_adjustment": -0.17
     },
     {
       "movie_slug": "devo",
@@ -1268,15 +1268,15 @@
       "total_adjustment": -6.95
     },
     {
-      "movie_slug": "miroirs-no-3",
-      "title": "Miroirs No. 3",
-      "release_date": "2026-03-20",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 80.0,
-      "adjusted_score": 75.1,
-      "n_reviews": 16,
-      "total_adjustment": -4.89
+      "movie_slug": "one-to-one-john-yoko",
+      "title": "One to One: John & Yoko",
+      "release_date": "2025-04-11",
+      "year": 2025,
+      "genre": "Documentary",
+      "raw_score": 79.0,
+      "adjusted_score": 74.9,
+      "n_reviews": 24,
+      "total_adjustment": -4.11
     },
     {
       "movie_slug": "28-years-later",
@@ -1290,17 +1290,6 @@
       "total_adjustment": -2.1
     },
     {
-      "movie_slug": "one-to-one-john-yoko",
-      "title": "One to One: John & Yoko",
-      "release_date": "2025-04-11",
-      "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 79.0,
-      "adjusted_score": 74.9,
-      "n_reviews": 24,
-      "total_adjustment": -4.11
-    },
-    {
       "movie_slug": "all-thats-left-of-you",
       "title": "All That's Left of You",
       "release_date": "2026-01-09",
@@ -1310,6 +1299,17 @@
       "adjusted_score": 74.9,
       "n_reviews": 14,
       "total_adjustment": -3.09
+    },
+    {
+      "movie_slug": "miroirs-no-3",
+      "title": "Miroirs No. 3",
+      "release_date": "2026-03-20",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 80.0,
+      "adjusted_score": 74.8,
+      "n_reviews": 17,
+      "total_adjustment": -5.24
     },
     {
       "movie_slug": "father-mother-sister-brother",
@@ -2815,8 +2815,8 @@
       "genre": "Biography",
       "raw_score": 64.0,
       "adjusted_score": 68.1,
-      "n_reviews": 8,
-      "total_adjustment": 4.09
+      "n_reviews": 9,
+      "total_adjustment": 4.07
     },
     {
       "movie_slug": "the-sparrow-in-the-chimney",
@@ -2971,17 +2971,6 @@
       "adjusted_score": 67.3,
       "n_reviews": 9,
       "total_adjustment": 2.26
-    },
-    {
-      "movie_slug": "mike-nick-nick-alice",
-      "title": "Mike & Nick & Nick & Alice",
-      "release_date": "2026-03-27",
-      "year": 2026,
-      "genre": "Action",
-      "raw_score": 71.0,
-      "adjusted_score": 67.3,
-      "n_reviews": 13,
-      "total_adjustment": -3.73
     },
     {
       "movie_slug": "the-knife",
@@ -3424,6 +3413,17 @@
       "total_adjustment": -3.26
     },
     {
+      "movie_slug": "mike-nick-nick-alice",
+      "title": "Mike & Nick & Nick & Alice",
+      "release_date": "2026-03-27",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 71.0,
+      "adjusted_score": 65.7,
+      "n_reviews": 17,
+      "total_adjustment": -5.28
+    },
+    {
       "movie_slug": "magazine-dreams",
       "title": "Magazine Dreams",
       "release_date": "2025-03-21",
@@ -3774,6 +3774,17 @@
       "adjusted_score": 64.4,
       "n_reviews": 12,
       "total_adjustment": -3.63
+    },
+    {
+      "movie_slug": "she-dances",
+      "title": "She Dances",
+      "release_date": "2026-03-27",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 60.0,
+      "adjusted_score": 64.4,
+      "n_reviews": 6,
+      "total_adjustment": 4.35
     },
     {
       "movie_slug": "h-is-for-hawk",
@@ -4579,28 +4590,6 @@
       "total_adjustment": 0.78
     },
     {
-      "movie_slug": "the-ai-doc-or-how-i-became-an-apocaloptimist",
-      "title": "The AI Doc: Or How I Became an Apocaloptimist",
-      "release_date": "2026-03-27",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 57.0,
-      "adjusted_score": 60.8,
-      "n_reviews": 8,
-      "total_adjustment": 3.84
-    },
-    {
-      "movie_slug": "alpha-2025",
-      "title": "Alpha",
-      "release_date": "2026-03-27",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 56.0,
-      "adjusted_score": 60.7,
-      "n_reviews": 21,
-      "total_adjustment": 4.68
-    },
-    {
       "movie_slug": "green-and-gold",
       "title": "Green and Gold",
       "release_date": "2025-01-31",
@@ -4810,6 +4799,28 @@
       "total_adjustment": -0.46
     },
     {
+      "movie_slug": "alpha-2025",
+      "title": "Alpha",
+      "release_date": "2026-03-27",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 56.0,
+      "adjusted_score": 59.5,
+      "n_reviews": 24,
+      "total_adjustment": 3.53
+    },
+    {
+      "movie_slug": "the-ai-doc-or-how-i-became-an-apocaloptimist",
+      "title": "The AI Doc: Or How I Became an Apocaloptimist",
+      "release_date": "2026-03-27",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 57.0,
+      "adjusted_score": 59.5,
+      "n_reviews": 9,
+      "total_adjustment": 2.5
+    },
+    {
       "movie_slug": "the-roses",
       "title": "The Roses",
       "release_date": "2025-08-29",
@@ -4964,17 +4975,6 @@
       "total_adjustment": 1.44
     },
     {
-      "movie_slug": "she-dances",
-      "title": "She Dances",
-      "release_date": "2026-03-27",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 60.0,
-      "adjusted_score": 58.4,
-      "n_reviews": 4,
-      "total_adjustment": -1.57
-    },
-    {
       "movie_slug": "mr-k",
       "title": "Mr. K",
       "release_date": "2025-10-08",
@@ -4995,17 +4995,6 @@
       "adjusted_score": 58.2,
       "n_reviews": 30,
       "total_adjustment": 0.23
-    },
-    {
-      "movie_slug": "ready-or-not-2-here-i-come",
-      "title": "Ready or Not 2: Here I Come",
-      "release_date": "2026-03-20",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 58.0,
-      "adjusted_score": 58.1,
-      "n_reviews": 32,
-      "total_adjustment": 0.08
     },
     {
       "movie_slug": "eden-2024",
@@ -5050,6 +5039,17 @@
       "adjusted_score": 57.8,
       "n_reviews": 6,
       "total_adjustment": 2.79
+    },
+    {
+      "movie_slug": "ready-or-not-2-here-i-come",
+      "title": "Ready or Not 2: Here I Come",
+      "release_date": "2026-03-20",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 58.0,
+      "adjusted_score": 57.8,
+      "n_reviews": 33,
+      "total_adjustment": -0.19
     },
     {
       "movie_slug": "jingle-bell-heist",
@@ -5745,17 +5745,6 @@
       "total_adjustment": 3.11
     },
     {
-      "movie_slug": "they-will-kill-you",
-      "title": "They Will Kill You",
-      "release_date": "2026-03-27",
-      "year": 2026,
-      "genre": "Action",
-      "raw_score": 51.0,
-      "adjusted_score": 54.0,
-      "n_reviews": 20,
-      "total_adjustment": 2.98
-    },
-    {
       "movie_slug": "doin-it",
       "title": "Doin' It",
       "release_date": "2025-09-19",
@@ -5930,6 +5919,17 @@
       "adjusted_score": 52.8,
       "n_reviews": 5,
       "total_adjustment": 2.84
+    },
+    {
+      "movie_slug": "they-will-kill-you",
+      "title": "They Will Kill You",
+      "release_date": "2026-03-27",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 51.0,
+      "adjusted_score": 52.8,
+      "n_reviews": 26,
+      "total_adjustment": 1.82
     },
     {
       "movie_slug": "night-patrol",
