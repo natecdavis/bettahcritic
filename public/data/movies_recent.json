@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-28T13:25:55.762438",
+  "updated": "2026-03-29T23:11:17.188520",
   "count": 649,
   "movies": [
     {
@@ -300,17 +300,6 @@
       "total_adjustment": -1.91
     },
     {
-      "movie_slug": "two-prosecutors",
-      "title": "Two Prosecutors",
-      "release_date": "2026-03-20",
-      "year": 2026,
-      "genre": "Biography",
-      "raw_score": 85.0,
-      "adjusted_score": 82.0,
-      "n_reviews": 22,
-      "total_adjustment": -3.01
-    },
-    {
       "movie_slug": "the-perfect-neighbor",
       "title": "The Perfect Neighbor",
       "release_date": "2025-10-10",
@@ -320,17 +309,6 @@
       "adjusted_score": 81.9,
       "n_reviews": 21,
       "total_adjustment": -1.14
-    },
-    {
-      "movie_slug": "pompei-below-the-clouds",
-      "title": "Pompei: Below the Clouds",
-      "release_date": "2026-03-06",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 89.0,
-      "adjusted_score": 81.9,
-      "n_reviews": 14,
-      "total_adjustment": -7.14
     },
     {
       "movie_slug": "2000-meters-to-andriivka",
@@ -361,9 +339,9 @@
       "year": 2026,
       "genre": "Comedy",
       "raw_score": 85.0,
-      "adjusted_score": 81.8,
-      "n_reviews": 11,
-      "total_adjustment": -3.2
+      "adjusted_score": 81.7,
+      "n_reviews": 12,
+      "total_adjustment": -3.34
     },
     {
       "movie_slug": "riefenstahl",
@@ -421,6 +399,17 @@
       "total_adjustment": -2.69
     },
     {
+      "movie_slug": "pompei-below-the-clouds",
+      "title": "Pompei: Below the Clouds",
+      "release_date": "2026-03-06",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 89.0,
+      "adjusted_score": 81.3,
+      "n_reviews": 15,
+      "total_adjustment": -7.68
+    },
+    {
       "movie_slug": "meeting-with-pol-pot",
       "title": "Meeting with Pol Pot",
       "release_date": "2025-06-13",
@@ -452,6 +441,17 @@
       "adjusted_score": 81.2,
       "n_reviews": 22,
       "total_adjustment": -2.76
+    },
+    {
+      "movie_slug": "two-prosecutors",
+      "title": "Two Prosecutors",
+      "release_date": "2026-03-20",
+      "year": 2026,
+      "genre": "Biography",
+      "raw_score": 85.0,
+      "adjusted_score": 81.1,
+      "n_reviews": 23,
+      "total_adjustment": -3.94
     },
     {
       "movie_slug": "grand-tour",
@@ -729,15 +729,15 @@
       "total_adjustment": -4.0
     },
     {
-      "movie_slug": "kontinental-25",
-      "title": "Kontinental '25",
-      "release_date": "2026-03-27",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 81.0,
-      "adjusted_score": 78.9,
-      "n_reviews": 12,
-      "total_adjustment": -2.07
+      "movie_slug": "the-ice-tower",
+      "title": "The Ice Tower",
+      "release_date": "2025-10-03",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 80.0,
+      "adjusted_score": 78.8,
+      "n_reviews": 17,
+      "total_adjustment": -1.22
     },
     {
       "movie_slug": "sunday-best-the-untold-story-of-ed-sullivan",
@@ -760,17 +760,6 @@
       "adjusted_score": 78.8,
       "n_reviews": 4,
       "total_adjustment": -4.24
-    },
-    {
-      "movie_slug": "the-ice-tower",
-      "title": "The Ice Tower",
-      "release_date": "2025-10-03",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 80.0,
-      "adjusted_score": 78.8,
-      "n_reviews": 17,
-      "total_adjustment": -1.22
     },
     {
       "movie_slug": "holy-cow",
@@ -817,17 +806,6 @@
       "total_adjustment": -1.5
     },
     {
-      "movie_slug": "deaf-president-now!",
-      "title": "Deaf President Now!",
-      "release_date": "2025-05-16",
-      "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 82.0,
-      "adjusted_score": 78.5,
-      "n_reviews": 10,
-      "total_adjustment": -3.54
-    },
-    {
       "movie_slug": "what-does-that-nature-say-to-you",
       "title": "What Does That Nature Say to You",
       "release_date": "2026-02-27",
@@ -839,6 +817,17 @@
       "total_adjustment": 9.48
     },
     {
+      "movie_slug": "deaf-president-now!",
+      "title": "Deaf President Now!",
+      "release_date": "2025-05-16",
+      "year": 2025,
+      "genre": "Documentary",
+      "raw_score": 82.0,
+      "adjusted_score": 78.5,
+      "n_reviews": 10,
+      "total_adjustment": -3.54
+    },
+    {
       "movie_slug": "an-unfinished-film",
       "title": "An Unfinished Film",
       "release_date": "2025-02-14",
@@ -848,6 +837,17 @@
       "adjusted_score": 78.5,
       "n_reviews": 9,
       "total_adjustment": 0.52
+    },
+    {
+      "movie_slug": "kontinental-25",
+      "title": "Kontinental '25",
+      "release_date": "2026-03-27",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 81.0,
+      "adjusted_score": 78.3,
+      "n_reviews": 13,
+      "total_adjustment": -2.72
     },
     {
       "movie_slug": "mr-nobody-against-putin",
@@ -5525,17 +5525,6 @@
       "total_adjustment": -1.39
     },
     {
-      "movie_slug": "pretty-lethal",
-      "title": "Pretty Lethal",
-      "release_date": "2026-03-25",
-      "year": 2026,
-      "genre": "Action",
-      "raw_score": 51.0,
-      "adjusted_score": 55.5,
-      "n_reviews": 12,
-      "total_adjustment": 4.45
-    },
-    {
       "movie_slug": "barrons-cove",
       "title": "Barron's Cove",
       "release_date": "2025-06-06",
@@ -5611,6 +5600,17 @@
       "adjusted_score": 55.2,
       "n_reviews": 22,
       "total_adjustment": 1.24
+    },
+    {
+      "movie_slug": "pretty-lethal",
+      "title": "Pretty Lethal",
+      "release_date": "2026-03-25",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 51.0,
+      "adjusted_score": 55.0,
+      "n_reviews": 13,
+      "total_adjustment": 3.97
     },
     {
       "movie_slug": "parthenope",
@@ -5789,6 +5789,17 @@
       "total_adjustment": 3.65
     },
     {
+      "movie_slug": "they-will-kill-you",
+      "title": "They Will Kill You",
+      "release_date": "2026-03-27",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 51.0,
+      "adjusted_score": 53.6,
+      "n_reviews": 27,
+      "total_adjustment": 2.57
+    },
+    {
       "movie_slug": "william-tell",
       "title": "William Tell",
       "release_date": "2025-04-04",
@@ -5919,17 +5930,6 @@
       "adjusted_score": 52.8,
       "n_reviews": 5,
       "total_adjustment": 2.84
-    },
-    {
-      "movie_slug": "they-will-kill-you",
-      "title": "They Will Kill You",
-      "release_date": "2026-03-27",
-      "year": 2026,
-      "genre": "Action",
-      "raw_score": 51.0,
-      "adjusted_score": 52.8,
-      "n_reviews": 26,
-      "total_adjustment": 1.82
     },
     {
       "movie_slug": "night-patrol",
