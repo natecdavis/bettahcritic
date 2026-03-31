@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-29T23:11:17.193455",
+  "updated": "2026-03-31T08:21:16.787465",
   "count": 20926,
   "movies": [
     {
@@ -7516,22 +7516,22 @@
       "total_adjustment": -4.03
     },
     {
-      "movie_slug": "love-2024",
-      "title": "Love",
-      "release_date": "2025-05-16",
-      "year": 2025,
-      "genre": "Comedy",
+      "movie_slug": "wuthering-heights-1939",
+      "title": "Wuthering Heights",
+      "release_date": "1939-04-07",
+      "year": 1939,
+      "genre": "Drama",
       "raw_score": 83.0,
       "adjusted_score": 83.0,
       "n_reviews": 0,
       "total_adjustment": 0.0
     },
     {
-      "movie_slug": "wuthering-heights-1939",
-      "title": "Wuthering Heights",
-      "release_date": "1939-04-07",
-      "year": 1939,
-      "genre": "Drama",
+      "movie_slug": "love-2024",
+      "title": "Love",
+      "release_date": "2025-05-16",
+      "year": 2025,
+      "genre": "Comedy",
       "raw_score": 83.0,
       "adjusted_score": 83.0,
       "n_reviews": 0,
@@ -8297,6 +8297,17 @@
       "total_adjustment": -3.51
     },
     {
+      "movie_slug": "yes-2025",
+      "title": "Yes",
+      "release_date": "2026-03-27",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 85.0,
+      "adjusted_score": 82.5,
+      "n_reviews": 14,
+      "total_adjustment": -2.5
+    },
+    {
       "movie_slug": "quai-des-orfcvres-re-release",
       "title": "Quai des Orf\u00e8vres [re-release]",
       "release_date": "2002-10-25",
@@ -8946,15 +8957,15 @@
       "total_adjustment": -2.94
     },
     {
-      "movie_slug": "little-men",
-      "title": "Little Men",
-      "release_date": "2016-08-05",
-      "year": 2016,
+      "movie_slug": "the-past",
+      "title": "The Past",
+      "release_date": "2013-12-20",
+      "year": 2013,
       "genre": "Drama",
-      "raw_score": 86.0,
+      "raw_score": 85.0,
       "adjusted_score": 82.1,
-      "n_reviews": 37,
-      "total_adjustment": -3.93
+      "n_reviews": 41,
+      "total_adjustment": -2.93
     },
     {
       "movie_slug": "crip-camp-a-disability-revolution",
@@ -8968,15 +8979,15 @@
       "total_adjustment": -3.93
     },
     {
-      "movie_slug": "the-past",
-      "title": "The Past",
-      "release_date": "2013-12-20",
-      "year": 2013,
+      "movie_slug": "little-men",
+      "title": "Little Men",
+      "release_date": "2016-08-05",
+      "year": 2016,
       "genre": "Drama",
-      "raw_score": 85.0,
+      "raw_score": 86.0,
       "adjusted_score": 82.1,
-      "n_reviews": 41,
-      "total_adjustment": -2.93
+      "n_reviews": 37,
+      "total_adjustment": -3.93
     },
     {
       "movie_slug": "welcome-to-chechnya",
@@ -8990,15 +9001,15 @@
       "total_adjustment": -3.92
     },
     {
-      "movie_slug": "the-long-goodbye",
-      "title": "The Long Goodbye",
-      "release_date": "1973-03-07",
-      "year": 1973,
-      "genre": "Comedy",
-      "raw_score": 87.0,
+      "movie_slug": "hamnet",
+      "title": "Hamnet",
+      "release_date": "2025-11-26",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 84.0,
       "adjusted_score": 82.1,
-      "n_reviews": 17,
-      "total_adjustment": -4.86
+      "n_reviews": 54,
+      "total_adjustment": -1.91
     },
     {
       "movie_slug": "the-straight-story",
@@ -9056,15 +9067,15 @@
       "total_adjustment": -0.87
     },
     {
-      "movie_slug": "hamnet",
-      "title": "Hamnet",
-      "release_date": "2025-11-26",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 84.0,
+      "movie_slug": "the-long-goodbye",
+      "title": "The Long Goodbye",
+      "release_date": "1973-03-07",
+      "year": 1973,
+      "genre": "Comedy",
+      "raw_score": 87.0,
       "adjusted_score": 82.1,
-      "n_reviews": 54,
-      "total_adjustment": -1.91
+      "n_reviews": 17,
+      "total_adjustment": -4.86
     },
     {
       "movie_slug": "the-big-sick",
@@ -9397,59 +9408,15 @@
       "total_adjustment": 0.79
     },
     {
-      "movie_slug": "seven-brides-for-seven-brothers",
-      "title": "Seven Brides for Seven Brothers",
-      "release_date": "1954-08-06",
-      "year": 1954,
-      "genre": "Comedy",
-      "raw_score": 75.0,
-      "adjusted_score": 81.8,
-      "n_reviews": 7,
-      "total_adjustment": 6.81
-    },
-    {
-      "movie_slug": "hope-and-glory",
-      "title": "Hope and Glory",
-      "release_date": "1988-02-19",
-      "year": 1988,
-      "genre": "Comedy",
+      "movie_slug": "summer-hours",
+      "title": "Summer Hours",
+      "release_date": "2009-05-15",
+      "year": 2009,
+      "genre": "Drama",
       "raw_score": 86.0,
       "adjusted_score": 81.8,
-      "n_reviews": 15,
-      "total_adjustment": -4.17
-    },
-    {
-      "movie_slug": "from-russia-with-love",
-      "title": "From Russia with Love",
-      "release_date": "1964-05-27",
-      "year": 1964,
-      "genre": "Action",
-      "raw_score": 83.0,
-      "adjusted_score": 81.8,
-      "n_reviews": 18,
-      "total_adjustment": -1.19
-    },
-    {
-      "movie_slug": "life-is-sweet",
-      "title": "Life Is Sweet",
-      "release_date": "1991-10-25",
-      "year": 1991,
-      "genre": "Comedy",
-      "raw_score": 88.0,
-      "adjusted_score": 81.8,
-      "n_reviews": 18,
-      "total_adjustment": -6.15
-    },
-    {
-      "movie_slug": "the-other-side-of-hope",
-      "title": "The Other Side of Hope",
-      "release_date": "2017-12-01",
-      "year": 2017,
-      "genre": "Comedy",
-      "raw_score": 84.0,
-      "adjusted_score": 81.8,
-      "n_reviews": 23,
-      "total_adjustment": -2.19
+      "n_reviews": 31,
+      "total_adjustment": -4.2
     },
     {
       "movie_slug": "captains-courageous",
@@ -9463,15 +9430,59 @@
       "total_adjustment": 0.8
     },
     {
-      "movie_slug": "summer-hours",
-      "title": "Summer Hours",
-      "release_date": "2009-05-15",
-      "year": 2009,
-      "genre": "Drama",
+      "movie_slug": "the-other-side-of-hope",
+      "title": "The Other Side of Hope",
+      "release_date": "2017-12-01",
+      "year": 2017,
+      "genre": "Comedy",
+      "raw_score": 84.0,
+      "adjusted_score": 81.8,
+      "n_reviews": 23,
+      "total_adjustment": -2.19
+    },
+    {
+      "movie_slug": "seven-brides-for-seven-brothers",
+      "title": "Seven Brides for Seven Brothers",
+      "release_date": "1954-08-06",
+      "year": 1954,
+      "genre": "Comedy",
+      "raw_score": 75.0,
+      "adjusted_score": 81.8,
+      "n_reviews": 7,
+      "total_adjustment": 6.81
+    },
+    {
+      "movie_slug": "from-russia-with-love",
+      "title": "From Russia with Love",
+      "release_date": "1964-05-27",
+      "year": 1964,
+      "genre": "Action",
+      "raw_score": 83.0,
+      "adjusted_score": 81.8,
+      "n_reviews": 18,
+      "total_adjustment": -1.19
+    },
+    {
+      "movie_slug": "hope-and-glory",
+      "title": "Hope and Glory",
+      "release_date": "1988-02-19",
+      "year": 1988,
+      "genre": "Comedy",
       "raw_score": 86.0,
       "adjusted_score": 81.8,
-      "n_reviews": 31,
-      "total_adjustment": -4.2
+      "n_reviews": 15,
+      "total_adjustment": -4.17
+    },
+    {
+      "movie_slug": "life-is-sweet",
+      "title": "Life Is Sweet",
+      "release_date": "1991-10-25",
+      "year": 1991,
+      "genre": "Comedy",
+      "raw_score": 88.0,
+      "adjusted_score": 81.8,
+      "n_reviews": 18,
+      "total_adjustment": -6.15
     },
     {
       "movie_slug": "wont-you-be-my-neighbor",
@@ -9540,26 +9551,15 @@
       "total_adjustment": -4.34
     },
     {
-      "movie_slug": "yes-2025",
-      "title": "Yes",
-      "release_date": "2026-03-27",
-      "year": 2026,
+      "movie_slug": "moonstruck",
+      "title": "Moonstruck",
+      "release_date": "1987-12-18",
+      "year": 1987,
       "genre": "Comedy",
-      "raw_score": 85.0,
+      "raw_score": 83.0,
       "adjusted_score": 81.7,
-      "n_reviews": 12,
-      "total_adjustment": -3.34
-    },
-    {
-      "movie_slug": "argo",
-      "title": "Argo",
-      "release_date": "2012-10-12",
-      "year": 2012,
-      "genre": "Biography",
-      "raw_score": 86.0,
-      "adjusted_score": 81.7,
-      "n_reviews": 45,
-      "total_adjustment": -4.33
+      "n_reviews": 18,
+      "total_adjustment": -1.33
     },
     {
       "movie_slug": "forbidden-lie",
@@ -9573,15 +9573,15 @@
       "total_adjustment": -3.33
     },
     {
-      "movie_slug": "moonstruck",
-      "title": "Moonstruck",
-      "release_date": "1987-12-18",
-      "year": 1987,
-      "genre": "Comedy",
-      "raw_score": 83.0,
+      "movie_slug": "argo",
+      "title": "Argo",
+      "release_date": "2012-10-12",
+      "year": 2012,
+      "genre": "Biography",
+      "raw_score": 86.0,
       "adjusted_score": 81.7,
-      "n_reviews": 18,
-      "total_adjustment": -1.33
+      "n_reviews": 45,
+      "total_adjustment": -4.33
     },
     {
       "movie_slug": "let-the-fire-burn",
@@ -9683,15 +9683,15 @@
       "total_adjustment": -5.31
     },
     {
-      "movie_slug": "tarnation",
-      "title": "Tarnation",
-      "release_date": "2004-10-06",
-      "year": 2004,
-      "genre": "Documentary",
-      "raw_score": 87.0,
+      "movie_slug": "identifying-features",
+      "title": "Identifying Features",
+      "release_date": "2021-01-22",
+      "year": 2021,
+      "genre": "Drama",
+      "raw_score": 85.0,
       "adjusted_score": 81.6,
-      "n_reviews": 32,
-      "total_adjustment": -5.43
+      "n_reviews": 16,
+      "total_adjustment": -3.44
     },
     {
       "movie_slug": "suspiria",
@@ -9716,14 +9716,14 @@
       "total_adjustment": -6.43
     },
     {
-      "movie_slug": "maria-full-of-grace",
-      "title": "Maria Full of Grace",
-      "release_date": "2004-07-16",
-      "year": 2004,
-      "genre": "Crime",
+      "movie_slug": "gregory-crewdson-brief-encounters",
+      "title": "Gregory Crewdson: Brief Encounters",
+      "release_date": "2012-11-02",
+      "year": 2012,
+      "genre": "Documentary",
       "raw_score": 87.0,
       "adjusted_score": 81.6,
-      "n_reviews": 39,
+      "n_reviews": 8,
       "total_adjustment": -5.43
     },
     {
@@ -9738,26 +9738,26 @@
       "total_adjustment": -4.43
     },
     {
-      "movie_slug": "20-days-in-mariupol",
-      "title": "20 Days in Mariupol",
-      "release_date": "2023-07-14",
-      "year": 2023,
+      "movie_slug": "tarnation",
+      "title": "Tarnation",
+      "release_date": "2004-10-06",
+      "year": 2004,
       "genre": "Documentary",
-      "raw_score": 83.0,
+      "raw_score": 87.0,
       "adjusted_score": 81.6,
-      "n_reviews": 19,
-      "total_adjustment": -1.45
+      "n_reviews": 32,
+      "total_adjustment": -5.43
     },
     {
-      "movie_slug": "identifying-features",
-      "title": "Identifying Features",
-      "release_date": "2021-01-22",
-      "year": 2021,
+      "movie_slug": "about-schmidt",
+      "title": "About Schmidt",
+      "release_date": "2002-12-13",
+      "year": 2002,
       "genre": "Drama",
       "raw_score": 85.0,
       "adjusted_score": 81.6,
-      "n_reviews": 16,
-      "total_adjustment": -3.44
+      "n_reviews": 40,
+      "total_adjustment": -3.45
     },
     {
       "movie_slug": "black-mother",
@@ -9782,15 +9782,15 @@
       "total_adjustment": -0.45
     },
     {
-      "movie_slug": "about-schmidt",
-      "title": "About Schmidt",
-      "release_date": "2002-12-13",
-      "year": 2002,
-      "genre": "Drama",
-      "raw_score": 85.0,
+      "movie_slug": "20-days-in-mariupol",
+      "title": "20 Days in Mariupol",
+      "release_date": "2023-07-14",
+      "year": 2023,
+      "genre": "Documentary",
+      "raw_score": 83.0,
       "adjusted_score": 81.6,
-      "n_reviews": 40,
-      "total_adjustment": -3.45
+      "n_reviews": 19,
+      "total_adjustment": -1.45
     },
     {
       "movie_slug": "the-naked-kiss",
@@ -9826,14 +9826,14 @@
       "total_adjustment": -4.42
     },
     {
-      "movie_slug": "gregory-crewdson-brief-encounters",
-      "title": "Gregory Crewdson: Brief Encounters",
-      "release_date": "2012-11-02",
-      "year": 2012,
-      "genre": "Documentary",
+      "movie_slug": "maria-full-of-grace",
+      "title": "Maria Full of Grace",
+      "release_date": "2004-07-16",
+      "year": 2004,
+      "genre": "Crime",
       "raw_score": 87.0,
       "adjusted_score": 81.6,
-      "n_reviews": 8,
+      "n_reviews": 39,
       "total_adjustment": -5.43
     },
     {
@@ -9848,15 +9848,15 @@
       "total_adjustment": -4.41
     },
     {
-      "movie_slug": "eraserhead",
-      "title": "Eraserhead",
-      "release_date": "1978-02-03",
-      "year": 1978,
-      "genre": "Fantasy",
-      "raw_score": 87.0,
+      "movie_slug": "charm-city",
+      "title": "Charm City",
+      "release_date": "2018-10-17",
+      "year": 2018,
+      "genre": "Documentary",
+      "raw_score": 85.0,
       "adjusted_score": 81.6,
-      "n_reviews": 15,
-      "total_adjustment": -5.37
+      "n_reviews": 5,
+      "total_adjustment": -3.38
     },
     {
       "movie_slug": "an-education",
@@ -9870,17 +9870,6 @@
       "total_adjustment": -3.4
     },
     {
-      "movie_slug": "to-a-land-unknown",
-      "title": "To a Land Unknown",
-      "release_date": "2025-07-11",
-      "year": 2025,
-      "genre": "Crime",
-      "raw_score": 84.0,
-      "adjusted_score": 81.6,
-      "n_reviews": 16,
-      "total_adjustment": -2.36
-    },
-    {
       "movie_slug": "amy-2015",
       "title": "Amy",
       "release_date": "2015-07-03",
@@ -9890,28 +9879,6 @@
       "adjusted_score": 81.6,
       "n_reviews": 41,
       "total_adjustment": -3.36
-    },
-    {
-      "movie_slug": "flight-of-the-red-balloon",
-      "title": "Flight of the Red Balloon",
-      "release_date": "2008-04-04",
-      "year": 2008,
-      "genre": "Drama",
-      "raw_score": 86.0,
-      "adjusted_score": 81.6,
-      "n_reviews": 23,
-      "total_adjustment": -4.37
-    },
-    {
-      "movie_slug": "varda-by-agncs",
-      "title": "Varda by Agn\u00e8s",
-      "release_date": "2019-11-22",
-      "year": 2019,
-      "genre": "Documentary",
-      "raw_score": 85.0,
-      "adjusted_score": 81.6,
-      "n_reviews": 24,
-      "total_adjustment": -3.37
     },
     {
       "movie_slug": "my-life-as-a-dog",
@@ -9925,15 +9892,37 @@
       "total_adjustment": -0.36
     },
     {
-      "movie_slug": "charm-city",
-      "title": "Charm City",
-      "release_date": "2018-10-17",
-      "year": 2018,
+      "movie_slug": "varda-by-agncs",
+      "title": "Varda by Agn\u00e8s",
+      "release_date": "2019-11-22",
+      "year": 2019,
       "genre": "Documentary",
       "raw_score": 85.0,
       "adjusted_score": 81.6,
-      "n_reviews": 5,
-      "total_adjustment": -3.38
+      "n_reviews": 24,
+      "total_adjustment": -3.37
+    },
+    {
+      "movie_slug": "eraserhead",
+      "title": "Eraserhead",
+      "release_date": "1978-02-03",
+      "year": 1978,
+      "genre": "Fantasy",
+      "raw_score": 87.0,
+      "adjusted_score": 81.6,
+      "n_reviews": 15,
+      "total_adjustment": -5.37
+    },
+    {
+      "movie_slug": "flight-of-the-red-balloon",
+      "title": "Flight of the Red Balloon",
+      "release_date": "2008-04-04",
+      "year": 2008,
+      "genre": "Drama",
+      "raw_score": 86.0,
+      "adjusted_score": 81.6,
+      "n_reviews": 23,
+      "total_adjustment": -4.37
     },
     {
       "movie_slug": "democrats",
@@ -9956,6 +9945,17 @@
       "adjusted_score": 81.6,
       "n_reviews": 33,
       "total_adjustment": -5.38
+    },
+    {
+      "movie_slug": "to-a-land-unknown",
+      "title": "To a Land Unknown",
+      "release_date": "2025-07-11",
+      "year": 2025,
+      "genre": "Crime",
+      "raw_score": 84.0,
+      "adjusted_score": 81.6,
+      "n_reviews": 16,
+      "total_adjustment": -2.36
     },
     {
       "movie_slug": "stray-dogs",
