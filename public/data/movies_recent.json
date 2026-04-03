@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-02T20:41:59.419897",
+  "updated": "2026-04-03T10:52:12.441865",
   "count": 655,
   "movies": [
     {
@@ -4282,17 +4282,6 @@
       "total_adjustment": 1.37
     },
     {
-      "movie_slug": "the-drama",
-      "title": "The Drama",
-      "release_date": "2026-04-03",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 60.0,
-      "adjusted_score": 62.3,
-      "n_reviews": 39,
-      "total_adjustment": 2.29
-    },
-    {
       "movie_slug": "chaos-the-manson-murders",
       "title": "CHAOS: The Manson Murders",
       "release_date": "2025-03-07",
@@ -4324,6 +4313,17 @@
       "adjusted_score": 62.2,
       "n_reviews": 16,
       "total_adjustment": 1.25
+    },
+    {
+      "movie_slug": "the-drama",
+      "title": "The Drama",
+      "release_date": "2026-04-03",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 60.0,
+      "adjusted_score": 62.2,
+      "n_reviews": 41,
+      "total_adjustment": 2.21
     },
     {
       "movie_slug": "in-your-dreams",
