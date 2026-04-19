@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-14T19:17:44.962311",
-  "count": 664,
+  "updated": "2026-04-18T22:33:31.535087",
+  "count": 676,
   "movies": [
     {
       "movie_slug": "compensation",
@@ -25,6 +25,17 @@
       "total_adjustment": -4.5
     },
     {
+      "movie_slug": "blue-heron",
+      "title": "Blue Heron",
+      "release_date": "2026-04-17",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 92.0,
+      "adjusted_score": 89.6,
+      "n_reviews": 17,
+      "total_adjustment": -2.41
+    },
+    {
       "movie_slug": "it-was-just-an-accident",
       "title": "It Was Just an Accident",
       "release_date": "2025-10-15",
@@ -47,17 +58,6 @@
       "total_adjustment": -6.79
     },
     {
-      "movie_slug": "the-secret-agent-2025",
-      "title": "The Secret Agent",
-      "release_date": "2025-11-26",
-      "year": 2025,
-      "genre": "Crime",
-      "raw_score": 91.0,
-      "adjusted_score": 87.9,
-      "n_reviews": 39,
-      "total_adjustment": -3.07
-    },
-    {
       "movie_slug": "my-undesirable-friends-part-i---last-air-in-moscow",
       "title": "My Undesirable Friends: Part I - Last Air in Moscow",
       "release_date": "2025-08-15",
@@ -67,6 +67,17 @@
       "adjusted_score": 87.9,
       "n_reviews": 12,
       "total_adjustment": -5.08
+    },
+    {
+      "movie_slug": "the-secret-agent-2025",
+      "title": "The Secret Agent",
+      "release_date": "2025-11-26",
+      "year": 2025,
+      "genre": "Crime",
+      "raw_score": 91.0,
+      "adjusted_score": 87.9,
+      "n_reviews": 39,
+      "total_adjustment": -3.07
     },
     {
       "movie_slug": "sound-of-falling",
@@ -564,17 +575,6 @@
       "total_adjustment": -1.67
     },
     {
-      "movie_slug": "the-stranger-2025",
-      "title": "The Stranger",
-      "release_date": "2026-04-03",
-      "year": 2026,
-      "genre": "Crime",
-      "raw_score": 76.0,
-      "adjusted_score": 80.2,
-      "n_reviews": 20,
-      "total_adjustment": 4.16
-    },
-    {
       "movie_slug": "wallace-gromit-vengeance-most-fowl",
       "title": "Wallace & Gromit: Vengeance Most Fowl",
       "release_date": "2025-01-03",
@@ -661,6 +661,17 @@
       "adjusted_score": 79.8,
       "n_reviews": 25,
       "total_adjustment": -3.18
+    },
+    {
+      "movie_slug": "the-stranger-2025",
+      "title": "The Stranger",
+      "release_date": "2026-04-03",
+      "year": 2026,
+      "genre": "Crime",
+      "raw_score": 76.0,
+      "adjusted_score": 79.6,
+      "n_reviews": 21,
+      "total_adjustment": 3.6
     },
     {
       "movie_slug": "viet-and-nam",
@@ -751,17 +762,6 @@
       "total_adjustment": -4.0
     },
     {
-      "movie_slug": "the-ice-tower",
-      "title": "The Ice Tower",
-      "release_date": "2025-10-03",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 80.0,
-      "adjusted_score": 78.8,
-      "n_reviews": 17,
-      "total_adjustment": -1.22
-    },
-    {
       "movie_slug": "sunday-best-the-untold-story-of-ed-sullivan",
       "title": "Sunday Best: The Untold Story of Ed Sullivan",
       "release_date": "2025-07-07",
@@ -782,6 +782,17 @@
       "adjusted_score": 78.8,
       "n_reviews": 4,
       "total_adjustment": -4.24
+    },
+    {
+      "movie_slug": "the-ice-tower",
+      "title": "The Ice Tower",
+      "release_date": "2025-10-03",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 80.0,
+      "adjusted_score": 78.8,
+      "n_reviews": 17,
+      "total_adjustment": -1.22
     },
     {
       "movie_slug": "holy-cow",
@@ -828,17 +839,6 @@
       "total_adjustment": -1.5
     },
     {
-      "movie_slug": "what-does-that-nature-say-to-you",
-      "title": "What Does That Nature Say to You",
-      "release_date": "2026-02-27",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 69.0,
-      "adjusted_score": 78.5,
-      "n_reviews": 6,
-      "total_adjustment": 9.48
-    },
-    {
       "movie_slug": "deaf-president-now!",
       "title": "Deaf President Now!",
       "release_date": "2025-05-16",
@@ -848,6 +848,17 @@
       "adjusted_score": 78.5,
       "n_reviews": 10,
       "total_adjustment": -3.54
+    },
+    {
+      "movie_slug": "what-does-that-nature-say-to-you",
+      "title": "What Does That Nature Say to You",
+      "release_date": "2026-02-27",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 69.0,
+      "adjusted_score": 78.5,
+      "n_reviews": 6,
+      "total_adjustment": 9.48
     },
     {
       "movie_slug": "an-unfinished-film",
@@ -980,6 +991,17 @@
       "adjusted_score": 77.3,
       "n_reviews": 12,
       "total_adjustment": -3.71
+    },
+    {
+      "movie_slug": "mad-bills-to-pay-or-destiny-dile-que-no-soy-malo",
+      "title": "Mad Bills to Pay (or Destiny, dile que no soy malo)",
+      "release_date": "2026-04-17",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 79.0,
+      "adjusted_score": 77.3,
+      "n_reviews": 6,
+      "total_adjustment": -1.75
     },
     {
       "movie_slug": "the-ballad-of-wallis-island",
@@ -1279,17 +1301,6 @@
       "total_adjustment": -4.76
     },
     {
-      "movie_slug": "the-blue-trail",
-      "title": "The Blue Trail",
-      "release_date": "2026-04-03",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 81.0,
-      "adjusted_score": 75.2,
-      "n_reviews": 13,
-      "total_adjustment": -5.77
-    },
-    {
       "movie_slug": "paying-for-it",
       "title": "Paying for It",
       "release_date": "2026-01-30",
@@ -1422,6 +1433,17 @@
       "total_adjustment": -2.44
     },
     {
+      "movie_slug": "the-blue-trail",
+      "title": "The Blue Trail",
+      "release_date": "2026-04-03",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 81.0,
+      "adjusted_score": 74.6,
+      "n_reviews": 15,
+      "total_adjustment": -6.38
+    },
+    {
       "movie_slug": "obex",
       "title": "OBEX",
       "release_date": "2026-01-09",
@@ -1477,15 +1499,15 @@
       "total_adjustment": -6.66
     },
     {
-      "movie_slug": "holding-liat",
-      "title": "Holding Liat",
-      "release_date": "2026-01-09",
+      "movie_slug": "miroirs-no-3",
+      "title": "Miroirs No. 3",
+      "release_date": "2026-03-20",
       "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 78.0,
+      "genre": "Drama",
+      "raw_score": 80.0,
       "adjusted_score": 74.2,
-      "n_reviews": 9,
-      "total_adjustment": -3.79
+      "n_reviews": 19,
+      "total_adjustment": -5.75
     },
     {
       "movie_slug": "islands-2025",
@@ -1497,6 +1519,28 @@
       "adjusted_score": 74.2,
       "n_reviews": 12,
       "total_adjustment": -0.8
+    },
+    {
+      "movie_slug": "holding-liat",
+      "title": "Holding Liat",
+      "release_date": "2026-01-09",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 78.0,
+      "adjusted_score": 74.2,
+      "n_reviews": 9,
+      "total_adjustment": -3.79
+    },
+    {
+      "movie_slug": "erupcja",
+      "title": "Erupcja",
+      "release_date": "2026-04-17",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 72.0,
+      "adjusted_score": 74.1,
+      "n_reviews": 14,
+      "total_adjustment": 2.08
     },
     {
       "movie_slug": "that-they-may-face-the-rising-sun",
@@ -1585,17 +1629,6 @@
       "adjusted_score": 73.9,
       "n_reviews": 41,
       "total_adjustment": -2.09
-    },
-    {
-      "movie_slug": "miroirs-no-3",
-      "title": "Miroirs No. 3",
-      "release_date": "2026-03-20",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 80.0,
-      "adjusted_score": 73.8,
-      "n_reviews": 18,
-      "total_adjustment": -6.22
     },
     {
       "movie_slug": "secret-mall-apartment",
@@ -1961,6 +1994,17 @@
       "total_adjustment": -3.61
     },
     {
+      "movie_slug": "amrum",
+      "title": "Amrum",
+      "release_date": "2026-04-17",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 75.0,
+      "adjusted_score": 72.4,
+      "n_reviews": 11,
+      "total_adjustment": -2.58
+    },
+    {
       "movie_slug": "a-normal-family",
       "title": "A Normal Family",
       "release_date": "2025-04-25",
@@ -2047,6 +2091,17 @@
       "adjusted_score": 72.0,
       "n_reviews": 6,
       "total_adjustment": 4.04
+    },
+    {
+      "movie_slug": "mile-end-kicks",
+      "title": "Mile End Kicks",
+      "release_date": "2026-04-17",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 77.0,
+      "adjusted_score": 72.0,
+      "n_reviews": 7,
+      "total_adjustment": -4.97
     },
     {
       "movie_slug": "the-great-escaper",
@@ -2797,6 +2852,17 @@
       "total_adjustment": -2.2
     },
     {
+      "movie_slug": "eagles-of-the-republic",
+      "title": "Eagles of the Republic",
+      "release_date": "2026-04-17",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 70.0,
+      "adjusted_score": 68.7,
+      "n_reviews": 10,
+      "total_adjustment": -1.26
+    },
+    {
       "movie_slug": "companion",
       "title": "Companion",
       "release_date": "2025-01-31",
@@ -2828,6 +2894,17 @@
       "adjusted_score": 68.4,
       "n_reviews": 4,
       "total_adjustment": -3.63
+    },
+    {
+      "movie_slug": "exit-8",
+      "title": "Exit 8",
+      "release_date": "2026-04-10",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 69.0,
+      "adjusted_score": 68.4,
+      "n_reviews": 26,
+      "total_adjustment": -0.6
     },
     {
       "movie_slug": "invention",
@@ -2940,17 +3017,6 @@
       "total_adjustment": 0.8
     },
     {
-      "movie_slug": "exit-8",
-      "title": "Exit 8",
-      "release_date": "2026-04-10",
-      "year": 2026,
-      "genre": "Action",
-      "raw_score": 69.0,
-      "adjusted_score": 67.7,
-      "n_reviews": 25,
-      "total_adjustment": -1.31
-    },
-    {
       "movie_slug": "palestine-36",
       "title": "Palestine 36",
       "release_date": "2026-02-13",
@@ -3028,6 +3094,17 @@
       "total_adjustment": 2.26
     },
     {
+      "movie_slug": "are-we-good",
+      "title": "Are We Good?",
+      "release_date": "2025-10-03",
+      "year": 2025,
+      "genre": "Documentary",
+      "raw_score": 69.0,
+      "adjusted_score": 67.3,
+      "n_reviews": 6,
+      "total_adjustment": -1.65
+    },
+    {
       "movie_slug": "the-knife",
       "title": "The Knife",
       "release_date": "2025-08-15",
@@ -3048,17 +3125,6 @@
       "adjusted_score": 67.3,
       "n_reviews": 4,
       "total_adjustment": -4.67
-    },
-    {
-      "movie_slug": "are-we-good",
-      "title": "Are We Good?",
-      "release_date": "2025-10-03",
-      "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 69.0,
-      "adjusted_score": 67.3,
-      "n_reviews": 6,
-      "total_adjustment": -1.65
     },
     {
       "movie_slug": "no-sleep-till",
@@ -3215,17 +3281,6 @@
       "total_adjustment": 0.59
     },
     {
-      "movie_slug": "vhshalloween",
-      "title": "V/H/S/Halloween",
-      "release_date": "2025-10-03",
-      "year": 2025,
-      "genre": "Horror",
-      "raw_score": 67.0,
-      "adjusted_score": 66.6,
-      "n_reviews": 11,
-      "total_adjustment": -0.4
-    },
-    {
       "movie_slug": "mike-nick-nick-alice",
       "title": "Mike & Nick & Nick & Alice",
       "release_date": "2026-03-27",
@@ -3237,15 +3292,15 @@
       "total_adjustment": -4.42
     },
     {
-      "movie_slug": "rosemead",
-      "title": "Rosemead",
-      "release_date": "2025-12-05",
+      "movie_slug": "vhshalloween",
+      "title": "V/H/S/Halloween",
+      "release_date": "2025-10-03",
       "year": 2025,
-      "genre": "Crime",
-      "raw_score": 72.0,
+      "genre": "Horror",
+      "raw_score": 67.0,
       "adjusted_score": 66.6,
-      "n_reviews": 8,
-      "total_adjustment": -5.36
+      "n_reviews": 11,
+      "total_adjustment": -0.4
     },
     {
       "movie_slug": "diciannove",
@@ -3257,6 +3312,17 @@
       "adjusted_score": 66.6,
       "n_reviews": 10,
       "total_adjustment": -2.36
+    },
+    {
+      "movie_slug": "rosemead",
+      "title": "Rosemead",
+      "release_date": "2025-12-05",
+      "year": 2025,
+      "genre": "Crime",
+      "raw_score": 72.0,
+      "adjusted_score": 66.6,
+      "n_reviews": 8,
+      "total_adjustment": -5.36
     },
     {
       "movie_slug": "roofman",
@@ -3424,17 +3490,6 @@
       "total_adjustment": 0.91
     },
     {
-      "movie_slug": "pizza-movie",
-      "title": "Pizza Movie",
-      "release_date": "2026-04-03",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 64.0,
-      "adjusted_score": 65.9,
-      "n_reviews": 8,
-      "total_adjustment": 1.92
-    },
-    {
       "movie_slug": "ex-husbands",
       "title": "Ex-Husbands",
       "release_date": "2025-02-19",
@@ -3567,6 +3622,17 @@
       "total_adjustment": 1.19
     },
     {
+      "movie_slug": "pizza-movie",
+      "title": "Pizza Movie",
+      "release_date": "2026-04-03",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 64.0,
+      "adjusted_score": 65.2,
+      "n_reviews": 9,
+      "total_adjustment": 1.2
+    },
+    {
       "movie_slug": "mountainhead",
       "title": "Mountainhead",
       "release_date": "2025-05-31",
@@ -3578,17 +3644,6 @@
       "total_adjustment": -0.85
     },
     {
-      "movie_slug": "elio",
-      "title": "Elio",
-      "release_date": "2025-06-20",
-      "year": 2025,
-      "genre": "Animation",
-      "raw_score": 66.0,
-      "adjusted_score": 65.2,
-      "n_reviews": 40,
-      "total_adjustment": -0.8
-    },
-    {
       "movie_slug": "steve",
       "title": "Steve",
       "release_date": "2025-09-19",
@@ -3598,6 +3653,17 @@
       "adjusted_score": 65.2,
       "n_reviews": 25,
       "total_adjustment": 0.16
+    },
+    {
+      "movie_slug": "elio",
+      "title": "Elio",
+      "release_date": "2025-06-20",
+      "year": 2025,
+      "genre": "Animation",
+      "raw_score": 66.0,
+      "adjusted_score": 65.2,
+      "n_reviews": 40,
+      "total_adjustment": -0.8
     },
     {
       "movie_slug": "downton-abbey-the-grand-finale",
@@ -3809,17 +3875,6 @@
       "total_adjustment": 2.54
     },
     {
-      "movie_slug": "the-assessment",
-      "title": "The Assessment",
-      "release_date": "2025-03-21",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 62.0,
-      "adjusted_score": 64.5,
-      "n_reviews": 19,
-      "total_adjustment": 2.53
-    },
-    {
       "movie_slug": "the-smashing-machine",
       "title": "The Smashing Machine",
       "release_date": "2025-10-03",
@@ -3831,15 +3886,15 @@
       "total_adjustment": -0.47
     },
     {
-      "movie_slug": "undertone",
-      "title": "undertone",
-      "release_date": "2026-03-13",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 66.0,
+      "movie_slug": "the-assessment",
+      "title": "The Assessment",
+      "release_date": "2025-03-21",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 62.0,
       "adjusted_score": 64.5,
-      "n_reviews": 31,
-      "total_adjustment": -1.49
+      "n_reviews": 19,
+      "total_adjustment": 2.53
     },
     {
       "movie_slug": "the-luckiest-man-in-america",
@@ -3906,17 +3961,6 @@
       "adjusted_score": 64.2,
       "n_reviews": 5,
       "total_adjustment": 3.24
-    },
-    {
-      "movie_slug": "hamlet-2025",
-      "title": "Hamlet",
-      "release_date": "2026-04-10",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 61.0,
-      "adjusted_score": 64.1,
-      "n_reviews": 20,
-      "total_adjustment": 3.08
     },
     {
       "movie_slug": "the-queen-of-my-dreams",
@@ -4007,6 +4051,17 @@
       "total_adjustment": -4.19
     },
     {
+      "movie_slug": "undertone",
+      "title": "undertone",
+      "release_date": "2026-03-13",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 66.0,
+      "adjusted_score": 63.7,
+      "n_reviews": 32,
+      "total_adjustment": -2.26
+    },
+    {
       "movie_slug": "seven-veils",
       "title": "Seven Veils",
       "release_date": "2025-03-07",
@@ -4016,6 +4071,17 @@
       "adjusted_score": 63.7,
       "n_reviews": 19,
       "total_adjustment": 1.73
+    },
+    {
+      "movie_slug": "normal",
+      "title": "Normal",
+      "release_date": "2026-04-17",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 62.0,
+      "adjusted_score": 63.6,
+      "n_reviews": 23,
+      "total_adjustment": 1.57
     },
     {
       "movie_slug": "on-swift-horses",
@@ -4071,6 +4137,17 @@
       "adjusted_score": 63.4,
       "n_reviews": 8,
       "total_adjustment": 3.36
+    },
+    {
+      "movie_slug": "hamlet-2025",
+      "title": "Hamlet",
+      "release_date": "2026-04-10",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 61.0,
+      "adjusted_score": 63.4,
+      "n_reviews": 22,
+      "total_adjustment": 2.45
     },
     {
       "movie_slug": "words-of-war",
@@ -5008,6 +5085,17 @@
       "total_adjustment": 0.89
     },
     {
+      "movie_slug": "mother-mary",
+      "title": "Mother Mary",
+      "release_date": "2026-04-17",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 56.0,
+      "adjusted_score": 58.9,
+      "n_reviews": 25,
+      "total_adjustment": 2.86
+    },
+    {
       "movie_slug": "rabbit-trap",
       "title": "Rabbit Trap",
       "release_date": "2025-09-12",
@@ -5107,6 +5195,17 @@
       "total_adjustment": 0.23
     },
     {
+      "movie_slug": "lorne",
+      "title": "Lorne",
+      "release_date": "2026-04-17",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 57.0,
+      "adjusted_score": 58.0,
+      "n_reviews": 14,
+      "total_adjustment": 0.98
+    },
+    {
       "movie_slug": "eden-2024",
       "title": "Eden",
       "release_date": "2025-08-22",
@@ -5148,6 +5247,17 @@
       "raw_score": 57.0,
       "adjusted_score": 57.9,
       "n_reviews": 19,
+      "total_adjustment": 0.94
+    },
+    {
+      "movie_slug": "roommates",
+      "title": "Roommates",
+      "release_date": "2026-04-17",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 57.0,
+      "adjusted_score": 57.9,
+      "n_reviews": 5,
       "total_adjustment": 0.94
     },
     {
@@ -6020,6 +6130,17 @@
       "total_adjustment": -0.01
     },
     {
+      "movie_slug": "mermaid",
+      "title": "Mermaid",
+      "release_date": "2026-04-08",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 49.0,
+      "adjusted_score": 52.9,
+      "n_reviews": 5,
+      "total_adjustment": 3.86
+    },
+    {
       "movie_slug": "the-man-in-my-basement",
       "title": "The Man in My Basement",
       "release_date": "2025-09-12",
@@ -6207,17 +6328,6 @@
       "total_adjustment": 6.69
     },
     {
-      "movie_slug": "mermaid",
-      "title": "Mermaid",
-      "release_date": "2026-04-08",
-      "year": 2026,
-      "genre": "Action",
-      "raw_score": 49.0,
-      "adjusted_score": 51.6,
-      "n_reviews": 4,
-      "total_adjustment": 2.6
-    },
-    {
       "movie_slug": "now-you-see-me-now-you-dont",
       "title": "Now You See Me: Now You Don't",
       "release_date": "2025-11-14",
@@ -6394,6 +6504,28 @@
       "total_adjustment": 6.23
     },
     {
+      "movie_slug": "thrash",
+      "title": "Thrash",
+      "release_date": "2026-04-10",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 47.0,
+      "adjusted_score": 50.2,
+      "n_reviews": 14,
+      "total_adjustment": 3.22
+    },
+    {
+      "movie_slug": "lee-cronins-the-mummy",
+      "title": "Lee Cronin's The Mummy",
+      "release_date": "2026-04-17",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 46.0,
+      "adjusted_score": 50.1,
+      "n_reviews": 34,
+      "total_adjustment": 4.09
+    },
+    {
       "movie_slug": "tron-ares",
       "title": "TRON: Ares",
       "release_date": "2025-10-10",
@@ -6425,17 +6557,6 @@
       "adjusted_score": 49.7,
       "n_reviews": 19,
       "total_adjustment": 0.74
-    },
-    {
-      "movie_slug": "thrash",
-      "title": "Thrash",
-      "release_date": "2026-04-10",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 47.0,
-      "adjusted_score": 49.6,
-      "n_reviews": 12,
-      "total_adjustment": 2.6
     },
     {
       "movie_slug": "locked",
@@ -7060,9 +7181,9 @@
       "year": 2026,
       "genre": "Comedy",
       "raw_score": 37.0,
-      "adjusted_score": 40.0,
-      "n_reviews": 18,
-      "total_adjustment": 3.03
+      "adjusted_score": 39.9,
+      "n_reviews": 19,
+      "total_adjustment": 2.88
     },
     {
       "movie_slug": "the-family-plan-2",
@@ -7085,6 +7206,17 @@
       "adjusted_score": 39.4,
       "n_reviews": 16,
       "total_adjustment": 2.35
+    },
+    {
+      "movie_slug": "balls-up",
+      "title": "Balls Up",
+      "release_date": "2026-04-15",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 34.0,
+      "adjusted_score": 39.1,
+      "n_reviews": 8,
+      "total_adjustment": 5.09
     },
     {
       "movie_slug": "modi---three-days-on-the-wing-of-madness",
