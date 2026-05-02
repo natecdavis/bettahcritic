@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-29T22:35:54.399546",
-  "count": 685,
+  "updated": "2026-05-02T14:57:20.780433",
+  "count": 693,
   "movies": [
     {
       "movie_slug": "compensation",
@@ -1411,6 +1411,17 @@
       "total_adjustment": 1.84
     },
     {
+      "movie_slug": "our-land-nuestra-tierra",
+      "title": "Our Land (Nuestra Tierra)",
+      "release_date": "2026-05-01",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 81.0,
+      "adjusted_score": 74.8,
+      "n_reviews": 9,
+      "total_adjustment": -6.17
+    },
+    {
       "movie_slug": "dreams-drommer",
       "title": "Dreams",
       "release_date": "2025-09-12",
@@ -1464,6 +1475,17 @@
       "adjusted_score": 74.6,
       "n_reviews": 17,
       "total_adjustment": -2.44
+    },
+    {
+      "movie_slug": "hokum",
+      "title": "Hokum",
+      "release_date": "2026-05-01",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 78.0,
+      "adjusted_score": 74.5,
+      "n_reviews": 28,
+      "total_adjustment": -3.52
     },
     {
       "movie_slug": "obex",
@@ -2192,6 +2214,17 @@
       "total_adjustment": -1.24
     },
     {
+      "movie_slug": "omaha",
+      "title": "Omaha",
+      "release_date": "2026-04-24",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 74.0,
+      "adjusted_score": 71.8,
+      "n_reviews": 14,
+      "total_adjustment": -2.15
+    },
+    {
       "movie_slug": "our-hero-balthazar",
       "title": "Our Hero, Balthazar",
       "release_date": "2026-03-27",
@@ -2201,17 +2234,6 @@
       "adjusted_score": 71.7,
       "n_reviews": 7,
       "total_adjustment": 0.66
-    },
-    {
-      "movie_slug": "omaha",
-      "title": "Omaha",
-      "release_date": "2026-04-24",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 74.0,
-      "adjusted_score": 71.7,
-      "n_reviews": 12,
-      "total_adjustment": -2.29
     },
     {
       "movie_slug": "la-grazia",
@@ -2874,17 +2896,6 @@
       "total_adjustment": -0.99
     },
     {
-      "movie_slug": "predator-badlands",
-      "title": "Predator: Badlands",
-      "release_date": "2025-11-07",
-      "year": 2025,
-      "genre": "Action",
-      "raw_score": 71.0,
-      "adjusted_score": 68.9,
-      "n_reviews": 43,
-      "total_adjustment": -2.06
-    },
-    {
       "movie_slug": "neighborhood-watch-2025",
       "title": "Neighborhood Watch",
       "release_date": "2025-04-25",
@@ -2894,6 +2905,17 @@
       "adjusted_score": 68.9,
       "n_reviews": 6,
       "total_adjustment": -5.08
+    },
+    {
+      "movie_slug": "predator-badlands",
+      "title": "Predator: Badlands",
+      "release_date": "2025-11-07",
+      "year": 2025,
+      "genre": "Action",
+      "raw_score": 71.0,
+      "adjusted_score": 68.9,
+      "n_reviews": 43,
+      "total_adjustment": -2.06
     },
     {
       "movie_slug": "unicorns",
@@ -2938,6 +2960,17 @@
       "adjusted_score": 68.5,
       "n_reviews": 5,
       "total_adjustment": -1.49
+    },
+    {
+      "movie_slug": "two-pianos",
+      "title": "Two Pianos",
+      "release_date": "2026-05-01",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 69.0,
+      "adjusted_score": 68.5,
+      "n_reviews": 10,
+      "total_adjustment": -0.48
     },
     {
       "movie_slug": "bunny",
@@ -4535,6 +4568,17 @@
       "total_adjustment": -1.01
     },
     {
+      "movie_slug": "mother-mary",
+      "title": "Mother Mary",
+      "release_date": "2026-04-17",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 56.0,
+      "adjusted_score": 62.0,
+      "n_reviews": 37,
+      "total_adjustment": 5.95
+    },
+    {
       "movie_slug": "being-eddie",
       "title": "Being Eddie",
       "release_date": "2025-11-12",
@@ -4579,6 +4623,17 @@
       "total_adjustment": 0.86
     },
     {
+      "movie_slug": "the-devil-wears-prada-2",
+      "title": "The Devil Wears Prada 2",
+      "release_date": "2026-05-01",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 63.0,
+      "adjusted_score": 61.9,
+      "n_reviews": 54,
+      "total_adjustment": -1.07
+    },
+    {
       "movie_slug": "the-actor",
       "title": "The Actor",
       "release_date": "2025-03-14",
@@ -4599,17 +4654,6 @@
       "adjusted_score": 61.8,
       "n_reviews": 16,
       "total_adjustment": 0.81
-    },
-    {
-      "movie_slug": "mother-mary",
-      "title": "Mother Mary",
-      "release_date": "2026-04-17",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 56.0,
-      "adjusted_score": 61.6,
-      "n_reviews": 36,
-      "total_adjustment": 5.59
     },
     {
       "movie_slug": "avatar-fire-and-ash",
@@ -5536,17 +5580,6 @@
       "total_adjustment": 3.66
     },
     {
-      "movie_slug": "the-gorge",
-      "title": "The Gorge",
-      "release_date": "2025-02-14",
-      "year": 2025,
-      "genre": "Action",
-      "raw_score": 57.0,
-      "adjusted_score": 56.6,
-      "n_reviews": 29,
-      "total_adjustment": -0.39
-    },
-    {
       "movie_slug": "another-end",
       "title": "Another End",
       "release_date": "2025-09-19",
@@ -5556,6 +5589,28 @@
       "adjusted_score": 56.6,
       "n_reviews": 7,
       "total_adjustment": 4.63
+    },
+    {
+      "movie_slug": "deep-water-2026",
+      "title": "Deep Water",
+      "release_date": "2026-05-01",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 54.0,
+      "adjusted_score": 56.6,
+      "n_reviews": 13,
+      "total_adjustment": 2.62
+    },
+    {
+      "movie_slug": "the-gorge",
+      "title": "The Gorge",
+      "release_date": "2025-02-14",
+      "year": 2025,
+      "genre": "Action",
+      "raw_score": 57.0,
+      "adjusted_score": 56.6,
+      "n_reviews": 29,
+      "total_adjustment": -0.39
     },
     {
       "movie_slug": "breakdown-1975",
@@ -6106,6 +6161,17 @@
       "adjusted_score": 53.7,
       "n_reviews": 4,
       "total_adjustment": 3.65
+    },
+    {
+      "movie_slug": "swapped",
+      "title": "Swapped",
+      "release_date": "2026-05-01",
+      "year": 2026,
+      "genre": "Animation",
+      "raw_score": 52.0,
+      "adjusted_score": 53.7,
+      "n_reviews": 9,
+      "total_adjustment": 1.75
     },
     {
       "movie_slug": "william-tell",
@@ -6845,6 +6911,17 @@
       "total_adjustment": 3.79
     },
     {
+      "movie_slug": "one-spoon-of-chocolate",
+      "title": "One Spoon of Chocolate",
+      "release_date": "2026-05-01",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 38.0,
+      "adjusted_score": 46.8,
+      "n_reviews": 5,
+      "total_adjustment": 8.85
+    },
+    {
       "movie_slug": "the-old-guard-2",
       "title": "The Old Guard 2",
       "release_date": "2025-07-02",
@@ -7426,6 +7503,17 @@
       "adjusted_score": 34.2,
       "n_reviews": 12,
       "total_adjustment": 6.24
+    },
+    {
+      "movie_slug": "animal-farm",
+      "title": "Animal Farm",
+      "release_date": "2026-05-01",
+      "year": 2026,
+      "genre": "Animation",
+      "raw_score": 28.0,
+      "adjusted_score": 33.3,
+      "n_reviews": 15,
+      "total_adjustment": 5.3
     },
     {
       "movie_slug": "hurry-up-tomorrow",
