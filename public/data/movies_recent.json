@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-04T08:32:04.848959",
+  "updated": "2026-05-04T18:43:26.824786",
   "count": 693,
   "movies": [
     {
@@ -2951,6 +2951,17 @@
       "total_adjustment": -1.51
     },
     {
+      "movie_slug": "two-pianos",
+      "title": "Two Pianos",
+      "release_date": "2026-05-01",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 69.0,
+      "adjusted_score": 68.5,
+      "n_reviews": 11,
+      "total_adjustment": -0.55
+    },
+    {
       "movie_slug": "inside-2024",
       "title": "Inside",
       "release_date": "2025-06-20",
@@ -2960,17 +2971,6 @@
       "adjusted_score": 68.5,
       "n_reviews": 5,
       "total_adjustment": -1.49
-    },
-    {
-      "movie_slug": "two-pianos",
-      "title": "Two Pianos",
-      "release_date": "2026-05-01",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 69.0,
-      "adjusted_score": 68.5,
-      "n_reviews": 10,
-      "total_adjustment": -0.48
     },
     {
       "movie_slug": "bunny",
