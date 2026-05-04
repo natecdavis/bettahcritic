@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-02T14:57:20.780433",
+  "updated": "2026-05-04T08:32:04.848959",
   "count": 693,
   "movies": [
     {
@@ -5921,6 +5921,17 @@
       "total_adjustment": 0.3
     },
     {
+      "movie_slug": "swapped",
+      "title": "Swapped",
+      "release_date": "2026-05-01",
+      "year": 2026,
+      "genre": "Animation",
+      "raw_score": 52.0,
+      "adjusted_score": 55.3,
+      "n_reviews": 10,
+      "total_adjustment": 3.32
+    },
+    {
       "movie_slug": "silent-night-deadly-night-2025",
       "title": "Silent Night, Deadly Night",
       "release_date": "2025-12-12",
@@ -6161,17 +6172,6 @@
       "adjusted_score": 53.7,
       "n_reviews": 4,
       "total_adjustment": 3.65
-    },
-    {
-      "movie_slug": "swapped",
-      "title": "Swapped",
-      "release_date": "2026-05-01",
-      "year": 2026,
-      "genre": "Animation",
-      "raw_score": 52.0,
-      "adjusted_score": 53.7,
-      "n_reviews": 9,
-      "total_adjustment": 1.75
     },
     {
       "movie_slug": "william-tell",
