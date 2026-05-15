@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-14T21:54:17.134167",
+  "updated": "2026-05-15T11:47:39.725406",
   "count": 20983,
   "movies": [
     {
@@ -20848,17 +20848,6 @@
       "total_adjustment": 4.58
     },
     {
-      "movie_slug": "food-inc",
-      "title": "Food, Inc.",
-      "release_date": "2009-06-12",
-      "year": 2009,
-      "genre": "Documentary",
-      "raw_score": 80.0,
-      "adjusted_score": 77.6,
-      "n_reviews": 28,
-      "total_adjustment": -2.41
-    },
-    {
       "movie_slug": "3-women",
       "title": "3 Women",
       "release_date": "2002-06-28",
@@ -20889,6 +20878,17 @@
       "raw_score": 81.0,
       "adjusted_score": 77.6,
       "n_reviews": 7,
+      "total_adjustment": -3.42
+    },
+    {
+      "movie_slug": "obsession-2025",
+      "title": "Obsession",
+      "release_date": "2026-05-15",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 81.0,
+      "adjusted_score": 77.6,
+      "n_reviews": 24,
       "total_adjustment": -3.42
     },
     {
@@ -20969,17 +20969,6 @@
       "total_adjustment": -4.44
     },
     {
-      "movie_slug": "young-and-innocent",
-      "title": "Young and Innocent",
-      "release_date": "1938-02-10",
-      "year": 1938,
-      "genre": "Crime",
-      "raw_score": 77.0,
-      "adjusted_score": 77.6,
-      "n_reviews": 11,
-      "total_adjustment": 0.6
-    },
-    {
       "movie_slug": "late-marriage",
       "title": "Late Marriage",
       "release_date": "2002-05-17",
@@ -20989,6 +20978,17 @@
       "adjusted_score": 77.6,
       "n_reviews": 26,
       "total_adjustment": -4.41
+    },
+    {
+      "movie_slug": "food-inc",
+      "title": "Food, Inc.",
+      "release_date": "2009-06-12",
+      "year": 2009,
+      "genre": "Documentary",
+      "raw_score": 80.0,
+      "adjusted_score": 77.6,
+      "n_reviews": 28,
+      "total_adjustment": -2.41
     },
     {
       "movie_slug": "ballets-russes",
@@ -21002,15 +21002,15 @@
       "total_adjustment": -3.4
     },
     {
-      "movie_slug": "my-architect",
-      "title": "My Architect",
-      "release_date": "2003-11-12",
-      "year": 2003,
-      "genre": "Documentary",
-      "raw_score": 81.0,
+      "movie_slug": "young-and-innocent",
+      "title": "Young and Innocent",
+      "release_date": "1938-02-10",
+      "year": 1938,
+      "genre": "Crime",
+      "raw_score": 77.0,
       "adjusted_score": 77.6,
-      "n_reviews": 29,
-      "total_adjustment": -3.4
+      "n_reviews": 11,
+      "total_adjustment": 0.6
     },
     {
       "movie_slug": "tabu",
@@ -21022,6 +21022,17 @@
       "adjusted_score": 77.6,
       "n_reviews": 17,
       "total_adjustment": -1.37
+    },
+    {
+      "movie_slug": "my-architect",
+      "title": "My Architect",
+      "release_date": "2003-11-12",
+      "year": 2003,
+      "genre": "Documentary",
+      "raw_score": 81.0,
+      "adjusted_score": 77.6,
+      "n_reviews": 29,
+      "total_adjustment": -3.4
     },
     {
       "movie_slug": "shaun-the-sheep-movie",
@@ -21043,17 +21054,6 @@
       "raw_score": 82.0,
       "adjusted_score": 77.6,
       "n_reviews": 14,
-      "total_adjustment": -4.36
-    },
-    {
-      "movie_slug": "cuba-and-the-cameraman",
-      "title": "Cuba and the Cameraman",
-      "release_date": "2017-11-24",
-      "year": 2017,
-      "genre": "Documentary",
-      "raw_score": 82.0,
-      "adjusted_score": 77.6,
-      "n_reviews": 5,
       "total_adjustment": -4.36
     },
     {
@@ -21079,15 +21079,15 @@
       "total_adjustment": -2.37
     },
     {
-      "movie_slug": "last-and-first-men",
-      "title": "Last and First Men",
-      "release_date": "2021-12-10",
-      "year": 2021,
-      "genre": "Fantasy",
-      "raw_score": 80.0,
+      "movie_slug": "cuba-and-the-cameraman",
+      "title": "Cuba and the Cameraman",
+      "release_date": "2017-11-24",
+      "year": 2017,
+      "genre": "Documentary",
+      "raw_score": 82.0,
       "adjusted_score": 77.6,
-      "n_reviews": 11,
-      "total_adjustment": -2.4
+      "n_reviews": 5,
+      "total_adjustment": -4.36
     },
     {
       "movie_slug": "autumn-tale",
@@ -21099,6 +21099,17 @@
       "adjusted_score": 77.6,
       "n_reviews": 26,
       "total_adjustment": -3.38
+    },
+    {
+      "movie_slug": "il-buco",
+      "title": "Il Buco",
+      "release_date": "2022-05-13",
+      "year": 2022,
+      "genre": "Drama",
+      "raw_score": 78.0,
+      "adjusted_score": 77.6,
+      "n_reviews": 16,
+      "total_adjustment": -0.38
     },
     {
       "movie_slug": "big-night",
@@ -21134,15 +21145,15 @@
       "total_adjustment": -6.39
     },
     {
-      "movie_slug": "il-buco",
-      "title": "Il Buco",
-      "release_date": "2022-05-13",
-      "year": 2022,
-      "genre": "Drama",
-      "raw_score": 78.0,
+      "movie_slug": "last-and-first-men",
+      "title": "Last and First Men",
+      "release_date": "2021-12-10",
+      "year": 2021,
+      "genre": "Fantasy",
+      "raw_score": 80.0,
       "adjusted_score": 77.6,
-      "n_reviews": 16,
-      "total_adjustment": -0.38
+      "n_reviews": 11,
+      "total_adjustment": -2.4
     },
     {
       "movie_slug": "minority-report",
@@ -21154,17 +21165,6 @@
       "adjusted_score": 77.5,
       "n_reviews": 37,
       "total_adjustment": -2.53
-    },
-    {
-      "movie_slug": "midnight-in-paris",
-      "title": "Midnight in Paris",
-      "release_date": "2011-05-20",
-      "year": 2011,
-      "genre": "Comedy",
-      "raw_score": 81.0,
-      "adjusted_score": 77.5,
-      "n_reviews": 40,
-      "total_adjustment": -3.52
     },
     {
       "movie_slug": "apollo-10-12-a-space-age-childhood",
@@ -21244,15 +21244,15 @@
       "total_adjustment": -3.53
     },
     {
-      "movie_slug": "good-luck",
-      "title": "Good Luck",
-      "release_date": "2018-04-06",
-      "year": 2018,
-      "genre": "Documentary",
-      "raw_score": 79.0,
+      "movie_slug": "gimme-the-loot",
+      "title": "Gimme the Loot",
+      "release_date": "2013-03-22",
+      "year": 2013,
+      "genre": "Comedy",
+      "raw_score": 81.0,
       "adjusted_score": 77.5,
-      "n_reviews": 4,
-      "total_adjustment": -1.54
+      "n_reviews": 27,
+      "total_adjustment": -3.55
     },
     {
       "movie_slug": "midnight-run",
@@ -21264,6 +21264,17 @@
       "adjusted_score": 77.5,
       "n_reviews": 17,
       "total_adjustment": -0.54
+    },
+    {
+      "movie_slug": "good-luck",
+      "title": "Good Luck",
+      "release_date": "2018-04-06",
+      "year": 2018,
+      "genre": "Documentary",
+      "raw_score": 79.0,
+      "adjusted_score": 77.5,
+      "n_reviews": 4,
+      "total_adjustment": -1.54
     },
     {
       "movie_slug": "cabaret",
@@ -21299,26 +21310,15 @@
       "total_adjustment": -4.54
     },
     {
-      "movie_slug": "nostalghia",
-      "title": "Nostalghia",
-      "release_date": "1984-01-08",
-      "year": 1984,
+      "movie_slug": "claires-camera",
+      "title": "Claire's Camera",
+      "release_date": "2018-03-09",
+      "year": 2018,
       "genre": "Drama",
-      "raw_score": 74.0,
+      "raw_score": 80.0,
       "adjusted_score": 77.5,
-      "n_reviews": 9,
-      "total_adjustment": 3.49
-    },
-    {
-      "movie_slug": "gimme-the-loot",
-      "title": "Gimme the Loot",
-      "release_date": "2013-03-22",
-      "year": 2013,
-      "genre": "Comedy",
-      "raw_score": 81.0,
-      "adjusted_score": 77.5,
-      "n_reviews": 27,
-      "total_adjustment": -3.55
+      "n_reviews": 15,
+      "total_adjustment": -2.55
     },
     {
       "movie_slug": "glory",
@@ -21343,15 +21343,15 @@
       "total_adjustment": -6.55
     },
     {
-      "movie_slug": "claires-camera",
-      "title": "Claire's Camera",
-      "release_date": "2018-03-09",
-      "year": 2018,
-      "genre": "Drama",
-      "raw_score": 80.0,
+      "movie_slug": "midnight-in-paris",
+      "title": "Midnight in Paris",
+      "release_date": "2011-05-20",
+      "year": 2011,
+      "genre": "Comedy",
+      "raw_score": 81.0,
       "adjusted_score": 77.5,
-      "n_reviews": 15,
-      "total_adjustment": -2.55
+      "n_reviews": 40,
+      "total_adjustment": -3.52
     },
     {
       "movie_slug": "ivanhoe",
@@ -21365,15 +21365,15 @@
       "total_adjustment": 2.48
     },
     {
-      "movie_slug": "obsession-2025",
-      "title": "Obsession",
-      "release_date": "2026-05-15",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 81.0,
+      "movie_slug": "nostalghia",
+      "title": "Nostalghia",
+      "release_date": "1984-01-08",
+      "year": 1984,
+      "genre": "Drama",
+      "raw_score": 74.0,
       "adjusted_score": 77.5,
-      "n_reviews": 23,
-      "total_adjustment": -3.51
+      "n_reviews": 9,
+      "total_adjustment": 3.49
     },
     {
       "movie_slug": "walkabout",
