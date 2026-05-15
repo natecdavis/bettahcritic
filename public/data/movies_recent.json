@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-13T06:31:20.593613",
-  "count": 701,
+  "updated": "2026-05-14T21:54:17.129523",
+  "count": 706,
   "movies": [
     {
       "movie_slug": "compensation",
@@ -141,9 +141,9 @@
       "year": 2026,
       "genre": "Biography",
       "raw_score": 88.0,
-      "adjusted_score": 84.9,
-      "n_reviews": 11,
-      "total_adjustment": -3.13
+      "adjusted_score": 85.7,
+      "n_reviews": 12,
+      "total_adjustment": -2.33
     },
     {
       "movie_slug": "the-alabama-solution",
@@ -353,6 +353,17 @@
       "adjusted_score": 82.1,
       "n_reviews": 54,
       "total_adjustment": -1.91
+    },
+    {
+      "movie_slug": "is-god-is",
+      "title": "Is God Is",
+      "release_date": "2026-05-15",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 87.0,
+      "adjusted_score": 82.1,
+      "n_reviews": 16,
+      "total_adjustment": -4.88
     },
     {
       "movie_slug": "the-perfect-neighbor",
@@ -1024,6 +1035,17 @@
       "adjusted_score": 77.6,
       "n_reviews": 59,
       "total_adjustment": -2.42
+    },
+    {
+      "movie_slug": "obsession-2025",
+      "title": "Obsession",
+      "release_date": "2026-05-15",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 81.0,
+      "adjusted_score": 77.5,
+      "n_reviews": 23,
+      "total_adjustment": -3.51
     },
     {
       "movie_slug": "the-mastermind",
@@ -1818,17 +1840,6 @@
       "total_adjustment": -1.91
     },
     {
-      "movie_slug": "amrum",
-      "title": "Amrum",
-      "release_date": "2026-04-17",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 75.0,
-      "adjusted_score": 73.1,
-      "n_reviews": 13,
-      "total_adjustment": -1.88
-    },
-    {
       "movie_slug": "eternal-you",
       "title": "Eternal You",
       "release_date": "2025-01-24",
@@ -1917,15 +1928,15 @@
       "total_adjustment": -2.08
     },
     {
-      "movie_slug": "predator-killer-of-killers",
-      "title": "Predator: Killer of Killers",
-      "release_date": "2025-06-06",
+      "movie_slug": "kpop-demon-hunters",
+      "title": "KPop Demon Hunters",
+      "release_date": "2025-06-20",
       "year": 2025,
       "genre": "Animation",
-      "raw_score": 78.0,
+      "raw_score": 77.0,
       "adjusted_score": 72.8,
-      "n_reviews": 18,
-      "total_adjustment": -5.24
+      "n_reviews": 9,
+      "total_adjustment": -4.24
     },
     {
       "movie_slug": "merrily-we-roll-along",
@@ -1939,15 +1950,26 @@
       "total_adjustment": -5.24
     },
     {
-      "movie_slug": "kpop-demon-hunters",
-      "title": "KPop Demon Hunters",
-      "release_date": "2025-06-20",
+      "movie_slug": "predator-killer-of-killers",
+      "title": "Predator: Killer of Killers",
+      "release_date": "2025-06-06",
       "year": 2025,
       "genre": "Animation",
-      "raw_score": 77.0,
+      "raw_score": 78.0,
       "adjusted_score": 72.8,
-      "n_reviews": 9,
-      "total_adjustment": -4.24
+      "n_reviews": 18,
+      "total_adjustment": -5.24
+    },
+    {
+      "movie_slug": "amrum",
+      "title": "Amrum",
+      "release_date": "2026-04-17",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 75.0,
+      "adjusted_score": 72.8,
+      "n_reviews": 14,
+      "total_adjustment": -2.17
     },
     {
       "movie_slug": "happyend",
@@ -2423,6 +2445,17 @@
       "total_adjustment": -2.67
     },
     {
+      "movie_slug": "billie-eilish---hit-me-hard-and-soft-the-tour-live-in-3d",
+      "title": "Billie Eilish - Hit Me Hard and Soft: The Tour (Live in 3D)",
+      "release_date": "2026-05-08",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 73.0,
+      "adjusted_score": 71.3,
+      "n_reviews": 23,
+      "total_adjustment": -1.68
+    },
+    {
       "movie_slug": "highest-2-lowest",
       "title": "Highest 2 Lowest",
       "release_date": "2025-08-15",
@@ -2509,17 +2542,6 @@
       "adjusted_score": 71.1,
       "n_reviews": 7,
       "total_adjustment": 1.1
-    },
-    {
-      "movie_slug": "billie-eilish---hit-me-hard-and-soft-the-tour-live-in-3d",
-      "title": "Billie Eilish - Hit Me Hard and Soft: The Tour (Live in 3D)",
-      "release_date": "2026-05-08",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 73.0,
-      "adjusted_score": 71.0,
-      "n_reviews": 21,
-      "total_adjustment": -2.0
     },
     {
       "movie_slug": "east-of-wall",
@@ -2940,17 +2962,6 @@
       "total_adjustment": -0.99
     },
     {
-      "movie_slug": "neighborhood-watch-2025",
-      "title": "Neighborhood Watch",
-      "release_date": "2025-04-25",
-      "year": 2025,
-      "genre": "Crime",
-      "raw_score": 74.0,
-      "adjusted_score": 68.9,
-      "n_reviews": 6,
-      "total_adjustment": -5.08
-    },
-    {
       "movie_slug": "predator-badlands",
       "title": "Predator: Badlands",
       "release_date": "2025-11-07",
@@ -2960,6 +2971,17 @@
       "adjusted_score": 68.9,
       "n_reviews": 43,
       "total_adjustment": -2.06
+    },
+    {
+      "movie_slug": "neighborhood-watch-2025",
+      "title": "Neighborhood Watch",
+      "release_date": "2025-04-25",
+      "year": 2025,
+      "genre": "Crime",
+      "raw_score": 74.0,
+      "adjusted_score": 68.9,
+      "n_reviews": 6,
+      "total_adjustment": -5.08
     },
     {
       "movie_slug": "unicorns",
@@ -2993,17 +3015,6 @@
       "adjusted_score": 68.5,
       "n_reviews": 40,
       "total_adjustment": -1.51
-    },
-    {
-      "movie_slug": "two-pianos",
-      "title": "Two Pianos",
-      "release_date": "2026-05-01",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 69.0,
-      "adjusted_score": 68.5,
-      "n_reviews": 11,
-      "total_adjustment": -0.55
     },
     {
       "movie_slug": "inside-2024",
@@ -3215,17 +3226,6 @@
       "total_adjustment": 2.26
     },
     {
-      "movie_slug": "are-we-good",
-      "title": "Are We Good?",
-      "release_date": "2025-10-03",
-      "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 69.0,
-      "adjusted_score": 67.3,
-      "n_reviews": 6,
-      "total_adjustment": -1.65
-    },
-    {
       "movie_slug": "the-knife",
       "title": "The Knife",
       "release_date": "2025-08-15",
@@ -3246,6 +3246,17 @@
       "adjusted_score": 67.3,
       "n_reviews": 4,
       "total_adjustment": -4.67
+    },
+    {
+      "movie_slug": "are-we-good",
+      "title": "Are We Good?",
+      "release_date": "2025-10-03",
+      "year": 2025,
+      "genre": "Documentary",
+      "raw_score": 69.0,
+      "adjusted_score": 67.3,
+      "n_reviews": 6,
+      "total_adjustment": -1.65
     },
     {
       "movie_slug": "no-sleep-till",
@@ -3336,6 +3347,17 @@
       "total_adjustment": -2.05
     },
     {
+      "movie_slug": "two-pianos",
+      "title": "Two Pianos",
+      "release_date": "2026-05-01",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 69.0,
+      "adjusted_score": 66.9,
+      "n_reviews": 12,
+      "total_adjustment": -2.09
+    },
+    {
       "movie_slug": "selena-y-los-dinos",
       "title": "Selena y Los Dinos",
       "release_date": "2025-11-17",
@@ -3402,17 +3424,6 @@
       "total_adjustment": 0.59
     },
     {
-      "movie_slug": "mike-nick-nick-alice",
-      "title": "Mike & Nick & Nick & Alice",
-      "release_date": "2026-03-27",
-      "year": 2026,
-      "genre": "Action",
-      "raw_score": 71.0,
-      "adjusted_score": 66.6,
-      "n_reviews": 19,
-      "total_adjustment": -4.42
-    },
-    {
       "movie_slug": "vhshalloween",
       "title": "V/H/S/Halloween",
       "release_date": "2025-10-03",
@@ -3424,15 +3435,15 @@
       "total_adjustment": -0.4
     },
     {
-      "movie_slug": "diciannove",
-      "title": "Diciannove",
-      "release_date": "2025-07-25",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 69.0,
+      "movie_slug": "mike-nick-nick-alice",
+      "title": "Mike & Nick & Nick & Alice",
+      "release_date": "2026-03-27",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 71.0,
       "adjusted_score": 66.6,
-      "n_reviews": 10,
-      "total_adjustment": -2.36
+      "n_reviews": 19,
+      "total_adjustment": -4.42
     },
     {
       "movie_slug": "rosemead",
@@ -3444,6 +3455,17 @@
       "adjusted_score": 66.6,
       "n_reviews": 8,
       "total_adjustment": -5.36
+    },
+    {
+      "movie_slug": "diciannove",
+      "title": "Diciannove",
+      "release_date": "2025-07-25",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 69.0,
+      "adjusted_score": 66.6,
+      "n_reviews": 10,
+      "total_adjustment": -2.36
     },
     {
       "movie_slug": "roofman",
@@ -3466,6 +3488,17 @@
       "adjusted_score": 66.5,
       "n_reviews": 31,
       "total_adjustment": -1.51
+    },
+    {
+      "movie_slug": "marty-life-is-short",
+      "title": "Marty, Life Is Short",
+      "release_date": "2026-05-12",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 66.0,
+      "adjusted_score": 66.5,
+      "n_reviews": 8,
+      "total_adjustment": 0.49
     },
     {
       "movie_slug": "the-rule-of-jenny-pen",
@@ -3543,6 +3576,17 @@
       "adjusted_score": 66.3,
       "n_reviews": 4,
       "total_adjustment": 0.31
+    },
+    {
+      "movie_slug": "lifehack",
+      "title": "LifeHack",
+      "release_date": "2026-05-15",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 68.0,
+      "adjusted_score": 66.2,
+      "n_reviews": 7,
+      "total_adjustment": -1.76
     },
     {
       "movie_slug": "ponyboi",
@@ -4029,17 +4073,6 @@
       "total_adjustment": 2.53
     },
     {
-      "movie_slug": "h-is-for-hawk",
-      "title": "H Is for Hawk",
-      "release_date": "2026-01-23",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 63.0,
-      "adjusted_score": 64.4,
-      "n_reviews": 23,
-      "total_adjustment": 1.39
-    },
-    {
       "movie_slug": "the-luckiest-man-in-america",
       "title": "The Luckiest Man in America",
       "release_date": "2025-04-04",
@@ -4062,6 +4095,17 @@
       "total_adjustment": 4.35
     },
     {
+      "movie_slug": "h-is-for-hawk",
+      "title": "H Is for Hawk",
+      "release_date": "2026-01-23",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 63.0,
+      "adjusted_score": 64.4,
+      "n_reviews": 23,
+      "total_adjustment": 1.39
+    },
+    {
       "movie_slug": "mr-burton",
       "title": "Mr. Burton",
       "release_date": "2026-03-20",
@@ -4073,15 +4117,15 @@
       "total_adjustment": 10.44
     },
     {
-      "movie_slug": "marty-life-is-short",
-      "title": "Marty, Life Is Short",
-      "release_date": "2026-05-12",
+      "movie_slug": "normal",
+      "title": "Normal",
+      "release_date": "2026-04-17",
       "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 66.0,
-      "adjusted_score": 64.4,
-      "n_reviews": 6,
-      "total_adjustment": -1.55
+      "genre": "Action",
+      "raw_score": 62.0,
+      "adjusted_score": 64.3,
+      "n_reviews": 28,
+      "total_adjustment": 2.29
     },
     {
       "movie_slug": "the-spongebob-movie-search-for-squarepants",
@@ -4148,17 +4192,6 @@
       "adjusted_score": 64.0,
       "n_reviews": 35,
       "total_adjustment": -1.01
-    },
-    {
-      "movie_slug": "normal",
-      "title": "Normal",
-      "release_date": "2026-04-17",
-      "year": 2026,
-      "genre": "Action",
-      "raw_score": 62.0,
-      "adjusted_score": 63.9,
-      "n_reviews": 26,
-      "total_adjustment": 1.89
     },
     {
       "movie_slug": "europes-new-faces",
@@ -4898,17 +4931,6 @@
       "total_adjustment": -3.0
     },
     {
-      "movie_slug": "peaky-blinders-the-immortal-man",
-      "title": "Peaky Blinders: The Immortal Man",
-      "release_date": "2026-03-06",
-      "year": 2026,
-      "genre": "Crime",
-      "raw_score": 61.0,
-      "adjusted_score": 60.9,
-      "n_reviews": 27,
-      "total_adjustment": -0.15
-    },
-    {
       "movie_slug": "animale",
       "title": "Animale",
       "release_date": "2025-08-08",
@@ -4918,6 +4940,17 @@
       "adjusted_score": 60.9,
       "n_reviews": 5,
       "total_adjustment": 4.86
+    },
+    {
+      "movie_slug": "peaky-blinders-the-immortal-man",
+      "title": "Peaky Blinders: The Immortal Man",
+      "release_date": "2026-03-06",
+      "year": 2026,
+      "genre": "Crime",
+      "raw_score": 61.0,
+      "adjusted_score": 60.9,
+      "n_reviews": 27,
+      "total_adjustment": -0.15
     },
     {
       "movie_slug": "nonnas",
@@ -5193,6 +5226,17 @@
       "adjusted_score": 59.5,
       "n_reviews": 24,
       "total_adjustment": -0.46
+    },
+    {
+      "movie_slug": "the-wizard-of-the-kremlin",
+      "title": "The Wizard of the Kremlin",
+      "release_date": "2026-05-15",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 58.0,
+      "adjusted_score": 59.5,
+      "n_reviews": 28,
+      "total_adjustment": 1.5
     },
     {
       "movie_slug": "the-roses",
@@ -6757,17 +6801,6 @@
       "total_adjustment": 1.86
     },
     {
-      "movie_slug": "mortal-kombat-ii",
-      "title": "Mortal Kombat II",
-      "release_date": "2026-05-08",
-      "year": 2026,
-      "genre": "Action",
-      "raw_score": 47.0,
-      "adjusted_score": 49.9,
-      "n_reviews": 33,
-      "total_adjustment": 2.86
-    },
-    {
       "movie_slug": "the-alto-knights",
       "title": "The Alto Knights",
       "release_date": "2025-03-21",
@@ -6810,6 +6843,17 @@
       "adjusted_score": 49.5,
       "n_reviews": 10,
       "total_adjustment": 4.47
+    },
+    {
+      "movie_slug": "mortal-kombat-ii",
+      "title": "Mortal Kombat II",
+      "release_date": "2026-05-08",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 47.0,
+      "adjusted_score": 49.3,
+      "n_reviews": 34,
+      "total_adjustment": 2.28
     },
     {
       "movie_slug": "dracula-2026",
@@ -6909,6 +6953,17 @@
       "adjusted_score": 48.0,
       "n_reviews": 4,
       "total_adjustment": 4.01
+    },
+    {
+      "movie_slug": "drivers-ed",
+      "title": "Driver's Ed",
+      "release_date": "2026-05-15",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 44.0,
+      "adjusted_score": 47.9,
+      "n_reviews": 7,
+      "total_adjustment": 3.91
     },
     {
       "movie_slug": "a-minecraft-movie",
