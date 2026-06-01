@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-29T19:10:16.644763",
+  "updated": "2026-05-31T23:24:36.732761",
   "count": 730,
   "movies": [
     {
@@ -3127,17 +3127,6 @@
       "total_adjustment": -2.2
     },
     {
-      "movie_slug": "miss-you-love-you",
-      "title": "Miss You, Love You",
-      "release_date": "2026-05-29",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 66.0,
-      "adjusted_score": 68.8,
-      "n_reviews": 5,
-      "total_adjustment": 2.8
-    },
-    {
       "movie_slug": "companion",
       "title": "Companion",
       "release_date": "2025-01-31",
@@ -3380,17 +3369,6 @@
       "total_adjustment": 2.26
     },
     {
-      "movie_slug": "are-we-good",
-      "title": "Are We Good?",
-      "release_date": "2025-10-03",
-      "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 69.0,
-      "adjusted_score": 67.3,
-      "n_reviews": 6,
-      "total_adjustment": -1.65
-    },
-    {
       "movie_slug": "the-knife",
       "title": "The Knife",
       "release_date": "2025-08-15",
@@ -3411,6 +3389,28 @@
       "adjusted_score": 67.3,
       "n_reviews": 4,
       "total_adjustment": -4.67
+    },
+    {
+      "movie_slug": "are-we-good",
+      "title": "Are We Good?",
+      "release_date": "2025-10-03",
+      "year": 2025,
+      "genre": "Documentary",
+      "raw_score": 69.0,
+      "adjusted_score": 67.3,
+      "n_reviews": 6,
+      "total_adjustment": -1.65
+    },
+    {
+      "movie_slug": "miss-you-love-you",
+      "title": "Miss You, Love You",
+      "release_date": "2026-05-29",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 66.0,
+      "adjusted_score": 67.3,
+      "n_reviews": 6,
+      "total_adjustment": 1.31
     },
     {
       "movie_slug": "no-sleep-till",
@@ -3578,17 +3578,6 @@
       "total_adjustment": 0.59
     },
     {
-      "movie_slug": "mike-nick-nick-alice",
-      "title": "Mike & Nick & Nick & Alice",
-      "release_date": "2026-03-27",
-      "year": 2026,
-      "genre": "Action",
-      "raw_score": 71.0,
-      "adjusted_score": 66.6,
-      "n_reviews": 19,
-      "total_adjustment": -4.42
-    },
-    {
       "movie_slug": "vhshalloween",
       "title": "V/H/S/Halloween",
       "release_date": "2025-10-03",
@@ -3600,15 +3589,15 @@
       "total_adjustment": -0.4
     },
     {
-      "movie_slug": "diciannove",
-      "title": "Diciannove",
-      "release_date": "2025-07-25",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 69.0,
+      "movie_slug": "mike-nick-nick-alice",
+      "title": "Mike & Nick & Nick & Alice",
+      "release_date": "2026-03-27",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 71.0,
       "adjusted_score": 66.6,
-      "n_reviews": 10,
-      "total_adjustment": -2.36
+      "n_reviews": 19,
+      "total_adjustment": -4.42
     },
     {
       "movie_slug": "rosemead",
@@ -3620,6 +3609,17 @@
       "adjusted_score": 66.6,
       "n_reviews": 8,
       "total_adjustment": -5.36
+    },
+    {
+      "movie_slug": "diciannove",
+      "title": "Diciannove",
+      "release_date": "2025-07-25",
+      "year": 2025,
+      "genre": "Drama",
+      "raw_score": 69.0,
+      "adjusted_score": 66.6,
+      "n_reviews": 10,
+      "total_adjustment": -2.36
     },
     {
       "movie_slug": "roofman",
@@ -7593,17 +7593,6 @@
       "total_adjustment": 4.61
     },
     {
-      "movie_slug": "the-breadwinner-2026",
-      "title": "The Breadwinner",
-      "release_date": "2026-05-29",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 38.0,
-      "adjusted_score": 42.5,
-      "n_reviews": 10,
-      "total_adjustment": 4.49
-    },
-    {
       "movie_slug": "odessa",
       "title": "O'Dessa",
       "release_date": "2025-03-20",
@@ -7690,6 +7679,17 @@
       "adjusted_score": 40.8,
       "n_reviews": 45,
       "total_adjustment": 5.78
+    },
+    {
+      "movie_slug": "the-breadwinner-2026",
+      "title": "The Breadwinner",
+      "release_date": "2026-05-29",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 38.0,
+      "adjusted_score": 40.5,
+      "n_reviews": 11,
+      "total_adjustment": 2.47
     },
     {
       "movie_slug": "the-pickup",
