@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-10T08:48:56.671830",
-  "count": 740,
+  "updated": "2026-06-11T18:17:29.107047",
+  "count": 741,
   "movies": [
     {
       "movie_slug": "compensation",
@@ -133,6 +133,17 @@
       "adjusted_score": 86.2,
       "n_reviews": 9,
       "total_adjustment": -5.82
+    },
+    {
+      "movie_slug": "earth-wind-fire-to-be-celestial-vs-thats-the-weight-of-the-world",
+      "title": "Earth, Wind & Fire (To Be Celestial vs. That's the Weight of the World)",
+      "release_date": "2026-06-07",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 91.0,
+      "adjusted_score": 85.9,
+      "n_reviews": 6,
+      "total_adjustment": -5.12
     },
     {
       "movie_slug": "marty-supreme",
@@ -542,17 +553,6 @@
       "total_adjustment": -1.22
     },
     {
-      "movie_slug": "universal-language",
-      "title": "Universal Language",
-      "release_date": "2025-02-14",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 84.0,
-      "adjusted_score": 80.7,
-      "n_reviews": 24,
-      "total_adjustment": -3.33
-    },
-    {
       "movie_slug": "put-your-soul-on-your-hand-and-walk",
       "title": "Put Your Soul on Your Hand and Walk",
       "release_date": "2025-11-05",
@@ -562,6 +562,17 @@
       "adjusted_score": 80.7,
       "n_reviews": 13,
       "total_adjustment": -2.31
+    },
+    {
+      "movie_slug": "universal-language",
+      "title": "Universal Language",
+      "release_date": "2025-02-14",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 84.0,
+      "adjusted_score": 80.7,
+      "n_reviews": 24,
+      "total_adjustment": -3.33
     },
     {
       "movie_slug": "blue-film",
@@ -584,17 +595,6 @@
       "adjusted_score": 80.7,
       "n_reviews": 27,
       "total_adjustment": -8.28
-    },
-    {
-      "movie_slug": "earth-wind-fire-to-be-celestial-vs-thats-the-weight-of-the-world",
-      "title": "Earth, Wind & Fire (To Be Celestial vs. That's the Weight of the World)",
-      "release_date": "2026-06-07",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 91.0,
-      "adjusted_score": 80.6,
-      "n_reviews": 4,
-      "total_adjustment": -10.38
     },
     {
       "movie_slug": "predators-2025",
@@ -628,17 +628,6 @@
       "adjusted_score": 80.4,
       "n_reviews": 21,
       "total_adjustment": -6.58
-    },
-    {
-      "movie_slug": "time-and-water",
-      "title": "Time and Water",
-      "release_date": "2026-05-29",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 90.0,
-      "adjusted_score": 80.3,
-      "n_reviews": 8,
-      "total_adjustment": -9.73
     },
     {
       "movie_slug": "from-ground-zero",
@@ -982,17 +971,6 @@
       "total_adjustment": 2.17
     },
     {
-      "movie_slug": "kontinental-25",
-      "title": "Kontinental '25",
-      "release_date": "2026-03-27",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 81.0,
-      "adjusted_score": 78.2,
-      "n_reviews": 14,
-      "total_adjustment": -2.75
-    },
-    {
       "movie_slug": "vulcanizadora",
       "title": "Vulcanizadora",
       "release_date": "2025-05-02",
@@ -1002,6 +980,17 @@
       "adjusted_score": 78.2,
       "n_reviews": 10,
       "total_adjustment": -3.79
+    },
+    {
+      "movie_slug": "kontinental-25",
+      "title": "Kontinental '25",
+      "release_date": "2026-03-27",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 81.0,
+      "adjusted_score": 78.2,
+      "n_reviews": 14,
+      "total_adjustment": -2.75
     },
     {
       "movie_slug": "the-testament-of-ann-lee",
@@ -1024,6 +1013,17 @@
       "adjusted_score": 78.1,
       "n_reviews": 7,
       "total_adjustment": -0.88
+    },
+    {
+      "movie_slug": "time-and-water",
+      "title": "Time and Water",
+      "release_date": "2026-05-29",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 90.0,
+      "adjusted_score": 77.9,
+      "n_reviews": 11,
+      "total_adjustment": -12.12
     },
     {
       "movie_slug": "twinless",
@@ -1697,17 +1697,6 @@
       "total_adjustment": -4.03
     },
     {
-      "movie_slug": "backrooms",
-      "title": "Backrooms",
-      "release_date": "2026-05-29",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 77.0,
-      "adjusted_score": 74.0,
-      "n_reviews": 44,
-      "total_adjustment": -3.04
-    },
-    {
       "movie_slug": "the-naked-gun",
       "title": "The Naked Gun",
       "release_date": "2025-08-01",
@@ -1717,6 +1706,17 @@
       "adjusted_score": 74.0,
       "n_reviews": 48,
       "total_adjustment": -1.04
+    },
+    {
+      "movie_slug": "backrooms",
+      "title": "Backrooms",
+      "release_date": "2026-05-29",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 77.0,
+      "adjusted_score": 74.0,
+      "n_reviews": 45,
+      "total_adjustment": -3.01
     },
     {
       "movie_slug": "dry-leaf",
@@ -3314,17 +3314,6 @@
       "total_adjustment": -2.23
     },
     {
-      "movie_slug": "power-ballad",
-      "title": "Power Ballad",
-      "release_date": "2026-05-29",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 67.0,
-      "adjusted_score": 67.8,
-      "n_reviews": 34,
-      "total_adjustment": 0.75
-    },
-    {
       "movie_slug": "the-surfer",
       "title": "The Surfer",
       "release_date": "2025-05-02",
@@ -3367,6 +3356,17 @@
       "adjusted_score": 67.6,
       "n_reviews": 56,
       "total_adjustment": -0.44
+    },
+    {
+      "movie_slug": "power-ballad",
+      "title": "Power Ballad",
+      "release_date": "2026-05-29",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 67.0,
+      "adjusted_score": 67.6,
+      "n_reviews": 35,
+      "total_adjustment": 0.62
     },
     {
       "movie_slug": "man-finds-tape",
@@ -3413,15 +3413,15 @@
       "total_adjustment": 2.26
     },
     {
-      "movie_slug": "are-we-good",
-      "title": "Are We Good?",
-      "release_date": "2025-10-03",
+      "movie_slug": "i-love-you-forever",
+      "title": "I Love You Forever",
+      "release_date": "2025-02-07",
       "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 69.0,
+      "genre": "Comedy",
+      "raw_score": 72.0,
       "adjusted_score": 67.3,
-      "n_reviews": 6,
-      "total_adjustment": -1.65
+      "n_reviews": 4,
+      "total_adjustment": -4.67
     },
     {
       "movie_slug": "the-knife",
@@ -3435,15 +3435,15 @@
       "total_adjustment": 5.34
     },
     {
-      "movie_slug": "i-love-you-forever",
-      "title": "I Love You Forever",
-      "release_date": "2025-02-07",
+      "movie_slug": "are-we-good",
+      "title": "Are We Good?",
+      "release_date": "2025-10-03",
       "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 72.0,
+      "genre": "Documentary",
+      "raw_score": 69.0,
       "adjusted_score": 67.3,
-      "n_reviews": 4,
-      "total_adjustment": -4.67
+      "n_reviews": 6,
+      "total_adjustment": -1.65
     },
     {
       "movie_slug": "no-sleep-till",
@@ -3611,6 +3611,17 @@
       "total_adjustment": 0.59
     },
     {
+      "movie_slug": "vhshalloween",
+      "title": "V/H/S/Halloween",
+      "release_date": "2025-10-03",
+      "year": 2025,
+      "genre": "Horror",
+      "raw_score": 67.0,
+      "adjusted_score": 66.6,
+      "n_reviews": 11,
+      "total_adjustment": -0.4
+    },
+    {
       "movie_slug": "mike-nick-nick-alice",
       "title": "Mike & Nick & Nick & Alice",
       "release_date": "2026-03-27",
@@ -3622,15 +3633,15 @@
       "total_adjustment": -4.42
     },
     {
-      "movie_slug": "vhshalloween",
-      "title": "V/H/S/Halloween",
-      "release_date": "2025-10-03",
+      "movie_slug": "rosemead",
+      "title": "Rosemead",
+      "release_date": "2025-12-05",
       "year": 2025,
-      "genre": "Horror",
-      "raw_score": 67.0,
+      "genre": "Crime",
+      "raw_score": 72.0,
       "adjusted_score": 66.6,
-      "n_reviews": 11,
-      "total_adjustment": -0.4
+      "n_reviews": 8,
+      "total_adjustment": -5.36
     },
     {
       "movie_slug": "diciannove",
@@ -3644,15 +3655,15 @@
       "total_adjustment": -2.36
     },
     {
-      "movie_slug": "rosemead",
-      "title": "Rosemead",
-      "release_date": "2025-12-05",
-      "year": 2025,
-      "genre": "Crime",
-      "raw_score": 72.0,
+      "movie_slug": "honeyjoon",
+      "title": "Honeyjoon",
+      "release_date": "2026-06-10",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 65.0,
       "adjusted_score": 66.6,
-      "n_reviews": 8,
-      "total_adjustment": -5.36
+      "n_reviews": 4,
+      "total_adjustment": 1.62
     },
     {
       "movie_slug": "roofman",
