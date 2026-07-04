@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-28T17:45:41.326833",
-  "count": 761,
+  "updated": "2026-07-04T16:47:52.254774",
+  "count": 764,
   "movies": [
     {
       "movie_slug": "compensation",
@@ -333,6 +333,17 @@
       "total_adjustment": -2.54
     },
     {
+      "movie_slug": "the-invite",
+      "title": "The Invite",
+      "release_date": "2026-06-26",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 78.0,
+      "adjusted_score": 82.5,
+      "n_reviews": 44,
+      "total_adjustment": 4.49
+    },
+    {
       "movie_slug": "yes-2025",
       "title": "Yes",
       "release_date": "2026-03-27",
@@ -498,17 +509,6 @@
       "total_adjustment": -3.82
     },
     {
-      "movie_slug": "eephus",
-      "title": "Eephus",
-      "release_date": "2025-03-07",
-      "year": 2025,
-      "genre": "Comedy",
-      "raw_score": 84.0,
-      "adjusted_score": 81.2,
-      "n_reviews": 22,
-      "total_adjustment": -2.76
-    },
-    {
       "movie_slug": "the-furious",
       "title": "The Furious",
       "release_date": "2026-06-12",
@@ -518,6 +518,17 @@
       "adjusted_score": 81.2,
       "n_reviews": 20,
       "total_adjustment": -3.77
+    },
+    {
+      "movie_slug": "eephus",
+      "title": "Eephus",
+      "release_date": "2025-03-07",
+      "year": 2025,
+      "genre": "Comedy",
+      "raw_score": 84.0,
+      "adjusted_score": 81.2,
+      "n_reviews": 22,
+      "total_adjustment": -2.76
     },
     {
       "movie_slug": "grand-tour",
@@ -716,17 +727,6 @@
       "adjusted_score": 80.0,
       "n_reviews": 22,
       "total_adjustment": 3.95
-    },
-    {
-      "movie_slug": "the-invite",
-      "title": "The Invite",
-      "release_date": "2026-06-26",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 78.0,
-      "adjusted_score": 80.0,
-      "n_reviews": 30,
-      "total_adjustment": 2.03
     },
     {
       "movie_slug": "souleymanes-story",
@@ -1090,17 +1090,6 @@
       "adjusted_score": 77.8,
       "n_reviews": 9,
       "total_adjustment": -5.15
-    },
-    {
-      "movie_slug": "maddies-secret",
-      "title": "Maddie's Secret",
-      "release_date": "2026-06-19",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 82.0,
-      "adjusted_score": 77.7,
-      "n_reviews": 16,
-      "total_adjustment": -4.34
     },
     {
       "movie_slug": "wake-up-dead-man-a-knives-out-mystery",
@@ -1675,17 +1664,6 @@
       "total_adjustment": -1.73
     },
     {
-      "movie_slug": "romeria",
-      "title": "Romer\u00eda",
-      "release_date": "2026-06-26",
-      "year": 2026,
-      "genre": "Biography",
-      "raw_score": 74.0,
-      "adjusted_score": 74.3,
-      "n_reviews": 14,
-      "total_adjustment": 0.25
-    },
-    {
       "movie_slug": "mistress-dispeller",
       "title": "Mistress Dispeller",
       "release_date": "2025-10-22",
@@ -1697,17 +1675,6 @@
       "total_adjustment": -6.66
     },
     {
-      "movie_slug": "islands-2025",
-      "title": "Islands",
-      "release_date": "2026-01-30",
-      "year": 2026,
-      "genre": "Crime",
-      "raw_score": 75.0,
-      "adjusted_score": 74.2,
-      "n_reviews": 12,
-      "total_adjustment": -0.8
-    },
-    {
       "movie_slug": "holding-liat",
       "title": "Holding Liat",
       "release_date": "2026-01-09",
@@ -1717,6 +1684,17 @@
       "adjusted_score": 74.2,
       "n_reviews": 9,
       "total_adjustment": -3.79
+    },
+    {
+      "movie_slug": "islands-2025",
+      "title": "Islands",
+      "release_date": "2026-01-30",
+      "year": 2026,
+      "genre": "Crime",
+      "raw_score": 75.0,
+      "adjusted_score": 74.2,
+      "n_reviews": 12,
+      "total_adjustment": -0.8
     },
     {
       "movie_slug": "everybody-to-kenmure-street",
@@ -1739,6 +1717,17 @@
       "adjusted_score": 74.1,
       "n_reviews": 6,
       "total_adjustment": -6.93
+    },
+    {
+      "movie_slug": "backrooms",
+      "title": "Backrooms",
+      "release_date": "2026-05-29",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 77.0,
+      "adjusted_score": 74.1,
+      "n_reviews": 46,
+      "total_adjustment": -2.89
     },
     {
       "movie_slug": "my-mom-jayne",
@@ -1772,17 +1761,6 @@
       "adjusted_score": 74.0,
       "n_reviews": 48,
       "total_adjustment": -1.04
-    },
-    {
-      "movie_slug": "backrooms",
-      "title": "Backrooms",
-      "release_date": "2026-05-29",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 77.0,
-      "adjusted_score": 74.0,
-      "n_reviews": 45,
-      "total_adjustment": -3.01
     },
     {
       "movie_slug": "sunfish-other-stories-on-green-lake",
@@ -1884,6 +1862,17 @@
       "total_adjustment": -7.42
     },
     {
+      "movie_slug": "romeria",
+      "title": "Romer\u00eda",
+      "release_date": "2026-06-26",
+      "year": 2026,
+      "genre": "Biography",
+      "raw_score": 74.0,
+      "adjusted_score": 73.5,
+      "n_reviews": 17,
+      "total_adjustment": -0.49
+    },
+    {
       "movie_slug": "my-sunshine",
       "title": "My Sunshine",
       "release_date": "2025-09-12",
@@ -1926,6 +1915,17 @@
       "adjusted_score": 73.3,
       "n_reviews": 9,
       "total_adjustment": -0.74
+    },
+    {
+      "movie_slug": "maddies-secret",
+      "title": "Maddie's Secret",
+      "release_date": "2026-06-19",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 82.0,
+      "adjusted_score": 73.3,
+      "n_reviews": 17,
+      "total_adjustment": -8.66
     },
     {
       "movie_slug": "the-white-house-effect",
@@ -2082,15 +2082,15 @@
       "total_adjustment": -2.08
     },
     {
-      "movie_slug": "predator-killer-of-killers",
-      "title": "Predator: Killer of Killers",
-      "release_date": "2025-06-06",
+      "movie_slug": "kpop-demon-hunters",
+      "title": "KPop Demon Hunters",
+      "release_date": "2025-06-20",
       "year": 2025,
       "genre": "Animation",
-      "raw_score": 78.0,
+      "raw_score": 77.0,
       "adjusted_score": 72.8,
-      "n_reviews": 18,
-      "total_adjustment": -5.24
+      "n_reviews": 9,
+      "total_adjustment": -4.24
     },
     {
       "movie_slug": "merrily-we-roll-along",
@@ -2104,15 +2104,15 @@
       "total_adjustment": -5.24
     },
     {
-      "movie_slug": "kpop-demon-hunters",
-      "title": "KPop Demon Hunters",
-      "release_date": "2025-06-20",
+      "movie_slug": "predator-killer-of-killers",
+      "title": "Predator: Killer of Killers",
+      "release_date": "2025-06-06",
       "year": 2025,
       "genre": "Animation",
-      "raw_score": 77.0,
+      "raw_score": 78.0,
       "adjusted_score": 72.8,
-      "n_reviews": 9,
-      "total_adjustment": -4.24
+      "n_reviews": 18,
+      "total_adjustment": -5.24
     },
     {
       "movie_slug": "amrum",
@@ -2203,17 +2203,6 @@
       "total_adjustment": -1.5
     },
     {
-      "movie_slug": "hokum",
-      "title": "Hokum",
-      "release_date": "2026-05-01",
-      "year": 2026,
-      "genre": "Horror",
-      "raw_score": 78.0,
-      "adjusted_score": 72.4,
-      "n_reviews": 32,
-      "total_adjustment": -5.62
-    },
-    {
       "movie_slug": "boys-go-to-jupiter",
       "title": "Boys Go to Jupiter",
       "release_date": "2025-08-08",
@@ -2223,6 +2212,17 @@
       "adjusted_score": 72.4,
       "n_reviews": 15,
       "total_adjustment": -3.61
+    },
+    {
+      "movie_slug": "hokum",
+      "title": "Hokum",
+      "release_date": "2026-05-01",
+      "year": 2026,
+      "genre": "Horror",
+      "raw_score": 78.0,
+      "adjusted_score": 72.4,
+      "n_reviews": 32,
+      "total_adjustment": -5.62
     },
     {
       "movie_slug": "toy-story-5",
@@ -2346,17 +2346,6 @@
       "total_adjustment": -0.95
     },
     {
-      "movie_slug": "strange-journey-the-story-of-rocky-horror",
-      "title": "Strange Journey: The Story of Rocky Horror",
-      "release_date": "2025-09-26",
-      "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 68.0,
-      "adjusted_score": 72.0,
-      "n_reviews": 6,
-      "total_adjustment": 4.04
-    },
-    {
       "movie_slug": "bernsteins-wall",
       "title": "Bernstein's Wall",
       "release_date": "2026-04-24",
@@ -2366,6 +2355,17 @@
       "adjusted_score": 72.0,
       "n_reviews": 5,
       "total_adjustment": -3.97
+    },
+    {
+      "movie_slug": "strange-journey-the-story-of-rocky-horror",
+      "title": "Strange Journey: The Story of Rocky Horror",
+      "release_date": "2025-09-26",
+      "year": 2025,
+      "genre": "Documentary",
+      "raw_score": 68.0,
+      "adjusted_score": 72.0,
+      "n_reviews": 6,
+      "total_adjustment": 4.04
     },
     {
       "movie_slug": "the-great-escaper",
@@ -2984,6 +2984,17 @@
       "total_adjustment": 0.07
     },
     {
+      "movie_slug": "i-love-boosters",
+      "title": "I Love Boosters",
+      "release_date": "2026-05-22",
+      "year": 2026,
+      "genre": "Adventure",
+      "raw_score": 70.0,
+      "adjusted_score": 70.1,
+      "n_reviews": 35,
+      "total_adjustment": 0.1
+    },
+    {
       "movie_slug": "hedda",
       "title": "Hedda",
       "release_date": "2025-10-22",
@@ -3048,17 +3059,6 @@
       "adjusted_score": 69.7,
       "n_reviews": 5,
       "total_adjustment": 0.72
-    },
-    {
-      "movie_slug": "i-love-boosters",
-      "title": "I Love Boosters",
-      "release_date": "2026-05-22",
-      "year": 2026,
-      "genre": "Adventure",
-      "raw_score": 70.0,
-      "adjusted_score": 69.6,
-      "n_reviews": 34,
-      "total_adjustment": -0.42
     },
     {
       "movie_slug": "jane-austen-wrecked-my-life",
@@ -3369,6 +3369,17 @@
       "total_adjustment": -2.14
     },
     {
+      "movie_slug": "minions-and-monsters",
+      "title": "Minions & Monsters",
+      "release_date": "2026-07-01",
+      "year": 2026,
+      "genre": "Animation",
+      "raw_score": 69.0,
+      "adjusted_score": 67.9,
+      "n_reviews": 28,
+      "total_adjustment": -1.09
+    },
+    {
       "movie_slug": "the-day-the-earth-blew-up-a-looney-tunes-movie",
       "title": "The Day the Earth Blew Up: A Looney Tunes Movie",
       "release_date": "2025-03-14",
@@ -3501,17 +3512,6 @@
       "total_adjustment": 2.26
     },
     {
-      "movie_slug": "are-we-good",
-      "title": "Are We Good?",
-      "release_date": "2025-10-03",
-      "year": 2025,
-      "genre": "Documentary",
-      "raw_score": 69.0,
-      "adjusted_score": 67.3,
-      "n_reviews": 6,
-      "total_adjustment": -1.65
-    },
-    {
       "movie_slug": "the-knife",
       "title": "The Knife",
       "release_date": "2025-08-15",
@@ -3532,6 +3532,17 @@
       "adjusted_score": 67.3,
       "n_reviews": 4,
       "total_adjustment": -4.67
+    },
+    {
+      "movie_slug": "are-we-good",
+      "title": "Are We Good?",
+      "release_date": "2025-10-03",
+      "year": 2025,
+      "genre": "Documentary",
+      "raw_score": 69.0,
+      "adjusted_score": 67.3,
+      "n_reviews": 6,
+      "total_adjustment": -1.65
     },
     {
       "movie_slug": "no-sleep-till",
@@ -3743,17 +3754,6 @@
       "total_adjustment": -4.42
     },
     {
-      "movie_slug": "diciannove",
-      "title": "Diciannove",
-      "release_date": "2025-07-25",
-      "year": 2025,
-      "genre": "Drama",
-      "raw_score": 69.0,
-      "adjusted_score": 66.6,
-      "n_reviews": 10,
-      "total_adjustment": -2.36
-    },
-    {
       "movie_slug": "rosemead",
       "title": "Rosemead",
       "release_date": "2025-12-05",
@@ -3765,15 +3765,15 @@
       "total_adjustment": -5.36
     },
     {
-      "movie_slug": "roofman",
-      "title": "Roofman",
-      "release_date": "2025-10-10",
+      "movie_slug": "diciannove",
+      "title": "Diciannove",
+      "release_date": "2025-07-25",
       "year": 2025,
-      "genre": "Biography",
-      "raw_score": 66.0,
+      "genre": "Drama",
+      "raw_score": 69.0,
       "adjusted_score": 66.6,
-      "n_reviews": 37,
-      "total_adjustment": 0.61
+      "n_reviews": 10,
+      "total_adjustment": -2.36
     },
     {
       "movie_slug": "honeyjoon",
@@ -3785,6 +3785,17 @@
       "adjusted_score": 66.6,
       "n_reviews": 4,
       "total_adjustment": 1.62
+    },
+    {
+      "movie_slug": "roofman",
+      "title": "Roofman",
+      "release_date": "2025-10-10",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 66.0,
+      "adjusted_score": 66.6,
+      "n_reviews": 37,
+      "total_adjustment": 0.61
     },
     {
       "movie_slug": "the-wedding-banquet",
@@ -4634,6 +4645,17 @@
       "total_adjustment": -2.63
     },
     {
+      "movie_slug": "homegrown",
+      "title": "Homegrown",
+      "release_date": "2026-01-06",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 65.0,
+      "adjusted_score": 63.4,
+      "n_reviews": 5,
+      "total_adjustment": -1.64
+    },
+    {
       "movie_slug": "aum-the-cult-at-the-end-of-the-world",
       "title": "AUM: The Cult at the End of the World",
       "release_date": "2025-03-19",
@@ -4645,26 +4667,15 @@
       "total_adjustment": 3.36
     },
     {
-      "movie_slug": "jackass-best-and-last",
-      "title": "jackass: best and last",
-      "release_date": "2026-06-26",
+      "movie_slug": "hamlet-2025",
+      "title": "Hamlet",
+      "release_date": "2026-04-10",
       "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 62.0,
+      "genre": "Drama",
+      "raw_score": 61.0,
       "adjusted_score": 63.4,
-      "n_reviews": 29,
-      "total_adjustment": 1.39
-    },
-    {
-      "movie_slug": "homegrown",
-      "title": "Homegrown",
-      "release_date": "2026-01-06",
-      "year": 2026,
-      "genre": "Documentary",
-      "raw_score": 65.0,
-      "adjusted_score": 63.4,
-      "n_reviews": 5,
-      "total_adjustment": -1.64
+      "n_reviews": 22,
+      "total_adjustment": 2.45
     },
     {
       "movie_slug": "words-of-war",
@@ -4689,17 +4700,6 @@
       "total_adjustment": 3.44
     },
     {
-      "movie_slug": "hamlet-2025",
-      "title": "Hamlet",
-      "release_date": "2026-04-10",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 61.0,
-      "adjusted_score": 63.4,
-      "n_reviews": 22,
-      "total_adjustment": 2.45
-    },
-    {
       "movie_slug": "im-chevy-chase-and-youre-not",
       "title": "I'm Chevy Chase and You're Not",
       "release_date": "2026-01-01",
@@ -4720,6 +4720,17 @@
       "adjusted_score": 63.3,
       "n_reviews": 5,
       "total_adjustment": -6.68
+    },
+    {
+      "movie_slug": "jackass-best-and-last",
+      "title": "jackass: best and last",
+      "release_date": "2026-06-26",
+      "year": 2026,
+      "genre": "Documentary",
+      "raw_score": 62.0,
+      "adjusted_score": 63.2,
+      "n_reviews": 30,
+      "total_adjustment": 1.18
     },
     {
       "movie_slug": "how-to-train-your-dragon-2025",
@@ -4821,17 +4832,6 @@
       "total_adjustment": -2.08
     },
     {
-      "movie_slug": "koln-75",
-      "title": "K\u00f6ln 75",
-      "release_date": "2025-10-17",
-      "year": 2025,
-      "genre": "Biography",
-      "raw_score": 62.0,
-      "adjusted_score": 62.9,
-      "n_reviews": 6,
-      "total_adjustment": 0.91
-    },
-    {
       "movie_slug": "wto99",
       "title": "WTO/99",
       "release_date": "2025-12-04",
@@ -4841,6 +4841,17 @@
       "adjusted_score": 62.9,
       "n_reviews": 4,
       "total_adjustment": -0.08
+    },
+    {
+      "movie_slug": "koln-75",
+      "title": "K\u00f6ln 75",
+      "release_date": "2025-10-17",
+      "year": 2025,
+      "genre": "Biography",
+      "raw_score": 62.0,
+      "adjusted_score": 62.9,
+      "n_reviews": 6,
+      "total_adjustment": 0.91
     },
     {
       "movie_slug": "rounding",
@@ -5800,6 +5811,17 @@
       "total_adjustment": 0.23
     },
     {
+      "movie_slug": "enola-holmes-3",
+      "title": "Enola Holmes 3",
+      "release_date": "2026-07-01",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 60.0,
+      "adjusted_score": 58.2,
+      "n_reviews": 16,
+      "total_adjustment": -1.75
+    },
+    {
       "movie_slug": "savage-house",
       "title": "Savage House",
       "release_date": "2026-06-05",
@@ -6295,6 +6317,17 @@
       "total_adjustment": -0.78
     },
     {
+      "movie_slug": "couture",
+      "title": "Couture",
+      "release_date": "2026-06-26",
+      "year": 2026,
+      "genre": "Drama",
+      "raw_score": 49.0,
+      "adjusted_score": 56.1,
+      "n_reviews": 16,
+      "total_adjustment": 7.06
+    },
+    {
       "movie_slug": "the-bride-2026",
       "title": "The Bride!",
       "release_date": "2026-03-06",
@@ -6568,17 +6601,6 @@
       "adjusted_score": 54.8,
       "n_reviews": 41,
       "total_adjustment": 2.75
-    },
-    {
-      "movie_slug": "couture",
-      "title": "Couture",
-      "release_date": "2026-06-26",
-      "year": 2026,
-      "genre": "Drama",
-      "raw_score": 49.0,
-      "adjusted_score": 54.8,
-      "n_reviews": 14,
-      "total_adjustment": 5.83
     },
     {
       "movie_slug": "masters-of-the-universe-2026",
@@ -7131,17 +7153,6 @@
       "total_adjustment": 2.61
     },
     {
-      "movie_slug": "supergirl-2026",
-      "title": "Supergirl",
-      "release_date": "2026-06-26",
-      "year": 2026,
-      "genre": "Action",
-      "raw_score": 50.0,
-      "adjusted_score": 51.5,
-      "n_reviews": 54,
-      "total_adjustment": 1.5
-    },
-    {
       "movie_slug": "happy-gilmore-2",
       "title": "Happy Gilmore 2",
       "release_date": "2025-07-25",
@@ -7184,6 +7195,17 @@
       "adjusted_score": 51.4,
       "n_reviews": 36,
       "total_adjustment": 5.43
+    },
+    {
+      "movie_slug": "supergirl-2026",
+      "title": "Supergirl",
+      "release_date": "2026-06-26",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 50.0,
+      "adjusted_score": 51.3,
+      "n_reviews": 55,
+      "total_adjustment": 1.28
     },
     {
       "movie_slug": "the-twits",
@@ -7294,6 +7316,17 @@
       "adjusted_score": 50.4,
       "n_reviews": 51,
       "total_adjustment": 0.38
+    },
+    {
+      "movie_slug": "young-washington",
+      "title": "Young Washington",
+      "release_date": "2026-07-03",
+      "year": 2026,
+      "genre": "Action",
+      "raw_score": 50.0,
+      "adjusted_score": 50.3,
+      "n_reviews": 10,
+      "total_adjustment": 0.33
     },
     {
       "movie_slug": "rosario",
@@ -7967,17 +8000,6 @@
       "total_adjustment": 3.79
     },
     {
-      "movie_slug": "in-the-hand-of-dante",
-      "title": "In the Hand of Dante",
-      "release_date": "2026-06-24",
-      "year": 2026,
-      "genre": "Crime",
-      "raw_score": 36.0,
-      "adjusted_score": 41.6,
-      "n_reviews": 10,
-      "total_adjustment": 5.59
-    },
-    {
       "movie_slug": "the-astronaut",
       "title": "The Astronaut",
       "release_date": "2025-10-17",
@@ -7998,6 +8020,17 @@
       "adjusted_score": 40.8,
       "n_reviews": 45,
       "total_adjustment": 5.78
+    },
+    {
+      "movie_slug": "in-the-hand-of-dante",
+      "title": "In the Hand of Dante",
+      "release_date": "2026-06-24",
+      "year": 2026,
+      "genre": "Crime",
+      "raw_score": 36.0,
+      "adjusted_score": 40.8,
+      "n_reviews": 11,
+      "total_adjustment": 4.76
     },
     {
       "movie_slug": "tom-clancys-jack-ryan-ghost-war",
@@ -8176,17 +8209,6 @@
       "total_adjustment": 6.98
     },
     {
-      "movie_slug": "the-breadwinner-2026",
-      "title": "The Breadwinner",
-      "release_date": "2026-05-29",
-      "year": 2026,
-      "genre": "Comedy",
-      "raw_score": 38.0,
-      "adjusted_score": 38.0,
-      "n_reviews": 13,
-      "total_adjustment": 0.04
-    },
-    {
       "movie_slug": "old-guy",
       "title": "Old Guy",
       "release_date": "2025-02-21",
@@ -8196,6 +8218,17 @@
       "adjusted_score": 37.7,
       "n_reviews": 11,
       "total_adjustment": 4.7
+    },
+    {
+      "movie_slug": "the-breadwinner-2026",
+      "title": "The Breadwinner",
+      "release_date": "2026-05-29",
+      "year": 2026,
+      "genre": "Comedy",
+      "raw_score": 38.0,
+      "adjusted_score": 37.5,
+      "n_reviews": 14,
+      "total_adjustment": -0.52
     },
     {
       "movie_slug": "regretting-you",
