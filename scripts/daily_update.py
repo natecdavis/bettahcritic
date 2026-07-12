@@ -5,7 +5,7 @@ Daily Update Script for Adjusted Metacritic Scores
 This script runs the full data pipeline:
 1. Fetch new movies and reviews from Metacritic
 2. Re-compute hierarchical critic/outlet effects
-3. Re-compute adjusted scores
+3. Re-compute adjusted scores (dates come clean from the scraper)
 4. Convert to JSON for the webapp
 
 Usage:
@@ -98,32 +98,10 @@ def compute_adjusted_scores(data_dir: str, effects_dir: str, output_dir: str, sc
         '--input-dir', data_dir,
         '--effects-dir', effects_dir,
         '--output-dir', output_dir,
+        '--recompute-shrinkage',
     ]
-    
+
     return run_command(cmd, "Compute adjusted scores")
-
-
-def fix_dates(output_dir: str, data_dir: str, scripts_dir: str):
-    """Fix any date parsing issues."""
-    script_path = os.path.join(scripts_dir, 'fix_dates.py')
-    adjusted_path = os.path.join(output_dir, 'adjusted_scores.csv')
-    movies_path = os.path.join(data_dir, 'movies.csv')
-    
-    if not os.path.exists(script_path):
-        print(f"WARNING: {script_path} not found, skipping date fix")
-        return True
-    
-    if not os.path.exists(adjusted_path):
-        print(f"WARNING: {adjusted_path} not found, skipping date fix")
-        return True
-    
-    cmd = [
-        'python', script_path,
-        '--adjusted', adjusted_path,
-        '--movies', movies_path,
-    ]
-    
-    return run_command(cmd, "Fix dates")
 
 
 def convert_to_json(output_dir: str, webapp_data_dir: str, scripts_dir: str):
@@ -216,17 +194,12 @@ def main():
         if not compute_adjusted_scores(args.data_dir, args.effects_dir, args.scores_dir, args.scripts_dir):
             success = False
     
-    # Step 4: Fix dates
-    if success:
-        if not fix_dates(args.scores_dir, args.data_dir, args.scripts_dir):
-            success = False
-    
-    # Step 5: Convert to JSON
+    # Step 4: Convert to JSON
     if success:
         if not convert_to_json(args.scores_dir, args.webapp_dir, args.scripts_dir):
             success = False
-    
-    # Step 6: Update metadata
+
+    # Step 5: Update metadata
     if success:
         update_metadata(args.webapp_dir)
     

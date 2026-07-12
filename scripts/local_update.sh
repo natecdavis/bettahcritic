@@ -6,11 +6,12 @@ cd "$(dirname "$0")/.."
 echo "Starting update: $(date)"
 
 # Step 0: Scrape new movies and reviews
-# Remove --dry-run when you're ready to actually fetch
-# Adjust --months-back based on how often you run updates
+# Walks the listing back --months-back months, adding new movies and
+# refreshing metadata (metascores, dates) for known ones. --max-pages
+# must be large enough to cover that window (24 movies per page).
 python scripts/scrape_new_movies.py \
   --input-dir ./data/metacritic_data \
-  --max-pages 5 \
+  --max-pages 25 \
   --months-back 3 \
   --delay 0.5
 
@@ -21,8 +22,7 @@ python scripts/daily_update.py \
   --scores-dir ./data/adjusted_scores \
   --webapp-dir ./public/data \
   --scripts-dir ./scripts \
-  --skip-fetch \
-  --skip-effects
+  --skip-fetch
 
 # Commit and push
 git add public/data/

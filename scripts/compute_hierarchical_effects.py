@@ -83,33 +83,35 @@ def compute_outlet_effects(reviews_df: pd.DataFrame, movies_df: pd.DataFrame,
         freq='Q'
     )
     
-    outlets = reviews['outlet'].unique()
+    # Weighted means per (outlet, quarter) via integer codes + bincount:
+    # one O(n_reviews) pass per quarter instead of one per outlet per quarter
+    outlet_codes, outlet_index = pd.factorize(reviews['outlet'])
+    n_outlets = len(outlet_index)
+    deviations = reviews['deviation'].to_numpy(dtype=float)
+    dates = reviews['date']
+
     results = []
-    
+
     print(f"Computing outlet effects at {len(date_range)} time points...")
-    
+
     for as_of_date in tqdm(date_range, desc="Outlet effects"):
-        weights = estimator.get_weights(reviews['date'], as_of_date)
-        
-        for outlet in outlets:
-            mask = reviews['outlet'] == outlet
-            outlet_weights = weights[mask]
-            outlet_deviations = reviews.loc[mask, 'deviation'].values
-            
-            effective_n = outlet_weights.sum()
-            if effective_n < 10:
-                continue
-            
-            effect = estimator.weighted_mean(outlet_deviations, outlet_weights)
-            
-            if not np.isnan(effect):
-                results.append({
-                    'outlet': outlet,
-                    'date': as_of_date,
-                    'effect': effect,
-                    'effective_n': effective_n,
-                })
-    
+        weights = estimator.get_weights(dates, as_of_date)
+
+        w_sum = np.bincount(outlet_codes, weights=weights, minlength=n_outlets)
+        wd_sum = np.bincount(outlet_codes, weights=weights * deviations, minlength=n_outlets)
+
+        with np.errstate(invalid='ignore'):
+            effects = np.divide(wd_sum, w_sum,
+                                out=np.full(n_outlets, np.nan), where=w_sum > 0)
+
+        for idx in np.nonzero((w_sum >= 10) & ~np.isnan(effects))[0]:
+            results.append({
+                'outlet': outlet_index[idx],
+                'date': as_of_date,
+                'effect': effects[idx],
+                'effective_n': w_sum[idx],
+            })
+
     return pd.DataFrame(results)
 
 
@@ -161,109 +163,70 @@ def compute_critic_effects_hierarchical(
     
     # Filter to reviews with critic
     critic_reviews = reviews.dropna(subset=['critic_slug'])
-    critics = critic_reviews['critic_slug'].unique()
-    
+
+    # Weighted means per (critic, quarter) via integer codes + bincount
+    critic_codes, critic_index = pd.factorize(critic_reviews['critic_slug'])
+    n_critics = len(critic_index)
+    deviations = critic_reviews['deviation'].to_numpy(dtype=float)
+    dates = critic_reviews['date']
+
+    # Outlet effect as of each quarter, as a (quarter, outlet) matrix:
+    # reindex onto the union of time grids, forward-fill, select our quarters
+    outlet_pivot = outlet_effects.pivot(index='date', columns='outlet', values='effect')
+    union_index = outlet_pivot.index.union(date_range)
+    outlet_asof = outlet_pivot.reindex(union_index).ffill().reindex(date_range)
+    outlet_asof_values = outlet_asof.to_numpy()
+
+    # Column index of each critic's outlet in the as-of matrix (-1 = no outlet)
+    outlet_col = {name: j for j, name in enumerate(outlet_asof.columns)}
+    critic_outlet_names = np.array(
+        [critic_outlet.get(c) for c in critic_index], dtype=object
+    )
+    critic_outlet_cols = np.array(
+        [outlet_col.get(o, -1) for o in critic_outlet_names], dtype=int
+    )
+
     results = []
-    
-    print(f"Computing critic effects for {len(critics)} critics at {len(date_range)} time points...")
-    
-    for as_of_date in tqdm(date_range, desc="Critic effects"):
-        weights = estimator.get_weights(critic_reviews['date'], as_of_date)
-        
-        # Get outlet effects as of this date
-        outlet_effects_now = {}
-        for outlet in outlet_effects['outlet'].unique():
-            outlet_data = outlet_effects[
-                (outlet_effects['outlet'] == outlet) & 
-                (outlet_effects['date'] <= as_of_date)
-            ]
-            if len(outlet_data) > 0:
-                outlet_effects_now[outlet] = outlet_data.iloc[-1]['effect']
-        
-        for critic in critics:
-            mask = critic_reviews['critic_slug'] == critic
-            critic_weights = weights[mask]
-            critic_deviations = critic_reviews.loc[mask, 'deviation'].values
-            
-            effective_n = critic_weights.sum()
-            if effective_n < 1:  # Need at least some data
-                continue
-            
-            # Raw critic effect (deviation from metascore)
-            raw_critic_effect = estimator.weighted_mean(critic_deviations, critic_weights)
-            
-            if np.isnan(raw_critic_effect):
-                continue
-            
-            # Get outlet effect for this critic
-            critic_outlet_name = critic_outlet.get(critic)
-            outlet_effect = outlet_effects_now.get(critic_outlet_name, 0)
-            
-            # Critic's deviation from their outlet
-            critic_deviation = raw_critic_effect - outlet_effect
-            
-            # Shrinkage: weight on critic's own deviation vs zero
-            # More reviews = more weight on critic's deviation
-            critic_weight = effective_n / (effective_n + shrinkage_n)
-            shrunk_deviation = critic_weight * critic_deviation
-            
-            # Final effect = outlet + shrunk deviation
-            final_effect = outlet_effect + shrunk_deviation
-            
+
+    print(f"Computing critic effects for {n_critics} critics at {len(date_range)} time points...")
+
+    for qi, as_of_date in enumerate(tqdm(date_range, desc="Critic effects")):
+        weights = estimator.get_weights(dates, as_of_date)
+
+        w_sum = np.bincount(critic_codes, weights=weights, minlength=n_critics)
+        wd_sum = np.bincount(critic_codes, weights=weights * deviations, minlength=n_critics)
+
+        with np.errstate(invalid='ignore'):
+            raw_effects = np.divide(wd_sum, w_sum,
+                                    out=np.full(n_critics, np.nan), where=w_sum > 0)
+
+        # Outlet effect per critic as of this quarter (0 when unknown, as before)
+        oe = np.zeros(n_critics)
+        has_outlet = critic_outlet_cols >= 0
+        oe[has_outlet] = outlet_asof_values[qi, critic_outlet_cols[has_outlet]]
+        oe = np.nan_to_num(oe, nan=0.0)
+
+        # Shrink each critic's deviation from their outlet toward zero
+        critic_deviation = raw_effects - oe
+        critic_weight = w_sum / (w_sum + shrinkage_n)
+        shrunk_deviation = critic_weight * critic_deviation
+        final_effect = oe + shrunk_deviation
+
+        for idx in np.nonzero((w_sum >= 1) & ~np.isnan(raw_effects))[0]:
             results.append({
-                'critic': critic,
-                'outlet': critic_outlet_name,
+                'critic': critic_index[idx],
+                'outlet': critic_outlet_names[idx],
                 'date': as_of_date,
-                'raw_effect': raw_critic_effect,
-                'outlet_effect': outlet_effect,
-                'critic_deviation': critic_deviation,
-                'shrunk_deviation': shrunk_deviation,
-                'final_effect': final_effect,
-                'effective_n': effective_n,
-                'shrinkage_weight': critic_weight,
+                'raw_effect': raw_effects[idx],
+                'outlet_effect': oe[idx],
+                'critic_deviation': critic_deviation[idx],
+                'shrunk_deviation': shrunk_deviation[idx],
+                'final_effect': final_effect[idx],
+                'effective_n': w_sum[idx],
+                'shrinkage_weight': critic_weight[idx],
             })
-    
+
     return pd.DataFrame(results)
-
-
-def get_effect_for_review(
-    review_row: pd.Series,
-    critic_effects: pd.DataFrame,
-    outlet_effects: pd.DataFrame,
-    as_of_date: pd.Timestamp
-) -> tuple[float, str]:
-    """
-    Get the appropriate effect for a single review.
-    
-    Priority:
-    1. If critic is known and has effect estimate, use critic effect
-    2. Else if outlet has effect estimate, use outlet effect
-    3. Else return 0
-    
-    Returns (effect, source) where source is 'critic', 'outlet', or 'none'
-    """
-    critic = review_row.get('critic_slug')
-    outlet = review_row.get('outlet')
-    
-    # Try critic effect first
-    if pd.notna(critic):
-        critic_data = critic_effects[
-            (critic_effects['critic'] == critic) &
-            (critic_effects['date'] <= as_of_date)
-        ]
-        if len(critic_data) > 0:
-            return critic_data.iloc[-1]['final_effect'], 'critic'
-    
-    # Fall back to outlet effect
-    if pd.notna(outlet):
-        outlet_data = outlet_effects[
-            (outlet_effects['outlet'] == outlet) &
-            (outlet_effects['date'] <= as_of_date)
-        ]
-        if len(outlet_data) > 0:
-            return outlet_data.iloc[-1]['effect'], 'outlet'
-    
-    return 0.0, 'none'
 
 
 def evaluate_hierarchical_model(
@@ -300,80 +263,29 @@ def evaluate_hierarchical_model(
         reviews = reviews.sample(sample_size, random_state=42)
     
     print(f"\nEvaluating on {len(reviews):,} reviews...")
-    
-    # Get effects for each review
-    outlet_adj = []
-    critic_raw_adj = []
-    hierarchical_adj = []
-    sources = []
-    
-    # DEBUG: Check a few rows
-    debug_count = 0
-    debug_diffs = []
-    
-    for _, row in tqdm(reviews.iterrows(), total=len(reviews), desc="Evaluating"):
-        as_of_date = row['date']
-        
-        # Outlet effect
-        outlet = row.get('outlet')
-        outlet_data = outlet_effects[
-            (outlet_effects['outlet'] == outlet) &
-            (outlet_effects['date'] <= as_of_date)
-        ]
-        outlet_effect = outlet_data.iloc[-1]['effect'] if len(outlet_data) > 0 else 0
-        outlet_adj.append(outlet_effect)
-        
-        # Raw critic effect (no shrinkage)
-        critic = row.get('critic_slug')
-        if pd.notna(critic):
-            critic_data = critic_effects[
-                (critic_effects['critic'] == critic) &
-                (critic_effects['date'] <= as_of_date)
-            ]
-            if len(critic_data) > 0:
-                raw_eff = critic_data.iloc[-1]['raw_effect']
-                hier_eff = critic_data.iloc[-1]['final_effect']
-                critic_raw_adj.append(raw_eff)
-                hierarchical_adj.append(hier_eff)
-                sources.append('critic')
-                
-                # DEBUG
-                if debug_count < 5 and abs(raw_eff - outlet_effect) > 0.01:
-                    print(f"\n  DEBUG: critic={critic}, outlet_eff={outlet_effect:.2f}, raw_eff={raw_eff:.2f}, hier_eff={hier_eff:.2f}")
-                    debug_count += 1
-                debug_diffs.append(raw_eff - outlet_effect)
-            else:
-                critic_raw_adj.append(outlet_effect)
-                hierarchical_adj.append(outlet_effect)
-                sources.append('outlet')
-        else:
-            critic_raw_adj.append(outlet_effect)
-            hierarchical_adj.append(outlet_effect)
-            sources.append('outlet')
-    
-    reviews['outlet_adj'] = outlet_adj
-    reviews['critic_raw_adj'] = critic_raw_adj
-    reviews['hierarchical_adj'] = hierarchical_adj
-    reviews['effect_source'] = sources
-    
-    # DEBUG: Print summary of differences
-    debug_diffs_arr = np.array([d for d in debug_diffs if not np.isnan(d)])
-    print(f"\n  DEBUG: critic_raw - outlet differences:")
-    print(f"    Count: {len(debug_diffs_arr)}")
-    print(f"    Mean diff: {debug_diffs_arr.mean():.4f}")
-    print(f"    Std diff: {debug_diffs_arr.std():.4f}")
-    print(f"    Min/Max: {debug_diffs_arr.min():.4f} / {debug_diffs_arr.max():.4f}")
-    print(f"    Exactly zero: {(debug_diffs_arr == 0).sum()}")
-    
-    # Also check the actual adjustment arrays
-    outlet_arr = np.array(outlet_adj)
-    critic_arr = np.array(critic_raw_adj)
-    adj_diff = critic_arr - outlet_arr
-    print(f"\n  DEBUG: actual adjustment array differences:")
-    print(f"    Mean: {adj_diff.mean():.4f}")
-    print(f"    Std: {adj_diff.std():.4f}")
-    print(f"    Exactly zero: {(adj_diff == 0).sum()} / {len(adj_diff)}")
-    
+
+    # As-of lookup of effects per review via merge_asof (last effect <= review date)
+    reviews = reviews.sort_values('date', kind='stable')
+    reviews['_outlet_key'] = reviews['outlet'].fillna('')
+    reviews['_critic_key'] = reviews['critic_slug'].fillna('')
+
+    oe = outlet_effects.sort_values('date', kind='stable')
+    oe = oe[['outlet', 'date', 'effect']].rename(
+        columns={'outlet': '_outlet_key', 'effect': '_outlet_eff'})
+    reviews = pd.merge_asof(reviews, oe, on='date', by='_outlet_key', direction='backward')
+
+    ce = critic_effects.sort_values('date', kind='stable')
+    ce = ce[['critic', 'date', 'raw_effect', 'final_effect']].rename(
+        columns={'critic': '_critic_key', 'raw_effect': '_raw_eff', 'final_effect': '_final_eff'})
+    reviews = pd.merge_asof(reviews, ce, on='date', by='_critic_key', direction='backward')
+
+    reviews['outlet_adj'] = reviews['_outlet_eff'].fillna(0)
+    has_critic = reviews['_raw_eff'].notna()
+    reviews['critic_raw_adj'] = np.where(has_critic, reviews['_raw_eff'], reviews['outlet_adj'])
+    reviews['hierarchical_adj'] = np.where(has_critic, reviews['_final_eff'], reviews['outlet_adj'])
+    reviews['effect_source'] = np.where(has_critic, 'critic', 'outlet')
+    reviews = reviews.drop(columns=['_outlet_key', '_critic_key', '_outlet_eff', '_raw_eff', '_final_eff'])
+
     # Compute residual variance for each approach
     baseline_var = reviews['deviation'].var()
     

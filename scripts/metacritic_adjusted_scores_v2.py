@@ -67,47 +67,6 @@ def load_hierarchical_effects(effects_dir: str) -> tuple[pd.DataFrame, pd.DataFr
     return critic_effects, outlet_effects
 
 
-def get_critic_effect_as_of(critic_effects: pd.DataFrame, critic: str, 
-                            as_of_date: pd.Timestamp) -> dict:
-    """Get critic's hierarchical effect as of a given date."""
-    if pd.isna(critic):
-        return None
-    
-    mask = (critic_effects['critic'] == critic) & (critic_effects['date'] <= as_of_date)
-    matching = critic_effects[mask]
-    
-    if len(matching) == 0:
-        return None
-    
-    row = matching.iloc[-1]
-    return {
-        'effect': row['final_effect'],
-        'outlet_effect': row['outlet_effect'],
-        'critic_deviation': row['shrunk_deviation'],
-        'shrinkage_weight': row['shrinkage_weight'],
-        'effective_n': row['effective_n'],
-    }
-
-
-def get_outlet_effect_as_of(outlet_effects: pd.DataFrame, outlet: str,
-                            as_of_date: pd.Timestamp) -> dict:
-    """Get outlet effect as of a given date."""
-    if pd.isna(outlet):
-        return None
-    
-    mask = (outlet_effects['outlet'] == outlet) & (outlet_effects['date'] <= as_of_date)
-    matching = outlet_effects[mask]
-    
-    if len(matching) == 0:
-        return None
-    
-    row = matching.iloc[-1]
-    return {
-        'effect': row['effect'],
-        'effective_n': row['effective_n'],
-    }
-
-
 def compute_shrinkage_params_ewa(
     reviews_df: pd.DataFrame,
     movies_df: pd.DataFrame,
@@ -170,134 +129,6 @@ def compute_shrinkage_params_ewa(
     return pd.DataFrame(results)
 
 
-def get_shrinkage_params_as_of(shrinkage_params: pd.DataFrame, 
-                               as_of_date: pd.Timestamp) -> dict:
-    """Get shrinkage parameters as of a given date."""
-    mask = shrinkage_params['date'] <= as_of_date
-    matching = shrinkage_params[mask]
-    
-    if len(matching) == 0:
-        return None
-    
-    row = matching.iloc[-1]
-    return {
-        'grand_mean': row['grand_mean'],
-        'tau_sq': row['tau_sq'],
-        'sigma_sq': row['sigma_sq'],
-    }
-
-
-def compute_adjusted_score(
-    movie_row: pd.Series,
-    movie_reviews: pd.DataFrame,
-    critic_effects: pd.DataFrame,
-    outlet_effects: pd.DataFrame,
-    shrinkage_params: pd.DataFrame,
-) -> dict:
-    """
-    Compute adjusted score for a single movie.
-    
-    Pipeline:
-    1. Start with raw metascore
-    2. Adjust each review for critic/outlet effect, then re-average
-    3. Apply Bayesian shrinkage toward grand mean
-    """
-    movie_date = pd.to_datetime(movie_row['release_date'])
-    raw_score = movie_row['metascore']
-    
-    result = {
-        'movie_slug': movie_row['movie_slug'],
-        'title': movie_row.get('title', ''),
-        'release_date': movie_row['release_date'],
-        'genre': str(movie_row.get('genre', '')).split(',')[0].strip(),
-        'raw_score': raw_score,
-        'n_reviews': len(movie_reviews),
-    }
-    
-    if pd.isna(movie_date) or pd.isna(raw_score):
-        result['adjusted_score'] = raw_score
-        return result
-    
-    # Step 1: Critic/outlet adjusted score
-    if len(movie_reviews) > 0:
-        adjusted_review_scores = []
-        adjustment_sources = {'critic': 0, 'outlet': 0, 'none': 0}
-        
-        for _, review in movie_reviews.iterrows():
-            review_score = review['score']
-            critic = review.get('critic_slug')
-            outlet = review.get('outlet')
-            
-            # Use review date if available, else movie release date
-            review_date = pd.to_datetime(review.get('date'), errors='coerce')
-            if pd.isna(review_date):
-                review_date = movie_date
-            
-            # Try critic effect first
-            effect = 0
-            source = 'none'
-            
-            critic_params = get_critic_effect_as_of(critic_effects, critic, review_date)
-            if critic_params:
-                effect = critic_params['effect']
-                source = 'critic'
-            else:
-                # Fall back to outlet
-                outlet_params = get_outlet_effect_as_of(outlet_effects, outlet, review_date)
-                if outlet_params:
-                    effect = outlet_params['effect']
-                    source = 'outlet'
-            
-            adjusted_review_scores.append(review_score - effect)
-            adjustment_sources[source] += 1
-        
-        critic_adjusted_score = np.mean(adjusted_review_scores)
-        result['critic_outlet_adjusted_score'] = critic_adjusted_score
-        result['critic_outlet_adjustment'] = critic_adjusted_score - raw_score
-        result['pct_critic_adjusted'] = adjustment_sources['critic'] / len(movie_reviews)
-        result['pct_outlet_adjusted'] = adjustment_sources['outlet'] / len(movie_reviews)
-    else:
-        critic_adjusted_score = raw_score
-        result['critic_outlet_adjusted_score'] = raw_score
-        result['critic_outlet_adjustment'] = 0
-        result['pct_critic_adjusted'] = 0
-        result['pct_outlet_adjusted'] = 0
-    
-    # Step 2: Bayesian shrinkage
-    shrink_params = get_shrinkage_params_as_of(shrinkage_params, movie_date)
-    
-    if shrink_params and result['n_reviews'] > 0:
-        sigma_sq = shrink_params.get('sigma_sq', 200)
-        tau_sq = shrink_params.get('tau_sq', 300)
-        grand_mean = shrink_params.get('grand_mean', 60)
-        n = result['n_reviews']
-        
-        if not np.isnan(sigma_sq) and not np.isnan(tau_sq) and tau_sq > 0:
-            # Shrinkage factor
-            B = (sigma_sq / n) / (sigma_sq / n + tau_sq)
-            
-            # Apply shrinkage
-            shrunk_score = B * grand_mean + (1 - B) * critic_adjusted_score
-            
-            result['shrinkage_factor'] = B
-            result['shrunk_score'] = shrunk_score
-            result['shrinkage_adjustment'] = shrunk_score - critic_adjusted_score
-            result['grand_mean_at_time'] = grand_mean
-        else:
-            result['shrunk_score'] = critic_adjusted_score
-            result['shrinkage_factor'] = 0
-            result['shrinkage_adjustment'] = 0
-    else:
-        result['shrunk_score'] = critic_adjusted_score
-        result['shrinkage_factor'] = 0
-        result['shrinkage_adjustment'] = 0
-    
-    result['adjusted_score'] = result['shrunk_score']
-    result['total_adjustment'] = result['adjusted_score'] - raw_score
-    
-    return result
-
-
 def process_all_movies(
     movies_df: pd.DataFrame,
     reviews_df: pd.DataFrame,
@@ -306,37 +137,154 @@ def process_all_movies(
     shrinkage_params: pd.DataFrame,
     output_path: str
 ) -> pd.DataFrame:
-    """Process all movies and compute adjusted scores."""
-    
+    """
+    Compute adjusted scores for all movies (vectorized).
+
+    Pipeline per movie:
+    1. Start with raw metascore
+    2. Adjust each review for critic/outlet effect (as of the review date,
+       critic effect preferred, outlet as fallback), then re-average
+    3. Apply Bayesian shrinkage toward the time-varying grand mean
+
+    Movies with no parseable release date keep their raw score.
+    """
     # Filter to movies with metascores
-    movies_with_scores = movies_df.dropna(subset=['metascore'])
-    
-    print(f"\nProcessing {len(movies_with_scores):,} movies with metascores...")
-    
-    results = []
-    
-    for _, movie in tqdm(movies_with_scores.iterrows(), total=len(movies_with_scores),
-                         desc="Computing adjusted scores"):
-        movie_reviews = reviews_df[reviews_df['movie_slug'] == movie['movie_slug']]
-        
-        result = compute_adjusted_score(
-            movie,
-            movie_reviews,
-            critic_effects,
-            outlet_effects,
-            shrinkage_params,
+    movies = movies_df.dropna(subset=['metascore']).copy()
+    movies['_movie_date'] = pd.to_datetime(movies['release_date'], errors='coerce')
+
+    print(f"\nProcessing {len(movies):,} movies with metascores...")
+
+    # --- Step 1: per-review effects, looked up as-of the review date ---
+    reviews = reviews_df.loc[
+        reviews_df['movie_slug'].isin(set(movies['movie_slug'])),
+        ['movie_slug', 'score', 'outlet', 'critic_slug', 'date']
+    ].copy()
+    reviews['_review_date'] = pd.to_datetime(reviews['date'], errors='coerce')
+    release_map = movies.set_index('movie_slug')['_movie_date']
+    reviews['_review_date'] = reviews['_review_date'].fillna(reviews['movie_slug'].map(release_map))
+
+    n_reviews_map = reviews.groupby('movie_slug').size()
+
+    # Movies without a parseable release date are not adjusted (raw score kept),
+    # so their reviews are skipped
+    valid_slugs = set(movies.loc[movies['_movie_date'].notna(), 'movie_slug'])
+    reviews = reviews[reviews['movie_slug'].isin(valid_slugs)]
+    reviews = reviews.dropna(subset=['_review_date'])
+
+    # As-of lookups (last effect with date <= review date) via merge_asof.
+    # Missing by-keys are normalized to '' which matches no effect row.
+    reviews = reviews.sort_values('_review_date', kind='stable')
+    reviews['_critic_key'] = reviews['critic_slug'].fillna('')
+    reviews['_outlet_key'] = reviews['outlet'].fillna('')
+
+    ce = critic_effects.sort_values('date', kind='stable')[['critic', 'date', 'final_effect']]
+    ce = ce.rename(columns={'critic': '_critic_key', 'date': '_review_date',
+                            'final_effect': '_critic_eff'})
+    reviews = pd.merge_asof(reviews, ce, on='_review_date', by='_critic_key',
+                            direction='backward')
+
+    oe = outlet_effects.sort_values('date', kind='stable')[['outlet', 'date', 'effect']]
+    oe = oe.rename(columns={'outlet': '_outlet_key', 'date': '_review_date',
+                            'effect': '_outlet_eff'})
+    reviews = pd.merge_asof(reviews, oe, on='_review_date', by='_outlet_key',
+                            direction='backward')
+
+    # Critic effect preferred, outlet as fallback, else unadjusted
+    has_critic = reviews['_critic_eff'].notna()
+    has_outlet = reviews['_outlet_eff'].notna()
+    effect = np.where(has_critic, reviews['_critic_eff'],
+                      np.where(has_outlet, reviews['_outlet_eff'], 0.0))
+    reviews['_adj_score'] = reviews['score'] - effect
+    reviews['_src_critic'] = has_critic
+    reviews['_src_outlet'] = ~has_critic & has_outlet
+
+    grp = reviews.groupby('movie_slug')
+    per_movie = pd.DataFrame({
+        '_adj_sum': grp['_adj_score'].sum(),
+        '_adj_count': grp['_adj_score'].count(),
+        '_n_rows': grp.size(),
+        '_n_critic': grp['_src_critic'].sum(),
+        '_n_outlet': grp['_src_outlet'].sum(),
+    })
+    # np.mean semantics: any NaN review score makes the movie's mean NaN
+    with np.errstate(invalid='ignore', divide='ignore'):
+        per_movie['_adj_mean'] = np.where(
+            per_movie['_adj_count'] == per_movie['_n_rows'],
+            per_movie['_adj_sum'] / per_movie['_adj_count'],
+            np.nan,
         )
-        results.append(result)
-    
-    results_df = pd.DataFrame(results)
-    
+
+    results = movies.merge(per_movie, left_on='movie_slug', right_index=True, how='left')
+    results = results.reset_index(drop=True)
+    results['n_reviews'] = results['movie_slug'].map(n_reviews_map).fillna(0).astype(int)
+
+    # Plain arrays: later merges reset the index, so labeled alignment would break
+    valid = results['_movie_date'].notna().to_numpy()
+    has_reviews = (results['n_reviews'] > 0).to_numpy()
+    raw = results['metascore']
+
+    critic_adj = np.where(valid & has_reviews, results['_adj_mean'], raw)
+    results['critic_outlet_adjusted_score'] = np.where(valid, critic_adj, np.nan)
+    results['critic_outlet_adjustment'] = np.where(valid, critic_adj - raw, np.nan)
+    with np.errstate(invalid='ignore', divide='ignore'):
+        pct_c = np.where(has_reviews, results['_n_critic'] / results['n_reviews'], 0.0)
+        pct_o = np.where(has_reviews, results['_n_outlet'] / results['n_reviews'], 0.0)
+    results['pct_critic_adjusted'] = np.where(valid, pct_c, np.nan)
+    results['pct_outlet_adjusted'] = np.where(valid, pct_o, np.nan)
+
+    # --- Step 2: Bayesian shrinkage toward the grand mean as of release ---
+    sp = shrinkage_params.sort_values('date', kind='stable')[
+        ['date', 'grand_mean', 'tau_sq', 'sigma_sq']
+    ].rename(columns={'date': '_movie_date'})
+    sp['_params_found'] = True
+    dated = results.loc[valid, ['movie_slug', '_movie_date']].sort_values('_movie_date', kind='stable')
+    dated = pd.merge_asof(dated, sp, on='_movie_date', direction='backward')
+    results = results.merge(dated.drop(columns=['_movie_date']), on='movie_slug', how='left')
+
+    n = results['n_reviews']
+    sigma_sq, tau_sq, gm = results['sigma_sq'], results['tau_sq'], results['grand_mean']
+    with np.errstate(invalid='ignore', divide='ignore'):
+        B = (sigma_sq / n) / (sigma_sq / n + tau_sq)
+        shrunk = B * gm + (1 - B) * critic_adj
+    do_shrink = (
+        results['_params_found'].fillna(False).astype(bool).to_numpy()
+        & has_reviews & sigma_sq.notna().to_numpy() & tau_sq.notna().to_numpy()
+        & (tau_sq > 0).to_numpy()
+    )
+    results['shrinkage_factor'] = np.where(valid, np.where(do_shrink, B, 0.0), np.nan)
+    results['shrunk_score'] = np.where(valid, np.where(do_shrink, shrunk, critic_adj), np.nan)
+    results['shrinkage_adjustment'] = np.where(valid, np.where(do_shrink, shrunk - critic_adj, 0.0), np.nan)
+    results['grand_mean_at_time'] = np.where(valid & do_shrink, gm, np.nan)
+
+    results['adjusted_score'] = np.where(valid, results['shrunk_score'], raw)
+    results['total_adjustment'] = np.where(valid, results['adjusted_score'] - raw, np.nan)
+
+    results_df = pd.DataFrame({
+        'movie_slug': results['movie_slug'],
+        'title': results['title'],
+        'release_date': results['release_date'],
+        'genre': results['genre'].apply(lambda g: str(g).split(',')[0].strip()),
+        'raw_score': raw,
+        'n_reviews': results['n_reviews'],
+        'critic_outlet_adjusted_score': results['critic_outlet_adjusted_score'],
+        'critic_outlet_adjustment': results['critic_outlet_adjustment'],
+        'pct_critic_adjusted': results['pct_critic_adjusted'],
+        'pct_outlet_adjusted': results['pct_outlet_adjusted'],
+        'shrinkage_factor': results['shrinkage_factor'],
+        'shrunk_score': results['shrunk_score'],
+        'shrinkage_adjustment': results['shrinkage_adjustment'],
+        'grand_mean_at_time': results['grand_mean_at_time'],
+        'adjusted_score': results['adjusted_score'],
+        'total_adjustment': results['total_adjustment'],
+    })
+
     # Sort by adjusted score descending
     results_df = results_df.sort_values('adjusted_score', ascending=False)
-    
+
     # Save
     results_df.to_csv(output_path, index=False)
     print(f"\nSaved adjusted scores to: {output_path}")
-    
+
     return results_df
 
 
