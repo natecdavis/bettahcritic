@@ -50,6 +50,7 @@ def csv_to_json(csv_path: str, output_path: str):
         'adjusted_score': 'adjusted_score',
         'n_reviews': 'n_reviews',
         'total_adjustment': 'total_adjustment',
+        'polarization_std': 'polarization',
     }
     
     # Only keep columns that exist
@@ -61,6 +62,8 @@ def csv_to_json(csv_path: str, output_path: str):
         df_out['adjusted_score'] = df_out['adjusted_score'].round(1)
     if 'total_adjustment' in df_out.columns:
         df_out['total_adjustment'] = df_out['total_adjustment'].round(2)
+    if 'polarization' in df_out.columns:
+        df_out['polarization'] = df_out['polarization'].round(1)
     
     # Handle NaN values - replace with None for valid JSON
     # For numeric columns, NaN -> None

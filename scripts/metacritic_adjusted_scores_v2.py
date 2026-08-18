@@ -21,6 +21,11 @@ import os
 import argparse
 from tqdm import tqdm
 
+# Prior strength (pseudo-degrees-of-freedom) for shrinking each movie's
+# adjusted-review variance toward the time-varying prior. Larger values pull
+# low-review-count movies harder toward "typical disagreement".
+POLARIZATION_PRIOR_STRENGTH = 10.0
+
 
 class ExponentialWeightedStats:
     """Compute exponentially weighted statistics with backward-looking only."""
@@ -135,7 +140,8 @@ def process_all_movies(
     critic_effects: pd.DataFrame,
     outlet_effects: pd.DataFrame,
     shrinkage_params: pd.DataFrame,
-    output_path: str
+    output_path: str,
+    halflife_days: float = 2000
 ) -> pd.DataFrame:
     """
     Compute adjusted scores for all movies (vectorized).
@@ -145,6 +151,8 @@ def process_all_movies(
     2. Adjust each review for critic/outlet effect (as of the review date,
        critic effect preferred, outlet as fallback), then re-average
     3. Apply Bayesian shrinkage toward the time-varying grand mean
+    4. Polarization: std of the adjusted review scores, with the variance
+       shrunk toward a walk-forward EWA prior of within-movie adjusted variance
 
     Movies with no parseable release date keep their raw score.
     """
@@ -205,6 +213,9 @@ def process_all_movies(
         '_n_rows': grp.size(),
         '_n_critic': grp['_src_critic'].sum(),
         '_n_outlet': grp['_src_outlet'].sum(),
+        # Sample variance over the non-NaN adjusted scores (NaN when fewer
+        # than 2 scored reviews); unlike the mean, not nulled by NaN reviews
+        '_adj_var': grp['_adj_score'].var(),
     })
     # np.mean semantics: any NaN review score makes the movie's mean NaN
     with np.errstate(invalid='ignore', divide='ignore'):
@@ -259,6 +270,45 @@ def process_all_movies(
     results['adjusted_score'] = np.where(valid, results['shrunk_score'], raw)
     results['total_adjustment'] = np.where(valid, results['adjusted_score'] - raw, np.nan)
 
+    # --- Step 3: polarization (dispersion of adjusted review scores) ---
+    # Prior: walk-forward EWA of within-movie adjusted variance, evaluated
+    # quarterly (same construction as compute_shrinkage_params_ewa, but on
+    # adjusted rather than raw scores; backward-looking weights only).
+    ewa = ExponentialWeightedStats(halflife_days)
+    var_movies = results.loc[
+        valid & results['_adj_var'].notna(), ['_movie_date', '_adj_var']
+    ]
+    prior_rows = []
+    for as_of_date in pd.date_range(var_movies['_movie_date'].min(),
+                                    var_movies['_movie_date'].max(), freq='Q'):
+        weights = ewa.get_weights(var_movies['_movie_date'], as_of_date)
+        if weights.sum() < 50:
+            continue
+        prior_rows.append({
+            '_movie_date': as_of_date,
+            '_sigma0_sq': ewa.weighted_mean(var_movies['_adj_var'].values, weights),
+        })
+    prior = pd.DataFrame(prior_rows, columns=['_movie_date', '_sigma0_sq'])
+
+    dated = results.loc[valid, ['movie_slug', '_movie_date']].sort_values('_movie_date', kind='stable')
+    dated = pd.merge_asof(dated, prior, on='_movie_date', direction='backward')
+    results = results.merge(dated.drop(columns=['_movie_date']), on='movie_slug', how='left')
+
+    # Empirical-Bayes shrinkage of the variance (pseudo-df posterior mean):
+    # (n-1)*s² + nu0*sigma0² over (n-1) + nu0. Movies predating the prior
+    # series keep their unshrunk sample variance (mirrors do_shrink above).
+    nu0 = POLARIZATION_PRIOR_STRENGTH
+    adj_n = results['_adj_count'].fillna(0)
+    dfree = (adj_n - 1).clip(lower=0)
+    sigma0_sq = results['_sigma0_sq']
+    with np.errstate(invalid='ignore', divide='ignore'):
+        sum_sq = np.where(dfree > 0, dfree * results['_adj_var'], 0.0)
+        var_shrunk = np.where(sigma0_sq.notna(),
+                              (sum_sq + nu0 * sigma0_sq) / (dfree + nu0),
+                              results['_adj_var'])
+        results['polarization_std_raw'] = np.where(valid, np.sqrt(results['_adj_var']), np.nan)
+        results['polarization_std'] = np.where(valid & (adj_n > 0), np.sqrt(var_shrunk), np.nan)
+
     results_df = pd.DataFrame({
         'movie_slug': results['movie_slug'],
         'title': results['title'],
@@ -276,6 +326,8 @@ def process_all_movies(
         'grand_mean_at_time': results['grand_mean_at_time'],
         'adjusted_score': results['adjusted_score'],
         'total_adjustment': results['total_adjustment'],
+        'polarization_std': results['polarization_std'],
+        'polarization_std_raw': results['polarization_std_raw'],
     })
 
     # Sort by adjusted score descending
@@ -330,6 +382,16 @@ def summarize_adjustments(df: pd.DataFrame):
     corr = df['raw_score'].corr(df['adjusted_score'])
     print(f"  Correlation (raw vs adjusted): {corr:.3f}")
     
+    # Polarization
+    if 'polarization_std' in df.columns:
+        print(f"\nPolarization (shrunk std of adjusted review scores):")
+        print(f"  Mean:   {df['polarization_std'].mean():.2f}")
+        print(f"  Median: {df['polarization_std'].median():.2f}")
+        print(f"\nMost polarizing (n_reviews >= 20):")
+        top_pol = df[df['n_reviews'] >= 20].nlargest(5, 'polarization_std')
+        for _, row in top_pol.iterrows():
+            print(f"  {row['title'][:45]:45s} std={row['polarization_std']:.1f} (score {row['adjusted_score']:.0f}, n={row['n_reviews']})")
+
     # Biggest movers
     print(f"\nBiggest positive adjustments (underrated by raw score):")
     top_up = df.nlargest(10, 'total_adjustment')
@@ -392,7 +454,8 @@ def main():
         critic_effects,
         outlet_effects,
         shrinkage_params,
-        output_path=os.path.join(args.output_dir, 'adjusted_scores.csv')
+        output_path=os.path.join(args.output_dir, 'adjusted_scores.csv'),
+        halflife_days=args.halflife_shrinkage
     )
     
     # Summary
@@ -403,6 +466,7 @@ def main():
         'adjustments_applied': ['hierarchical_critic_outlet', 'bayesian_shrinkage'],
         'adjustments_not_applied': ['genre'],
         'halflife_shrinkage_days': args.halflife_shrinkage,
+        'polarization_prior_strength': POLARIZATION_PRIOR_STRENGTH,
         'n_movies': len(movies_df),
         'n_movies_with_scores': len(adjusted_df),
         'n_reviews': len(reviews_df),

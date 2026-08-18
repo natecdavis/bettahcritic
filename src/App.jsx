@@ -132,7 +132,7 @@ const MovieCard = ({ movie, rank }) => {
       </button>
       
       {expanded && (
-        <div className="mt-3 pt-3 border-t border-gray-100 grid grid-cols-3 gap-4 text-sm">
+        <div className="mt-3 pt-3 border-t border-gray-100 grid grid-cols-2 sm:grid-cols-4 gap-4 text-sm">
           <div>
             <span className="text-gray-500 block">Raw Score</span>
             <span className={`font-semibold ${getScoreTextColor(movie.raw_score)}`}>{movie.raw_score}</span>
@@ -144,6 +144,12 @@ const MovieCard = ({ movie, rank }) => {
           <div>
             <span className="text-gray-500 block">Adjustment</span>
             <AdjustmentBadge adjustment={movie.total_adjustment} />
+          </div>
+          <div>
+            <span className="text-gray-500 block">Divisiveness</span>
+            <span className="font-semibold text-gray-700">
+              {movie.polarization != null ? movie.polarization.toFixed(1) : '—'}
+            </span>
           </div>
         </div>
       )}
@@ -166,6 +172,9 @@ const MovieTableRow = ({ movie, rank }) => (
     <td className="py-3 px-4 text-center text-gray-600">{movie.raw_score}</td>
     <td className="py-3 px-4 text-center"><AdjustmentBadge adjustment={movie.total_adjustment} /></td>
     <td className="py-3 px-4 text-center text-gray-500">{movie.n_reviews}</td>
+    <td className="py-3 px-4 text-center text-gray-500">
+      {movie.polarization != null ? movie.polarization.toFixed(1) : '—'}
+    </td>
   </tr>
 );
 
@@ -445,6 +454,9 @@ export default function App() {
                     <th className="py-3 px-4 text-center w-16"><SortBtn field="raw_score">Raw</SortBtn></th>
                     <th className="py-3 px-4 text-center w-20"><SortBtn field="total_adjustment">+/-</SortBtn></th>
                     <th className="py-3 px-4 text-center w-16"><SortBtn field="n_reviews">N</SortBtn></th>
+                    <th className="py-3 px-4 text-center w-20" title="Polarization: how much critics disagreed (std of adjusted review scores)">
+                      <SortBtn field="polarization">Div.</SortBtn>
+                    </th>
                   </tr>
                 </thead>
                 <tbody>
@@ -488,6 +500,7 @@ export default function App() {
             <li>• <strong>Negative adjustment:</strong> Reviewed by generous critics</li>
             <li>• <strong>Positive adjustment:</strong> Reviewed by harsh critics</li>
             <li>• <strong>Shrinkage:</strong> Films with few reviews are pulled toward the average</li>
+            <li>• <strong>Divisiveness (Div.):</strong> How much critics disagreed on a film — the spread (standard deviation) of its adjusted review scores. ~14 is typical; 20+ means critics were split into love-it and hate-it camps</li>
           </ul>
         </div>
       </main>

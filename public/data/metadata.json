@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T12:42:19.496582",
+  "updated": "2026-08-18T13:10:34.989931",
   "total_movies": 21434,
   "genres": [
     "Action",
@@ -26,6 +26,5 @@
   "year_range": {
     "min": 1916,
     "max": 2026
-  },
-  "last_update_status": "success"
+  }
 }
