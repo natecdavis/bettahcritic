@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-18T13:10:34.989931",
-  "total_movies": 21434,
+  "updated": "2026-08-23T18:19:55.763528",
+  "total_movies": 21444,
   "genres": [
     "Action",
     "Adventure",
@@ -26,5 +26,6 @@
   "year_range": {
     "min": 1916,
     "max": 2026
-  }
+  },
+  "last_update_status": "success"
 }
