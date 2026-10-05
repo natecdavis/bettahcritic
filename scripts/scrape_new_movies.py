@@ -37,6 +37,9 @@ from tqdm import tqdm
 MOVIES_API = "https://backend.metacritic.com/finder/metacritic/web"
 REVIEWS_API = "https://backend.metacritic.com/reviews/metacritic/critic/movies/{slug}/web"
 
+# Attempts per review page before giving up
+REVIEW_FETCH_ATTEMPTS = 3
+
 # Request headers
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
@@ -169,20 +172,24 @@ def fetch_review_page(slug: str, offset: int = 0, delay: float = 0.3) -> tuple[l
         'componentType': 'ReviewList',
     }
 
-    try:
-        time.sleep(delay)
-        response = requests.get(url, params=params, headers=HEADERS, timeout=30)
-        response.raise_for_status()
-        data = response.json()
-        total_results = data.get('data', {}).get('totalResults', 0)
-        items = data.get('data', {}).get('items', [])
-        return _parse_review_items(items, slug), total_results, len(items)
-    except requests.RequestException as e:
-        print(f"  Error fetching reviews for {slug}: {e}")
-        return [], 0, 0
-    except (json.JSONDecodeError, KeyError) as e:
-        print(f"  Error parsing reviews for {slug}: {e}")
-        return [], 0, 0
+    # Retry transient failures (timeouts, 429s, 5xx) with backoff; a failed
+    # fetch would otherwise leave the movie with no reviews for this run.
+    for attempt in range(REVIEW_FETCH_ATTEMPTS):
+        try:
+            time.sleep(delay if attempt == 0 else delay + 2 ** attempt)
+            response = requests.get(url, params=params, headers=HEADERS, timeout=30)
+            response.raise_for_status()
+            data = response.json()
+            total_results = data.get('data', {}).get('totalResults', 0)
+            items = data.get('data', {}).get('items', [])
+            return _parse_review_items(items, slug), total_results, len(items)
+        except requests.RequestException as e:
+            print(f"  Error fetching reviews for {slug} "
+                  f"(attempt {attempt + 1}/{REVIEW_FETCH_ATTEMPTS}): {e}")
+        except (json.JSONDecodeError, KeyError) as e:
+            print(f"  Error parsing reviews for {slug} "
+                  f"(attempt {attempt + 1}/{REVIEW_FETCH_ATTEMPTS}): {e}")
+    return [], 0, 0
 
 
 def get_movie_reviews(slug: str, delay: float = 0.3) -> list[dict]:
@@ -504,7 +511,31 @@ def main():
                 
                 all_new_reviews.extend(reviews)
                 movies_with_reviews += 1
-        
+
+        # A metascore implies Metacritic has critic reviews, so an empty
+        # fetch means something went wrong. Retry those once after the
+        # pass, then flag any still missing so they don't go unnoticed.
+        fetched_slugs = {r['movie_slug'] for r in all_new_reviews}
+        missing = [m for m in new_movies
+                   if pd.notna(m.get('metascore')) and m['movie_slug'] not in fetched_slugs]
+        if missing:
+            print(f"\nRetrying {len(missing)} scored movies that came back with no reviews...")
+            still_missing = []
+            for movie in missing:
+                reviews = get_movie_reviews(movie['movie_slug'], delay=args.delay + 2)
+                if reviews:
+                    for review in reviews:
+                        review['year'] = movie.get('year')
+                    all_new_reviews.extend(reviews)
+                    movies_with_reviews += 1
+                else:
+                    still_missing.append(movie)
+            if still_missing:
+                print(f"WARNING: {len(still_missing)} movies have a metascore but no reviews "
+                      f"(will be retried next run, and excluded from scores until then):")
+                for movie in still_missing:
+                    print(f"  {movie['movie_slug']} (metascore {movie['metascore']})")
+
         print(f"\nFetched {len(all_new_reviews):,} reviews for {movies_with_reviews} movies")
         
         if all_new_reviews:

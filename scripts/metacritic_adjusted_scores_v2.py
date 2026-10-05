@@ -267,7 +267,11 @@ def process_all_movies(
     results['shrinkage_adjustment'] = np.where(valid, np.where(do_shrink, shrunk - critic_adj, 0.0), np.nan)
     results['grand_mean_at_time'] = np.where(valid & do_shrink, gm, np.nan)
 
-    results['adjusted_score'] = np.where(valid, results['shrunk_score'], raw)
+    # No reviews means nothing to adjust or shrink: passing the raw metascore
+    # through would rank it unshrunk above every reviewed film. Leave it
+    # unscored (csv_to_json drops these) until its reviews are scraped.
+    results['adjusted_score'] = np.where(
+        has_reviews, np.where(valid, results['shrunk_score'], raw), np.nan)
     results['total_adjustment'] = np.where(valid, results['adjusted_score'] - raw, np.nan)
 
     # --- Step 3: polarization (dispersion of adjusted review scores) ---
