@@ -95,6 +95,7 @@ def get_recent_movies(page: int = 0, page_size: int = 24, delay: float = 0.5) ->
             
             movie = {
                 'movie_slug': item.get('slug', ''),
+                'metacritic_id': item.get('id'),
                 'title': item.get('title', ''),
                 'release_date': release_date,
                 'year': year,
@@ -153,15 +154,21 @@ def _parse_review_items(items: list[dict], slug: str) -> list[dict]:
     return reviews
 
 
-def fetch_review_page(slug: str, offset: int = 0, delay: float = 0.3) -> tuple[list[dict], int, int]:
+def fetch_review_page(slug: str, offset: int = 0, delay: float = 0.3,
+                      movie_id=None) -> tuple[list[dict], int, int]:
     """
     Fetch one page of critic reviews (the API caps pages at 10 items;
     page 0 is newest-first).
+
+    Slugs with characters like ')' 404 on the reviews API, which also
+    accepts the numeric Metacritic ID in place of the slug; when movie_id
+    is given, a 404 on the slug falls back to the ID.
 
     Returns (parsed reviews, total review count, raw item count). The raw
     count can exceed the parsed count when unscored reviews are filtered out.
     """
     url = REVIEWS_API.format(slug=slug)
+    id_url = REVIEWS_API.format(slug=int(movie_id)) if pd.notna(movie_id) else None
     params = {
         'offset': offset,
         'limit': 10,
@@ -178,6 +185,9 @@ def fetch_review_page(slug: str, offset: int = 0, delay: float = 0.3) -> tuple[l
         try:
             time.sleep(delay if attempt == 0 else delay + 2 ** attempt)
             response = requests.get(url, params=params, headers=HEADERS, timeout=30)
+            if response.status_code == 404 and id_url and url != id_url:
+                url = id_url
+                response = requests.get(url, params=params, headers=HEADERS, timeout=30)
             response.raise_for_status()
             data = response.json()
             total_results = data.get('data', {}).get('totalResults', 0)
@@ -186,13 +196,16 @@ def fetch_review_page(slug: str, offset: int = 0, delay: float = 0.3) -> tuple[l
         except requests.RequestException as e:
             print(f"  Error fetching reviews for {slug} "
                   f"(attempt {attempt + 1}/{REVIEW_FETCH_ATTEMPTS}): {e}")
+            # A 404 is permanent, so retrying it only wastes requests
+            if getattr(e.response, 'status_code', None) == 404:
+                break
         except (json.JSONDecodeError, KeyError) as e:
             print(f"  Error parsing reviews for {slug} "
                   f"(attempt {attempt + 1}/{REVIEW_FETCH_ATTEMPTS}): {e}")
     return [], 0, 0
 
 
-def get_movie_reviews(slug: str, delay: float = 0.3) -> list[dict]:
+def get_movie_reviews(slug: str, delay: float = 0.3, movie_id=None) -> list[dict]:
     """
     Fetch all critic reviews for a movie.
     Paginates through all results.
@@ -201,7 +214,8 @@ def get_movie_reviews(slug: str, delay: float = 0.3) -> list[dict]:
     offset = 0
 
     while True:
-        page_reviews, total_results, n_items = fetch_review_page(slug, offset=offset, delay=delay)
+        page_reviews, total_results, n_items = fetch_review_page(slug, offset=offset, delay=delay,
+                                                                  movie_id=movie_id)
         all_reviews.extend(page_reviews)
 
         if n_items == 0:
@@ -326,20 +340,21 @@ def check_for_new_reviews(
 
     for _, movie in tqdm(recent_movies.iterrows(), total=len(recent_movies), desc="Checking for new reviews"):
         slug = movie['movie_slug']
+        movie_id = movie.get('metacritic_id')
         movie_year = movie.get('year')
         existing_count = existing_review_counts.get(slug, 0)
 
         # Cheap gate: one request for the newest-first first page. Only fetch
         # the remaining pages when it shows an unseen review, or the API's
         # total exceeds what we have stored.
-        page1, total_results, _ = fetch_review_page(slug, offset=0, delay=delay)
+        page1, total_results, _ = fetch_review_page(slug, offset=0, delay=delay, movie_id=movie_id)
         page1_new = any(review_key(r) not in existing_reviews_set for r in page1)
 
         if not page1_new and total_results <= existing_count:
             continue
 
         if total_results > 10:
-            current_reviews = get_movie_reviews(slug, delay=delay)
+            current_reviews = get_movie_reviews(slug, delay=delay, movie_id=movie_id)
             full_fetches += 1
         else:
             current_reviews = page1
@@ -397,6 +412,11 @@ def main():
     if os.path.exists(movies_path):
         print(f"\nLoading existing movies from {movies_path}...")
         existing_movies_df = pd.read_csv(movies_path)
+        # Older files predate the ID column; it fills in as the listing
+        # walk refreshes each movie's metadata
+        if 'metacritic_id' not in existing_movies_df.columns:
+            existing_movies_df.insert(1, 'metacritic_id', pd.NA)
+        existing_movies_df['metacritic_id'] = existing_movies_df['metacritic_id'].astype('Int64')
         existing_slugs = set(existing_movies_df['movie_slug'].dropna())
         print(f"Found {len(existing_movies_df):,} existing movies")
     else:
@@ -502,7 +522,8 @@ def main():
         for movie in tqdm(new_movies, desc="Fetching reviews"):
             slug = movie['movie_slug']
             movie_year = movie.get('year')
-            reviews = get_movie_reviews(slug, delay=args.delay)
+            reviews = get_movie_reviews(slug, delay=args.delay,
+                                        movie_id=movie.get('metacritic_id'))
             
             if reviews:
                 # Add year to each review
@@ -522,7 +543,8 @@ def main():
             print(f"\nRetrying {len(missing)} scored movies that came back with no reviews...")
             still_missing = []
             for movie in missing:
-                reviews = get_movie_reviews(movie['movie_slug'], delay=args.delay + 2)
+                reviews = get_movie_reviews(movie['movie_slug'], delay=args.delay + 2,
+                                            movie_id=movie.get('metacritic_id'))
                 if reviews:
                     for review in reviews:
                         review['year'] = movie.get('year')
@@ -614,6 +636,10 @@ def main():
         if new_movies or updated_movies or dupes_removed > 0:
             if dupes_removed > 0:
                 print(f"Removed {dupes_removed} duplicate movies")
+            # update() and concat() can upcast IDs to float; keep them integral
+            if 'metacritic_id' in combined_movies_df.columns:
+                combined_movies_df['metacritic_id'] = (
+                    pd.to_numeric(combined_movies_df['metacritic_id']).astype('Int64'))
             combined_movies_df.to_csv(movies_path, index=False)
             print(f"Saved {len(combined_movies_df):,} movies to {movies_path}")
         else:
