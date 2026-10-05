@@ -505,7 +505,8 @@ def main():
     
     if not new_movies:
         print("\nNo new movies found.")
-        if args.skip_new_review_check or args.skip_reviews:
+        # Refreshed metadata for known movies still needs saving below
+        if (args.skip_new_review_check or args.skip_reviews) and not updated_movies:
             print("Data is up to date!")
             return
         # Continue to check for new reviews on existing movies
