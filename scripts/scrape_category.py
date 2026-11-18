@@ -66,7 +66,8 @@ CATEGORIES = {
 }
 
 ITEM_COLUMNS = ['item_slug', 'metacritic_id', 'title', 'subtitle', 'release_date', 'year',
-                'metascore', 'user_score', 'listed_review_count', 'genre', 'url', 'description']
+                'metascore', 'user_score', 'listed_review_count', 'genre', 'url', 'description',
+                'listed_seasons']
 REVIEW_COLUMNS = ['item_slug', 'score', 'outlet', 'outlet_slug', 'critic', 'critic_slug',
                   'date', 'platform', 'excerpt', 'review_url']
 
@@ -262,6 +263,13 @@ def fetch_all_reviews(category: str, path: str, delay: float, first_page=None) -
     return items
 
 
+def count_aired_seasons(seasons: list[dict]) -> int:
+    """Seasons Metacritic lists for a show, reviewed or not, excluding ones
+    announced with a future premiere date."""
+    today = pd.Timestamp.now().strftime('%Y-%m-%d')
+    return sum(1 for s in seasons if (s.get('premiereDate') or '')[:10] <= today)
+
+
 def fetch_show_seasons(slug: str, delay: float) -> list[dict]:
     """Per-season metadata and metascores from the show page."""
     data = get_json(SHOW_PAGE_API.format(slug=slug), {'contentOnly': 'true'}, delay)
@@ -311,6 +319,7 @@ def build_items_and_reviews(category: str, entry: dict, raw_reviews: list[dict],
     # they have reviews: they count toward the show-level score, though not
     # listed as seasons themselves (no metascore to compare against).
     items, reviews = [], []
+    listed_seasons = count_aired_seasons(seasons or [])
     season_by_id = {}
     reviews_per_season = {}
     for raw in raw_reviews:
@@ -344,6 +353,7 @@ def build_items_and_reviews(category: str, entry: dict, raw_reviews: list[dict],
             'genre': entry['genre'],
             'url': f"/tv/{entry['slug']}/{season_slug}/",
             'description': (s.get('description') or entry.get('description') or '')[:500],
+            'listed_seasons': listed_seasons,
         })
     for raw in raw_reviews:
         season_id = (((raw.get('reviewedProduct') or {}).get('tvTaxonomy') or {})

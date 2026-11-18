@@ -27,9 +27,10 @@ Seasons Metacritic hasn't scored (fewer than 4 reviews) are included when
 they have any reviews; with 1-3 reviews they lean mostly on the show's other
 seasons. Shows with no scored season at all are left out.
 
-Also reported: a Metacritic-style raw show score (review-weighted mean of
-season metascores, which reproduces Metacritic's own show score), and the best
-season.
+Also reported: how many seasons Metacritic lists for the show, reviewed or
+not (listed_seasons from the scraper); a Metacritic-style raw show score
+(review-weighted mean of season metascores, which reproduces Metacritic's own
+show score); and the best season.
 
 Usage:
     python scripts/tv_show_scores.py --scores-dir data/tv/adjusted_scores --webapp-dir public/data
@@ -92,6 +93,8 @@ def show_scores(seasons: pd.DataFrame, tau_w_sq: float) -> pd.DataFrame:
             'last_year': int(dates.max().year) if dates.notna().any() else None,
             'last_release_date': dates.max().strftime('%Y-%m-%d') if dates.notna().any() else '',
             'n_seasons': int(len(g)),
+            'n_listed_seasons': int(max(first['listed_seasons'], len(g)))
+                                if pd.notna(first.get('listed_seasons')) else int(len(g)),
             'n_unscored_seasons': int((~scored).sum()),
             'n_reviews': int(g['n'].sum()),
             'adjusted_score': round(score, 1),
@@ -110,6 +113,8 @@ def main():
     p = argparse.ArgumentParser(description='Aggregate TV season scores per show')
     p.add_argument('--scores-dir', default='data/tv/adjusted_scores')
     p.add_argument('--webapp-dir', default='public/data')
+    p.add_argument('--items-path', default='data/tv/metacritic_data/items.csv',
+                   help='Scraped TV items, for the number of seasons Metacritic lists per show')
     args = p.parse_args()
 
     s = pd.read_csv(os.path.join(args.scores_dir, 'adjusted_scores.csv'))
@@ -117,6 +122,14 @@ def main():
     s['show'] = s['movie_slug'].str.split('/').str[0]
     # Shows Metacritic never scored (no season with 4+ reviews) are left out
     s = s[s.groupby('show')['raw_score'].transform(lambda r: r.notna().any())]
+    if os.path.exists(args.items_path):
+        listed = pd.read_csv(args.items_path, usecols=lambda c: c in ('item_slug', 'listed_seasons'),
+                             low_memory=False)
+        if 'listed_seasons' in listed.columns:
+            listed = listed.groupby(listed['item_slug'].str.split('/').str[0])['listed_seasons'].max()
+            s['listed_seasons'] = s['show'].map(listed)
+    if 'listed_seasons' not in s.columns:
+        s['listed_seasons'] = np.nan
     s['season_number'] = pd.to_numeric(s['subtitle'].str.extract(r'(\d+)')[0], errors='coerce')
     s['ybar'] = s['critic_outlet_adjusted_score']
     s['n'] = s['n_reviews']

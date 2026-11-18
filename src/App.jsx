@@ -218,17 +218,33 @@ const ItemTableRow = ({ item, rank, category }) => (
   </tr>
 );
 
+// "4 seasons", or "1 of 4 seasons reviewed" when Metacritic lists seasons with no reviews
+const seasonCountLabel = (show) => {
+  const listed = Math.max(show.n_listed_seasons || 0, show.n_seasons);
+  const plural = listed === 1 ? '' : 's';
+  const text = listed > show.n_seasons
+    ? `${show.n_seasons} of ${listed} season${plural} reviewed`
+    : `${listed} season${plural}`;
+  const notes = [];
+  if (listed > show.n_seasons) {
+    notes.push(`Metacritic has no critic reviews for ${listed - show.n_seasons} of its ${listed} seasons; the score covers the reviewed ones`);
+  }
+  if (show.n_unscored_seasons) {
+    notes.push(`${show.n_unscored_seasons} reviewed season${show.n_unscored_seasons === 1 ? ' has' : 's have'} too few reviews for a Metacritic score`);
+  }
+  return { text, title: notes.length ? notes.join('. ') : undefined };
+};
+
 const ShowTableRow = ({ show, rank }) => {
   const years = show.first_year === show.last_year ? show.first_year : `${show.first_year}–${show.last_year}`;
+  const seasons = seasonCountLabel(show);
   return (
     <tr className="hover:bg-gray-50 border-b border-gray-100">
       <td className="py-3 px-4 text-center text-gray-500 font-medium">{rank}</td>
       <td className="py-3 px-4">
         <Title item={show} category="tv" className="font-medium text-gray-900" />
         <div className="text-sm text-gray-500">
-          <span title={show.n_unscored_seasons ? `${show.n_unscored_seasons} with too few reviews for a Metacritic score` : undefined}>
-            {`${show.n_seasons} season${show.n_seasons === 1 ? '' : 's'}`}
-          </span>
+          <span title={seasons.title}>{seasons.text}</span>
           {[years, show.genre || 'Unknown'].filter(Boolean).map(t => ` · ${t}`).join('')}
         </div>
       </td>
@@ -370,7 +386,7 @@ const Methodology = ({ category, metadata }) => {
           </li>
         )}
         {category === 'tv' && (
-          <li>• <strong>Shows tab:</strong> A show’s score averages its seasons, each counting equally. A season with few reviews is pulled toward the show’s other seasons before the overall average, since seasons of the same show tend to score alike. Seasons with too few reviews for Metacritic to score (under 4) still count this way. “Raw” is Metacritic’s show score: its scored seasons weighted by review count. “Best” is the top Metacritic-scored season</li>
+          <li>• <strong>Shows tab:</strong> A show’s score averages its seasons, each counting equally. A season with few reviews is pulled toward the show’s other seasons before the overall average, since seasons of the same show tend to score alike. Seasons with too few reviews for Metacritic to score (under 4) still count this way. “Raw” is Metacritic’s show score: its scored seasons weighted by review count. “Best” is the top Metacritic-scored season. Seasons Metacritic lists without any critic reviews can’t be scored; for those shows the season count reads e.g. “1 of 4 seasons reviewed”</li>
         )}
         <li>• <strong>Divisiveness (Div.):</strong> How much critics disagreed — the spread (standard deviation) of the adjusted review scores{typicalDiv ? `. ~${Math.round(typicalDiv)} is typical for ${cfg.label.toLowerCase()}` : ''}</li>
       </ul>
