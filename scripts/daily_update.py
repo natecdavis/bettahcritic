@@ -148,6 +148,8 @@ def compute_adjusted_scores(data_dir: str, effects_dir: str, output_dir: str, sc
         cmd += ['--items-file', cfg['items_file']]
     if cfg.get('exclude_release_types'):
         cmd += ['--exclude-release-types', ','.join(cfg['exclude_release_types'])]
+    if cfg.get('include_unscored'):
+        cmd += ['--include-unscored']
     if cfg.get('coverage_prior'):
         cmd += ['--coverage-prior']
     if cfg.get('max_review_lag_days') is not None:

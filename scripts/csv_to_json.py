@@ -40,7 +40,9 @@ def csv_to_json(csv_path: str, output_path: str, category: str = 'movies',
         df['year'] = pd.to_datetime(df['release_date'], errors='coerce').dt.year
     
     # Clean up data
-    df = df.dropna(subset=['adjusted_score', 'title'])
+    # raw_score is NaN for items Metacritic hasn't scored (kept upstream only
+    # for TV show aggregates); the lists show Metacritic-scored items
+    df = df.dropna(subset=['adjusted_score', 'title', 'raw_score'])
     
     # Select and rename columns for webapp
     webapp_cols = {

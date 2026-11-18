@@ -195,6 +195,7 @@ def process_all_movies(
     output_path: str,
     halflife_days: float = 2000,
     max_review_lag_days: float | None = None,
+    include_unscored: bool = False,
 ) -> pd.DataFrame:
     """
     Compute adjusted scores for all movies (vectorized).
@@ -210,7 +211,15 @@ def process_all_movies(
     Movies with no parseable release date keep their raw score.
     """
     # Filter to movies with metascores
-    movies = movies_df.dropna(subset=['metascore']).copy()
+    if include_unscored:
+        # Items Metacritic hasn't scored (too few reviews) but that have
+        # reviews: adjusted and shrunk like the rest, with raw_score NaN.
+        # Used for TV show aggregates; csv_to_json leaves them out of lists.
+        reviewed = set(reviews_df['movie_slug'])
+        movies = movies_df[movies_df['metascore'].notna()
+                           | movies_df['movie_slug'].isin(reviewed)].copy()
+    else:
+        movies = movies_df.dropna(subset=['metascore']).copy()
     movies['_movie_date'] = pd.to_datetime(movies['release_date'], errors='coerce')
 
     print(f"\nProcessing {len(movies):,} movies with metascores...")
@@ -491,6 +500,8 @@ def main():
     parser.add_argument('--coverage-prior', action='store_true',
                         help='Make the shrinkage prior mean depend on log(n_reviews) '
                              '(file-drawer correction; see analyze_categories.py)')
+    parser.add_argument('--include-unscored', action='store_true',
+                        help='Also score reviewed items without a metascore (raw_score NaN)')
     parser.add_argument('--max-review-lag-days', type=float, default=None,
                         help='Look up effects as of release for reviews dated more than '
                              'this many days after it (fixes bulk-import review dates)')
@@ -542,6 +553,7 @@ def main():
         output_path=os.path.join(args.output_dir, 'adjusted_scores.csv'),
         halflife_days=args.halflife_shrinkage,
         max_review_lag_days=args.max_review_lag_days,
+        include_unscored=args.include_unscored,
     )
     
     # Summary

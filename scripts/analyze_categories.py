@@ -97,6 +97,7 @@ def load_category(cfg: dict):
     items, reviews = load_items_and_reviews(os.path.join(root, 'metacritic_data'), cfg['items_file'],
                                             cfg.get('exclude_release_types'))
     scores = pd.read_csv(os.path.join(root, 'adjusted_scores', 'adjusted_scores.csv'))
+    scores = scores[scores['raw_score'].notna()]   # unscored TV seasons are for show aggregates only
     with open(os.path.join(root, 'hierarchical_effects', 'metadata.json')) as f:
         effects_meta = json.load(f)
     outlet_latest = pd.read_csv(os.path.join(root, 'hierarchical_effects', 'outlet_effects_latest.csv'))

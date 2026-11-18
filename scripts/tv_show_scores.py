@@ -23,6 +23,10 @@ Variance components:
            review-sampling noise sigma^2/n)
   tau_b^2  between-show variance = tau^2 - tau_w^2
 
+Seasons Metacritic hasn't scored (fewer than 4 reviews) are included when
+they have any reviews; with 1-3 reviews they lean mostly on the show's other
+seasons. Shows with no scored season at all are left out.
+
 Also reported: a Metacritic-style raw show score (review-weighted mean of
 season metascores, which reproduces Metacritic's own show score), and the best
 season.
@@ -74,8 +78,11 @@ def show_scores(seasons: pd.DataFrame, tau_w_sq: float) -> pd.DataFrame:
         theta = mu + k * (y - mu)
         score = float(theta.mean())
 
-        best = g.loc[g['adjusted_score'].idxmax()]
-        raw = np.average(g['raw_score'], weights=g['n'])
+        # Metacritic's show score only covers seasons it scored; so does
+        # "best season" (a 2-review season is too thin to headline)
+        scored = g['raw_score'].notna()
+        best = g.loc[g.loc[scored, 'adjusted_score'].idxmax()]
+        raw = np.average(g.loc[scored, 'raw_score'], weights=g.loc[scored, 'n'])
         dates = pd.to_datetime(g['release_date'], errors='coerce')
         rows.append({
             'slug': show,
@@ -85,6 +92,7 @@ def show_scores(seasons: pd.DataFrame, tau_w_sq: float) -> pd.DataFrame:
             'last_year': int(dates.max().year) if dates.notna().any() else None,
             'last_release_date': dates.max().strftime('%Y-%m-%d') if dates.notna().any() else '',
             'n_seasons': int(len(g)),
+            'n_unscored_seasons': int((~scored).sum()),
             'n_reviews': int(g['n'].sum()),
             'adjusted_score': round(score, 1),
             'raw_score': round(float(raw), 1),
@@ -107,6 +115,8 @@ def main():
     s = pd.read_csv(os.path.join(args.scores_dir, 'adjusted_scores.csv'))
     s = s[(s['n_reviews'] > 0) & s['critic_outlet_adjusted_score'].notna() & s['adjusted_score'].notna()].copy()
     s['show'] = s['movie_slug'].str.split('/').str[0]
+    # Shows Metacritic never scored (no season with 4+ reviews) are left out
+    s = s[s.groupby('show')['raw_score'].transform(lambda r: r.notna().any())]
     s['season_number'] = pd.to_numeric(s['subtitle'].str.extract(r'(\d+)')[0], errors='coerce')
     s['ybar'] = s['critic_outlet_adjusted_score']
     s['n'] = s['n_reviews']
@@ -118,7 +128,10 @@ def main():
     s = s.dropna(subset=['_date']).sort_values('_date', kind='stable')
     s = merge_asof_with_backfill(s, sp, on='_date')
 
-    tau_w_sq = estimate_tau_w_sq(s)
+    # Estimated from Metacritic-scored seasons (4+ reviews) only: with 1-3
+    # reviews a season mean is mostly sampling noise, and subtracting that
+    # large noise term makes the moment estimate unstable
+    tau_w_sq = estimate_tau_w_sq(s[s['raw_score'].notna()])
     shows = show_scores(s, tau_w_sq).sort_values('adjusted_score', ascending=False)
 
     out = os.path.join(args.webapp_dir, 'tv_shows_all.json')

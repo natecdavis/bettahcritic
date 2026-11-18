@@ -226,7 +226,10 @@ const ShowTableRow = ({ show, rank }) => {
       <td className="py-3 px-4">
         <Title item={show} category="tv" className="font-medium text-gray-900" />
         <div className="text-sm text-gray-500">
-          {[`${show.n_seasons} season${show.n_seasons === 1 ? '' : 's'}`, years, show.genre || 'Unknown'].filter(Boolean).join(' · ')}
+          <span title={show.n_unscored_seasons ? `${show.n_unscored_seasons} with too few reviews for a Metacritic score` : undefined}>
+            {`${show.n_seasons} season${show.n_seasons === 1 ? '' : 's'}`}
+          </span>
+          {[years, show.genre || 'Unknown'].filter(Boolean).map(t => ` · ${t}`).join('')}
         </div>
       </td>
       <td className="py-3 px-4 text-center">
@@ -367,7 +370,7 @@ const Methodology = ({ category, metadata }) => {
           </li>
         )}
         {category === 'tv' && (
-          <li>• <strong>Shows tab:</strong> A show’s score averages its seasons, each counting equally. A season with few reviews is pulled toward the show’s other seasons before the overall average, since seasons of the same show tend to score alike. “Raw” is Metacritic’s show score: season scores weighted by review count</li>
+          <li>• <strong>Shows tab:</strong> A show’s score averages its seasons, each counting equally. A season with few reviews is pulled toward the show’s other seasons before the overall average, since seasons of the same show tend to score alike. Seasons with too few reviews for Metacritic to score (under 4) still count this way. “Raw” is Metacritic’s show score: its scored seasons weighted by review count. “Best” is the top Metacritic-scored season</li>
         )}
         <li>• <strong>Divisiveness (Div.):</strong> How much critics disagreed — the spread (standard deviation) of the adjusted review scores{typicalDiv ? `. ~${Math.round(typicalDiv)} is typical for ${cfg.label.toLowerCase()}` : ''}</li>
       </ul>

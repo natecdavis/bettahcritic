@@ -306,9 +306,16 @@ def build_items_and_reviews(category: str, entry: dict, raw_reviews: list[dict],
         }
         return [item], reviews
 
-    # TV: expand the show into scored seasons; route each review by season id
+    # TV: expand the show into seasons; route each review by season id.
+    # Seasons Metacritic hasn't scored (fewer than 4 reviews) are kept when
+    # they have reviews: they count toward the show-level score, though not
+    # listed as seasons themselves (no metascore to compare against).
     items, reviews = [], []
     season_by_id = {}
+    reviews_per_season = {}
+    for raw in raw_reviews:
+        sid = (((raw.get('reviewedProduct') or {}).get('tvTaxonomy') or {}).get('season') or {}).get('id')
+        reviews_per_season[sid] = reviews_per_season.get(sid, 0) + 1
     for s in seasons or []:
         summary = s.get('criticScoreSummary') or {}
         season_slug = s.get('seasonSlug') or f"season-{s.get('seasonNumber')}"
@@ -316,7 +323,7 @@ def build_items_and_reviews(category: str, entry: dict, raw_reviews: list[dict],
         item_slug = f"{entry['slug']}/{season_slug}"
         if season_id is not None:
             season_by_id[season_id] = item_slug
-        if summary.get('score') is None:
+        if summary.get('score') is None and not reviews_per_season.get(season_id):
             continue
         premiere = s.get('premiereDate') or ''
         if not premiere and s.get('releaseYear'):
