@@ -269,6 +269,13 @@ def main():
                                args.category, model_info_path):
             success = False
 
+    # Step 4b: TV show-level aggregates (Shows tab)
+    if success and cfg.get('show_aggregates'):
+        cmd = [sys.executable, os.path.join(args.scripts_dir, 'tv_show_scores.py'),
+               '--scores-dir', args.scores_dir, '--webapp-dir', args.webapp_dir]
+        if not run_command(cmd, "Aggregate TV show scores"):
+            success = False
+
     # Step 5: Update metadata
     if success:
         update_metadata(args.webapp_dir, args.category)

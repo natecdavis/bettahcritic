@@ -12,7 +12,7 @@ const CATEGORIES = {
     recentDays: 60, forwardDays: 14, metacriticPath: (m) => `/movie/${m.slug}/`,
   },
   tv: {
-    label: 'TV', icon: Tv, noun: 'seasons', recentTab: 'New Seasons', allTab: 'All TV',
+    label: 'TV', icon: Tv, noun: 'seasons', recentTab: 'New Seasons', allTab: 'All Seasons', showsTab: 'Shows',
     recentDays: 90, forwardDays: 14,
   },
   games: {
@@ -218,6 +218,49 @@ const ItemTableRow = ({ item, rank, category }) => (
   </tr>
 );
 
+const ShowTableRow = ({ show, rank }) => {
+  const years = show.first_year === show.last_year ? show.first_year : `${show.first_year}–${show.last_year}`;
+  return (
+    <tr className="hover:bg-gray-50 border-b border-gray-100">
+      <td className="py-3 px-4 text-center text-gray-500 font-medium">{rank}</td>
+      <td className="py-3 px-4">
+        <Title item={show} category="tv" className="font-medium text-gray-900" />
+        <div className="text-sm text-gray-500">
+          {[`${show.n_seasons} season${show.n_seasons === 1 ? '' : 's'}`, years, show.genre || 'Unknown'].filter(Boolean).join(' · ')}
+        </div>
+      </td>
+      <td className="py-3 px-4 text-center">
+        <span className={`inline-flex items-center justify-center w-10 h-10 rounded-lg text-white font-bold text-sm ${getScoreColor(show.adjusted_score)}`}>
+          {Math.round(show.adjusted_score)}
+        </span>
+      </td>
+      <td className="py-3 px-4 text-center text-gray-600">{Math.round(show.raw_score)}</td>
+      <td className="py-3 px-4 text-center"><AdjustmentBadge adjustment={show.total_adjustment} /></td>
+      <td className="py-3 px-4 text-center text-gray-500">{show.n_reviews}</td>
+      <td className="py-3 px-4 text-center text-sm text-gray-500 whitespace-nowrap">
+        {show.n_seasons > 1
+          ? <span title={`Seasons range ${Math.round(show.season_range[0])}–${Math.round(show.season_range[1])}`}>{show.best_season.replace('Season ', 'S')} · {Math.round(show.best_season_score)}</span>
+          : '—'}
+      </td>
+    </tr>
+  );
+};
+
+// Per-show TV aggregates, loaded the first time the Shows tab opens
+const useShowData = (enabled) => {
+  const [state, setState] = useState(null);
+  useEffect(() => {
+    if (!enabled || (state && !state.error)) return;
+    let cancelled = false;
+    fetch('/data/tv_shows_all.json')
+      .then(res => { if (!res.ok) throw new Error('Failed to load TV shows'); return res.json(); })
+      .then(data => { if (!cancelled) setState({ items: data.items || [], error: null }); })
+      .catch(err => { if (!cancelled) setState({ items: [], error: err.message }); });
+    return () => { cancelled = true; };
+  }, [enabled, state]);
+  return { shows: state?.items || [], showsLoading: enabled && !state, showsError: state?.error || null };
+};
+
 // Loads one category's data on first visit and caches it for the session
 const useCategoryData = (category) => {
   const [cache, setCache] = useState({});
@@ -323,6 +366,9 @@ const Methodology = ({ category, metadata }) => {
               : <>no evidence that publications skip {cfg.noun} they dislike, so all {cfg.noun} share one prior</>}
           </li>
         )}
+        {category === 'tv' && (
+          <li>• <strong>Shows tab:</strong> A show’s score averages its seasons, each counting equally. A season with few reviews is pulled toward the show’s other seasons before the overall average, since seasons of the same show tend to score alike. “Raw” is Metacritic’s show score: season scores weighted by review count</li>
+        )}
         <li>• <strong>Divisiveness (Div.):</strong> How much critics disagreed — the spread (standard deviation) of the adjusted review scores{typicalDiv ? `. ~${Math.round(typicalDiv)} is typical for ${cfg.label.toLowerCase()}` : ''}</li>
       </ul>
     </div>
@@ -344,6 +390,10 @@ export default function App() {
 
   const itemsPerPage = 25;
 
+  const showsMode = category === 'tv' && activeTab === 'shows';
+  const { shows, showsLoading, showsError } = useShowData(showsMode);
+  const noun = showsMode ? 'shows' : cfg.noun;
+
   // Keep the category in the URL so links can point at a section
   useEffect(() => {
     const onHash = () => setCategory(categoryFromHash());
@@ -355,6 +405,7 @@ export default function App() {
     if (key === category) return;
     window.location.hash = key === 'movies' ? '' : key;
     setCategory(key);
+    if (activeTab === 'shows') setActiveTab('all');
     setSelectedGenre('all');
     setSearchQuery('');
     setYearRange({ min: '', max: '' });
@@ -372,7 +423,7 @@ export default function App() {
   );
 
   const filteredItems = useMemo(() => {
-    let list = activeTab === 'recent' ? [...recentItems] : [...items];
+    let list = showsMode ? [...shows] : activeTab === 'recent' ? [...recentItems] : [...items];
 
     if (searchQuery) {
       const query = searchQuery.toLowerCase();
@@ -387,6 +438,10 @@ export default function App() {
     if (activeTab === 'all') {
       if (yearRange.min) list = list.filter(m => m.year >= parseInt(yearRange.min));
       if (yearRange.max) list = list.filter(m => m.year <= parseInt(yearRange.max));
+    } else if (showsMode) {
+      // A show matches if any of its run falls in the range
+      if (yearRange.min) list = list.filter(m => m.last_year >= parseInt(yearRange.min));
+      if (yearRange.max) list = list.filter(m => m.first_year <= parseInt(yearRange.max));
     }
 
     list.sort((a, b) => {
@@ -401,7 +456,7 @@ export default function App() {
     });
 
     return list;
-  }, [activeTab, recentItems, items, searchQuery, selectedGenre, yearRange, sortBy, sortOrder]);
+  }, [showsMode, shows, activeTab, recentItems, items, searchQuery, selectedGenre, yearRange, sortBy, sortOrder]);
 
   const totalPages = Math.ceil(filteredItems.length / itemsPerPage);
   const paginatedItems = useMemo(() => {
@@ -477,15 +532,23 @@ export default function App() {
             >
               {cfg.allTab}
             </button>
+            {cfg.showsTab && (
+              <button
+                onClick={() => { setActiveTab('shows'); if (sortBy === 'polarization') setSortBy('adjusted_score'); }}
+                className={`px-4 py-2 rounded-lg font-medium text-sm ${activeTab === 'shows' ? 'bg-blue-100 text-blue-700' : 'text-gray-600 hover:bg-gray-100'}`}
+              >
+                {cfg.showsTab}
+              </button>
+            )}
           </div>
         </div>
       </header>
 
       <main className="max-w-5xl mx-auto px-4 py-6">
-        {error && (
+        {(error || (showsMode && showsError)) && (
           <div className="bg-red-50 border border-red-200 rounded-xl p-4 mb-6 text-red-700">
             <p className="font-medium">Error loading data</p>
-            <p className="text-sm">{error}</p>
+            <p className="text-sm">{error || showsError}</p>
           </div>
         )}
 
@@ -496,7 +559,7 @@ export default function App() {
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={18} />
               <input
                 type="text"
-                placeholder={category === 'music' ? 'Search albums or artists...' : `Search ${cfg.noun}...`}
+                placeholder={category === 'music' ? 'Search albums or artists...' : `Search ${noun}...`}
                 value={searchQuery}
                 onChange={e => setSearchQuery(e.target.value)}
                 className="w-full pl-10 pr-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -511,7 +574,7 @@ export default function App() {
               {genres.map(g => <option key={g} value={g}>{g === 'all' ? 'All Genres' : g}</option>)}
             </select>
 
-            {activeTab === 'all' && (
+            {activeTab !== 'recent' && (
               <div className="flex items-center gap-2">
                 <input
                   type="number"
@@ -533,20 +596,43 @@ export default function App() {
           </div>
         </div>
 
-        {loading ? (
+        {loading || showsLoading ? (
           <div className="text-center py-16">
             <Loader className="animate-spin mx-auto mb-4 text-blue-600" size={40} />
-            <p className="text-gray-600">Loading {cfg.noun}...</p>
+            <p className="text-gray-600">Loading {noun}...</p>
           </div>
         ) : (
           <>
             <div className="mb-4 text-sm text-gray-500">
               {activeTab === 'recent'
                 ? `${filteredItems.length} ${cfg.noun} (last ${cfg.recentDays} days + upcoming ${cfg.forwardDays} days)`
-                : `${filteredItems.length.toLocaleString()} ${cfg.noun}`}
+                : `${filteredItems.length.toLocaleString()} ${noun}`}
             </div>
 
-            {activeTab === 'recent' ? (
+            {showsMode ? (
+              <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
+                <div className="overflow-x-auto">
+                  <table className="w-full">
+                    <thead className="bg-gray-50 border-b border-gray-200 text-xs font-semibold text-gray-500 uppercase">
+                      <tr>
+                        <th className="py-3 px-4 w-12">#</th>
+                        <th className="py-3 px-4 text-left"><SortBtn field="title">Show</SortBtn></th>
+                        <th className="py-3 px-4 text-center w-20"><SortBtn field="adjusted_score">Adj.</SortBtn></th>
+                        <th className="py-3 px-4 text-center w-16" title="Metacritic’s show score: season scores weighted by review count"><SortBtn field="raw_score">Raw</SortBtn></th>
+                        <th className="py-3 px-4 text-center w-20"><SortBtn field="total_adjustment">+/-</SortBtn></th>
+                        <th className="py-3 px-4 text-center w-16"><SortBtn field="n_reviews">N</SortBtn></th>
+                        <th className="py-3 px-4 text-center w-24" title="Best season by adjusted score"><SortBtn field="best_season_score">Best</SortBtn></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {paginatedItems.map((m, i) => (
+                        <ShowTableRow key={m.slug} show={m} rank={(currentPage - 1) * itemsPerPage + i + 1} />
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            ) : activeTab === 'recent' ? (
               <div className="space-y-3">
                 {paginatedItems.map((m, i) => (
                   <ItemCard
@@ -592,7 +678,7 @@ export default function App() {
             {filteredItems.length === 0 && (
               <div className="text-center py-12 text-gray-500">
                 <EmptyIcon size={48} className="mx-auto mb-4 opacity-50" />
-                <p>No {cfg.noun} found.</p>
+                <p>No {noun} found.</p>
               </div>
             )}
 
@@ -602,7 +688,7 @@ export default function App() {
               onPageChange={setCurrentPage}
               totalItems={filteredItems.length}
               itemsPerPage={itemsPerPage}
-              noun={cfg.noun}
+              noun={noun}
             />
           </>
         )}

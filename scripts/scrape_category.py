@@ -393,6 +393,36 @@ def append_rows(path: str, rows: list[dict], columns: list[str]):
     df.to_csv(path, mode='a', header=not os.path.exists(path), index=False)
 
 
+def complete_partial_dates(items: pd.DataFrame, reviews: pd.DataFrame) -> pd.DataFrame:
+    """Metacritic gives some TV seasons only a premiere year ("2025") or month
+    ("2010-11"). Downstream date parsing turns those into NaT, which silently
+    skipped bias correction and shrinkage for the season. Fill in a full date:
+    the season's earliest review if it falls inside the stated period (reviews
+    land around the premiere), else the first day of the period."""
+    dates = items['release_date'].astype('string').fillna('')
+    partial = dates.str.fullmatch(r'\d{4}(-\d{2})?')
+    missing = dates == ''
+    if not (partial.any() or missing.any()):
+        return items
+    first_review = (pd.to_datetime(reviews['date'], errors='coerce', format='ISO8601')
+                    .groupby(reviews['item_slug']).min())
+    items = items.copy()
+    # No date at all: the earliest review is the only clue
+    for idx in items.index[missing]:
+        fr = first_review.get(items.at[idx, 'item_slug'])
+        if fr is not None and pd.notna(fr):
+            items.at[idx, 'release_date'] = fr.strftime('%Y-%m-%d')
+    for idx in items.index[partial]:
+        d = dates[idx]
+        start = pd.Timestamp(d + ('-01-01' if len(d) == 4 else '-01'))
+        end = start + (pd.DateOffset(years=1) if len(d) == 4 else pd.DateOffset(months=1))
+        fr = first_review.get(items.at[idx, 'item_slug'])
+        best = fr if fr is not None and pd.notna(fr) and start <= fr < end else start
+        items.at[idx, 'release_date'] = best.strftime('%Y-%m-%d')
+    print(f"Completed {int(partial.sum())} partial and {int(missing.sum())} missing release dates")
+    return items
+
+
 def dedupe_reviews(df: pd.DataFrame) -> pd.DataFrame:
     keys = df[['item_slug', 'outlet_slug', 'critic_slug', 'outlet']].fillna('')
     return df.loc[~keys.duplicated(keep='last')]
@@ -511,6 +541,9 @@ def run_incremental(category: str, data_dir: str, workers: int, delay: float,
     if new_items:
         merged = pd.concat([items_df, pd.DataFrame(new_items)], ignore_index=True)
         merged = merged.drop_duplicates('item_slug', keep='last').reindex(columns=ITEM_COLUMNS)
+        all_reviews = pd.concat([reviews_df, pd.DataFrame(new_reviews, columns=REVIEW_COLUMNS)],
+                                ignore_index=True)
+        merged = complete_partial_dates(merged, all_reviews)
         merged.to_csv(items_path, index=False)
     if new_reviews:
         merged = pd.concat([reviews_df, pd.DataFrame(new_reviews)], ignore_index=True)
@@ -523,6 +556,8 @@ def finalize(items_path: str, reviews_path: str):
     """Dedupe the appended files once a full pass completes."""
     if os.path.exists(items_path):
         items = load_csv(items_path, ITEM_COLUMNS).drop_duplicates('item_slug', keep='last')
+        if os.path.exists(reviews_path):
+            items = complete_partial_dates(items, load_csv(reviews_path, REVIEW_COLUMNS))
         items.to_csv(items_path, index=False)
         print(f"{len(items):,} items in {items_path}")
     if os.path.exists(reviews_path):

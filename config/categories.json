@@ -1,5 +1,5 @@
 {
-  "_comment": "Per-category pipeline settings, read by scripts/daily_update.py. coverage_prior turns on the file-drawer correction (shrink toward a prior mean that depends on review count); it is set from the evidence in scripts/analyze_categories.py, not by default. max_review_lag_days re-dates bulk-imported reviews to the release date for effect lookups. exclude_release_types (music) drops reissues/deluxe editions/box sets, compilations and archival releases, as classified by scripts/release_types.py plus config/music_release_overrides.csv.",
+  "_comment": "Per-category pipeline settings, read by scripts/daily_update.py. coverage_prior turns on the file-drawer correction (shrink toward a prior mean that depends on review count); it is set from the evidence in scripts/analyze_categories.py, not by default. max_review_lag_days re-dates bulk-imported reviews to the release date for effect lookups. exclude_release_types (music) drops reissues/deluxe editions/box sets, compilations and archival releases, as classified by scripts/release_types.py plus config/music_release_overrides.csv. show_aggregates (tv) also writes per-show scores (scripts/tv_show_scores.py) for the Shows tab.",
   "movies": {
     "label": "Movies",
     "data_root": "data",
@@ -12,7 +12,8 @@
     "data_root": "data/tv",
     "items_file": "items.csv",
     "coverage_prior": false,
-    "max_review_lag_days": 365
+    "max_review_lag_days": 365,
+    "show_aggregates": true
   },
   "games": {
     "label": "Games",
