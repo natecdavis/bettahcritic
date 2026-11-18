@@ -68,7 +68,44 @@ def fetch_recent_movies(data_dir: str, days: int = 7):
     return True
 
 
-def compute_hierarchical_effects(data_dir: str, effects_dir: str, scripts_dir: str):
+CONFIG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'config', 'categories.json')
+
+
+def load_category_config(category: str) -> dict:
+    with open(CONFIG_PATH) as f:
+        config = json.load(f)
+    if category not in config:
+        raise SystemExit(f"Unknown category {category!r}; known: "
+                         f"{[k for k in config if not k.startswith('_')]}")
+    return config[category]
+
+
+def write_model_info(category: str, cfg: dict, effects_dir: str, scores_dir: str) -> str:
+    """Collect what the app should say about this category's methodology:
+    the configured adjustments, effect-model fit, and the file-drawer
+    diagnostics (if analyze_categories.py has been run)."""
+    info = {
+        'label': cfg.get('label', category),
+        'coverage_prior': bool(cfg.get('coverage_prior')),
+    }
+    effects_meta = os.path.join(effects_dir, 'metadata.json')
+    if os.path.exists(effects_meta):
+        with open(effects_meta) as f:
+            em = json.load(f)
+        info['share_reviews_named_critic'] = em.get('share_reviews_named_critic')
+        info['hierarchical_variance_explained'] = em.get('hierarchical_variance_explained')
+    diag_path = os.path.join(cfg['data_root'], 'diagnostics.json')
+    if os.path.exists(diag_path):
+        with open(diag_path) as f:
+            info['diagnostics'] = json.load(f)
+    path = os.path.join(scores_dir, 'model_info.json')
+    with open(path, 'w') as f:
+        json.dump(info, f, indent=2)
+    return path
+
+
+def compute_hierarchical_effects(data_dir: str, effects_dir: str, scripts_dir: str,
+                                 items_file: str = None):
     """Re-compute hierarchical critic/outlet effects."""
     script_path = os.path.join(scripts_dir, 'compute_hierarchical_effects.py')
     
@@ -77,15 +114,18 @@ def compute_hierarchical_effects(data_dir: str, effects_dir: str, scripts_dir: s
         return True
     
     cmd = [
-        'python', script_path,
+        sys.executable, script_path,
         '--input-dir', data_dir,
         '--output-dir', effects_dir,
     ]
-    
+    if items_file:
+        cmd += ['--items-file', items_file]
+
     return run_command(cmd, "Compute hierarchical effects")
 
 
-def compute_adjusted_scores(data_dir: str, effects_dir: str, output_dir: str, scripts_dir: str):
+def compute_adjusted_scores(data_dir: str, effects_dir: str, output_dir: str, scripts_dir: str,
+                            cfg: dict = None):
     """Re-compute adjusted scores."""
     script_path = os.path.join(scripts_dir, 'metacritic_adjusted_scores_v2.py')
     
@@ -94,17 +134,25 @@ def compute_adjusted_scores(data_dir: str, effects_dir: str, output_dir: str, sc
         return True
     
     cmd = [
-        'python', script_path,
+        sys.executable, script_path,
         '--input-dir', data_dir,
         '--effects-dir', effects_dir,
         '--output-dir', output_dir,
         '--recompute-shrinkage',
     ]
+    cfg = cfg or {}
+    if cfg.get('items_file'):
+        cmd += ['--items-file', cfg['items_file']]
+    if cfg.get('coverage_prior'):
+        cmd += ['--coverage-prior']
+    if cfg.get('max_review_lag_days') is not None:
+        cmd += ['--max-review-lag-days', str(cfg['max_review_lag_days'])]
 
     return run_command(cmd, "Compute adjusted scores")
 
 
-def convert_to_json(output_dir: str, webapp_data_dir: str, scripts_dir: str):
+def convert_to_json(output_dir: str, webapp_data_dir: str, scripts_dir: str,
+                    category: str = 'movies', model_info_path: str = None):
     """Convert CSV to JSON for the webapp."""
     script_path = os.path.join(scripts_dir, 'csv_to_json.py')
     adjusted_path = os.path.join(output_dir, 'adjusted_scores.csv')
@@ -118,17 +166,20 @@ def convert_to_json(output_dir: str, webapp_data_dir: str, scripts_dir: str):
         return True
     
     cmd = [
-        'python', script_path,
+        sys.executable, script_path,
         '--input', adjusted_path,
         '--output', webapp_data_dir,
+        '--category', category,
     ]
-    
+    if model_info_path:
+        cmd += ['--model-info', model_info_path]
+
     return run_command(cmd, "Convert to JSON")
 
 
-def update_metadata(webapp_data_dir: str):
+def update_metadata(webapp_data_dir: str, category: str = 'movies'):
     """Update the metadata file with current timestamp."""
-    meta_path = os.path.join(webapp_data_dir, 'metadata.json')
+    meta_path = os.path.join(webapp_data_dir, f'{category}_metadata.json')
     
     if os.path.exists(meta_path):
         with open(meta_path, 'r') as f:
@@ -148,11 +199,14 @@ def update_metadata(webapp_data_dir: str):
 
 def main():
     parser = argparse.ArgumentParser(description='Daily update for Adjusted Metacritic Scores')
-    parser.add_argument('--data-dir', type=str, default='./metacritic_data',
-                        help='Directory containing movies.csv and reviews.csv')
-    parser.add_argument('--effects-dir', type=str, default='./hierarchical_effects',
+    parser.add_argument('--category', type=str, default='movies',
+                        help='Category in config/categories.json; sets the data/effects/scores '
+                             'dirs (under its data_root) and model settings')
+    parser.add_argument('--data-dir', type=str, default=None,
+                        help='Directory containing the items CSV and reviews.csv')
+    parser.add_argument('--effects-dir', type=str, default=None,
                         help='Directory for hierarchical effects output')
-    parser.add_argument('--scores-dir', type=str, default='./adjusted_scores_v2',
+    parser.add_argument('--scores-dir', type=str, default=None,
                         help='Directory for adjusted scores output')
     parser.add_argument('--webapp-dir', type=str, default='./public/data',
                         help='Directory for webapp JSON files')
@@ -166,9 +220,15 @@ def main():
                         help='Number of days to fetch new movies for')
     
     args = parser.parse_args()
-    
+
+    cfg = load_category_config(args.category)
+    root = cfg['data_root']
+    args.data_dir = args.data_dir or os.path.join(root, 'metacritic_data')
+    args.effects_dir = args.effects_dir or os.path.join(root, 'hierarchical_effects')
+    args.scores_dir = args.scores_dir or os.path.join(root, 'adjusted_scores')
+
     print("="*60)
-    print("DAILY UPDATE - Adjusted Metacritic Scores")
+    print(f"DAILY UPDATE - Adjusted Metacritic Scores [{args.category}]")
     print(f"Started: {datetime.now().isoformat()}")
     print("="*60)
     
@@ -186,22 +246,26 @@ def main():
     
     # Step 2: Compute hierarchical effects
     if not args.skip_effects:
-        if not compute_hierarchical_effects(args.data_dir, args.effects_dir, args.scripts_dir):
+        if not compute_hierarchical_effects(args.data_dir, args.effects_dir, args.scripts_dir,
+                                            cfg.get('items_file')):
             success = False
     
     # Step 3: Compute adjusted scores
     if success:
-        if not compute_adjusted_scores(args.data_dir, args.effects_dir, args.scores_dir, args.scripts_dir):
+        if not compute_adjusted_scores(args.data_dir, args.effects_dir, args.scores_dir,
+                                       args.scripts_dir, cfg):
             success = False
     
     # Step 4: Convert to JSON
     if success:
-        if not convert_to_json(args.scores_dir, args.webapp_dir, args.scripts_dir):
+        model_info_path = write_model_info(args.category, cfg, args.effects_dir, args.scores_dir)
+        if not convert_to_json(args.scores_dir, args.webapp_dir, args.scripts_dir,
+                               args.category, model_info_path):
             success = False
 
     # Step 5: Update metadata
     if success:
-        update_metadata(args.webapp_dir)
+        update_metadata(args.webapp_dir, args.category)
     
     # Summary
     print("\n" + "="*60)

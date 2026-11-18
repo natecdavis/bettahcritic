@@ -1,0 +1,230 @@
+{
+  "category": "games",
+  "generated": "2026-11-17T21:51:01",
+  "summary": {
+    "n_items": 14463,
+    "n_reviews": 373158,
+    "median_reviews_per_item": 19.0,
+    "share_reviews_named_critic": 0.0,
+    "n_outlets": 598,
+    "outlet_variance_explained": 0.1185216472667261,
+    "hierarchical_variance_explained": 0.1185216472667261,
+    "sd_outlet_effect": 3.2393704654589706,
+    "sd_critic_effect": null,
+    "mean_abs_bias_adjustment": 1.1649973863504506,
+    "mean_abs_shrinkage_adjustment": 0.45556224307306625,
+    "mean_abs_total_adjustment": 1.2408020747570108,
+    "median_divisiveness": 9.9959902813457,
+    "share_reviews_dated_1y_after_release": 0.004871930924702137,
+    "mean_metascore_by_decade": {
+      "1990": 84.3,
+      "2000": 68.8,
+      "2010": 70.2,
+      "2020": 74.1
+    },
+    "grand_mean_latest": 72.52682762839167,
+    "tau_sq_latest": 114.84582689641492,
+    "sigma_sq_latest": 109.69489385123536,
+    "shrinkage_weight_at_median_n": 0.047864796302687265
+  },
+  "coverage_gradient": {
+    "n_items": 14463,
+    "slope_per_log_n": 6.677704080599317,
+    "slope_per_doubling": 4.628631756081058,
+    "se_per_doubling": 0.08970268001030524,
+    "t_stat": 51.59970421785961,
+    "n_reviews_p10_p50_p90": [
+      8.0,
+      19.0,
+      55.0
+    ],
+    "p10_to_p90_gap_points": 12.873889895104757,
+    "raw_slope_per_doubling": 4.304073356074431,
+    "profile": [
+      {
+        "bin": "1-4",
+        "mean_vs_year": 0.38819271544581113,
+        "sem": 3.859390206155367,
+        "count": 6
+      },
+      {
+        "bin": "5-7",
+        "mean_vs_year": -4.990035364431653,
+        "sem": 0.38118625589411237,
+        "count": 1039
+      },
+      {
+        "bin": "8-11",
+        "mean_vs_year": -4.40038271098821,
+        "sem": 0.2133095488813778,
+        "count": 2908
+      },
+      {
+        "bin": "12-19",
+        "mean_vs_year": -2.4902143971758983,
+        "sem": 0.19035870924618906,
+        "count": 3552
+      },
+      {
+        "bin": "20-34",
+        "mean_vs_year": 0.9823172618775852,
+        "sem": 0.1834745155102688,
+        "count": 3475
+      },
+      {
+        "bin": "35+",
+        "mean_vs_year": 6.7213090912000295,
+        "sem": 0.17333321859653275,
+        "count": 3483
+      }
+    ]
+  },
+  "selective_coverage": {
+    "n_outlets": 80,
+    "median_odds_ratio_per_10pts": 1.0465707156754185,
+    "pooled_odds_ratio_per_10pts": 1.0300460966173985,
+    "pooled_coef_se": 0.0031570156470816834,
+    "share_outlets_sig_positive": 0.4,
+    "share_outlets_sig_negative": 0.2375,
+    "outlets": [
+      {
+        "outlet": "IGN",
+        "n_reviews": 7648,
+        "n_candidates": 12249,
+        "coef_per_10pts": 0.08015824350234858,
+        "se": 0.02370587510475529,
+        "odds_ratio_per_10pts": 1.083458504378611
+      },
+      {
+        "outlet": "GameSpot",
+        "n_reviews": 7133,
+        "n_candidates": 11544,
+        "coef_per_10pts": 0.01645281481728899,
+        "se": 0.023788649474071322,
+        "odds_ratio_per_10pts": 1.016588907720997
+      },
+      {
+        "outlet": "Game Informer",
+        "n_reviews": 4672,
+        "n_candidates": 11819,
+        "coef_per_10pts": 0.07560529773938646,
+        "se": 0.02302798313447396,
+        "odds_ratio_per_10pts": 1.078536789224812
+      },
+      {
+        "outlet": "Multiplayer.it",
+        "n_reviews": 3892,
+        "n_candidates": 8434,
+        "coef_per_10pts": 0.047844327149270324,
+        "se": 0.023682827473270985,
+        "odds_ratio_per_10pts": 1.0490073406498146
+      },
+      {
+        "outlet": "Worth Playing",
+        "n_reviews": 3843,
+        "n_candidates": 11037,
+        "coef_per_10pts": -0.07113038586542511,
+        "se": 0.020663453368333733,
+        "odds_ratio_per_10pts": 0.9313404505799793
+      },
+      {
+        "outlet": "Vandal",
+        "n_reviews": 3812,
+        "n_candidates": 8602,
+        "coef_per_10pts": 0.03552742175869253,
+        "se": 0.02495037040830326,
+        "odds_ratio_per_10pts": 1.036166061234191
+      },
+      {
+        "outlet": "Gaming Age",
+        "n_reviews": 3751,
+        "n_candidates": 12750,
+        "coef_per_10pts": 0.05672761362023046,
+        "se": 0.019444578405819417,
+        "odds_ratio_per_10pts": 1.0583674862414534
+      },
+      {
+        "outlet": "GameZone",
+        "n_reviews": 3675,
+        "n_candidates": 5077,
+        "coef_per_10pts": -0.07985789725663085,
+        "se": 0.02804827467012246,
+        "odds_ratio_per_10pts": 0.9232475330726795
+      },
+      {
+        "outlet": "Cheat Code Central",
+        "n_reviews": 3535,
+        "n_candidates": 6689,
+        "coef_per_10pts": -0.12424586464944655,
+        "se": 0.023899384941882776,
+        "odds_ratio_per_10pts": 0.8831626757055582
+      },
+      {
+        "outlet": "Eurogamer",
+        "n_reviews": 3390,
+        "n_candidates": 11791,
+        "coef_per_10pts": 0.1074010982687724,
+        "se": 0.022607238754648703,
+        "odds_ratio_per_10pts": 1.1133807400183573
+      },
+      {
+        "outlet": "Everyeye.it",
+        "n_reviews": 3367,
+        "n_candidates": 8264,
+        "coef_per_10pts": -0.007190502475215558,
+        "se": 0.024669418690789292,
+        "odds_ratio_per_10pts": 0.9928352873367835
+      },
+      {
+        "outlet": "Game Revolution",
+        "n_reviews": 3277,
+        "n_candidates": 10559,
+        "coef_per_10pts": 0.11722963490650623,
+        "se": 0.022717073724772052,
+        "odds_ratio_per_10pts": 1.1243775963915843
+      },
+      {
+        "outlet": "SpazioGames",
+        "n_reviews": 3072,
+        "n_candidates": 8315,
+        "coef_per_10pts": -0.04261432783754224,
+        "se": 0.02515477677023022,
+        "odds_ratio_per_10pts": 0.9582809010747553
+      },
+      {
+        "outlet": "Destructoid",
+        "n_reviews": 2986,
+        "n_candidates": 8296,
+        "coef_per_10pts": 0.13848529271912333,
+        "se": 0.024749096508334564,
+        "odds_ratio_per_10pts": 1.1485327896516284
+      },
+      {
+        "outlet": "GamingTrend",
+        "n_reviews": 2986,
+        "n_candidates": 11819,
+        "coef_per_10pts": 0.11745811509874372,
+        "se": 0.02251103675186338,
+        "odds_ratio_per_10pts": 1.124634523751244
+      }
+    ]
+  },
+  "subsample_validation": {
+    "n_items": 13418,
+    "k_observed": 3,
+    "mse_no_shrinkage": 46.523278083966744,
+    "mse_unconditional_prior": 38.790831691091654,
+    "mse_coverage_prior": 37.99942401335318,
+    "improvement_pct": 2.0401926002535875,
+    "shrinkage_improvement_pct": 16.620596637492557,
+    "improvement_pct_items_8_to_15_reviews": 1.3399409400514317,
+    "mse_diff_t": -9.623546914474895
+  },
+  "verdicts": {
+    "file_drawer": false,
+    "coverage_gradient": true,
+    "coverage_prior_helps_out_of_sample": true
+  },
+  "recommend_coverage_prior": false,
+  "currently_enabled": false
+}

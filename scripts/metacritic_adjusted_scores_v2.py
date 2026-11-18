@@ -21,6 +21,8 @@ import os
 import argparse
 from tqdm import tqdm
 
+from pipeline_io import load_items_and_reviews
+
 # Prior strength (pseudo-degrees-of-freedom) for shrinking each movie's
 # adjusted-review variance toward the time-varying prior. Larger values pull
 # low-review-count movies harder toward "typical disagreement".
@@ -63,6 +65,9 @@ def load_hierarchical_effects(effects_dir: str) -> tuple[pd.DataFrame, pd.DataFr
     
     critic_effects = pd.read_csv(critic_path)
     critic_effects['date'] = pd.to_datetime(critic_effects['date'])
+    # Outlet-only categories write a header-only file, which loads as object
+    # columns; keep the effect numeric so adjusted scores stay float
+    critic_effects['final_effect'] = pd.to_numeric(critic_effects['final_effect'])
     print(f"  Loaded {len(critic_effects):,} critic effect observations")
     
     outlet_effects = pd.read_csv(outlet_path)
@@ -75,10 +80,19 @@ def load_hierarchical_effects(effects_dir: str) -> tuple[pd.DataFrame, pd.DataFr
 def compute_shrinkage_params_ewa(
     reviews_df: pd.DataFrame,
     movies_df: pd.DataFrame,
-    halflife_days: float = 2000
+    halflife_days: float = 2000,
+    coverage_prior: bool = False,
 ) -> pd.DataFrame:
     """
     Compute time-varying shrinkage parameters (sigma², tau², grand_mean).
+
+    With coverage_prior, the prior mean also depends on how many reviews an
+    item received: an EWA-weighted regression of metascore on log(n_reviews)
+    gives grand_mean (the prior at the weighted-mean log n) plus
+    coverage_slope, and tau² becomes the residual variance around that line.
+    This is the correction for a file-drawer effect, where sparsely reviewed
+    items are worse than their few published reviews suggest. Without it the
+    slope is 0 and the parameters are exactly the unconditional ones.
     """
     ewa = ExponentialWeightedStats(halflife_days)
     
@@ -93,6 +107,10 @@ def compute_shrinkage_params_ewa(
         on='movie_slug',
         how='left'
     )
+    if coverage_prior:
+        n_reviews = reviews_df.groupby('movie_slug').size()
+        movies['log_n'] = np.log(movies['movie_slug'].map(n_reviews))
+        movies = movies[movies['log_n'].notna()].reset_index(drop=True)
     
     # Quarterly time points
     date_range = pd.date_range(
@@ -124,13 +142,32 @@ def compute_shrinkage_params_ewa(
             weights[valid_var]
         )
         
-        results.append({
+        row = {
             'date': as_of_date,
             'grand_mean': grand_mean,
             'tau_sq': tau_sq,
             'sigma_sq': sigma_sq,
-        })
-    
+            'coverage_slope': 0.0,
+            'mean_log_n': np.nan,
+        }
+
+        if coverage_prior:
+            # Weighted least squares of metascore on log n
+            w = weights
+            x = movies['log_n'].to_numpy()
+            y = movies['metascore'].to_numpy(dtype=float)
+            x_bar = np.average(x, weights=w)
+            sxx = np.sum(w * (x - x_bar) ** 2)
+            slope = np.sum(w * (x - x_bar) * (y - grand_mean)) / sxx if sxx > 0 else 0.0
+            resid = y - grand_mean - slope * (x - x_bar)
+            row.update({
+                'coverage_slope': slope,
+                'mean_log_n': x_bar,
+                'tau_sq': np.average(resid ** 2, weights=w),
+            })
+
+        results.append(row)
+
     return pd.DataFrame(results)
 
 
@@ -141,7 +178,8 @@ def process_all_movies(
     outlet_effects: pd.DataFrame,
     shrinkage_params: pd.DataFrame,
     output_path: str,
-    halflife_days: float = 2000
+    halflife_days: float = 2000,
+    max_review_lag_days: float | None = None,
 ) -> pd.DataFrame:
     """
     Compute adjusted scores for all movies (vectorized).
@@ -169,7 +207,14 @@ def process_all_movies(
     ].copy()
     reviews['_review_date'] = pd.to_datetime(reviews['date'], errors='coerce')
     release_map = movies.set_index('movie_slug')['_movie_date']
-    reviews['_review_date'] = reviews['_review_date'].fillna(reviews['movie_slug'].map(release_map))
+    item_release = reviews['movie_slug'].map(release_map)
+    reviews['_review_date'] = reviews['_review_date'].fillna(item_release)
+    if max_review_lag_days is not None:
+        # Reviews imported from Metacritic's old site carry the import date
+        # (e.g. 2016 for a 1998 game) rather than when they were written. A
+        # review dated long after release is looked up as of release instead.
+        late = reviews['_review_date'] > item_release + pd.Timedelta(days=max_review_lag_days)
+        reviews.loc[late, '_review_date'] = item_release[late]
 
     n_reviews_map = reviews.groupby('movie_slug').size()
 
@@ -244,8 +289,11 @@ def process_all_movies(
     results['pct_outlet_adjusted'] = np.where(valid, pct_o, np.nan)
 
     # --- Step 2: Bayesian shrinkage toward the grand mean as of release ---
-    sp = shrinkage_params.sort_values('date', kind='stable')[
-        ['date', 'grand_mean', 'tau_sq', 'sigma_sq']
+    sp = shrinkage_params.copy()
+    if 'coverage_slope' not in sp.columns:   # caches written before the coverage prior
+        sp['coverage_slope'], sp['mean_log_n'] = 0.0, np.nan
+    sp = sp.sort_values('date', kind='stable')[
+        ['date', 'grand_mean', 'tau_sq', 'sigma_sq', 'coverage_slope', 'mean_log_n']
     ].rename(columns={'date': '_movie_date'})
     sp['_params_found'] = True
     dated = results.loc[valid, ['movie_slug', '_movie_date']].sort_values('_movie_date', kind='stable')
@@ -254,6 +302,11 @@ def process_all_movies(
 
     n = results['n_reviews']
     sigma_sq, tau_sq, gm = results['sigma_sq'], results['tau_sq'], results['grand_mean']
+    # Coverage-conditional prior mean (slope is 0 unless --coverage-prior)
+    slope = results['coverage_slope'].fillna(0.0)
+    with np.errstate(divide='ignore', invalid='ignore'):
+        coverage_shift = np.where(slope != 0, slope * (np.log(n) - results['mean_log_n']), 0.0)
+    gm = gm + np.nan_to_num(coverage_shift)
     with np.errstate(invalid='ignore', divide='ignore'):
         B = (sigma_sq / n) / (sigma_sq / n + tau_sq)
         shrunk = B * gm + (1 - B) * critic_adj
@@ -316,6 +369,7 @@ def process_all_movies(
     results_df = pd.DataFrame({
         'movie_slug': results['movie_slug'],
         'title': results['title'],
+        **{c: results[c] for c in ('subtitle', 'url') if c in results.columns},
         'release_date': results['release_date'],
         'genre': results['genre'].apply(lambda g: str(g).split(',')[0].strip()),
         'raw_score': raw,
@@ -414,7 +468,15 @@ def main():
     )
     
     parser.add_argument('--input-dir', type=str, default='./metacritic_data',
-                        help='Directory with movies.csv and reviews.csv')
+                        help='Directory with movies.csv (or items.csv) and reviews.csv')
+    parser.add_argument('--items-file', type=str, default=None,
+                        help='Items CSV name in --input-dir (default: movies.csv, else items.csv)')
+    parser.add_argument('--coverage-prior', action='store_true',
+                        help='Make the shrinkage prior mean depend on log(n_reviews) '
+                             '(file-drawer correction; see analyze_categories.py)')
+    parser.add_argument('--max-review-lag-days', type=float, default=None,
+                        help='Look up effects as of release for reviews dated more than '
+                             'this many days after it (fixes bulk-import review dates)')
     parser.add_argument('--effects-dir', type=str, default='./hierarchical_effects',
                         help='Directory with precomputed hierarchical effects')
     parser.add_argument('--output-dir', type=str, default='./adjusted_scores_v2',
@@ -430,20 +492,21 @@ def main():
     
     # Load data
     print("Loading data...")
-    movies_df = pd.read_csv(os.path.join(args.input_dir, 'movies.csv'))
-    reviews_df = pd.read_csv(os.path.join(args.input_dir, 'reviews.csv'))
+    movies_df, reviews_df = load_items_and_reviews(args.input_dir, args.items_file)
     print(f"Loaded {len(movies_df):,} movies and {len(reviews_df):,} reviews")
     
     # Load hierarchical effects
     critic_effects, outlet_effects = load_hierarchical_effects(args.effects_dir)
     
     # Compute or load shrinkage params
-    shrinkage_cache = os.path.join(args.output_dir, f'shrinkage_params_hl{int(args.halflife_shrinkage)}.csv')
+    cov_tag = '_cov' if args.coverage_prior else ''
+    shrinkage_cache = os.path.join(args.output_dir, f'shrinkage_params_hl{int(args.halflife_shrinkage)}{cov_tag}.csv')
     
     if args.recompute_shrinkage or not os.path.exists(shrinkage_cache):
         print(f"\nComputing shrinkage params (halflife={args.halflife_shrinkage} days)...")
         shrinkage_params = compute_shrinkage_params_ewa(
-            reviews_df, movies_df, halflife_days=args.halflife_shrinkage
+            reviews_df, movies_df, halflife_days=args.halflife_shrinkage,
+            coverage_prior=args.coverage_prior,
         )
         shrinkage_params.to_csv(shrinkage_cache, index=False)
     else:
@@ -459,7 +522,8 @@ def main():
         outlet_effects,
         shrinkage_params,
         output_path=os.path.join(args.output_dir, 'adjusted_scores.csv'),
-        halflife_days=args.halflife_shrinkage
+        halflife_days=args.halflife_shrinkage,
+        max_review_lag_days=args.max_review_lag_days,
     )
     
     # Summary
@@ -467,14 +531,17 @@ def main():
     
     # Save metadata
     metadata = {
-        'adjustments_applied': ['hierarchical_critic_outlet', 'bayesian_shrinkage'],
+        'adjustments_applied': ['hierarchical_critic_outlet', 'bayesian_shrinkage']
+                               + (['coverage_prior'] if args.coverage_prior else []),
+        'coverage_prior': bool(args.coverage_prior),
+        'max_review_lag_days': args.max_review_lag_days,
         'adjustments_not_applied': ['genre'],
         'halflife_shrinkage_days': args.halflife_shrinkage,
         'polarization_prior_strength': POLARIZATION_PRIOR_STRENGTH,
         'n_movies': len(movies_df),
         'n_movies_with_scores': len(adjusted_df),
         'n_reviews': len(reviews_df),
-        'n_critics': len(critic_effects['critic'].unique()),
+        'n_critics': int(critic_effects['critic'].nunique()),
         'n_outlets': len(outlet_effects['outlet'].unique()),
         'mean_raw_score': adjusted_df['raw_score'].mean(),
         'mean_adjusted_score': adjusted_df['adjusted_score'].mean(),

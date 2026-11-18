@@ -42,3 +42,11 @@ npm-debug.log*
 data/metacritic_data/
 data/hierarchical_effects/
 data/adjusted_scores/
+
+# TV / games / music pipeline data (same layout as movies, under data/<category>/).
+# Each category's diagnostics.json stays tracked: it is the evidence behind
+# config/categories.json.
+data/*/metacritic_data/
+data/*/hierarchical_effects/
+data/*/adjusted_scores/
+logs/

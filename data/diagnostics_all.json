@@ -1,0 +1,927 @@
+{
+  "movies": {
+    "category": "movies",
+    "generated": "2026-11-17T21:50:53",
+    "summary": {
+      "n_items": 21591,
+      "n_reviews": 366747,
+      "median_reviews_per_item": 13.0,
+      "share_reviews_named_critic": 0.8694331514640883,
+      "n_outlets": 115,
+      "outlet_variance_explained": 0.05723475759687635,
+      "hierarchical_variance_explained": 0.07165770971523522,
+      "sd_outlet_effect": 4.325299811456635,
+      "sd_critic_effect": 4.66021950812099,
+      "mean_abs_bias_adjustment": 2.2810807482939106,
+      "mean_abs_shrinkage_adjustment": 0.8599970518892427,
+      "mean_abs_total_adjustment": 2.8760697125170878,
+      "median_divisiveness": 14.121036818577776,
+      "share_reviews_dated_1y_after_release": 0.004458114176803083,
+      "mean_metascore_by_decade": {
+        "1930": 76.5,
+        "1940": 75.0,
+        "1950": 75.6,
+        "1960": 70.2,
+        "1970": 63.1,
+        "1980": 54.4,
+        "1990": 56.9,
+        "2000": 55.8,
+        "2010": 57.8,
+        "2020": 63.2
+      },
+      "grand_mean_latest": 60.98548372281186,
+      "tau_sq_latest": 264.43743395834827,
+      "sigma_sq_latest": 201.64467525469215,
+      "shrinkage_weight_at_median_n": 0.05540706731719139
+    },
+    "coverage_gradient": {
+      "n_items": 21589,
+      "slope_per_log_n": 3.9783924562129354,
+      "slope_per_doubling": 2.7576115141849518,
+      "se_per_doubling": 0.10108934777548617,
+      "t_stat": 27.27895247983451,
+      "n_reviews_p10_p50_p90": [
+        5.0,
+        13.0,
+        35.0
+      ],
+      "p10_to_p90_gap_points": 7.741594257469846,
+      "raw_slope_per_doubling": 3.2521901418977808,
+      "profile": [
+        {
+          "bin": "1-4",
+          "mean_vs_year": -4.859540150686692,
+          "sem": 0.39509536208794,
+          "count": 1588
+        },
+        {
+          "bin": "5-7",
+          "mean_vs_year": -3.195827779727577,
+          "sem": 0.23626156061723924,
+          "count": 4000
+        },
+        {
+          "bin": "8-11",
+          "mean_vs_year": -1.012799495105793,
+          "sem": 0.22819710499820595,
+          "count": 3889
+        },
+        {
+          "bin": "12-19",
+          "mean_vs_year": 1.4215344159512382,
+          "sem": 0.20915085973633196,
+          "count": 4858
+        },
+        {
+          "bin": "20-34",
+          "mean_vs_year": 1.238023280249104,
+          "sem": 0.20748071855235092,
+          "count": 5042
+        },
+        {
+          "bin": "35+",
+          "mean_vs_year": 5.104480353960279,
+          "sem": 0.28565900789736587,
+          "count": 2212
+        }
+      ]
+    },
+    "selective_coverage": {
+      "n_outlets": 80,
+      "median_odds_ratio_per_10pts": 0.9984641604564507,
+      "pooled_odds_ratio_per_10pts": 1.0306872548732504,
+      "pooled_coef_se": 0.0020967376125640325,
+      "share_outlets_sig_positive": 0.4,
+      "share_outlets_sig_negative": 0.375,
+      "outlets": [
+        {
+          "outlet": "The New York Times",
+          "n_reviews": 17122,
+          "n_candidates": 19318,
+          "coef_per_10pts": 0.17232051450008387,
+          "se": 0.01569178520684542,
+          "odds_ratio_per_10pts": 1.1880585621921989
+        },
+        {
+          "outlet": "Variety",
+          "n_reviews": 15231,
+          "n_candidates": 19424,
+          "coef_per_10pts": -0.039861647161769716,
+          "se": 0.012444733013877314,
+          "odds_ratio_per_10pts": 0.960922376294075
+        },
+        {
+          "outlet": "Los Angeles Times",
+          "n_reviews": 13367,
+          "n_candidates": 17296,
+          "coef_per_10pts": -0.07633978934922026,
+          "se": 0.013089070415823688,
+          "odds_ratio_per_10pts": 0.9265013377812668
+        },
+        {
+          "outlet": "The Hollywood Reporter",
+          "n_reviews": 10827,
+          "n_candidates": 14641,
+          "coef_per_10pts": -0.0806627785674701,
+          "se": 0.013926108059020894,
+          "odds_ratio_per_10pts": 0.9225047273633485
+        },
+        {
+          "outlet": "Village Voice",
+          "n_reviews": 9435,
+          "n_candidates": 11040,
+          "coef_per_10pts": 0.3219955745335348,
+          "se": 0.018019453310873342,
+          "odds_ratio_per_10pts": 1.379878669336957
+        },
+        {
+          "outlet": "The A.V. Club",
+          "n_reviews": 9326,
+          "n_candidates": 18569,
+          "coef_per_10pts": -0.11586154812061232,
+          "se": 0.01224893436783141,
+          "odds_ratio_per_10pts": 0.8905985198008056
+        },
+        {
+          "outlet": "San Francisco Chronicle",
+          "n_reviews": 8383,
+          "n_candidates": 17063,
+          "coef_per_10pts": 0.0696099475839118,
+          "se": 0.015345764296728284,
+          "odds_ratio_per_10pts": 1.0720899284224106
+        },
+        {
+          "outlet": "Washington Post",
+          "n_reviews": 8309,
+          "n_candidates": 17893,
+          "coef_per_10pts": 0.05621871804656359,
+          "se": 0.014745861931101388,
+          "odds_ratio_per_10pts": 1.0578290247343516
+        },
+        {
+          "outlet": "Austin Chronicle",
+          "n_reviews": 7833,
+          "n_candidates": 16971,
+          "coef_per_10pts": -0.09246325877042363,
+          "se": 0.01447921707003054,
+          "odds_ratio_per_10pts": 0.9116827066927482
+        },
+        {
+          "outlet": "New York Post",
+          "n_reviews": 7516,
+          "n_candidates": 13663,
+          "coef_per_10pts": -0.18971796945355468,
+          "se": 0.017103054107559423,
+          "odds_ratio_per_10pts": 0.8271923945715614
+        },
+        {
+          "outlet": "Chicago Sun-Times",
+          "n_reviews": 7268,
+          "n_candidates": 17955,
+          "coef_per_10pts": -0.012779597230847869,
+          "se": 0.013636050805915963,
+          "odds_ratio_per_10pts": 0.9873017150737745
+        },
+        {
+          "outlet": "Boston Globe",
+          "n_reviews": 7185,
+          "n_candidates": 16855,
+          "coef_per_10pts": 0.0703214521325601,
+          "se": 0.014828113435730775,
+          "odds_ratio_per_10pts": 1.072852996714132
+        },
+        {
+          "outlet": "TV Guide Magazine",
+          "n_reviews": 7104,
+          "n_candidates": 7832,
+          "coef_per_10pts": -0.23975868777113143,
+          "se": 0.027644668864460032,
+          "odds_ratio_per_10pts": 0.7868177068941361
+        },
+        {
+          "outlet": "Entertainment Weekly",
+          "n_reviews": 6967,
+          "n_candidates": 15192,
+          "coef_per_10pts": -0.24822164673295954,
+          "se": 0.01729215546912143,
+          "odds_ratio_per_10pts": 0.7801869982131365
+        },
+        {
+          "outlet": "Slant Magazine",
+          "n_reviews": 6817,
+          "n_candidates": 19656,
+          "coef_per_10pts": 0.11558130084663816,
+          "se": 0.011584447686282692,
+          "odds_ratio_per_10pts": 1.122525773134258
+        }
+      ]
+    },
+    "subsample_validation": {
+      "n_items": 16001,
+      "k_observed": 3,
+      "mse_no_shrinkage": 92.03968317246668,
+      "mse_unconditional_prior": 73.47842501068767,
+      "mse_coverage_prior": 73.26559004790316,
+      "improvement_pct": 0.289656402887728,
+      "shrinkage_improvement_pct": 20.166581980729305,
+      "improvement_pct_items_8_to_15_reviews": 0.04651863999123318,
+      "mse_diff_t": -3.7633117093152246
+    },
+    "verdicts": {
+      "file_drawer": false,
+      "coverage_gradient": true,
+      "coverage_prior_helps_out_of_sample": false
+    },
+    "recommend_coverage_prior": false,
+    "currently_enabled": false
+  },
+  "tv": {
+    "category": "tv",
+    "generated": "2026-11-17T21:50:58",
+    "summary": {
+      "n_items": 4294,
+      "n_reviews": 66688,
+      "median_reviews_per_item": 14.0,
+      "share_reviews_named_critic": 0.9418486084452975,
+      "n_outlets": 116,
+      "outlet_variance_explained": 0.05527784490090082,
+      "hierarchical_variance_explained": 0.06571652503615277,
+      "sd_outlet_effect": 4.184148884264704,
+      "sd_critic_effect": 4.307096243982778,
+      "mean_abs_bias_adjustment": 1.2047819460676812,
+      "mean_abs_shrinkage_adjustment": 0.93851622526268,
+      "mean_abs_total_adjustment": 1.519964525852924,
+      "median_divisiveness": 14.131787731769347,
+      "share_reviews_dated_1y_after_release": 0.09117082533589252,
+      "mean_metascore_by_decade": {
+        "1990": 68.8,
+        "2000": 61.8,
+        "2010": 66.4,
+        "2020": 69.2
+      },
+      "grand_mean_latest": 68.35766811069391,
+      "tau_sq_latest": 159.23009370528865,
+      "sigma_sq_latest": 207.52217438201768,
+      "shrinkage_weight_at_median_n": 0.08516373411994452
+    },
+    "coverage_gradient": {
+      "n_items": 4294,
+      "slope_per_log_n": -1.3895735931904718,
+      "slope_per_doubling": -0.9631790183005279,
+      "se_per_doubling": 0.2332169301088942,
+      "t_stat": -4.129970400737194,
+      "n_reviews_p10_p50_p90": [
+        6.0,
+        14.0,
+        28.0
+      ],
+      "p10_to_p90_gap_points": -2.140561750661373,
+      "raw_slope_per_doubling": -1.2068363023443804,
+      "profile": [
+        {
+          "bin": "1-4",
+          "mean_vs_year": 3.7771816840265884,
+          "sem": 0.8613161027138625,
+          "count": 206
+        },
+        {
+          "bin": "5-7",
+          "mean_vs_year": 3.011087549776057,
+          "sem": 0.48927165414142815,
+          "count": 654
+        },
+        {
+          "bin": "8-11",
+          "mean_vs_year": -1.3968343301022466,
+          "sem": 0.46027158125411594,
+          "count": 930
+        },
+        {
+          "bin": "12-19",
+          "mean_vs_year": -0.977978986145592,
+          "sem": 0.4194339162964797,
+          "count": 1130
+        },
+        {
+          "bin": "20-34",
+          "mean_vs_year": -0.7340036413222727,
+          "sem": 0.3779205728626717,
+          "count": 1270
+        },
+        {
+          "bin": "35+",
+          "mean_vs_year": 5.663520397652643,
+          "sem": 0.9855894261754246,
+          "count": 104
+        }
+      ]
+    },
+    "selective_coverage": {
+      "n_outlets": 78,
+      "median_odds_ratio_per_10pts": 1.040028202780573,
+      "pooled_odds_ratio_per_10pts": 1.0172709935886184,
+      "pooled_coef_se": 0.004707153187300449,
+      "share_outlets_sig_positive": 0.3333333333333333,
+      "share_outlets_sig_negative": 0.21794871794871795,
+      "outlets": [
+        {
+          "outlet": "Variety",
+          "n_reviews": 2685,
+          "n_candidates": 3803,
+          "coef_per_10pts": -0.45391255019521204,
+          "se": 0.03679465790600628,
+          "odds_ratio_per_10pts": 0.6351382735354331
+        },
+        {
+          "outlet": "The Hollywood Reporter",
+          "n_reviews": 2482,
+          "n_candidates": 3705,
+          "coef_per_10pts": -0.2216290710068091,
+          "se": 0.03073577077227526,
+          "odds_ratio_per_10pts": 0.801212502169495
+        },
+        {
+          "outlet": "The New York Times",
+          "n_reviews": 1936,
+          "n_candidates": 3622,
+          "coef_per_10pts": 0.003188093722114944,
+          "se": 0.02878601696481731,
+          "odds_ratio_per_10pts": 1.0031931810978123
+        },
+        {
+          "outlet": "Los Angeles Times",
+          "n_reviews": 1932,
+          "n_candidates": 3863,
+          "coef_per_10pts": -0.2585705862127866,
+          "se": 0.029135155080016104,
+          "odds_ratio_per_10pts": 0.7721545256618906
+        },
+        {
+          "outlet": "Entertainment Weekly",
+          "n_reviews": 1825,
+          "n_candidates": 3171,
+          "coef_per_10pts": 0.11471763097497223,
+          "se": 0.027675189449265055,
+          "odds_ratio_per_10pts": 1.1215566999837132
+        },
+        {
+          "outlet": "The A.V. Club",
+          "n_reviews": 1619,
+          "n_candidates": 2764,
+          "coef_per_10pts": -0.07957599894533172,
+          "se": 0.03276365710761533,
+          "odds_ratio_per_10pts": 0.9235078316803089
+        },
+        {
+          "outlet": "Newsday",
+          "n_reviews": 1586,
+          "n_candidates": 3476,
+          "coef_per_10pts": -0.09815130001930068,
+          "se": 0.029267215165622886,
+          "odds_ratio_per_10pts": 0.9065117381341261
+        },
+        {
+          "outlet": "Boston Globe",
+          "n_reviews": 1443,
+          "n_candidates": 3787,
+          "coef_per_10pts": -0.05149187034742895,
+          "se": 0.028958846109942146,
+          "odds_ratio_per_10pts": 0.9498113715672714
+        },
+        {
+          "outlet": "Pittsburgh Post-Gazette",
+          "n_reviews": 1376,
+          "n_candidates": 2324,
+          "coef_per_10pts": -0.2630076536100583,
+          "se": 0.03458497982802116,
+          "odds_ratio_per_10pts": 0.7687360136829583
+        },
+        {
+          "outlet": "Washington Post",
+          "n_reviews": 1344,
+          "n_candidates": 3551,
+          "coef_per_10pts": -0.04007490793440907,
+          "se": 0.029109415580234114,
+          "odds_ratio_per_10pts": 0.9607174710955572
+        },
+        {
+          "outlet": "San Francisco Chronicle",
+          "n_reviews": 1335,
+          "n_candidates": 3455,
+          "coef_per_10pts": -0.0825154999749735,
+          "se": 0.030023030615785175,
+          "odds_ratio_per_10pts": 0.920797165413174
+        },
+        {
+          "outlet": "IndieWire",
+          "n_reviews": 1315,
+          "n_candidates": 2363,
+          "coef_per_10pts": 0.37068403778163683,
+          "se": 0.04027382534600587,
+          "odds_ratio_per_10pts": 1.4487252586178567
+        },
+        {
+          "outlet": "Decider",
+          "n_reviews": 1297,
+          "n_candidates": 1519,
+          "coef_per_10pts": -0.32057524175243507,
+          "se": 0.06862731063387838,
+          "odds_ratio_per_10pts": 0.7257314459485161
+        },
+        {
+          "outlet": "RogerEbert.com",
+          "n_reviews": 1291,
+          "n_candidates": 2676,
+          "coef_per_10pts": 0.039581671053140664,
+          "se": 0.03633884779361696,
+          "odds_ratio_per_10pts": 1.040375463975121
+        },
+        {
+          "outlet": "TV Guide Magazine",
+          "n_reviews": 1280,
+          "n_candidates": 3054,
+          "coef_per_10pts": 0.18431501668642886,
+          "se": 0.03013317314041258,
+          "odds_ratio_per_10pts": 1.2023945377855196
+        }
+      ]
+    },
+    "subsample_validation": {
+      "n_items": 3434,
+      "k_observed": 3,
+      "mse_no_shrinkage": 93.62845473419841,
+      "mse_unconditional_prior": 72.88550168608202,
+      "mse_coverage_prior": 72.94120853057359,
+      "improvement_pct": -0.07643062502540321,
+      "shrinkage_improvement_pct": 22.154539564925546,
+      "improvement_pct_items_8_to_15_reviews": -0.1702604385286799,
+      "mse_diff_t": 0.7213907872525959
+    },
+    "verdicts": {
+      "file_drawer": false,
+      "coverage_gradient": false,
+      "coverage_prior_helps_out_of_sample": false
+    },
+    "recommend_coverage_prior": false,
+    "currently_enabled": false
+  },
+  "games": {
+    "category": "games",
+    "generated": "2026-11-17T21:51:01",
+    "summary": {
+      "n_items": 14463,
+      "n_reviews": 373158,
+      "median_reviews_per_item": 19.0,
+      "share_reviews_named_critic": 0.0,
+      "n_outlets": 598,
+      "outlet_variance_explained": 0.1185216472667261,
+      "hierarchical_variance_explained": 0.1185216472667261,
+      "sd_outlet_effect": 3.2393704654589706,
+      "sd_critic_effect": null,
+      "mean_abs_bias_adjustment": 1.1649973863504506,
+      "mean_abs_shrinkage_adjustment": 0.45556224307306625,
+      "mean_abs_total_adjustment": 1.2408020747570108,
+      "median_divisiveness": 9.9959902813457,
+      "share_reviews_dated_1y_after_release": 0.004871930924702137,
+      "mean_metascore_by_decade": {
+        "1990": 84.3,
+        "2000": 68.8,
+        "2010": 70.2,
+        "2020": 74.1
+      },
+      "grand_mean_latest": 72.52682762839167,
+      "tau_sq_latest": 114.84582689641492,
+      "sigma_sq_latest": 109.69489385123536,
+      "shrinkage_weight_at_median_n": 0.047864796302687265
+    },
+    "coverage_gradient": {
+      "n_items": 14463,
+      "slope_per_log_n": 6.677704080599317,
+      "slope_per_doubling": 4.628631756081058,
+      "se_per_doubling": 0.08970268001030524,
+      "t_stat": 51.59970421785961,
+      "n_reviews_p10_p50_p90": [
+        8.0,
+        19.0,
+        55.0
+      ],
+      "p10_to_p90_gap_points": 12.873889895104757,
+      "raw_slope_per_doubling": 4.304073356074431,
+      "profile": [
+        {
+          "bin": "1-4",
+          "mean_vs_year": 0.38819271544581113,
+          "sem": 3.859390206155367,
+          "count": 6
+        },
+        {
+          "bin": "5-7",
+          "mean_vs_year": -4.990035364431653,
+          "sem": 0.38118625589411237,
+          "count": 1039
+        },
+        {
+          "bin": "8-11",
+          "mean_vs_year": -4.40038271098821,
+          "sem": 0.2133095488813778,
+          "count": 2908
+        },
+        {
+          "bin": "12-19",
+          "mean_vs_year": -2.4902143971758983,
+          "sem": 0.19035870924618906,
+          "count": 3552
+        },
+        {
+          "bin": "20-34",
+          "mean_vs_year": 0.9823172618775852,
+          "sem": 0.1834745155102688,
+          "count": 3475
+        },
+        {
+          "bin": "35+",
+          "mean_vs_year": 6.7213090912000295,
+          "sem": 0.17333321859653275,
+          "count": 3483
+        }
+      ]
+    },
+    "selective_coverage": {
+      "n_outlets": 80,
+      "median_odds_ratio_per_10pts": 1.0465707156754185,
+      "pooled_odds_ratio_per_10pts": 1.0300460966173985,
+      "pooled_coef_se": 0.0031570156470816834,
+      "share_outlets_sig_positive": 0.4,
+      "share_outlets_sig_negative": 0.2375,
+      "outlets": [
+        {
+          "outlet": "IGN",
+          "n_reviews": 7648,
+          "n_candidates": 12249,
+          "coef_per_10pts": 0.08015824350234858,
+          "se": 0.02370587510475529,
+          "odds_ratio_per_10pts": 1.083458504378611
+        },
+        {
+          "outlet": "GameSpot",
+          "n_reviews": 7133,
+          "n_candidates": 11544,
+          "coef_per_10pts": 0.01645281481728899,
+          "se": 0.023788649474071322,
+          "odds_ratio_per_10pts": 1.016588907720997
+        },
+        {
+          "outlet": "Game Informer",
+          "n_reviews": 4672,
+          "n_candidates": 11819,
+          "coef_per_10pts": 0.07560529773938646,
+          "se": 0.02302798313447396,
+          "odds_ratio_per_10pts": 1.078536789224812
+        },
+        {
+          "outlet": "Multiplayer.it",
+          "n_reviews": 3892,
+          "n_candidates": 8434,
+          "coef_per_10pts": 0.047844327149270324,
+          "se": 0.023682827473270985,
+          "odds_ratio_per_10pts": 1.0490073406498146
+        },
+        {
+          "outlet": "Worth Playing",
+          "n_reviews": 3843,
+          "n_candidates": 11037,
+          "coef_per_10pts": -0.07113038586542511,
+          "se": 0.020663453368333733,
+          "odds_ratio_per_10pts": 0.9313404505799793
+        },
+        {
+          "outlet": "Vandal",
+          "n_reviews": 3812,
+          "n_candidates": 8602,
+          "coef_per_10pts": 0.03552742175869253,
+          "se": 0.02495037040830326,
+          "odds_ratio_per_10pts": 1.036166061234191
+        },
+        {
+          "outlet": "Gaming Age",
+          "n_reviews": 3751,
+          "n_candidates": 12750,
+          "coef_per_10pts": 0.05672761362023046,
+          "se": 0.019444578405819417,
+          "odds_ratio_per_10pts": 1.0583674862414534
+        },
+        {
+          "outlet": "GameZone",
+          "n_reviews": 3675,
+          "n_candidates": 5077,
+          "coef_per_10pts": -0.07985789725663085,
+          "se": 0.02804827467012246,
+          "odds_ratio_per_10pts": 0.9232475330726795
+        },
+        {
+          "outlet": "Cheat Code Central",
+          "n_reviews": 3535,
+          "n_candidates": 6689,
+          "coef_per_10pts": -0.12424586464944655,
+          "se": 0.023899384941882776,
+          "odds_ratio_per_10pts": 0.8831626757055582
+        },
+        {
+          "outlet": "Eurogamer",
+          "n_reviews": 3390,
+          "n_candidates": 11791,
+          "coef_per_10pts": 0.1074010982687724,
+          "se": 0.022607238754648703,
+          "odds_ratio_per_10pts": 1.1133807400183573
+        },
+        {
+          "outlet": "Everyeye.it",
+          "n_reviews": 3367,
+          "n_candidates": 8264,
+          "coef_per_10pts": -0.007190502475215558,
+          "se": 0.024669418690789292,
+          "odds_ratio_per_10pts": 0.9928352873367835
+        },
+        {
+          "outlet": "Game Revolution",
+          "n_reviews": 3277,
+          "n_candidates": 10559,
+          "coef_per_10pts": 0.11722963490650623,
+          "se": 0.022717073724772052,
+          "odds_ratio_per_10pts": 1.1243775963915843
+        },
+        {
+          "outlet": "SpazioGames",
+          "n_reviews": 3072,
+          "n_candidates": 8315,
+          "coef_per_10pts": -0.04261432783754224,
+          "se": 0.02515477677023022,
+          "odds_ratio_per_10pts": 0.9582809010747553
+        },
+        {
+          "outlet": "Destructoid",
+          "n_reviews": 2986,
+          "n_candidates": 8296,
+          "coef_per_10pts": 0.13848529271912333,
+          "se": 0.024749096508334564,
+          "odds_ratio_per_10pts": 1.1485327896516284
+        },
+        {
+          "outlet": "GamingTrend",
+          "n_reviews": 2986,
+          "n_candidates": 11819,
+          "coef_per_10pts": 0.11745811509874372,
+          "se": 0.02251103675186338,
+          "odds_ratio_per_10pts": 1.124634523751244
+        }
+      ]
+    },
+    "subsample_validation": {
+      "n_items": 13418,
+      "k_observed": 3,
+      "mse_no_shrinkage": 46.523278083966744,
+      "mse_unconditional_prior": 38.790831691091654,
+      "mse_coverage_prior": 37.99942401335318,
+      "improvement_pct": 2.0401926002535875,
+      "shrinkage_improvement_pct": 16.620596637492557,
+      "improvement_pct_items_8_to_15_reviews": 1.3399409400514317,
+      "mse_diff_t": -9.623546914474895
+    },
+    "verdicts": {
+      "file_drawer": false,
+      "coverage_gradient": true,
+      "coverage_prior_helps_out_of_sample": true
+    },
+    "recommend_coverage_prior": false,
+    "currently_enabled": false
+  },
+  "music": {
+    "category": "music",
+    "generated": "2026-11-17T21:51:05",
+    "summary": {
+      "n_items": 19943,
+      "n_reviews": 174789,
+      "median_reviews_per_item": 8.0,
+      "share_reviews_named_critic": 0.0,
+      "n_outlets": 131,
+      "outlet_variance_explained": 0.07595436885870976,
+      "hierarchical_variance_explained": 0.07595436885870976,
+      "sd_outlet_effect": 2.916289613464395,
+      "sd_critic_effect": null,
+      "mean_abs_bias_adjustment": 1.804102735919853,
+      "mean_abs_shrinkage_adjustment": 1.3200207826488415,
+      "mean_abs_total_adjustment": 2.390138214657358,
+      "median_divisiveness": 11.396282479312273,
+      "share_reviews_dated_1y_after_release": 0.0014760654274582497,
+      "mean_metascore_by_decade": {
+        "2000": 71.0,
+        "2010": 74.2,
+        "2020": 78.9
+      },
+      "grand_mean_latest": 76.7645415578973,
+      "tau_sq_latest": 65.4303106650451,
+      "sigma_sq_latest": 107.71649009542466,
+      "shrinkage_weight_at_median_n": 0.1706645936936329
+    },
+    "coverage_gradient": {
+      "n_items": 19943,
+      "slope_per_log_n": 1.707019092717478,
+      "slope_per_doubling": 1.1832154712791156,
+      "se_per_doubling": 0.09374320989905427,
+      "t_stat": 12.62187920120551,
+      "n_reviews_p10_p50_p90": [
+        4.0,
+        8.0,
+        14.0
+      ],
+      "p10_to_p90_gap_points": 2.1384903058710174,
+      "raw_slope_per_doubling": 0.7205619174049733,
+      "profile": [
+        {
+          "bin": "1-4",
+          "mean_vs_year": -1.2962642862451847,
+          "sem": 0.1430890144107782,
+          "count": 2705
+        },
+        {
+          "bin": "5-7",
+          "mean_vs_year": -0.8738127921223751,
+          "sem": 0.09618427141031698,
+          "count": 6223
+        },
+        {
+          "bin": "8-11",
+          "mean_vs_year": 1.2356547309003127,
+          "sem": 0.09987484292321765,
+          "count": 6102
+        },
+        {
+          "bin": "12-19",
+          "mean_vs_year": 0.3751140103776607,
+          "sem": 0.1056382215228481,
+          "count": 4881
+        },
+        {
+          "bin": "20-34",
+          "mean_vs_year": -13.336398529260439,
+          "sem": 0.9990786287930012,
+          "count": 32
+        },
+        {
+          "bin": "35+",
+          "mean_vs_year": null,
+          "sem": null,
+          "count": 0
+        }
+      ]
+    },
+    "selective_coverage": {
+      "n_outlets": 80,
+      "median_odds_ratio_per_10pts": 1.0583089868365045,
+      "pooled_odds_ratio_per_10pts": 1.0026450261760873,
+      "pooled_coef_se": 0.004093178517537281,
+      "share_outlets_sig_positive": 0.3875,
+      "share_outlets_sig_negative": 0.3375,
+      "outlets": [
+        {
+          "outlet": "AllMusic",
+          "n_reviews": 12496,
+          "n_candidates": 17960,
+          "coef_per_10pts": -0.4179256279755482,
+          "se": 0.02241503239117957,
+          "odds_ratio_per_10pts": 0.6584111939773888
+        },
+        {
+          "outlet": "Uncut",
+          "n_reviews": 8123,
+          "n_candidates": 17948,
+          "coef_per_10pts": 0.13201560645760255,
+          "se": 0.019968861762382207,
+          "odds_ratio_per_10pts": 1.1411261280648055
+        },
+        {
+          "outlet": "Pitchfork",
+          "n_reviews": 7979,
+          "n_candidates": 18044,
+          "coef_per_10pts": 0.21565667379589,
+          "se": 0.020119867523535444,
+          "odds_ratio_per_10pts": 1.2406763491697648
+        },
+        {
+          "outlet": "PopMatters",
+          "n_reviews": 7539,
+          "n_candidates": 17282,
+          "coef_per_10pts": 0.05779736741522468,
+          "se": 0.02081090977213035,
+          "odds_ratio_per_10pts": 1.0595002846760422
+        },
+        {
+          "outlet": "Mojo",
+          "n_reviews": 7318,
+          "n_candidates": 18135,
+          "coef_per_10pts": 0.18281951174000474,
+          "se": 0.02045005461286309,
+          "odds_ratio_per_10pts": 1.2005976947354347
+        },
+        {
+          "outlet": "Q Magazine",
+          "n_reviews": 5693,
+          "n_candidates": 14379,
+          "coef_per_10pts": -0.17440079187407348,
+          "se": 0.021966950848847214,
+          "odds_ratio_per_10pts": 0.8399601809712042
+        },
+        {
+          "outlet": "musicOMH.com",
+          "n_reviews": 4002,
+          "n_candidates": 16372,
+          "coef_per_10pts": -0.16070221585987032,
+          "se": 0.025079302501276858,
+          "odds_ratio_per_10pts": 0.8515456101326218
+        },
+        {
+          "outlet": "New Musical Express (NME)",
+          "n_reviews": 3833,
+          "n_candidates": 18014,
+          "coef_per_10pts": -0.33770267938748927,
+          "se": 0.024198535390497426,
+          "odds_ratio_per_10pts": 0.7134073670843144
+        },
+        {
+          "outlet": "Under The Radar",
+          "n_reviews": 3717,
+          "n_candidates": 16958,
+          "coef_per_10pts": 0.05554731028078235,
+          "se": 0.025572500716554817,
+          "odds_ratio_per_10pts": 1.0571190284874445
+        },
+        {
+          "outlet": "The Guardian",
+          "n_reviews": 3703,
+          "n_candidates": 16979,
+          "coef_per_10pts": -0.07911432852130762,
+          "se": 0.025362033794090508,
+          "odds_ratio_per_10pts": 0.9239342863657336
+        },
+        {
+          "outlet": "Rolling Stone",
+          "n_reviews": 3527,
+          "n_candidates": 18233,
+          "coef_per_10pts": -0.3338185469290356,
+          "se": 0.02400052206973808,
+          "odds_ratio_per_10pts": 0.7161837241737954
+        },
+        {
+          "outlet": "Exclaim",
+          "n_reviews": 3315,
+          "n_candidates": 11263,
+          "coef_per_10pts": 0.13185051678621107,
+          "se": 0.029679762494427307,
+          "odds_ratio_per_10pts": 1.1409377554769191
+        },
+        {
+          "outlet": "The Line of Best Fit",
+          "n_reviews": 3048,
+          "n_candidates": 10912,
+          "coef_per_10pts": 0.07696095756354165,
+          "se": 0.03155340017518517,
+          "odds_ratio_per_10pts": 1.0799999097416102
+        },
+        {
+          "outlet": "Clash Music",
+          "n_reviews": 2831,
+          "n_candidates": 13706,
+          "coef_per_10pts": -0.20541187777470957,
+          "se": 0.03058781817646376,
+          "odds_ratio_per_10pts": 0.8143118503778021
+        },
+        {
+          "outlet": "Drowned In Sound",
+          "n_reviews": 2829,
+          "n_candidates": 11782,
+          "coef_per_10pts": -0.008551840847965066,
+          "se": 0.028615020542370986,
+          "odds_ratio_per_10pts": 0.991484622127094
+        }
+      ]
+    },
+    "subsample_validation": {
+      "n_items": 11015,
+      "k_observed": 3,
+      "mse_no_shrinkage": 69.0969270127047,
+      "mse_unconditional_prior": 45.60490634304052,
+      "mse_coverage_prior": 45.41723971170192,
+      "improvement_pct": 0.41150535411030864,
+      "shrinkage_improvement_pct": 33.99864753080083,
+      "improvement_pct_items_8_to_15_reviews": -0.04830870370378104,
+      "mse_diff_t": -5.329973607892441
+    },
+    "verdicts": {
+      "file_drawer": false,
+      "coverage_gradient": true,
+      "coverage_prior_helps_out_of_sample": false
+    },
+    "recommend_coverage_prior": false,
+    "currently_enabled": false
+  }
+}

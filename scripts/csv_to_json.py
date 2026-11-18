@@ -11,12 +11,15 @@ import os
 from datetime import datetime
 
 
-def csv_to_json(csv_path: str, output_path: str):
+def csv_to_json(csv_path: str, output_path: str, category: str = 'movies',
+                model_info: dict | None = None):
     """
     Convert adjusted scores CSV to JSON for the webapp.
 
-    Creates movies_all.json and metadata.json. The app filters recent
-    movies client-side, so no separate recent file is generated.
+    Creates <category>_all.json and <category>_metadata.json. The app filters
+    recent items client-side, so no separate recent file is generated.
+    model_info (which adjustments ran, diagnostics) is copied into the
+    metadata so the app can describe the methodology per category.
     """
     print(f"Loading {csv_path}...")
     df = pd.read_csv(csv_path)
@@ -41,8 +44,10 @@ def csv_to_json(csv_path: str, output_path: str):
     
     # Select and rename columns for webapp
     webapp_cols = {
-        'movie_slug': 'movie_slug',
+        'movie_slug': 'slug',
         'title': 'title',
+        'subtitle': 'subtitle',
+        'url': 'url',
         'release_date': 'release_date',
         'year': 'year',
         'genre': 'genre',
@@ -72,7 +77,7 @@ def csv_to_json(csv_path: str, output_path: str):
         'genre': 'Unknown',
         'title': 'Unknown',
         'release_date': '',
-        'movie_slug': '',
+        'slug': '',
     })
     
     # Convert any remaining NaN to None (which becomes null in JSON)
@@ -117,12 +122,12 @@ def csv_to_json(csv_path: str, output_path: str):
     os.makedirs(output_path, exist_ok=True)
 
     # Save all movies (minified: the file is served to every visitor)
-    all_path = os.path.join(output_path, 'movies_all.json')
+    all_path = os.path.join(output_path, f'{category}_all.json')
     with open(all_path, 'w') as f:
         json.dump({
             'updated': datetime.now().isoformat(),
             'count': len(all_movies),
-            'movies': all_movies
+            'items': all_movies
         }, f, separators=(',', ':'))
     print(f"Saved: {all_path}")
 
@@ -131,13 +136,17 @@ def csv_to_json(csv_path: str, output_path: str):
     years = sorted(df_out['year'].dropna().unique().tolist()) if 'year' in df_out.columns else []
 
     metadata = {
+        'category': category,
         'updated': datetime.now().isoformat(),
-        'total_movies': len(all_movies),
+        'total_items': len(all_movies),
         'genres': sorted([g for g in genres if g and g != 'Unknown']),
         'year_range': {'min': int(min(years)) if years else None, 'max': int(max(years)) if years else None},
     }
 
-    meta_path = os.path.join(output_path, 'metadata.json')
+    if model_info:
+        metadata['model'] = model_info
+
+    meta_path = os.path.join(output_path, f'{category}_metadata.json')
     with open(meta_path, 'w') as f:
         json.dump(metadata, f, indent=2)
     print(f"Saved: {meta_path}")
@@ -156,10 +165,19 @@ def main():
                         help='Path to adjusted_scores.csv')
     parser.add_argument('--output', type=str, default='./webapp_data',
                         help='Output directory for JSON files')
+    parser.add_argument('--category', type=str, default='movies',
+                        help='Category name; prefixes the output files')
+    parser.add_argument('--model-info', type=str, default=None,
+                        help='JSON file of model settings/diagnostics to embed in metadata')
 
     args = parser.parse_args()
 
-    csv_to_json(args.input, args.output)
+    model_info = None
+    if args.model_info and os.path.exists(args.model_info):
+        with open(args.model_info) as f:
+            model_info = json.load(f)
+
+    csv_to_json(args.input, args.output, args.category, model_info)
     
     print("\nDone!")
 

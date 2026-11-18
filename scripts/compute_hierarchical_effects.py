@@ -25,6 +25,13 @@ import os
 import argparse
 from tqdm import tqdm
 
+from pipeline_io import load_items_and_reviews
+
+
+CRITIC_EFFECT_COLUMNS = ['critic', 'outlet', 'date', 'raw_effect', 'outlet_effect',
+                         'critic_deviation', 'shrunk_deviation', 'final_effect',
+                         'effective_n', 'shrinkage_weight']
+
 
 class HierarchicalEffectEstimator:
     """
@@ -163,6 +170,14 @@ def compute_critic_effects_hierarchical(
     
     # Filter to reviews with critic
     critic_reviews = reviews.dropna(subset=['critic_slug'])
+    if critic_reviews.empty:
+        # Outlet-only categories (games, music): Metacritic doesn't name the
+        # critic, so every review falls back to its outlet's effect
+        print("No reviews name a critic; using outlet effects only")
+        empty = pd.DataFrame({c: pd.Series(dtype='float64') for c in CRITIC_EFFECT_COLUMNS})
+        empty[['critic', 'outlet']] = empty[['critic', 'outlet']].astype(object)
+        empty['date'] = pd.to_datetime(empty['date'])
+        return empty
 
     # Weighted means per (critic, quarter) via integer codes + bincount
     critic_codes, critic_index = pd.factorize(critic_reviews['critic_slug'])
@@ -361,7 +376,9 @@ def main():
     )
     
     parser.add_argument('--input-dir', type=str, default='./metacritic_data',
-                        help='Directory with movies.csv and reviews.csv')
+                        help='Directory with movies.csv (or items.csv) and reviews.csv')
+    parser.add_argument('--items-file', type=str, default=None,
+                        help='Items CSV name in --input-dir (default: movies.csv, else items.csv)')
     parser.add_argument('--output-dir', type=str, default='./hierarchical_effects',
                         help='Directory for output files')
     parser.add_argument('--halflife', type=float, default=500,
@@ -377,8 +394,7 @@ def main():
     
     # Load data
     print("Loading data...")
-    movies_df = pd.read_csv(os.path.join(args.input_dir, 'movies.csv'))
-    reviews_df = pd.read_csv(os.path.join(args.input_dir, 'reviews.csv'))
+    movies_df, reviews_df = load_items_and_reviews(args.input_dir, args.items_file)
     
     print(f"Loaded {len(movies_df):,} movies and {len(reviews_df):,} reviews")
     
@@ -414,7 +430,8 @@ def main():
         'n_movies': len(movies_df),
         'n_reviews': len(reviews_df),
         'n_outlets': len(outlet_effects['outlet'].unique()),
-        'n_critics': len(critic_effects['critic'].unique()),
+        'n_critics': int(critic_effects['critic'].nunique()),
+        'share_reviews_named_critic': float(reviews_df['critic_slug'].notna().mean()),
         'outlet_variance_explained': eval_results['outlet_explained'],
         'hierarchical_variance_explained': eval_results['hierarchical_explained'],
         'timestamp': datetime.now().isoformat(),
