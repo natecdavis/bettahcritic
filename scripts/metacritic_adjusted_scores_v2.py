@@ -29,6 +29,21 @@ from pipeline_io import load_items_and_reviews, parse_type_list
 POLARIZATION_PRIOR_STRENGTH = 10.0
 
 
+def merge_asof_with_backfill(left: pd.DataFrame, right: pd.DataFrame, on: str) -> pd.DataFrame:
+    """As-of merge (latest right row at or before each left date). Rows dated
+    before the first right row take the earliest one instead of nothing: the
+    walk-forward priors only start once enough history exists, and leaving
+    early items without a prior silently skipped their shrinkage."""
+    merged = pd.merge_asof(left, right, on=on, direction='backward')
+    cols = [c for c in right.columns if c != on]
+    missing = merged[cols].isna().all(axis=1)
+    if missing.any() and len(right):
+        first = right.sort_values(on, kind='stable').iloc[0]
+        for c in cols:
+            merged.loc[missing, c] = first[c]
+    return merged
+
+
 class ExponentialWeightedStats:
     """Compute exponentially weighted statistics with backward-looking only."""
     
@@ -297,7 +312,7 @@ def process_all_movies(
     ].rename(columns={'date': '_movie_date'})
     sp['_params_found'] = True
     dated = results.loc[valid, ['movie_slug', '_movie_date']].sort_values('_movie_date', kind='stable')
-    dated = pd.merge_asof(dated, sp, on='_movie_date', direction='backward')
+    dated = merge_asof_with_backfill(dated, sp, on='_movie_date')
     results = results.merge(dated.drop(columns=['_movie_date']), on='movie_slug', how='left')
 
     n = results['n_reviews']
@@ -348,12 +363,12 @@ def process_all_movies(
     prior = pd.DataFrame(prior_rows, columns=['_movie_date', '_sigma0_sq'])
 
     dated = results.loc[valid, ['movie_slug', '_movie_date']].sort_values('_movie_date', kind='stable')
-    dated = pd.merge_asof(dated, prior, on='_movie_date', direction='backward')
+    dated = merge_asof_with_backfill(dated, prior, on='_movie_date')
     results = results.merge(dated.drop(columns=['_movie_date']), on='movie_slug', how='left')
 
     # Empirical-Bayes shrinkage of the variance (pseudo-df posterior mean):
-    # (n-1)*s² + nu0*sigma0² over (n-1) + nu0. Movies predating the prior
-    # series keep their unshrunk sample variance (mirrors do_shrink above).
+    # (n-1)*s² + nu0*sigma0² over (n-1) + nu0. Items predating the prior
+    # series use its earliest value (merge_asof_with_backfill).
     nu0 = POLARIZATION_PRIOR_STRENGTH
     adj_n = results['_adj_count'].fillna(0)
     dfree = (adj_n - 1).clip(lower=0)
