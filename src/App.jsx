@@ -311,6 +311,9 @@ const Methodology = ({ category, metadata }) => {
         {outletOnly && (
           <li>• <strong>Publication-level only:</strong> Metacritic doesn’t name the individual critic for most {cfg.label.toLowerCase()} reviews, so bias is estimated per publication</li>
         )}
+        {model.excluded_release_types?.length > 0 && (
+          <li>• <strong>New releases only:</strong> Reissues, deluxe editions, box sets, compilations and archival releases are left out, both from the list and from estimating publication tendencies</li>
+        )}
         <li>• <strong>Shrinkage:</strong> {cfg.noun.charAt(0).toUpperCase() + cfg.noun.slice(1)} with few reviews are pulled toward the
           {model.coverage_prior ? ' average for similarly covered titles' : ' average'}</li>
         {fileDrawer != null && (

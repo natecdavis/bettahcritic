@@ -1,0 +1,11 @@
+# Manual corrections to scripts/release_types.py for albums whose title and
+# Metacritic description don't reveal what they are (often no description).
+# release_type: reissue | compilation | archival | (empty = a regular new album, kept)
+item_slug,release_type
+histoire-de-melody-nelson/serge-gainsbourg,reissue
+wildflowers-all-the-rest/tom-petty,reissue
+my-dusty-road/woody-guthrie,archival
+live-at-reading/nirvana,archival
+at-carnegie-hall-live/buena-vista-social-club,archival
+a-love-supreme-live-in-seattle/john-coltrane,archival
+cat-power-sings-dylan-the-1966-royal-albert-hall-concert-live/cat-power,

@@ -66,7 +66,7 @@ CATEGORIES = {
 }
 
 ITEM_COLUMNS = ['item_slug', 'metacritic_id', 'title', 'subtitle', 'release_date', 'year',
-                'metascore', 'user_score', 'listed_review_count', 'genre', 'url']
+                'metascore', 'user_score', 'listed_review_count', 'genre', 'url', 'description']
 REVIEW_COLUMNS = ['item_slug', 'score', 'outlet', 'outlet_slug', 'critic', 'critic_slug',
                   'date', 'platform', 'excerpt', 'review_url']
 
@@ -137,6 +137,7 @@ def listing_entry(category: str, item: dict) -> dict:
         'listed_review_count': summary.get('reviewCount'),
         'user_score': (item.get('userScore') or {}).get('score'),
         'genre': _genre_str(item),
+        'description': (item.get('description') or '')[:500],
         'platforms': [p.get('name') for p in (item.get('platforms') or []) if p.get('name')],
     }
     if category == 'music':
@@ -301,6 +302,7 @@ def build_items_and_reviews(category: str, entry: dict, raw_reviews: list[dict],
             'listed_review_count': entry['listed_review_count'],
             'genre': entry['genre'],
             'url': url,
+            'description': entry.get('description', ''),
         }
         return [item], reviews
 
@@ -334,6 +336,7 @@ def build_items_and_reviews(category: str, entry: dict, raw_reviews: list[dict],
             'listed_review_count': summary.get('reviewCount'),
             'genre': entry['genre'],
             'url': f"/tv/{entry['slug']}/{season_slug}/",
+            'description': (s.get('description') or entry.get('description') or '')[:500],
         })
     for raw in raw_reviews:
         season_id = (((raw.get('reviewedProduct') or {}).get('tvTaxonomy') or {})
@@ -481,6 +484,7 @@ def run_incremental(category: str, data_dir: str, workers: int, delay: float,
             'release_date': str(row['release_date']), 'metascore': row['metascore'],
             'listed_review_count': row.get('listed_review_count'),
             'user_score': row.get('user_score'), 'genre': row.get('genre', '') or '',
+            'description': row.get('description', '') if pd.notna(row.get('description')) else '',
             'platforms': [row['subtitle']] if category == 'games' and pd.notna(row.get('subtitle')) else [],
         })
 

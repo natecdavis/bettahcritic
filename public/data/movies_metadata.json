@@ -1,6 +1,6 @@
 {
   "category": "movies",
-  "updated": "2026-11-17T21:23:13.541986",
+  "updated": "2026-11-17T22:02:55.152593",
   "total_items": 21589,
   "genres": [
     "Action",
@@ -31,11 +31,12 @@
   "model": {
     "label": "Movies",
     "coverage_prior": false,
+    "excluded_release_types": [],
     "share_reviews_named_critic": null,
     "hierarchical_variance_explained": 0.07165770971523522,
     "diagnostics": {
       "category": "movies",
-      "generated": "2026-11-17T20:35:17",
+      "generated": "2026-11-17T21:50:53",
       "summary": {
         "n_items": 21591,
         "n_reviews": 366747,

@@ -21,7 +21,7 @@ import os
 import argparse
 from tqdm import tqdm
 
-from pipeline_io import load_items_and_reviews
+from pipeline_io import load_items_and_reviews, parse_type_list
 
 # Prior strength (pseudo-degrees-of-freedom) for shrinking each movie's
 # adjusted-review variance toward the time-varying prior. Larger values pull
@@ -471,6 +471,8 @@ def main():
                         help='Directory with movies.csv (or items.csv) and reviews.csv')
     parser.add_argument('--items-file', type=str, default=None,
                         help='Items CSV name in --input-dir (default: movies.csv, else items.csv)')
+    parser.add_argument('--exclude-release-types', type=str, default=None,
+                        help='Comma-separated release types to drop (music: reissue,compilation,archival)')
     parser.add_argument('--coverage-prior', action='store_true',
                         help='Make the shrinkage prior mean depend on log(n_reviews) '
                              '(file-drawer correction; see analyze_categories.py)')
@@ -492,7 +494,8 @@ def main():
     
     # Load data
     print("Loading data...")
-    movies_df, reviews_df = load_items_and_reviews(args.input_dir, args.items_file)
+    movies_df, reviews_df = load_items_and_reviews(
+        args.input_dir, args.items_file, parse_type_list(args.exclude_release_types))
     print(f"Loaded {len(movies_df):,} movies and {len(reviews_df):,} reviews")
     
     # Load hierarchical effects

@@ -94,7 +94,8 @@ def logit_irls(X: np.ndarray, y: np.ndarray, max_iter: int = 50):
 
 def load_category(cfg: dict):
     root = cfg['data_root']
-    items, reviews = load_items_and_reviews(os.path.join(root, 'metacritic_data'), cfg['items_file'])
+    items, reviews = load_items_and_reviews(os.path.join(root, 'metacritic_data'), cfg['items_file'],
+                                            cfg.get('exclude_release_types'))
     scores = pd.read_csv(os.path.join(root, 'adjusted_scores', 'adjusted_scores.csv'))
     with open(os.path.join(root, 'hierarchical_effects', 'metadata.json')) as f:
         effects_meta = json.load(f)

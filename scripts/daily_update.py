@@ -87,6 +87,7 @@ def write_model_info(category: str, cfg: dict, effects_dir: str, scores_dir: str
     info = {
         'label': cfg.get('label', category),
         'coverage_prior': bool(cfg.get('coverage_prior')),
+        'excluded_release_types': cfg.get('exclude_release_types') or [],
     }
     effects_meta = os.path.join(effects_dir, 'metadata.json')
     if os.path.exists(effects_meta):
@@ -105,7 +106,7 @@ def write_model_info(category: str, cfg: dict, effects_dir: str, scores_dir: str
 
 
 def compute_hierarchical_effects(data_dir: str, effects_dir: str, scripts_dir: str,
-                                 items_file: str = None):
+                                 items_file: str = None, exclude_types=None):
     """Re-compute hierarchical critic/outlet effects."""
     script_path = os.path.join(scripts_dir, 'compute_hierarchical_effects.py')
     
@@ -120,6 +121,8 @@ def compute_hierarchical_effects(data_dir: str, effects_dir: str, scripts_dir: s
     ]
     if items_file:
         cmd += ['--items-file', items_file]
+    if exclude_types:
+        cmd += ['--exclude-release-types', ','.join(exclude_types)]
 
     return run_command(cmd, "Compute hierarchical effects")
 
@@ -143,6 +146,8 @@ def compute_adjusted_scores(data_dir: str, effects_dir: str, output_dir: str, sc
     cfg = cfg or {}
     if cfg.get('items_file'):
         cmd += ['--items-file', cfg['items_file']]
+    if cfg.get('exclude_release_types'):
+        cmd += ['--exclude-release-types', ','.join(cfg['exclude_release_types'])]
     if cfg.get('coverage_prior'):
         cmd += ['--coverage-prior']
     if cfg.get('max_review_lag_days') is not None:
@@ -247,7 +252,8 @@ def main():
     # Step 2: Compute hierarchical effects
     if not args.skip_effects:
         if not compute_hierarchical_effects(args.data_dir, args.effects_dir, args.scripts_dir,
-                                            cfg.get('items_file')):
+                                            cfg.get('items_file'),
+                                            cfg.get('exclude_release_types')):
             success = False
     
     # Step 3: Compute adjusted scores
