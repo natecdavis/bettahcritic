@@ -1,7 +1,7 @@
 {
   "category": "games",
-  "updated": "2026-11-19T07:11:11.006947",
-  "total_items": 14464,
+  "updated": "2026-11-20T07:11:55.639874",
+  "total_items": 14465,
   "genres": [
     "2D Beat-'Em-Up",
     "2D Fighting",
@@ -133,7 +133,7 @@
     "coverage_prior": false,
     "excluded_release_types": [],
     "share_reviews_named_critic": 0.0,
-    "hierarchical_variance_explained": 0.11569801122302037,
+    "hierarchical_variance_explained": 0.12087870860136662,
     "diagnostics": {
       "category": "games",
       "generated": "2026-11-17T21:51:01",
