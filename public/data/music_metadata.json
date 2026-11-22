@@ -1,6 +1,6 @@
 {
   "category": "music",
-  "updated": "2026-11-21T07:12:28.828793",
+  "updated": "2026-11-22T07:17:51.119337",
   "total_items": 19271,
   "genres": [
     "Adult Alternative",
@@ -131,7 +131,7 @@
       "archival"
     ],
     "share_reviews_named_critic": 0.0,
-    "hierarchical_variance_explained": 0.0836849026186266,
+    "hierarchical_variance_explained": 0.08350033536324186,
     "diagnostics": {
       "category": "music",
       "generated": "2026-11-17T22:02:45",
