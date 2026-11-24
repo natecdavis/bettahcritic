@@ -26,28 +26,36 @@ const CATEGORIES = {
 };
 const CATEGORY_KEYS = Object.keys(CATEGORIES);
 
-// Metacritic color scheme: Green 61+, Yellow 40-60, Red 39-
-const getScoreColor = (score) => {
-  if (score >= 60.5) return 'bg-green-600';
-  if (score >= 39.5) return 'bg-yellow-500';
-  return 'bg-red-600';
+// Metacritic's color bands (green / yellow / red). Games use stricter cutoffs
+// (75+ / 50-74 / 0-49) than movies, TV and music (61+ / 40-60 / 0-39).
+// Thresholds sit at .5 so fractional adjusted scores color like their rounded value.
+const SCORE_BANDS = {
+  default: { green: 60.5, yellow: 39.5 },
+  games: { green: 74.5, yellow: 49.5 },
 };
 
-const getScoreTextColor = (score) => {
-  if (score >= 60.5) return 'text-green-600';
-  if (score >= 39.5) return 'text-yellow-600';
-  return 'text-red-600';
+const scoreBand = (score, category) => {
+  const { green, yellow } = SCORE_BANDS[category] || SCORE_BANDS.default;
+  if (score >= green) return 'green';
+  if (score >= yellow) return 'yellow';
+  return 'red';
 };
+
+const getScoreColor = (score, category) =>
+  ({ green: 'bg-green-600', yellow: 'bg-yellow-500', red: 'bg-red-600' })[scoreBand(score, category)];
+
+const getScoreTextColor = (score, category) =>
+  ({ green: 'text-green-600', yellow: 'text-yellow-600', red: 'text-red-600' })[scoreBand(score, category)];
 
 const metacriticUrl = (item, category) => {
   const path = item.url || CATEGORIES[category].metacriticPath?.(item);
   return path ? `https://www.metacritic.com${path}` : null;
 };
 
-const ScoreBadge = ({ score, size = 'md' }) => {
+const ScoreBadge = ({ score, category, size = 'md' }) => {
   const sizeClasses = { sm: 'w-10 h-10 text-sm', md: 'w-12 h-12 text-base', lg: 'w-14 h-14 text-lg' };
   return (
-    <div className={`${sizeClasses[size]} ${getScoreColor(score)} rounded-lg flex items-center justify-center text-white font-bold shadow`}>
+    <div className={`${sizeClasses[size]} ${getScoreColor(score, category)} rounded-lg flex items-center justify-center text-white font-bold shadow`}>
       {Math.round(score)}
     </div>
   );
@@ -161,7 +169,7 @@ const ItemCard = ({ item, rank, category }) => {
             <span className="flex items-center gap-1"><BarChart3 size={14} />{item.n_reviews} reviews</span>
           </div>
         </div>
-        <ScoreBadge score={item.adjusted_score} />
+        <ScoreBadge score={item.adjusted_score} category={category} />
       </div>
 
       <button onClick={() => setExpanded(!expanded)} className="mt-3 text-sm text-blue-600 hover:text-blue-800 flex items-center gap-1">
@@ -173,11 +181,11 @@ const ItemCard = ({ item, rank, category }) => {
         <div className="mt-3 pt-3 border-t border-gray-100 grid grid-cols-2 sm:grid-cols-4 gap-4 text-sm">
           <div>
             <span className="text-gray-500 block">Raw Score</span>
-            <span className={`font-semibold ${getScoreTextColor(item.raw_score)}`}>{item.raw_score}</span>
+            <span className={`font-semibold ${getScoreTextColor(item.raw_score, category)}`}>{item.raw_score}</span>
           </div>
           <div>
             <span className="text-gray-500 block">Adjusted</span>
-            <span className={`font-semibold ${getScoreTextColor(item.adjusted_score)}`}>{item.adjusted_score.toFixed(1)}</span>
+            <span className={`font-semibold ${getScoreTextColor(item.adjusted_score, category)}`}>{item.adjusted_score.toFixed(1)}</span>
           </div>
           <div>
             <span className="text-gray-500 block">Adjustment</span>
@@ -205,7 +213,7 @@ const ItemTableRow = ({ item, rank, category }) => (
       </div>
     </td>
     <td className="py-3 px-4 text-center">
-      <span className={`inline-flex items-center justify-center w-10 h-10 rounded-lg text-white font-bold text-sm ${getScoreColor(item.adjusted_score)}`}>
+      <span className={`inline-flex items-center justify-center w-10 h-10 rounded-lg text-white font-bold text-sm ${getScoreColor(item.adjusted_score, category)}`}>
         {Math.round(item.adjusted_score)}
       </span>
     </td>
@@ -249,7 +257,7 @@ const ShowTableRow = ({ show, rank }) => {
         </div>
       </td>
       <td className="py-3 px-4 text-center">
-        <span className={`inline-flex items-center justify-center w-10 h-10 rounded-lg text-white font-bold text-sm ${getScoreColor(show.adjusted_score)}`}>
+        <span className={`inline-flex items-center justify-center w-10 h-10 rounded-lg text-white font-bold text-sm ${getScoreColor(show.adjusted_score, 'tv')}`}>
           {Math.round(show.adjusted_score)}
         </span>
       </td>
