@@ -2,7 +2,7 @@
 
 A webapp that displays Metacritic movie scores adjusted for critic bias and sample size.
 
-**Live Demo:** [your-app.vercel.app](https://your-app.vercel.app) *(update after deployment)*
+**Live site:** [bettahcritic.vercel.app](https://bettahcritic.vercel.app)
 
 ## Features
 
