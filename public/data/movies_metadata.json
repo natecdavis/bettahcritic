@@ -1,7 +1,7 @@
 {
   "category": "movies",
-  "updated": "2026-11-26T07:08:00.055161",
-  "total_items": 21607,
+  "updated": "2026-11-27T07:07:25.845844",
+  "total_items": 21610,
   "genres": [
     "Action",
     "Adventure",
@@ -32,8 +32,8 @@
     "label": "Movies",
     "coverage_prior": false,
     "excluded_release_types": [],
-    "share_reviews_named_critic": 0.8701863666312968,
-    "hierarchical_variance_explained": 0.07323339898864156,
+    "share_reviews_named_critic": 0.870190692148733,
+    "hierarchical_variance_explained": 0.07398980528821253,
     "diagnostics": {
       "category": "movies",
       "generated": "2026-11-17T21:50:53",
