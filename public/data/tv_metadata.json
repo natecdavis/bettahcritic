@@ -1,6 +1,6 @@
 {
   "category": "tv",
-  "updated": "2026-11-27T07:10:04.235647",
+  "updated": "2026-11-28T07:10:18.244601",
   "total_items": 4467,
   "genres": [
     "Action",
@@ -34,7 +34,7 @@
     "coverage_prior": false,
     "excluded_release_types": [],
     "share_reviews_named_critic": 0.9399533891166395,
-    "hierarchical_variance_explained": 0.06863442011081067,
+    "hierarchical_variance_explained": 0.06868286511313815,
     "diagnostics": {
       "category": "tv",
       "generated": "2026-11-17T22:18:40",
